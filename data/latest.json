@@ -1,23 +1,40 @@
 {
-  "updated_at": null,
+  "updated_at": "2026-07-14T13:14:32Z",
   "location": "Rothenstein bei Jena, Thüringen",
   "radius_km": 10,
-  "station_count": 0,
+  "station_count": 8,
   "current": {
-    "e5": { "avg": null, "min": null, "min_station": "" },
-    "e10": { "avg": null, "min": null, "min_station": "" }
+    "e5": {
+      "avg": 2.2,
+      "min": 2.159,
+      "min_station": "LEO Jenaprießnitz"
+    },
+    "e10": {
+      "avg": 2.148,
+      "min": 2.099,
+      "min_station": "LEO Jenaprießnitz"
+    }
   },
-  "trend_days": 0,
+  "trend_days": 1,
   "chart": {
     "width": 480,
     "height": 110,
     "e5_points": "",
     "e10_points": "",
-    "min_price": null,
-    "max_price": null,
-    "first_date": null,
-    "last_date": null
+    "min_price": 2.148,
+    "max_price": 2.2,
+    "first_date": "2026-07-14",
+    "last_date": "2026-07-14"
   },
-  "trend": [],
-  "source": "Wird nach dem ersten GitHub-Actions-Lauf befüllt."
+  "trend": [
+    {
+      "date": "2026-07-14",
+      "e5_avg": 2.2,
+      "e5_min": 2.159,
+      "e10_avg": 2.148,
+      "e10_min": 2.099,
+      "station_count": 8
+    }
+  ],
+  "source": "Tankerkönig-API (creativecommons.tankerkoenig.de), Daten: Bundeskartellamt MTS-K. Super Plus (98) wird nicht erfasst."
 }
