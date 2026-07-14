@@ -1,0 +1,35 @@
+<div class="layout">
+  <div class="title_bar">
+    <span class="title">⛽ Sprit Rothenstein · 10 km</span>
+    <span class="instance">{{ updated_at | date: "%d.%m. %H:%M" }}</span>
+  </div>
+
+  <div style="display:flex; justify-content:space-between; margin-top:10px;">
+    <div style="text-align:center; flex:1;">
+      <div style="font-size:15px;">Super E10</div>
+      <div style="font-size:38px; font-weight:bold;">{{ current.e10.avg }} €</div>
+      <div style="font-size:12px;">günstigste: {{ current.e10.min }} € · {{ current.e10.min_station }}</div>
+    </div>
+    <div style="text-align:center; flex:1;">
+      <div style="font-size:15px;">Super E5</div>
+      <div style="font-size:38px; font-weight:bold;">{{ current.e5.avg }} €</div>
+      <div style="font-size:12px;">günstigste: {{ current.e5.min }} € · {{ current.e5.min_station }}</div>
+    </div>
+  </div>
+
+  <div style="margin-top:12px;">
+    <svg width="{{ chart.width }}" height="{{ chart.height }}" viewBox="0 0 {{ chart.width }} {{ chart.height }}">
+      <polyline fill="none" stroke="black" stroke-width="2" points="{{ chart.e10_points }}" />
+      <polyline fill="none" stroke="black" stroke-width="2" stroke-dasharray="4,3" points="{{ chart.e5_points }}" />
+    </svg>
+    <div style="display:flex; justify-content:space-between; font-size:11px;">
+      <span>{{ chart.first_date }}</span>
+      <span>Verlauf {{ trend_days }} Tage · durchgezogen = E10, gestrichelt = E5</span>
+      <span>{{ chart.last_date }}</span>
+    </div>
+  </div>
+
+  <div class="title_bar" style="margin-top:8px; font-size:10px;">
+    Quelle: Tankerkönig-API (creativecommons.tankerkoenig.de) · Bundeskartellamt MTS-K · Super Plus (98 Oktan) wird nicht erfasst, keine freie Quelle verfügbar
+  </div>
+</div>
