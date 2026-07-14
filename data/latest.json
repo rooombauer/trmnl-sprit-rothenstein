@@ -1,0 +1,23 @@
+{
+  "updated_at": null,
+  "location": "Rothenstein bei Jena, Thüringen",
+  "radius_km": 10,
+  "station_count": 0,
+  "current": {
+    "e5": { "avg": null, "min": null, "min_station": "" },
+    "e10": { "avg": null, "min": null, "min_station": "" }
+  },
+  "trend_days": 0,
+  "chart": {
+    "width": 480,
+    "height": 110,
+    "e5_points": "",
+    "e10_points": "",
+    "min_price": null,
+    "max_price": null,
+    "first_date": null,
+    "last_date": null
+  },
+  "trend": [],
+  "source": "Wird nach dem ersten GitHub-Actions-Lauf befüllt."
+}
