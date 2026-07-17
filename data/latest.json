@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-07-16T07:25:56Z",
+  "updated_at": "2026-07-17T07:21:13Z",
   "location": "Rothenstein bei Jena, Thüringen",
   "radius_km": 10,
   "station_count": 8,
   "current": {
     "e5": {
-      "avg": 2.169,
-      "min": 2.129,
-      "min_station": "LEO Jenaprießnitz"
+      "avg": 2.163,
+      "min": 2.149,
+      "min_station": "HEM Jena"
     },
     "e10": {
-      "avg": 2.114,
-      "min": 2.069,
+      "avg": 2.108,
+      "min": 2.089,
       "min_station": "LEO Jenaprießnitz"
     }
   },
-  "trend_days": 3,
+  "trend_days": 4,
   "chart": {
     "width": 480,
     "height": 110,
-    "e5_points": "6.0,6.0 240.0,66.5 474.0,28.3",
-    "e10_points": "6.0,43.5 240.0,104.0 474.0,68.0",
+    "e5_points": "6.0,6.0 162.0,66.5 318.0,28.3 474.0,32.7",
+    "e10_points": "6.0,43.5 162.0,104.0 318.0,68.0 474.0,72.3",
     "min_price": 2.064,
     "max_price": 2.2,
     "first_date": "2026-07-14",
-    "last_date": "2026-07-16"
+    "last_date": "2026-07-17"
   },
   "trend": [
     {
@@ -49,6 +49,14 @@
       "e5_min": 2.129,
       "e10_avg": 2.114,
       "e10_min": 2.069,
+      "station_count": 8
+    },
+    {
+      "date": "2026-07-17",
+      "e5_avg": 2.163,
+      "e5_min": 2.149,
+      "e10_avg": 2.108,
+      "e10_min": 2.089,
       "station_count": 8
     }
   ],
