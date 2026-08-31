@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { StatBar } from '@/components/StatBar';
 import { getDict } from '@/lib/i18n';
 
 export async function generateMetadata({
@@ -31,6 +32,7 @@ export default async function ExpertisePage({ params }: { params: Promise<{ loca
                   <li key={point}>{point}</li>
                 ))}
               </ul>
+              <StatBar label={area.tag} value={area.stat} />
             </article>
           ))}
         </div>

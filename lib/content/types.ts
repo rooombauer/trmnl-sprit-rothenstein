@@ -8,6 +8,8 @@ export type BootLogEntry = {
   module: string;
   title: string;
   detail: string;
+  /** XP-Belohnung des Levels, z. B. "+250 XP" */
+  xp: string;
 };
 
 export type ExpertiseArea = {
@@ -15,6 +17,8 @@ export type ExpertiseArea = {
   title: string;
   text: string;
   points: string[];
+  /** Skill-Wert 0–100 für die Stat-Bar */
+  stat: number;
 };
 
 export type Project = {
@@ -23,6 +27,8 @@ export type Project = {
   context: string;
   role: string;
   outcome: string;
+  /** Quest-Badge, z. B. "MAIN QUEST" */
+  quest: string;
 };
 
 export type Dict = {
@@ -55,6 +61,7 @@ export type Dict = {
     title: string;
     intro: string;
     logHeader: string;
+    progressLabel: string;
     entries: BootLogEntry[];
     readyLine: string;
     outro: string;
@@ -88,5 +95,19 @@ export type Dict = {
   };
   footer: {
     line: string;
+  };
+  hud: {
+    levelLabel: string;
+    xpLabel: string;
+    unlockedLabel: string;
+    konami: string;
+    pages: {
+      home: string;
+      journey: string;
+      expertise: string;
+      projects: string;
+      gallery: string;
+      contact: string;
+    };
   };
 };

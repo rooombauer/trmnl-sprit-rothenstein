@@ -22,12 +22,12 @@ export const de: Dict = {
     claim: 'Vom Microsoft-Ingenieur zum CXO.',
     subline:
       'Ich habe Systeme aufgebaut, bevor ich Organisationen transformiert habe. Vom Server-Raum bis auf C-Level – und heute mittendrin in der KI-Transformation.',
-    ctaJourney: 'Werdegang als Boot-Log lesen',
+    ctaJourney: '▶ Quest starten: Werdegang',
     ctaContact: 'Kontakt aufnehmen',
-    bootTeaserTitle: 'System-Startprotokoll',
+    bootTeaserTitle: 'Career-Quest-Log',
     bootTeaserText:
-      'Jede Karriere hat eine Boot-Sequenz. Meine beginnt mit einem MCSE-Zertifikat und läuft heute auf einer ganz neuen Runtime: künstlicher Intelligenz.',
-    bootTeaserLink: 'Vollständiges Log ansehen →',
+      'Jede Karriere ist ein Spiel mit mehreren Leveln. Meins beginnt mit einem MCSE-Zertifikat – und der aktuelle Endgegner heißt KI-Transformation.',
+    bootTeaserLink: 'Alle Level ansehen →',
     photoCaption: 'Startup-Momente: Technologie entsteht im Team.',
     pillars: [
       {
@@ -51,7 +51,8 @@ export const de: Dict = {
     title: 'Werdegang',
     intro:
       'Kein Lebenslauf liest sich ehrlicher als ein Startprotokoll: Was wurde wann geladen, was läuft bis heute stabil. Hier ist meine Boot-Sequenz – vom ersten Netzwerk bis zur KI-Gegenwart.',
-    logHeader: 'boot.log — journey v‹XX›.‹X› — R. Bauer',
+    logHeader: 'quest.log — journey v‹XX›.‹X› — Spieler: R. Bauer',
+    progressLabel: 'Quest-Fortschritt',
     entries: [
       {
         time: '‹19XX›',
@@ -60,6 +61,7 @@ export const de: Dict = {
         title: 'System-Start',
         detail:
           'Erste Rechner, erste Netzwerke. Die Faszination, Dinge zum Laufen zu bringen, wird zum Berufswunsch. ‹Ausbildung/Einstieg eintragen›',
+        xp: '+50 XP',
       },
       {
         time: '‹Jahr›',
@@ -68,6 +70,7 @@ export const de: Dict = {
         title: 'MCSE-Zertifizierung geladen',
         detail:
           'Microsoft Certified Systems Engineer – das Fundament: Windows-Server, Netzwerke, Verzeichnisdienste. Systeme nicht nur bedienen, sondern verstehen.',
+        xp: '+150 XP',
       },
       {
         time: '‹Jahr›',
@@ -76,6 +79,7 @@ export const de: Dict = {
         title: 'Systems Engineering',
         detail:
           'Verantwortung für Infrastruktur und Betrieb: planen, aufbauen, stabil halten. ‹Unternehmen/Station und Schwerpunkte eintragen›',
+        xp: '+300 XP',
       },
       {
         time: '‹Jahr›',
@@ -84,6 +88,7 @@ export const de: Dict = {
         title: 'Wechsel in die Führung',
         detail:
           'Vom Konfigurieren von Systemen zum Entwickeln von Teams. Die wichtigste Erkenntnis: Organisationen skalieren wie Architekturen – oder eben nicht. ‹Rolle/Station eintragen›',
+        xp: '+500 XP',
       },
       {
         time: '‹Jahr›',
@@ -92,6 +97,7 @@ export const de: Dict = {
         title: 'CXO',
         detail:
           'Technologie-Verantwortung auf C-Level: Strategie, Produkt, Teams und Budgets. Entscheidungen, die das ganze Unternehmen tragen muss. ‹Unternehmen eintragen›',
+        xp: '+800 XP',
       },
       {
         time: 'heute',
@@ -100,6 +106,7 @@ export const de: Dict = {
         title: 'KI-Gegenwart',
         detail:
           'Neue Runtime geladen: KI verändert, wie wir bauen, entscheiden und führen. Meine Aufgabe: die Brücke zwischen 25 Jahren Systemverständnis und dem, was jetzt möglich wird. ‹Zahl prüfen›',
+        xp: '+∞ XP',
       },
     ],
     readyLine: 'system ready — uptime: ‹XX› Jahre und läuft',
@@ -120,6 +127,7 @@ export const de: Dict = {
           'Architektur- und Plattform-Entscheidungen',
           'Budget- und Ressourcenverantwortung',
         ],
+        stat: 92,
       },
       {
         tag: 'ai.transformation',
@@ -130,6 +138,7 @@ export const de: Dict = {
           'Von Pilotprojekten zu produktivem Einsatz',
           'Teams für das Arbeiten mit KI befähigen',
         ],
+        stat: 88,
       },
       {
         tag: 'engineering.dna',
@@ -140,6 +149,7 @@ export const de: Dict = {
           'Microsoft-Ökosystem von NT bis Cloud',
           'Technische Due Diligence auf Augenhöhe',
         ],
+        stat: 95,
       },
       {
         tag: 'people',
@@ -150,6 +160,7 @@ export const de: Dict = {
           'Führen in Transformationsphasen',
           'Brücke zwischen Fachbereich und Engineering',
         ],
+        stat: 90,
       },
     ],
   },
@@ -169,6 +180,7 @@ export const de: Dict = {
         context: '‹Ausgangslage in 1–2 Sätzen: Unternehmen, Größenordnung, Problem.›',
         role: '‹Deine Rolle: z. B. technische Leitung, Architektur, Umsetzung.›',
         outcome: '‹Messbares Ergebnis: Verfügbarkeit, Kosten, Zeit.›',
+        quest: 'SIDE QUEST',
       },
       {
         tag: 'transformation',
@@ -176,6 +188,7 @@ export const de: Dict = {
         context: '‹Ausgangslage: gewachsene Strukturen, neue Anforderungen.›',
         role: '‹Deine Rolle: z. B. Programmverantwortung als Führungskraft.›',
         outcome: '‹Ergebnis: neue Prozesse, Team-Aufbau, Geschäftswirkung.›',
+        quest: 'MAIN QUEST',
       },
       {
         tag: 'ai',
@@ -183,6 +196,7 @@ export const de: Dict = {
         context: '‹Ausgangslage: wo sollte KI Wert schaffen?›',
         role: '‹Deine Rolle: Strategie, Auswahl, Einführung, Enablement.›',
         outcome: '‹Ergebnis: produktive Use-Cases, gehobene Effizienz.›',
+        quest: 'NEW GAME+',
       },
     ],
   },
@@ -204,6 +218,20 @@ export const de: Dict = {
     closing: 'Antwort in der Regel innerhalb von 48 Stunden.',
   },
   footer: {
-    line: 'Handgebaut mit Next.js — Anthrazit, Kupfer und einem Boot-Log.',
+    line: 'Handgebaut mit Next.js — Schwarz, Weiß und ein Schuss Petrol. ↑↑↓↓←→←→BA',
+  },
+  hud: {
+    levelLabel: 'LVL',
+    xpLabel: 'XP',
+    unlockedLabel: 'Achievement freigeschaltet',
+    konami: 'God-Mode aktiviert! Cheatcodes vergisst man nicht.',
+    pages: {
+      home: 'Spawn-Point besucht',
+      journey: 'Quest-Log geöffnet',
+      expertise: 'Skill-Tree inspiziert',
+      projects: 'Quest-Board entdeckt',
+      gallery: 'Fotomodus aktiviert',
+      contact: 'Multiplayer-Anfrage gestellt',
+    },
   },
 };

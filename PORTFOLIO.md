@@ -2,7 +2,7 @@
 
 Persönliche Portfolio-Website (Branch `claude/portfolio-cxo-journey-vctx8a`) —
 Next.js (App Router, statischer Export), sechs Seiten, DE/EN-Umschalter,
-Foto-Galerie mit Lightbox und dem Werdegang als **Boot-Log** (Signature-Element).
+Foto-Galerie mit Lightbox und dem Werdegang als **Quest-Log** (Signature-Element).
 
 ## Starten
 
@@ -16,18 +16,23 @@ npm run build      # statischer Export nach /out (überall hostbar)
 
 | Route          | Inhalt                                        |
 | -------------- | --------------------------------------------- |
-| `/de/` `/en/`  | Hero mit Claim, drei Säulen, Boot-Log-Teaser, Startup-Foto |
-| `…/journey/`   | Kompletter Werdegang als System-Startprotokoll |
-| `…/expertise/` | Vier Kompetenz-Ebenen (Strategie, KI, Engineering, Führung) |
-| `…/projects/`  | Projekt-Karten (Kontext / Rolle / Ergebnis)    |
-| `…/gallery/`   | Foto-Galerie mit Lightbox (Pfeiltasten, Esc)   |
+| `/de/` `/en/`  | Hero mit Claim + Deko-Stickern, drei Säulen, Quest-Log-Teaser, Startup-Foto |
+| `…/journey/`   | Kompletter Werdegang als Quest-Log (Level, XP, Fortschrittsbalken) |
+| `…/expertise/` | Vier Kompetenz-Ebenen mit animierten Skill-Bars |
+| `…/projects/`  | Quest-Karten (SIDE QUEST / MAIN QUEST / NEW GAME+) |
+| `…/gallery/`   | Polaroid-Galerie mit Lightbox (Pfeiltasten, Esc) |
 | `…/contact/`   | Kontakt                                        |
 
-## Design
+## Design & Gamification
 
-- Warmes Anthrazit (`#262220`) statt Standard-Schwarz, Kupfer-Akzent (`#c9835a`)
-- Serifen-Headlines (**Fraunces**), Monospace-Details (**IBM Plex Mono**), Fließtext **Inter**
+- Verspielter Neo-Brutalismus: Schwarz-Weiß, dicke Ränder, harte Schatten,
+  leicht gedrehte Sticker-Elemente – Petrol (`#0a7285`) als einziger Akzent
+- Headlines **Space Grotesk**, Game-Details **JetBrains Mono**
 - Alle Farben/Schriften als CSS-Variablen in `app/globals.css`
+- **XP-HUD** unten links: Seitenbesuche schalten Achievements frei (+40 XP,
+  gespeichert in `localStorage`), Level steigt alle 100 XP
+- **Konami-Code** (↑↑↓↓←→←→BA) aktiviert kurz den God-Mode (+100 XP)
+- Animationen respektieren `prefers-reduced-motion`
 
 ## Inhalte pflegen (WICHTIG)
 

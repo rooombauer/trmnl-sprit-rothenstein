@@ -22,12 +22,12 @@ export const en: Dict = {
     claim: 'From Microsoft engineer to CXO.',
     subline:
       'I built systems before I transformed organizations. From the server room to the C-suite – and right in the middle of the AI transformation today.',
-    ctaJourney: 'Read the journey as a boot log',
+    ctaJourney: '▶ Start quest: Journey',
     ctaContact: 'Get in touch',
-    bootTeaserTitle: 'System boot protocol',
+    bootTeaserTitle: 'Career quest log',
     bootTeaserText:
-      'Every career has a boot sequence. Mine starts with an MCSE certificate and runs on an entirely new runtime today: artificial intelligence.',
-    bootTeaserLink: 'View the full log →',
+      'Every career is a game with multiple levels. Mine starts with an MCSE certificate – and the current boss fight is called AI transformation.',
+    bootTeaserLink: 'View all levels →',
     photoCaption: 'Startup moments: technology is built by teams.',
     pillars: [
       {
@@ -51,7 +51,8 @@ export const en: Dict = {
     title: 'Journey',
     intro:
       'No résumé reads more honestly than a boot protocol: what was loaded when, and what still runs reliably today. Here is my boot sequence – from the first network to the AI present.',
-    logHeader: 'boot.log — journey v‹XX›.‹X› — R. Bauer',
+    logHeader: 'quest.log — journey v‹XX›.‹X› — player: R. Bauer',
+    progressLabel: 'Quest progress',
     entries: [
       {
         time: '‹19XX›',
@@ -60,6 +61,7 @@ export const en: Dict = {
         title: 'System start',
         detail:
           'First computers, first networks. The fascination of making things work becomes a career choice. ‹add education / first steps›',
+        xp: '+50 XP',
       },
       {
         time: '‹year›',
@@ -68,6 +70,7 @@ export const en: Dict = {
         title: 'MCSE certification loaded',
         detail:
           'Microsoft Certified Systems Engineer – the foundation: Windows servers, networks, directory services. Not just operating systems, but understanding them.',
+        xp: '+150 XP',
       },
       {
         time: '‹year›',
@@ -76,6 +79,7 @@ export const en: Dict = {
         title: 'Systems engineering',
         detail:
           'Responsibility for infrastructure and operations: plan, build, keep it stable. ‹add company / position and focus areas›',
+        xp: '+300 XP',
       },
       {
         time: '‹year›',
@@ -84,6 +88,7 @@ export const en: Dict = {
         title: 'Moving into leadership',
         detail:
           'From configuring systems to developing teams. The key insight: organizations scale like architectures – or they don’t. ‹add role / position›',
+        xp: '+500 XP',
       },
       {
         time: '‹year›',
@@ -92,6 +97,7 @@ export const en: Dict = {
         title: 'CXO',
         detail:
           'Technology responsibility at C-level: strategy, product, teams and budgets. Decisions the whole company has to carry. ‹add company›',
+        xp: '+800 XP',
       },
       {
         time: 'today',
@@ -100,6 +106,7 @@ export const en: Dict = {
         title: 'The AI present',
         detail:
           'New runtime loaded: AI changes how we build, decide and lead. My job: bridging 25 years of systems understanding with what is becoming possible now. ‹verify number›',
+        xp: '+∞ XP',
       },
     ],
     readyLine: 'system ready — uptime: ‹XX› years and counting',
@@ -120,6 +127,7 @@ export const en: Dict = {
           'Architecture and platform decisions',
           'Budget and resource responsibility',
         ],
+        stat: 92,
       },
       {
         tag: 'ai.transformation',
@@ -130,6 +138,7 @@ export const en: Dict = {
           'From pilot projects to production use',
           'Enabling teams to work with AI',
         ],
+        stat: 88,
       },
       {
         tag: 'engineering.dna',
@@ -140,6 +149,7 @@ export const en: Dict = {
           'Microsoft ecosystem from NT to cloud',
           'Technical due diligence at eye level',
         ],
+        stat: 95,
       },
       {
         tag: 'people',
@@ -150,6 +160,7 @@ export const en: Dict = {
           'Leading through transformation',
           'Bridging business and engineering',
         ],
+        stat: 90,
       },
     ],
   },
@@ -169,6 +180,7 @@ export const en: Dict = {
         context: '‹Starting point in 1–2 sentences: company, scale, problem.›',
         role: '‹Your role: e.g. technical lead, architecture, delivery.›',
         outcome: '‹Measurable result: availability, cost, time.›',
+        quest: 'SIDE QUEST',
       },
       {
         tag: 'transformation',
@@ -176,6 +188,7 @@ export const en: Dict = {
         context: '‹Starting point: legacy structures, new requirements.›',
         role: '‹Your role: e.g. program ownership as a leader.›',
         outcome: '‹Result: new processes, team build-up, business impact.›',
+        quest: 'MAIN QUEST',
       },
       {
         tag: 'ai',
@@ -183,6 +196,7 @@ export const en: Dict = {
         context: '‹Starting point: where should AI create value?›',
         role: '‹Your role: strategy, selection, rollout, enablement.›',
         outcome: '‹Result: production use cases, efficiency gains.›',
+        quest: 'NEW GAME+',
       },
     ],
   },
@@ -204,6 +218,20 @@ export const en: Dict = {
     closing: 'Replies usually within 48 hours.',
   },
   footer: {
-    line: 'Handcrafted with Next.js — anthracite, copper and a boot log.',
+    line: 'Handcrafted with Next.js — black, white and a dash of petrol. ↑↑↓↓←→←→BA',
+  },
+  hud: {
+    levelLabel: 'LVL',
+    xpLabel: 'XP',
+    unlockedLabel: 'Achievement unlocked',
+    konami: 'God mode activated! You never forget a cheat code.',
+    pages: {
+      home: 'Visited the spawn point',
+      journey: 'Opened the quest log',
+      expertise: 'Inspected the skill tree',
+      projects: 'Discovered the quest board',
+      gallery: 'Activated photo mode',
+      contact: 'Sent a multiplayer request',
+    },
   },
 };

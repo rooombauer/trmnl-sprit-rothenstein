@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import { SiteHeader } from '@/components/SiteHeader';
 import { SiteFooter } from '@/components/SiteFooter';
 import { LocaleLang } from '@/components/LocaleLang';
+import { GameHud } from '@/components/GameHud';
 import { getDict, locales } from '@/lib/i18n';
 
 export const dynamicParams = false;
@@ -41,6 +42,7 @@ export default async function LocaleLayout({
       <SiteHeader locale={locale} nav={dict.nav} siteName={dict.meta.siteName} />
       <main>{children}</main>
       <SiteFooter siteName={dict.meta.siteName} line={dict.footer.line} />
+      <GameHud hud={dict.hud} />
     </>
   );
 }

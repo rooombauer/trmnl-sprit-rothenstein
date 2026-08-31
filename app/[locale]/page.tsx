@@ -3,6 +3,17 @@ import { BootLog } from '@/components/BootLog';
 import { StartupPhoto } from '@/components/StartupPhoto';
 import { getDict } from '@/lib/i18n';
 
+// Letztes Wort des Claims bekommt den Petrol-Marker
+function MarkedClaim({ claim }: { claim: string }) {
+  const words = claim.trim().split(' ');
+  const last = words.pop() ?? '';
+  return (
+    <h1>
+      {words.join(' ')} <span className="marker">{last}</span>
+    </h1>
+  );
+}
+
 export default async function HomePage({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
   const dict = getDict(locale);
@@ -11,9 +22,18 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
   return (
     <>
       <section className="hero">
+        <span className="hero__deco hero__deco--a" aria-hidden>
+          +∞ XP
+        </span>
+        <span className="hero__deco hero__deco--b" aria-hidden>
+          mcse.cert ✓
+        </span>
+        <span className="hero__deco hero__deco--c" aria-hidden>
+          ▲▲▶
+        </span>
         <div className="container">
           <span className="eyebrow">{dict.home.eyebrow}</span>
-          <h1>{dict.home.claim}</h1>
+          <MarkedClaim claim={dict.home.claim} />
           <p className="lede">{dict.home.subline}</p>
           <div className="hero__actions">
             <Link className="btn btn--primary" href={`/${locale}/journey/`}>

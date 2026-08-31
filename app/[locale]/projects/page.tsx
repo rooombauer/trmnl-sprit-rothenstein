@@ -23,6 +23,8 @@ export default async function ProjectsPage({ params }: { params: Promise<{ local
         <div className="grid grid--3" style={{ marginTop: '2.5rem' }}>
           {dict.projects.items.map((project) => (
             <article className="card" key={project.tag}>
+              <span className="quest-ribbon">{project.quest}</span>
+              <br />
               <span className="tag">{project.tag}</span>
               <h3>{project.title}</h3>
               <dl className="project-meta">

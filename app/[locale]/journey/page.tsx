@@ -24,6 +24,7 @@ export default async function JourneyPage({ params }: { params: Promise<{ locale
         <div style={{ marginTop: '2.5rem' }}>
           <BootLog
             header={dict.journey.logHeader}
+            progressLabel={dict.journey.progressLabel}
             entries={dict.journey.entries}
             readyLine={dict.journey.readyLine}
           />

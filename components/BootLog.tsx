@@ -3,14 +3,16 @@
 import { useEffect, useRef } from 'react';
 import type { BootLogEntry } from '@/lib/content/types';
 
-// Signature-Element: der Werdegang als System-Startprotokoll.
-// Die Zeilen erscheinen nacheinander, sobald das Log ins Bild scrollt.
+// Signature-Element: der Werdegang als Quest-Log mit Leveln und XP.
+// Die Level erscheinen nacheinander, sobald das Log ins Bild scrollt.
 export function BootLog({
   header,
+  progressLabel,
   entries,
   readyLine,
 }: {
   header: string;
+  progressLabel?: string;
   entries: BootLogEntry[];
   readyLine: string;
 }) {
@@ -20,7 +22,7 @@ export function BootLog({
     const body = bodyRef.current;
     if (!body) return;
 
-    const rows = Array.from(body.querySelectorAll<HTMLElement>('.bootlog__entry'));
+    const rows = Array.from(body.querySelectorAll<HTMLElement>('.quest'));
     const reduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     if (reduced) {
       rows.forEach((row) => row.classList.add('is-visible'));
@@ -33,11 +35,11 @@ export function BootLog({
           if (!item.isIntersecting) return;
           const row = item.target as HTMLElement;
           const index = rows.indexOf(row);
-          window.setTimeout(() => row.classList.add('is-visible'), index * 140);
+          window.setTimeout(() => row.classList.add('is-visible'), index * 130);
           observer.unobserve(row);
         });
       },
-      { threshold: 0.2 },
+      { threshold: 0.15 },
     );
 
     rows.forEach((row) => observer.observe(row));
@@ -45,34 +47,41 @@ export function BootLog({
   }, []);
 
   return (
-    <div className="bootlog">
-      <div className="bootlog__titlebar">
-        <span className="bootlog__dot bootlog__dot--copper" aria-hidden />
-        <span className="bootlog__dot" aria-hidden />
-        <span className="bootlog__dot" aria-hidden />
+    <div>
+      <div className="questlog__header">
         <span>{header}</span>
+        {progressLabel && (
+          <span className="questlog__progress">
+            <span>{progressLabel}</span>
+            <span className="questlog__progressbar">
+              <span className="questlog__progressfill" />
+            </span>
+          </span>
+        )}
       </div>
-      <div className="bootlog__body" ref={bodyRef}>
-        {entries.map((entry) => (
-          <div className="bootlog__entry" key={entry.module}>
-            <span className="bootlog__time">{entry.time}</span>
-            <span
-              className={`bootlog__status ${
-                entry.status === 'RUN' ? 'bootlog__status--run' : 'bootlog__status--ok'
-              }`}
-            >
-              {entry.status}
+      <div className="questlog" ref={bodyRef}>
+        {entries.map((entry, index) => (
+          <div
+            className={`quest${entry.status === 'RUN' ? ' quest--current' : ''}`}
+            key={entry.module}
+          >
+            <span className="quest__badge" aria-hidden>
+              {entry.status === 'RUN' ? '★' : index + 1}
             </span>
-            <span className="bootlog__module">{entry.module}</span>
-            <span className="bootlog__text">
-              <strong>{entry.title}</strong>
-              <span>{entry.detail}</span>
-            </span>
+            <div>
+              <div className="quest__meta">
+                <span className="quest__time">{entry.time}</span>
+                <span className="quest__module">{entry.module}</span>
+                <span className="quest__xp">{entry.xp}</span>
+              </div>
+              <p className="quest__title">{entry.title}</p>
+              <p className="quest__detail">{entry.detail}</p>
+            </div>
           </div>
         ))}
-        <p className="bootlog__ready">
+        <p className="questlog__ready">
           {readyLine}
-          <span className="bootlog__cursor" aria-hidden />
+          <span className="questlog__cursor" aria-hidden />
         </p>
       </div>
     </div>
