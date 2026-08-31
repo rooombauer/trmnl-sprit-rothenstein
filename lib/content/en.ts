@@ -22,12 +22,14 @@ export const en: Dict = {
     claim: 'From Microsoft engineer to CXO.',
     subline:
       'I built systems before I transformed organizations. From the server room to the C-suite – and right in the middle of the AI transformation today.',
-    ctaJourney: '▶ Start quest: Journey',
-    ctaContact: 'Get in touch',
-    bootTeaserTitle: 'Career quest log',
+    ctaJourney: '[ ./journey --verbose ]',
+    ctaContact: '[ ./contact --initiate ]',
+    comment: '// There is no place like 127.0.0.1 — except the boardroom.',
+    sudoResponse: 'OK. Priorities sorted.',
+    bootTeaserTitle: 'tail -f journey.log',
     bootTeaserText:
-      'Every career is a game with multiple levels. Mine starts with an MCSE certificate – and the current boss fight is called AI transformation.',
-    bootTeaserLink: 'View all levels →',
+      'Every career has a boot sequence. Mine starts with an MCSE certificate and runs on an entirely new runtime today: artificial intelligence.',
+    bootTeaserLink: 'cat journey.log — view the full log →',
     photoCaption: 'Startup moments: technology is built by teams.',
     pillars: [
       {
@@ -51,7 +53,7 @@ export const en: Dict = {
     title: 'Journey',
     intro:
       'No résumé reads more honestly than a boot protocol: what was loaded when, and what still runs reliably today. Here is my boot sequence – from the first network to the AI present.',
-    logHeader: 'quest.log — journey v‹XX›.‹X› — player: R. Bauer',
+    logHeader: 'CAREER-OS v‹XX›.‹X› — boot.log — tty1 — rbauer',
     progressLabel: 'Quest progress',
     entries: [
       {
@@ -218,7 +220,7 @@ export const en: Dict = {
     closing: 'Replies usually within 48 hours.',
   },
   footer: {
-    line: 'Handcrafted with Next.js — black, white and a dash of petrol. ↑↑↓↓←→←→BA',
+    line: 'Handcrafted with Next.js — 100% phosphor, 0% default. ↑↑↓↓←→←→BA',
   },
   hud: {
     levelLabel: 'LVL',

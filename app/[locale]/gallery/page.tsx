@@ -19,7 +19,7 @@ export default async function GalleryPage({ params }: { params: Promise<{ locale
   return (
     <section className="section">
       <div className="container">
-        <span className="tag">moments.jpg</span>
+        <span className="tag">xview ~/gallery/*.jpg</span>
         <h1>{dict.gallery.title}</h1>
         <p className="lede">{dict.gallery.intro}</p>
         <div style={{ marginTop: '2.5rem' }}>

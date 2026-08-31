@@ -60,23 +60,21 @@ export function BootLog({
         )}
       </div>
       <div className="questlog" ref={bodyRef}>
-        {entries.map((entry, index) => (
+        {entries.map((entry) => (
           <div
             className={`quest${entry.status === 'RUN' ? ' quest--current' : ''}`}
             key={entry.module}
           >
-            <span className="quest__badge" aria-hidden>
-              {entry.status === 'RUN' ? '★' : index + 1}
-            </span>
-            <div>
-              <div className="quest__meta">
-                <span className="quest__time">{entry.time}</span>
-                <span className="quest__module">{entry.module}</span>
-                <span className="quest__xp">{entry.xp}</span>
-              </div>
-              <p className="quest__title">{entry.title}</p>
+            <span className="quest__time">{entry.time}</span>
+            <span className="quest__module">{entry.module}</span>
+            <span>
+              <p className="quest__title">
+                {entry.title}
+                {entry.status === 'RUN' ? ' ▮' : ' … OK'}
+              </p>
               <p className="quest__detail">{entry.detail}</p>
-            </div>
+            </span>
+            <span className="quest__xp">{entry.xp}</span>
           </div>
         ))}
         <p className="questlog__ready">

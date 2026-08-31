@@ -22,12 +22,14 @@ export const de: Dict = {
     claim: 'Vom Microsoft-Ingenieur zum CXO.',
     subline:
       'Ich habe Systeme aufgebaut, bevor ich Organisationen transformiert habe. Vom Server-Raum bis auf C-Level – und heute mittendrin in der KI-Transformation.',
-    ctaJourney: '▶ Quest starten: Werdegang',
-    ctaContact: 'Kontakt aufnehmen',
-    bootTeaserTitle: 'Career-Quest-Log',
+    ctaJourney: '[ ./werdegang --verbose ]',
+    ctaContact: '[ ./kontakt --initiate ]',
+    comment: '// There is no place like 127.0.0.1 — außer im Vorstand.',
+    sudoResponse: 'OK. Prioritäten geklärt.',
+    bootTeaserTitle: 'tail -f werdegang.log',
     bootTeaserText:
-      'Jede Karriere ist ein Spiel mit mehreren Leveln. Meins beginnt mit einem MCSE-Zertifikat – und der aktuelle Endgegner heißt KI-Transformation.',
-    bootTeaserLink: 'Alle Level ansehen →',
+      'Jede Karriere hat eine Boot-Sequenz. Meine beginnt mit einem MCSE-Zertifikat und läuft heute auf einer ganz neuen Runtime: künstlicher Intelligenz.',
+    bootTeaserLink: 'cat werdegang.log — vollständiges Log →',
     photoCaption: 'Startup-Momente: Technologie entsteht im Team.',
     pillars: [
       {
@@ -51,7 +53,7 @@ export const de: Dict = {
     title: 'Werdegang',
     intro:
       'Kein Lebenslauf liest sich ehrlicher als ein Startprotokoll: Was wurde wann geladen, was läuft bis heute stabil. Hier ist meine Boot-Sequenz – vom ersten Netzwerk bis zur KI-Gegenwart.',
-    logHeader: 'quest.log — journey v‹XX›.‹X› — Spieler: R. Bauer',
+    logHeader: 'CAREER-OS v‹XX›.‹X› — boot.log — tty1 — rbauer',
     progressLabel: 'Quest-Fortschritt',
     entries: [
       {
@@ -218,7 +220,7 @@ export const de: Dict = {
     closing: 'Antwort in der Regel innerhalb von 48 Stunden.',
   },
   footer: {
-    line: 'Handgebaut mit Next.js — Schwarz, Weiß und ein Schuss Petrol. ↑↑↓↓←→←→BA',
+    line: 'Handgebaut mit Next.js — 100 % Phosphor, 0 % Standard. ↑↑↓↓←→←→BA',
   },
   hud: {
     levelLabel: 'LVL',

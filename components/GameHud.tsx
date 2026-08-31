@@ -73,7 +73,7 @@ export function GameHud({ hud }: { hud: Dict['hud'] }) {
       currentXp += PAGE_XP;
       writeStore(PAGES_KEY, visited);
       writeStore(XP_KEY, currentXp);
-      setToast({ title: hud.unlockedLabel, text: `🏆 ${hud.pages[key]} (+${PAGE_XP} ${hud.xpLabel})` });
+      setToast({ title: hud.unlockedLabel, text: `>> ${hud.pages[key]} (+${PAGE_XP} ${hud.xpLabel})` });
     }
     setXp(currentXp);
   }, [pathname, hud]);
@@ -89,7 +89,7 @@ export function GameHud({ hud }: { hud: Dict['hud'] }) {
       const currentXp = readStore<number>(XP_KEY, 0) + KONAMI_XP;
       writeStore(XP_KEY, currentXp);
       setXp(currentXp);
-      setToast({ title: hud.unlockedLabel, text: `🕹️ ${hud.konami} (+${KONAMI_XP} ${hud.xpLabel})` });
+      setToast({ title: hud.unlockedLabel, text: `>> ${hud.konami} (+${KONAMI_XP} ${hud.xpLabel})` });
       document.documentElement.classList.add('god-mode');
       window.setTimeout(() => document.documentElement.classList.remove('god-mode'), 3000);
     };

@@ -16,23 +16,31 @@ npm run build      # statischer Export nach /out (überall hostbar)
 
 | Route          | Inhalt                                        |
 | -------------- | --------------------------------------------- |
-| `/de/` `/en/`  | Hero mit Claim + Deko-Stickern, drei Säulen, Quest-Log-Teaser, Startup-Foto |
-| `…/journey/`   | Kompletter Werdegang als Quest-Log (Level, XP, Fortschrittsbalken) |
-| `…/expertise/` | Vier Kompetenz-Ebenen mit animierten Skill-Bars |
+| `/de/` `/en/`  | Getippte Terminal-Session: `whoami` → Claim, `tail werdegang.log`, `sudo make coffee`, Startup-Foto |
+| `…/journey/`   | Kompletter Werdegang als Boot-Log (Level, XP, Quest-Fortschritt) |
+| `…/expertise/` | Vier Kompetenz-Ebenen mit `htop`-artigen Skill-Bars |
 | `…/projects/`  | Quest-Karten (SIDE QUEST / MAIN QUEST / NEW GAME+) |
-| `…/gallery/`   | Polaroid-Galerie mit Lightbox (Pfeiltasten, Esc) |
-| `…/contact/`   | Kontakt                                        |
+| `…/gallery/`   | Galerie als `xview`-Fenster, zeilenweiser Bildaufbau, Lightbox (Pfeiltasten, Esc) |
+| `…/contact/`   | Kontakt (`ping -c1 rbauer`)                    |
 
-## Design & Gamification
+## Design: CRT-Terminal („CAREER-OS")
 
-- Verspielter Neo-Brutalismus: Schwarz-Weiß, dicke Ränder, harte Schatten,
-  leicht gedrehte Sticker-Elemente – Petrol (`#0a7285`) als einziger Akzent
-- Headlines **Space Grotesk**, Game-Details **JetBrains Mono**
-- Alle Farben/Schriften als CSS-Variablen in `app/globals.css`
+- Phosphor-Grün auf Röhren-Schwarz, Headlines **VT323**, Text **IBM Plex Mono**
+- **Lebendiger alter PC** (`components/CrtFx.tsx` + Overlays in `app/layout.tsx`):
+  - Bildschirmkrümmung (Vignette, Glas-Reflex, abgerundete Röhren-Ecken)
+  - Dauerflimmern, Scanlines, langsam durchlaufender Rollbalken
+  - Einschalt-Effekt der Röhre beim ersten Laden
+  - Seitenwechsel = „Kanalwechsel" (Bild klappt zusammen + Rauschen)
+  - Klicks lösen zufällig Jitter/Helligkeits-Blip/Krisseln aus,
+    plus spontanes Krisseln alle 9–23 Sekunden
+  - Bilder bauen sich zeilenweise auf (`.scan-img`), alle Fotos laufen
+    über den grünen Phosphor-Filter (`.phosphor-img`)
+- Startseite ist eine getippte Terminal-Session (`whoami`, `tail`,
+  `sudo make coffee`), Werdegang ein Boot-Log, Kompetenzen `htop`-Skill-Bars
 - **XP-HUD** unten links: Seitenbesuche schalten Achievements frei (+40 XP,
-  gespeichert in `localStorage`), Level steigt alle 100 XP
+  `localStorage`), Level steigt alle 100 XP
 - **Konami-Code** (↑↑↓↓←→←→BA) aktiviert kurz den God-Mode (+100 XP)
-- Animationen respektieren `prefers-reduced-motion`
+- Alle Effekte/Animationen respektieren `prefers-reduced-motion`
 
 ## Inhalte pflegen (WICHTIG)
 

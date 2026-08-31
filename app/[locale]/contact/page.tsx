@@ -18,7 +18,7 @@ export default async function ContactPage({ params }: { params: Promise<{ locale
   return (
     <section className="section">
       <div className="container">
-        <span className="tag">ping.me</span>
+        <span className="tag">ping -c1 rbauer</span>
         <h1>{contact.title}</h1>
         <p className="lede">{contact.intro}</p>
         <div className="contact-list" style={{ marginTop: '2.5rem' }}>

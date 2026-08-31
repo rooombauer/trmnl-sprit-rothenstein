@@ -49,6 +49,10 @@ export type Dict = {
     eyebrow: string;
     claim: string;
     subline: string;
+    /** Kommentarzeile unter dem Claim, z. B. der 127.0.0.1-Witz */
+    comment: string;
+    /** Antwort des Systems auf `sudo make coffee` */
+    sudoResponse: string;
     ctaJourney: string;
     ctaContact: string;
     bootTeaserTitle: string;

@@ -1,15 +1,17 @@
 import type { Metadata } from 'next';
-import { JetBrains_Mono, Space_Grotesk } from 'next/font/google';
+import { IBM_Plex_Mono, VT323 } from 'next/font/google';
 import './globals.css';
 
-const grotesk = Space_Grotesk({
+const vt323 = VT323({
   subsets: ['latin'],
-  variable: '--font-grotesk',
+  weight: '400',
+  variable: '--font-vt323',
 });
 
-const jetbrains = JetBrains_Mono({
+const plexMono = IBM_Plex_Mono({
   subsets: ['latin'],
-  variable: '--font-jetbrains',
+  weight: ['400', '600'],
+  variable: '--font-plex',
 });
 
 export const metadata: Metadata = {
@@ -18,14 +20,29 @@ export const metadata: Metadata = {
     'Vom Microsoft-zertifizierten Systemingenieur zum CXO – Technologie, Führung und KI-Transformation.',
 };
 
+import { CrtFx } from '@/components/CrtFx';
+
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html
       lang="de"
       suppressHydrationWarning
-      className={`${grotesk.variable} ${jetbrains.variable}`}
+      className={`${vt323.variable} ${plexMono.variable}`}
     >
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* CRT-Overlays: Flimmern, Scanlines, Rollbalken, Rauschen,
+            Vignette/Krümmung, Glas-Reflex, Röhren-Ecken, Weißblitz */}
+        <div className="crt crt-flicker" aria-hidden />
+        <div className="crt crt-scanlines" aria-hidden />
+        <div className="crt crt-roll" aria-hidden />
+        <div className="crt crt-static" aria-hidden />
+        <div className="crt crt-vignette" aria-hidden />
+        <div className="crt crt-glare" aria-hidden />
+        <div className="crt crt-corners" aria-hidden />
+        <div className="crt crt-white" aria-hidden />
+        <CrtFx />
+      </body>
     </html>
   );
 }

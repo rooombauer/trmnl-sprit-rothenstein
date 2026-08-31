@@ -18,7 +18,7 @@ export default async function JourneyPage({ params }: { params: Promise<{ locale
   return (
     <section className="section">
       <div className="container">
-        <span className="tag">journey.log</span>
+        <span className="tag">cat boot.log</span>
         <h1>{dict.journey.title}</h1>
         <p className="lede">{dict.journey.intro}</p>
         <div style={{ marginTop: '2.5rem' }}>

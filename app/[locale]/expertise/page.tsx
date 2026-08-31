@@ -18,7 +18,7 @@ export default async function ExpertisePage({ params }: { params: Promise<{ loca
   return (
     <section className="section">
       <div className="container">
-        <span className="tag">stack.layers</span>
+        <span className="tag">htop --skills</span>
         <h1>{dict.expertise.title}</h1>
         <p className="lede">{dict.expertise.intro}</p>
         <div className="grid grid--2" style={{ marginTop: '2.5rem' }}>

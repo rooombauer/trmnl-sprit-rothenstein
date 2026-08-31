@@ -17,7 +17,7 @@ export default async function ProjectsPage({ params }: { params: Promise<{ local
   return (
     <section className="section">
       <div className="container">
-        <span className="tag">selected.work</span>
+        <span className="tag">ls -la ~/projects</span>
         <h1>{dict.projects.title}</h1>
         <p className="lede">{dict.projects.intro}</p>
         <div className="grid grid--3" style={{ marginTop: '2.5rem' }}>
