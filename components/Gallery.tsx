@@ -4,9 +4,28 @@ import { useCallback, useEffect, useRef, useState } from 'react';
 import type { GalleryItem } from '@/lib/content/gallery';
 import type { Locale } from '@/lib/content/types';
 
+// Fotorealistischer PDA: liegt das generierte Foto einer Hand mit PDA in
+// /assets/pda-hand.jpg, wird es als Lightbox-Kulisse benutzt und das
+// Galeriebild in den (ausgeschalteten) Bildschirm des Geräts montiert.
+// Das Rechteck beschreibt die Screen-Fläche in % der Bildbreite/-höhe —
+// nach Sichtprüfung des generierten Fotos feinjustieren.
+const PDA_PHOTO = {
+  src: '/assets/pda-hand.jpg',
+  screen: { left: 33.5, top: 20.0, width: 33.0, height: 46.0 },
+};
+
 export function Gallery({ items, locale }: { items: GalleryItem[]; locale: Locale }) {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
+  const [realPda, setRealPda] = useState(false);
   const gridRef = useRef<HTMLDivElement>(null);
+
+  // Gibt es das fotorealistische PDA-Bild? (kein kaputtes Bild riskieren)
+  useEffect(() => {
+    const probe = new Image();
+    probe.onload = () => setRealPda(true);
+    probe.onerror = () => setRealPda(false);
+    probe.src = PDA_PHOTO.src;
+  }, []);
 
   // Thumbnails bauen sich zeilenweise auf, sobald sie ins Bild scrollen
   useEffect(() => {
@@ -90,7 +109,67 @@ export function Gallery({ items, locale }: { items: GalleryItem[]; locale: Local
         })}
       </div>
 
-      {active && (
+      {active && realPda && (
+        <div
+          className="pda-scene"
+          role="dialog"
+          aria-modal="true"
+          aria-label={active.caption[locale]}
+          onClick={(event) => {
+            if (event.target === event.currentTarget) close();
+          }}
+        >
+          <div className="pda-real">
+            <img className="pda-real__base" src={PDA_PHOTO.src} alt="" aria-hidden />
+            <div
+              className="pda-real__screen"
+              style={{
+                left: `${PDA_PHOTO.screen.left}%`,
+                top: `${PDA_PHOTO.screen.top}%`,
+                width: `${PDA_PHOTO.screen.width}%`,
+                height: `${PDA_PHOTO.screen.height}%`,
+              }}
+            >
+              <span key={active.src} className="scan-img scan-img--lcd is-scanned pda-real__photo">
+                <img src={active.src} alt={active.caption[locale]} />
+              </span>
+              <div className="pda-real__status">
+                <span>{active.caption[locale]}</span>
+                <span>
+                  {(openIndex ?? 0) + 1}/{items.length}
+                </span>
+              </div>
+              {/* Unsichtbare Klickzonen: linke Screenhälfte zurück, rechte vor */}
+              <button
+                type="button"
+                className="pda-real__zone pda-real__zone--prev"
+                onClick={() => step(-1)}
+                aria-label={locale === 'de' ? 'Vorheriges Bild' : 'Previous image'}
+              />
+              <button
+                type="button"
+                className="pda-real__zone pda-real__zone--next"
+                onClick={() => step(1)}
+                autoFocus
+                aria-label={locale === 'de' ? 'Nächstes Bild' : 'Next image'}
+              />
+            </div>
+            <button
+              type="button"
+              className="pda-real__close"
+              onClick={close}
+              aria-label={locale === 'de' ? 'Schließen' : 'Close'}
+            >
+              ⏻ {locale === 'de' ? 'aus' : 'off'}
+            </button>
+            <p className="pda-real__hint">
+              {locale === 'de' ? '◀ ▶ oder Screen antippen · Esc' : '◀ ▶ or tap the screen · Esc'}
+            </p>
+          </div>
+        </div>
+      )}
+
+      {active && !realPda && (
         <div
           className="pda-scene"
           role="dialog"
