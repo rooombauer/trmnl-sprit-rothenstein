@@ -20,7 +20,7 @@ npm run build      # statischer Export nach /out (überall hostbar)
 | `…/journey/`   | Kompletter Werdegang als Boot-Log (Level, XP, Quest-Fortschritt) |
 | `…/expertise/` | Vier Kompetenz-Ebenen mit `htop`-artigen Skill-Bars |
 | `…/projects/`  | Quest-Karten (SIDE QUEST / MAIN QUEST / NEW GAME+) |
-| `…/gallery/`   | Galerie als `xview`-Fenster, zeilenweiser Bildaufbau, Lightbox (Pfeiltasten, Esc) |
+| `…/gallery/`   | Galerie als `xview`-Fenster (grüner Phosphor), Lightbox = Hand mit PDA „PocketPix 2000": Farb-LCD mit Originalfarben, Hardware-Tasten ◀ ▶ ⏻, Pfeiltasten/Esc |
 | `…/contact/`   | Kontakt (`ping -c1 rbauer`)                    |
 
 ## Design: CRT-Terminal („CAREER-OS")

@@ -92,7 +92,7 @@ export function Gallery({ items, locale }: { items: GalleryItem[]; locale: Local
 
       {active && (
         <div
-          className="lightbox"
+          className="pda-scene"
           role="dialog"
           aria-modal="true"
           aria-label={active.caption[locale]}
@@ -100,38 +100,75 @@ export function Gallery({ items, locale }: { items: GalleryItem[]; locale: Local
             if (event.target === event.currentTarget) close();
           }}
         >
-          <button
-            type="button"
-            className="lightbox__btn lightbox__btn--close"
-            onClick={close}
-            aria-label={locale === 'de' ? 'Schließen' : 'Close'}
-            autoFocus
-          >
-            ×
-          </button>
-          <button
-            type="button"
-            className="lightbox__btn lightbox__btn--prev"
-            onClick={() => step(-1)}
-            aria-label={locale === 'de' ? 'Vorheriges Bild' : 'Previous image'}
-          >
-            ‹
-          </button>
-          {/* key erzwingt Remount pro Bild → der zeilenweise Aufbau läuft jedes Mal */}
-          <span key={active.src} className="scan-img is-scanned" style={{ display: 'block' }}>
-            <img className="phosphor-img" src={active.src} alt={active.caption[locale]} />
-          </span>
-          <p className="lightbox__caption">
-            {(openIndex ?? 0) + 1}/{items.length} — {active.caption[locale]}
-          </p>
-          <button
-            type="button"
-            className="lightbox__btn lightbox__btn--next"
-            onClick={() => step(1)}
-            aria-label={locale === 'de' ? 'Nächstes Bild' : 'Next image'}
-          >
-            ›
-          </button>
+          <div className="pda-rig">
+            {/* Hand-Silhouette hinter dem Gerät (Unterarm + Handballen) */}
+            <svg className="pda-hand" viewBox="0 0 300 520" aria-hidden>
+              <path
+                d="M112 520 L110 268 C108 206 128 172 174 158 C230 142 264 176 260 236 C256 300 252 430 252 520 Z"
+                fill="#221a14"
+                stroke="rgba(157,255,190,0.16)"
+                strokeWidth="3"
+              />
+            </svg>
+
+            <div className="pda">
+              <span className="pda-stylus" aria-hidden />
+              <div className="pda-top">
+                <span className="pda-brand">POCKETPIX 2000 · COLOR LCD</span>
+                <span className="pda-led" aria-hidden />
+              </div>
+              <div className="pda-screen">
+                {/* key erzwingt Remount pro Bild → zeilenweiser Aufbau bei jedem Wechsel.
+                    Bewusst OHNE Phosphor-Filter: das LCD zeigt Originalfarben. */}
+                <span key={active.src} className="scan-img scan-img--lcd is-scanned" style={{ display: 'block' }}>
+                  <img src={active.src} alt={active.caption[locale]} />
+                </span>
+                <div className="pda-status">
+                  <span>{active.caption[locale]}</span>
+                  <span>
+                    {(openIndex ?? 0) + 1}/{items.length}
+                  </span>
+                </div>
+              </div>
+              <div className="pda-controls">
+                <button
+                  type="button"
+                  className="pda-btn"
+                  onClick={() => step(-1)}
+                  aria-label={locale === 'de' ? 'Vorheriges Bild' : 'Previous image'}
+                >
+                  ◀
+                </button>
+                <button
+                  type="button"
+                  className="pda-btn"
+                  onClick={() => step(1)}
+                  aria-label={locale === 'de' ? 'Nächstes Bild' : 'Next image'}
+                  autoFocus
+                >
+                  ▶
+                </button>
+                <button
+                  type="button"
+                  className="pda-btn pda-btn--power"
+                  onClick={close}
+                  aria-label={locale === 'de' ? 'Schließen' : 'Close'}
+                >
+                  ⏻
+                </button>
+              </div>
+            </div>
+
+            {/* Daumen liegt vorn auf dem Gehäuse */}
+            <svg className="pda-thumb" viewBox="0 0 140 220" aria-hidden>
+              <path
+                d="M78 220 C44 174 30 122 48 70 C60 34 94 24 110 48 C126 72 114 112 102 152 C94 182 90 202 88 220 Z"
+                fill="#2a211a"
+                stroke="rgba(157,255,190,0.14)"
+                strokeWidth="3"
+              />
+            </svg>
+          </div>
         </div>
       )}
     </>
