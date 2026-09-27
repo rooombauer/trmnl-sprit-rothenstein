@@ -4,7 +4,7 @@ Holt aktuelle Super-E5-Preise rund um Rothenstein bei Jena (Thüringen) über
 die Tankerkönig-API und schreibt:
 
 - data/latest.json: was TRMNL abruft. Die vier nächstgelegenen Tankstellen
-  plus eine fertig berechnete Mini-Karte (Pixelkoordinaten fürs SVG), auf der
+  plus Marker-Positionen (Pixel) für die Grundkarte data/karte.png, auf der
   zusätzlich die günstigsten übrigen Tankstellen im Umkreis eingezeichnet sind.
 - data/history.json: Langzeit-Log (ein Eintrag pro Tag, letzter Lauf gewinnt).
 
@@ -28,18 +28,14 @@ ROOT = Path(__file__).resolve().parent.parent
 HISTORY_PATH = ROOT / "data" / "history.json"
 LATEST_PATH = ROOT / "data" / "latest.json"
 
-MAP_SIZE = 400
+from karte_proj import MAP_SIZE, to_map  # gleiche Projektion wie die Grundkarte
+
+MAP_IMAGE_URL = "https://raw.githubusercontent.com/rooombauer/trmnl-sprit-rothenstein/main/data/karte.png"
 MAP_PAD = 16
 NEAR_R = 11
 OTHER_R = 5
 FONT_W = 7.2         # grobe Zeichenbreite bei 13px, für Label-Kollisionen
 
-# Orientierungspunkte auf der Karte (nur wenn im Ausschnitt)
-TOWNS = [
-    ("Jena", 50.9272, 11.5892),
-    ("Kahla", 50.8067, 11.5866),
-    ("Stadtroda", 50.8567, 11.7267),
-]
 
 
 def fetch_stations(api_key: str) -> list:
@@ -89,21 +85,10 @@ def street_of(s) -> str:
     return f"{street} {no}".strip()
 
 
-def to_km(lat, lng):
-    x = (lng - LNG) * 111.32 * math.cos(math.radians(LAT))
-    y = (lat - LAT) * 110.57
-    return x, y
 
 
-def nice_ring(extent_km: float) -> float:
-    for step in (1, 2, 5, 10):
-        if extent_km / step <= 2.2:
-            return step
-    return 10
 
 
-def overlaps(a, b):
-    return not (a[2] <= b[0] or b[2] <= a[0] or a[3] <= b[1] or b[3] <= a[1])
 
 
 def overlap_area(a, b):
@@ -158,21 +143,22 @@ def spread(points, fixed, min_gap=2 * NEAR_R + 4, rounds=60):
 
 
 def build_map(near: list, others: list) -> dict:
-    pts = [to_km(s["lat"], s["lng"]) for s in near + others]
-    max_d = max([math.hypot(x, y) for x, y in pts] + [1.0])
-    extent = max_d * 1.1
-    radius_px = MAP_SIZE / 2 - MAP_PAD
-    scale = radius_px / extent
+    """Marker-Positionen passend zur Grundkarte data/karte.png (Norden oben)."""
     c = MAP_SIZE / 2
 
-    def px(lat, lng):
-        x, y = to_km(lat, lng)
-        return round(c + x * scale, 1), round(c - y * scale, 1)
+    def inside(x, y):
+        return MAP_PAD / 2 < x < MAP_SIZE - MAP_PAD / 2 and MAP_PAD / 2 < y < MAP_SIZE - MAP_PAD / 2
 
-    near_pts = [{"n": i, "x": px(s["lat"], s["lng"])[0], "y": px(s["lat"], s["lng"])[1]}
-                for i, s in enumerate(near, 1)]
-    other_pts = [{"x": px(s["lat"], s["lng"])[0], "y": px(s["lat"], s["lng"])[1], "s": s}
-                 for s in others]
+    near_pts = []
+    for i, s in enumerate(near, 1):
+        x, y = to_map(s["lat"], s["lng"])
+        near_pts.append({"n": i, "x": x, "y": y})
+    other_pts = []
+    for s in others:
+        x, y = to_map(s["lat"], s["lng"])
+        if inside(x, y):
+            other_pts.append({"x": x, "y": y, "s": s})
+    # nur überlappende Marker minimal auseinanderschieben
     spread(near_pts + other_pts, fixed=[(c, c)])
 
     # Punkte zuerst als belegt markieren, damit Labels ihnen ausweichen
@@ -181,16 +167,6 @@ def build_map(near: list, others: list) -> dict:
         taken.append((p["x"] - NEAR_R, p["y"] - NEAR_R, p["x"] + NEAR_R, p["y"] + NEAR_R))
     for p in other_pts:
         taken.append((p["x"] - OTHER_R, p["y"] - OTHER_R, p["x"] + OTHER_R, p["y"] + OTHER_R))
-
-    step = nice_ring(extent)
-    rings = []
-    k = step
-    while k <= extent:
-        r = round(k * scale, 1)
-        label = f"{k:g} km"
-        rings.append({"r": r, "label": label, "lx": round(c + r * 0.707 + 4, 1), "ly": round(c + r * 0.707 + 4, 1)})
-        taken.append((c + r * 0.707, c + r * 0.707 - 6, c + r * 0.707 + 40, c + r * 0.707 + 8))
-        k += step
 
     for o in other_pts:
         s = o.pop("s")
@@ -201,23 +177,13 @@ def build_map(near: list, others: list) -> dict:
         o["price_sup"] = sup
         o.update(place_label(o["x"], o["y"], OTHER_R, len(brand) + 6, taken))
 
-    towns = []
-    for name, lat, lng in TOWNS:
-        x, y = px(lat, lng)
-        if MAP_PAD < x < MAP_SIZE - MAP_PAD and MAP_PAD < y < MAP_SIZE - MAP_PAD:
-            box = (x - len(name) * 3.6, y - 7, x + len(name) * 3.6, y + 7)
-            if not any(overlaps(box, t) for t in taken):
-                taken.append(box)
-                towns.append({"name": name, "x": x, "y": round(y + 4, 1)})
-
     return {
         "size": MAP_SIZE,
         "cx": c,
         "cy": c,
-        "rings": rings,
+        "image": MAP_IMAGE_URL,
         "near": near_pts,
         "others": other_pts,
-        "towns": towns,
     }
 
 

@@ -4,8 +4,11 @@ Zeigt den Super-E5-Preis der vier nächstgelegenen Tankstellen um Rothenstein be
 Jena, dazu eine kleine Karte. Darauf sind die vier Tankstellen (1–4) und die drei
 günstigsten übrigen Tankstellen im 10-km-Umkreis mit Preis eingezeichnet.
 
-Die Karte berechnet `scripts/fetch_prices.py` fertig als Pixelkoordinaten, das
-Markup zeichnet sie nur noch als SVG. `data/history.json` führt pro Tag Ø- und
+Die Karte ist eine echte, minimalistische Straßenkarte mit Ortsnamen (Norden oben,
+OpenStreetMap-Daten). Die Grundkarte `data/karte.png` ist fest und wird nur von Hand
+mit `scripts/make_basemap.py` neu erzeugt (braucht Pillow). `scripts/fetch_prices.py`
+rechnet die Tankstellen mit derselben Projektion (`scripts/karte_proj.py`) in
+Pixelkoordinaten um, das Markup legt sie als SVG über die Grundkarte. `data/history.json` führt pro Tag Ø- und
 Minimalpreis weiter.
 
 ## Setup (einmalig, ~15 Min)
@@ -46,3 +49,5 @@ Rothenstein bei Jena, Thüringen (50.85, 11.60), Radius 10 km – in `scripts/fe
 Tankerkönig-API (creativecommons.tankerkoenig.de), Daten: Bundeskartellamt
 Markttransparenzstelle für Kraftstoffe (MTS-K), Lizenz CC BY 4.0 – Attribution
 ist im Plugin-Footer enthalten (Pflicht laut Lizenz).
+
+Kartendaten © OpenStreetMap-Mitwirkende (ODbL), Hinweis steht auf der Karte.
