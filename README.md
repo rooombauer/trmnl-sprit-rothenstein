@@ -1,13 +1,12 @@
 # Sprit-Preise Rothenstein – TRMNL Plugin
 
-Zeigt Super E5 & Super E10 im 10-km-Umkreis von Rothenstein bei Jena + 30-Tage-Verlauf.
+Zeigt den Super-E5-Preis der vier nächstgelegenen Tankstellen um Rothenstein bei
+Jena, dazu eine kleine Karte. Darauf sind die vier Tankstellen (1–4) und die drei
+günstigsten übrigen Tankstellen im 10-km-Umkreis mit Preis eingezeichnet.
 
-**Wichtig:** Super Plus (98 Oktan) wird von keiner freien deutschen Quelle erfasst
-(gesetzliche Meldepflicht MTS-K gilt nur für E5, E10, Diesel). Das Plugin zeigt
-daher E5 + E10 statt Super Plus.
-
-Tankerkönig liefert nur Live-Preise, keine Historie. Der Chart füllt sich deshalb
-ab dem ersten Lauf täglich mit einem echten neuen Datenpunkt (nach 30 Tagen voll).
+Die Karte berechnet `scripts/fetch_prices.py` fertig als Pixelkoordinaten, das
+Markup zeichnet sie nur noch als SVG. `data/history.json` führt pro Tag Ø- und
+Minimalpreis weiter.
 
 ## Setup (einmalig, ~15 Min)
 
@@ -27,7 +26,7 @@ ab dem ersten Lauf täglich mit einem echten neuen Datenpunkt (nach 30 Tagen vol
 **4. Workflow testen**
 - Repo → Actions → "Fetch fuel prices" → Run workflow (manuell einmal anstoßen)
 - Danach prüfen: `data/latest.json` im Repo sollte Werte statt `null` zeigen
-- Läuft danach automatisch täglich 05:00 UTC
+- Läuft danach automatisch alle 2 Stunden (04–20 UTC)
 
 **5. TRMNL Private Plugin anlegen**
 - Voraussetzung: Developer-Addon oder BYOD-Lizenz in deinem TRMNL-Account aktiv
@@ -37,11 +36,11 @@ ab dem ersten Lauf täglich mit einem echten neuen Datenpunkt (nach 30 Tagen vol
 - "Edit Markup" öffnen, Tab "Full", Inhalt aus `trmnl/full.liquid` reinkopieren
 - Speichern, "Force Refresh" zum Testen
 
-Fertig – Plugin zeigt jetzt aktuelle Preise + wachsenden 30-Tage-Verlauf.
+Fertig – Plugin zeigt jetzt aktuelle E5-Preise + Karte.
 
 ## Standort
 Rothenstein bei Jena, Thüringen (50.85, 11.60), Radius 10 km – in `scripts/fetch_prices.py`
-über `LAT`/`LNG`/`RAD_KM` änderbar.
+über `LAT`/`LNG`/`RAD_KM` änderbar, Anzahl über `NEAREST`/`CHEAP_OTHERS`.
 
 ## Quelle
 Tankerkönig-API (creativecommons.tankerkoenig.de), Daten: Bundeskartellamt

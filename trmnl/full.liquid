@@ -1,35 +1,50 @@
-<div class="layout">
-  <div class="title_bar">
-    <span class="title">⛽ Sprit Rothenstein · 10 km</span>
-    <span class="instance">{{ updated_at | date: "%d.%m. %H:%M" }}</span>
+<div class="layout" style="display:flex; align-items:center; gap:28px; padding:0 8px; font-family:Inter, sans-serif;">
+
+  <div style="flex:1; display:flex; flex-direction:column;">
+    <div style="font-size:14px; letter-spacing:2px; text-transform:uppercase; margin-bottom:6px;">Super E5</div>
+    {% for s in stations %}
+    <div style="display:flex; align-items:center; gap:14px; padding:15px 0;{% unless forloop.last %} border-bottom:1px solid black;{% endunless %}">
+      <div style="width:26px; height:26px; border-radius:13px; background:black; color:white; font-size:15px; font-weight:bold; display:flex; align-items:center; justify-content:center; flex-shrink:0;">{{ s.n }}</div>
+      <div style="flex:1; min-width:0;">
+        <div style="font-size:22px; font-weight:bold; line-height:1.15; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ s.brand }}</div>
+        <div style="font-size:13px; line-height:1.3; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{{ s.place }} · {{ s.dist }}{% unless s.open %} · geschlossen{% endunless %}</div>
+      </div>
+      <div style="text-align:right; line-height:1; white-space:nowrap;{% unless s.open %} opacity:0.4;{% endunless %}">
+        <span style="font-size:44px; font-weight:{% if s.cheapest %}800{% else %}400{% endif %}; letter-spacing:-1px;">{{ s.price_main }}</span><span style="font-size:22px; font-weight:{% if s.cheapest %}800{% else %}400{% endif %}; vertical-align:20px;">{{ s.price_sup }}</span>
+      </div>
+    </div>
+    {% endfor %}
   </div>
 
-  <div style="display:flex; justify-content:space-between; margin-top:10px;">
-    <div style="text-align:center; flex:1;">
-      <div style="font-size:15px;">Super E10</div>
-      <div style="font-size:38px; font-weight:bold;">{{ current.e10.avg }} €</div>
-      <div style="font-size:12px;">günstigste: {{ current.e10.min }} € · {{ current.e10.min_station }}</div>
-    </div>
-    <div style="text-align:center; flex:1;">
-      <div style="font-size:15px;">Super E5</div>
-      <div style="font-size:38px; font-weight:bold;">{{ current.e5.avg }} €</div>
-      <div style="font-size:12px;">günstigste: {{ current.e5.min }} € · {{ current.e5.min_station }}</div>
-    </div>
-  </div>
+  <svg width="{{ karte.size }}" height="{{ karte.size }}" viewBox="0 0 {{ karte.size }} {{ karte.size }}" style="flex-shrink:0; font-family:Inter, sans-serif;">
+    {% for r in karte.rings %}
+    <circle cx="{{ karte.cx }}" cy="{{ karte.cy }}" r="{{ r.r }}" fill="none" stroke="black" stroke-width="1" stroke-dasharray="1,4" />
+    <text x="{{ r.lx }}" y="{{ r.ly }}" font-size="11">{{ r.label }}</text>
+    {% endfor %}
 
-  <div style="margin-top:12px;">
-    <svg width="{{ chart.width }}" height="{{ chart.height }}" viewBox="0 0 {{ chart.width }} {{ chart.height }}">
-      <polyline fill="none" stroke="black" stroke-width="2" points="{{ chart.e10_points }}" />
-      <polyline fill="none" stroke="black" stroke-width="2" stroke-dasharray="4,3" points="{{ chart.e5_points }}" />
-    </svg>
-    <div style="display:flex; justify-content:space-between; font-size:11px;">
-      <span>{{ chart.first_date }}</span>
-      <span>Verlauf {{ trend_days }} Tage · durchgezogen = E10, gestrichelt = E5</span>
-      <span>{{ chart.last_date }}</span>
-    </div>
-  </div>
+    {% for t in karte.towns %}
+    <text x="{{ t.x }}" y="{{ t.y }}" font-size="12" font-style="italic" text-anchor="middle">{{ t.name }}</text>
+    {% endfor %}
 
-  <div class="title_bar" style="margin-top:8px; font-size:10px;">
-    Quelle: Tankerkönig-API (creativecommons.tankerkoenig.de) · Bundeskartellamt MTS-K · Super Plus (98 Oktan) wird nicht erfasst, keine freie Quelle verfügbar
-  </div>
+    {% for o in karte.others %}
+    <circle cx="{{ o.x }}" cy="{{ o.y }}" r="5" fill="white" stroke="black" stroke-width="2" />
+    <text x="{{ o.lx }}" y="{{ o.ly }}" font-size="13" text-anchor="{{ o.anchor }}"><tspan font-weight="bold">{{ o.brand }}</tspan> {{ o.price_main }}<tspan font-size="9" dy="-5">{{ o.price_sup }}</tspan></text>
+    {% endfor %}
+
+    {% for p in karte.near %}
+    <circle cx="{{ p.x }}" cy="{{ p.y }}" r="11" fill="black" />
+    <text x="{{ p.x }}" y="{{ p.y }}" dy="4.5" font-size="13" font-weight="bold" fill="white" text-anchor="middle">{{ p.n }}</text>
+    {% endfor %}
+
+    <g transform="translate({{ karte.cx }},{{ karte.cy }})">
+      <path d="M-8,-1 L0,-9 L8,-1 L8,8 L-8,8 Z" fill="white" stroke="black" stroke-width="2" stroke-linejoin="round" />
+      <rect x="-2" y="2" width="4" height="6" fill="black" />
+    </g>
+  </svg>
+
+</div>
+
+<div class="title_bar">
+  <span class="title">Sprit · Rothenstein</span>
+  <span class="instance">Stand {{ updated_local }} · Tankerkönig / MTS-K, CC BY 4.0</span>
 </div>

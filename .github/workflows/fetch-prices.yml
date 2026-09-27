@@ -2,7 +2,7 @@ name: Fetch fuel prices
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # täglich 05:00 UTC = 07:00 Sommerzeit / 06:00 Winterzeit
+    - cron: "0 4-20/2 * * *"   # alle 2 Stunden von 04 bis 20 UTC
   workflow_dispatch: {}
 
 permissions:
@@ -29,4 +29,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/latest.json data/history.json
           git diff --cached --quiet || git commit -m "Preise aktualisiert: $(date -u +%Y-%m-%d)"
+          git pull --rebase
           git push
