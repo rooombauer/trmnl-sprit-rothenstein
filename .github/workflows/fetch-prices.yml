@@ -2,11 +2,21 @@ name: Fetch fuel prices
 
 on:
   schedule:
-    - cron: "0 4-20/2 * * *"   # alle 2 Stunden von 04 bis 20 UTC
+    # Frühstück ist 06:00 (deutsche Zeit), danach wird ggf. getankt: morgens alle 15 Min,
+    # damit trotz verspäteter GitHub-Läufe um 06:00 frische Preise da sind.
+    # 03:07–05:52 UTC = 05:07–07:52 Sommerzeit / 04:07–06:52 Winterzeit.
+    # Krumme Minuten, weil GitHub Läufe zur vollen Stunde oft stark verzögert.
+    - cron: "7,22,37,52 3-5 * * *"
+    - cron: "7 6-20/2 * * *"   # tagsüber alle 2 Stunden
   workflow_dispatch: {}
 
 permissions:
   contents: write
+
+# alle Daten-Workflows committen ins selbe Repo: nie gleichzeitig pushen
+concurrency:
+  group: data-commit
+  cancel-in-progress: false
 
 jobs:
   fetch:
@@ -30,4 +40,5 @@ jobs:
           git add data/latest.json data/history.json
           git diff --cached --quiet || git commit -m "Preise aktualisiert: $(date -u +%Y-%m-%d)"
           git pull --rebase
+          git pull --rebase --quiet
           git push
