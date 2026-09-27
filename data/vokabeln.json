@@ -1,0 +1,37 @@
+{
+  "updated_at": "2026-09-27T17:14:50Z",
+  "date": "2026-09-27",
+  "topic": "Englisch · 5. Klasse",
+  "words": [
+    {
+      "en": "present",
+      "de": "das Geschenk",
+      "type": "Nomen",
+      "example": "Thank you for the present!"
+    },
+    {
+      "en": "to tidy up",
+      "de": "aufräumen",
+      "type": "Verb",
+      "example": "Please tidy up your room."
+    },
+    {
+      "en": "vegetables",
+      "de": "das Gemüse",
+      "type": "Nomen",
+      "example": "Vegetables are good for you."
+    },
+    {
+      "en": "in front of",
+      "de": "vor",
+      "type": "Präposition",
+      "example": "Meet me in front of the school."
+    },
+    {
+      "en": "to hope",
+      "de": "hoffen",
+      "type": "Verb",
+      "example": "I hope you feel better soon."
+    }
+  ]
+}
