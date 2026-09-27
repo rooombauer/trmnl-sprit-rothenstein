@@ -10,6 +10,7 @@
 {% assign tmin = daily.temperature_2m_min[0] | round %}
 {% assign rain = daily.precipitation_probability_max[0] %}
 {% assign uv = daily.uv_index_max[0] %}
+{% assign tmorning = hourly.temperature_2m[7] | round %}
 
 <svg width="0" height="0" style="position:absolute">
   <defs>
@@ -101,6 +102,7 @@
         {% elsif tmax < 24 %}👕 T-Shirt und ein Pulli zum Drüberziehen
         {% else %}🩳 T-Shirt und kurze Hose
         {% endif %}
+        {% if tmorning < 12 and tmax >= 12 %}<br>🧥 Morgens noch kühl ({{ tmorning }}°) – Jacke mit!{% endif %}
         {% if rain >= 50 %}<br>☂️ Regenjacke nicht vergessen!{% endif %}
         {% if uv >= 6 %}<br>🧴 Sonnencreme auftragen!{% endif %}
       </div>
