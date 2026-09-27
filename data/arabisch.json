@@ -1,0 +1,52 @@
+{
+  "updated_at": "2026-09-27T17:29:25Z",
+  "date": "2026-09-27",
+  "topic": "Hocharabisch · A2",
+  "words": [
+    {
+      "ar": "جَدِيد",
+      "tr": "ǧadīd",
+      "de": "neu",
+      "type": "Adjektiv",
+      "extra": "f. جَدِيدَة",
+      "ex_ar": "حقيبتي جديدة.",
+      "ex_de": "Meine Tasche ist neu."
+    },
+    {
+      "ar": "عَفْوًا",
+      "tr": "ʿafwan",
+      "de": "gern geschehen",
+      "type": "Redewendung",
+      "extra": "",
+      "ex_ar": "– شكرا! – عفوا.",
+      "ex_de": "– Danke! – Gern geschehen."
+    },
+    {
+      "ar": "قَهْوَة",
+      "tr": "qahwa",
+      "de": "der Kaffee",
+      "type": "Nomen",
+      "extra": "",
+      "ex_ar": "أمي تشرب القهوة في الصباح.",
+      "ex_de": "Mama trinkt morgens Kaffee."
+    },
+    {
+      "ar": "جَلَسَ",
+      "tr": "ǧalasa",
+      "de": "sitzen, sich setzen",
+      "type": "Verb",
+      "extra": "Präsens: يَجْلِسُ",
+      "ex_ar": "أجلس بجانب النافذة.",
+      "ex_de": "Ich sitze neben dem Fenster."
+    },
+    {
+      "ar": "عَمَل",
+      "tr": "ʿamal",
+      "de": "die Arbeit",
+      "type": "Nomen",
+      "extra": "Pl. أَعْمَال",
+      "ex_ar": "يذهب أبي إلى العمل بالسيارة.",
+      "ex_de": "Papa fährt mit dem Auto zur Arbeit."
+    }
+  ]
+}
