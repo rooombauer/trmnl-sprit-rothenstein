@@ -1,0 +1,30 @@
+name: Rechenaufgaben erzeugen
+
+on:
+  schedule:
+    - cron: "30 3 * * *"   # täglich 03:30 UTC = 05:30 Sommerzeit / 04:30 Winterzeit, vor dem Frühstück
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Aufgaben erzeugen
+        run: python scripts/make_rechnen.py
+
+      - name: Änderungen committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/rechnen.json
+          git diff --cached --quiet || git commit -m "Rechenaufgaben: $(date -u +%Y-%m-%d)"
+          git push
