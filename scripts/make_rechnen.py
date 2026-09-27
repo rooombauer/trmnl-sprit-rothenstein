@@ -10,10 +10,12 @@ mit ausgegeben, damit man sie am Frühstückstisch gemeinsam kontrollieren kann.
 import datetime
 import json
 import random
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT_PATH = ROOT / "data" / "rechnen.json"
+TZ = ZoneInfo("Europe/Berlin")  # Datum nach deutscher Zeit, Runner läuft in UTC
 
 TASK_COUNT = 5
 MIN_FACTOR = 2   # 1x... ist zu leicht
@@ -36,7 +38,7 @@ def make_tasks(day: datetime.date) -> list:
 
 
 def main() -> None:
-    today = datetime.date.today()
+    today = datetime.datetime.now(TZ).date()
     yesterday = today - datetime.timedelta(days=1)
     payload = {
         "updated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),

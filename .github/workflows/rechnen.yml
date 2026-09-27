@@ -2,7 +2,7 @@ name: Rechenaufgaben erzeugen
 
 on:
   schedule:
-    - cron: "30 3 * * *"   # täglich 03:30 UTC = 05:30 Sommerzeit / 04:30 Winterzeit, vor dem Frühstück
+    - cron: "0 1 * * *"   # täglich 01:00 UTC = 03:00 Sommerzeit / 02:00 Winterzeit; Puffer für verspätete GitHub-Läufe, Frühstück ist 06:00
   workflow_dispatch: {}
 
 permissions:
