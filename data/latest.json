@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-27T08:24:23Z",
-  "updated_local": "27.09. 10:24",
+  "updated_at": "2026-09-27T10:43:06Z",
+  "updated_local": "27.09. 12:43",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -10,7 +10,7 @@
       "street": "Stadtrodaer Straße 102",
       "place": "Jena",
       "dist": "3,4 km",
-      "price_main": "2,33",
+      "price_main": "2,49",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -21,7 +21,7 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "2,29",
+      "price_main": "2,47",
       "price_sup": "9",
       "open": true,
       "cheapest": true
@@ -32,7 +32,7 @@
       "street": "Am Heerweg 33",
       "place": "Kahla",
       "dist": "4,8 km",
-      "price_main": "2,33",
+      "price_main": "2,49",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -43,7 +43,7 @@
       "street": "Goeschwitzer Str. 1",
       "place": "Jena",
       "dist": "5,4 km",
-      "price_main": "2,30",
+      "price_main": "2,48",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -75,8 +75,8 @@
       },
       {
         "n": 2,
-        "x": 186.2,
-        "y": 136.2
+        "x": 184.3,
+        "y": 136.4
       },
       {
         "n": 3,
@@ -85,8 +85,8 @@
       },
       {
         "n": 4,
-        "x": 201.1,
-        "y": 113.8
+        "x": 199.8,
+        "y": 115.5
       }
     ],
     "others": [
@@ -94,31 +94,31 @@
         "x": 262.2,
         "y": 44.7,
         "brand": "LEO",
-        "price_main": "2,31",
+        "price_main": "2,48",
         "price_sup": "9",
         "anchor": "start",
         "lx": 271.2,
         "ly": 49.7
       },
       {
-        "x": 173.3,
-        "y": 113.6,
-        "brand": "Shell",
-        "price_main": "2,33",
-        "price_sup": "9",
-        "anchor": "end",
-        "lx": 164.3,
-        "ly": 118.6
-      },
-      {
-        "x": 187.3,
-        "y": 91.7,
+        "x": 189.3,
+        "y": 90.8,
         "brand": "ARAL",
-        "price_main": "2,33",
+        "price_main": "2,49",
         "price_sup": "9",
         "anchor": "start",
-        "lx": 196.3,
-        "ly": 96.7
+        "lx": 198.3,
+        "ly": 95.8
+      },
+      {
+        "x": 174.0,
+        "y": 111.9,
+        "brand": "Shell",
+        "price_main": "2,51",
+        "price_sup": "9",
+        "anchor": "end",
+        "lx": 165.0,
+        "ly": 116.9
       }
     ],
     "towns": [
