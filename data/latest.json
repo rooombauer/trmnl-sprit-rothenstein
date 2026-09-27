@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-27T10:53:39Z",
-  "updated_local": "27.09. 12:53",
+  "updated_at": "2026-09-27T16:49:35Z",
+  "updated_local": "27.09. 18:49",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -10,7 +10,7 @@
       "street": "Stadtrodaer Straße 102",
       "place": "Jena",
       "dist": "3,4 km",
-      "price_main": "2,49",
+      "price_main": "2,34",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -21,7 +21,7 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "2,47",
+      "price_main": "2,30",
       "price_sup": "9",
       "open": true,
       "cheapest": true
@@ -32,7 +32,7 @@
       "street": "Am Heerweg 33",
       "place": "Kahla",
       "dist": "4,8 km",
-      "price_main": "2,49",
+      "price_main": "2,34",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -43,7 +43,7 @@
       "street": "Goeschwitzer Str. 1",
       "place": "Jena",
       "dist": "5,4 km",
-      "price_main": "2,48",
+      "price_main": "2,31",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -78,30 +78,30 @@
     ],
     "others": [
       {
-        "x": 144.1,
-        "y": 89.5,
-        "brand": "Shell",
-        "price_main": "2,48",
-        "price_sup": "9",
-        "anchor": "end",
-        "lx": 135.1,
-        "ly": 94.5
-      },
-      {
         "x": 227.9,
         "y": 24.3,
         "brand": "LEO",
-        "price_main": "2,48",
+        "price_main": "2,33",
         "price_sup": "9",
         "anchor": "start",
         "lx": 236.9,
         "ly": 29.3
       },
       {
+        "x": 144.1,
+        "y": 89.5,
+        "brand": "Shell",
+        "price_main": "2,34",
+        "price_sup": "9",
+        "anchor": "end",
+        "lx": 135.1,
+        "ly": 94.5
+      },
+      {
         "x": 158.1,
         "y": 67.6,
         "brand": "ARAL",
-        "price_main": "2,49",
+        "price_main": "2,34",
         "price_sup": "9",
         "anchor": "start",
         "lx": 167.1,
