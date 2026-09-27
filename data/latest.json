@@ -1,272 +1,138 @@
 {
-  "updated_at": "2026-09-26T09:45:49Z",
-  "location": "Rothenstein bei Jena, Thüringen",
+  "updated_at": "2026-09-27T08:24:23Z",
+  "updated_local": "27.09. 10:24",
+  "location": "Rothenstein",
   "radius_km": 10,
-  "station_count": 8,
-  "current": {
-    "e5": {
-      "avg": 2.317,
-      "min": 2.289,
-      "min_station": "HEM Jena"
-    },
-    "e10": {
-      "avg": 2.264,
-      "min": 2.249,
-      "min_station": "LEO Jenaprießnitz"
-    }
-  },
-  "trend_days": 30,
-  "chart": {
-    "width": 480,
-    "height": 110,
-    "e5_points": "6.0,90.3 22.1,43.4 38.3,38.1 54.4,37.9 70.6,87.1 86.7,82.7 102.8,61.6 119.0,62.9 135.1,60.3 151.2,60.3 167.4,54.2 183.5,57.9 199.7,57.4 215.8,59.5 231.9,62.6 248.1,57.4 264.2,26.3 280.3,6.0 296.5,50.5 312.6,48.7 328.8,50.0 344.9,65.0 361.0,65.3 377.2,65.3 393.3,8.9 409.4,70.3 425.6,71.6 441.7,58.2 457.9,28.4 474.0,56.8",
-    "e10_points": "6.0,104.0 22.1,57.4 38.3,51.6 54.4,52.4 70.6,101.1 86.7,96.4 102.8,75.5 119.0,75.8 135.1,73.4 151.2,73.4 167.4,68.2 183.5,71.1 199.7,71.1 215.8,73.2 231.9,76.3 248.1,71.1 264.2,40.2 280.3,19.4 296.5,64.2 312.6,62.6 328.8,64.0 344.9,78.7 361.0,79.0 377.2,79.0 393.3,22.3 409.4,83.7 425.6,85.3 441.7,72.1 457.9,42.1 474.0,70.8",
-    "min_price": 2.138,
-    "max_price": 2.51,
-    "first_date": "2026-08-28",
-    "last_date": "2026-09-26"
-  },
-  "trend": [
+  "stations": [
     {
-      "date": "2026-08-28",
-      "e5_avg": 2.19,
-      "e5_min": 2.159,
-      "e10_avg": 2.138,
-      "e10_min": 2.129,
-      "station_count": 8
+      "n": 1,
+      "brand": "ARAL",
+      "street": "Stadtrodaer Straße 102",
+      "place": "Jena",
+      "dist": "3,4 km",
+      "price_main": "2,33",
+      "price_sup": "9",
+      "open": true,
+      "cheapest": false
     },
     {
-      "date": "2026-08-29",
-      "e5_avg": 2.368,
-      "e5_min": 2.349,
-      "e10_avg": 2.315,
-      "e10_min": 2.289,
-      "station_count": 8
+      "n": 2,
+      "brand": "HEM",
+      "street": "Rudolstädter Str. 89",
+      "place": "Jena",
+      "dist": "4,2 km",
+      "price_main": "2,29",
+      "price_sup": "9",
+      "open": true,
+      "cheapest": true
     },
     {
-      "date": "2026-08-30",
-      "e5_avg": 2.388,
-      "e5_min": 2.369,
-      "e10_avg": 2.337,
-      "e10_min": 2.319,
-      "station_count": 8
+      "n": 3,
+      "brand": "ARAL",
+      "street": "Am Heerweg 33",
+      "place": "Kahla",
+      "dist": "4,8 km",
+      "price_main": "2,33",
+      "price_sup": "9",
+      "open": true,
+      "cheapest": false
     },
     {
-      "date": "2026-08-31",
-      "e5_avg": 2.389,
-      "e5_min": 2.369,
-      "e10_avg": 2.334,
-      "e10_min": 2.319,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-01",
-      "e5_avg": 2.202,
-      "e5_min": 2.159,
-      "e10_avg": 2.149,
-      "e10_min": 2.129,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-02",
-      "e5_avg": 2.219,
-      "e5_min": 2.179,
-      "e10_avg": 2.167,
-      "e10_min": 2.149,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-03",
-      "e5_avg": 2.299,
-      "e5_min": 2.239,
-      "e10_avg": 2.246,
-      "e10_min": 2.209,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-04",
-      "e5_avg": 2.294,
-      "e5_min": 2.249,
-      "e10_avg": 2.245,
-      "e10_min": 2.219,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-05",
-      "e5_avg": 2.304,
-      "e5_min": 2.259,
-      "e10_avg": 2.254,
-      "e10_min": 2.229,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-06",
-      "e5_avg": 2.304,
-      "e5_min": 2.259,
-      "e10_avg": 2.254,
-      "e10_min": 2.229,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-07",
-      "e5_avg": 2.327,
-      "e5_min": 2.259,
-      "e10_avg": 2.274,
-      "e10_min": 2.229,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-08",
-      "e5_avg": 2.313,
-      "e5_min": 2.269,
-      "e10_avg": 2.263,
-      "e10_min": 2.239,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-09",
-      "e5_avg": 2.315,
-      "e5_min": 2.279,
-      "e10_avg": 2.263,
-      "e10_min": 2.249,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-10",
-      "e5_avg": 2.307,
-      "e5_min": 2.269,
-      "e10_avg": 2.255,
-      "e10_min": 2.239,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-11",
-      "e5_avg": 2.295,
-      "e5_min": 2.259,
-      "e10_avg": 2.243,
-      "e10_min": 2.229,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-12",
-      "e5_avg": 2.315,
-      "e5_min": 2.269,
-      "e10_avg": 2.263,
-      "e10_min": 2.239,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-13",
-      "e5_avg": 2.433,
-      "e5_min": 2.279,
-      "e10_avg": 2.38,
-      "e10_min": 2.249,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-14",
-      "e5_avg": 2.51,
-      "e5_min": 2.469,
-      "e10_avg": 2.459,
-      "e10_min": 2.409,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-15",
-      "e5_avg": 2.341,
-      "e5_min": 2.309,
-      "e10_avg": 2.289,
-      "e10_min": 2.279,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-16",
-      "e5_avg": 2.348,
-      "e5_min": 2.319,
-      "e10_avg": 2.295,
-      "e10_min": 2.289,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-17",
-      "e5_avg": 2.343,
-      "e5_min": 2.309,
-      "e10_avg": 2.29,
-      "e10_min": 2.279,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-18",
-      "e5_avg": 2.286,
-      "e5_min": 2.249,
-      "e10_avg": 2.234,
-      "e10_min": 2.209,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-19",
-      "e5_avg": 2.285,
-      "e5_min": 2.249,
-      "e10_avg": 2.233,
-      "e10_min": 2.219,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-20",
-      "e5_avg": 2.285,
-      "e5_min": 2.249,
-      "e10_avg": 2.233,
-      "e10_min": 2.219,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-21",
-      "e5_avg": 2.499,
-      "e5_min": 2.459,
-      "e10_avg": 2.448,
-      "e10_min": 2.429,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-22",
-      "e5_avg": 2.266,
-      "e5_min": 2.219,
-      "e10_avg": 2.215,
-      "e10_min": 2.189,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-23",
-      "e5_avg": 2.261,
-      "e5_min": 2.219,
-      "e10_avg": 2.209,
-      "e10_min": 2.189,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-24",
-      "e5_avg": 2.312,
-      "e5_min": 2.269,
-      "e10_avg": 2.259,
-      "e10_min": 2.239,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-25",
-      "e5_avg": 2.425,
-      "e5_min": 2.269,
-      "e10_avg": 2.373,
-      "e10_min": 2.239,
-      "station_count": 8
-    },
-    {
-      "date": "2026-09-26",
-      "e5_avg": 2.317,
-      "e5_min": 2.289,
-      "e10_avg": 2.264,
-      "e10_min": 2.249,
-      "station_count": 8
+      "n": 4,
+      "brand": "TotalEnergies",
+      "street": "Goeschwitzer Str. 1",
+      "place": "Jena",
+      "dist": "5,4 km",
+      "price_main": "2,30",
+      "price_sup": "9",
+      "open": true,
+      "cheapest": false
     }
   ],
-  "source": "Tankerkönig-API (creativecommons.tankerkoenig.de), Daten: Bundeskartellamt MTS-K. Super Plus (98) wird nicht erfasst."
+  "karte": {
+    "size": 400,
+    "cx": 200.0,
+    "cy": 200.0,
+    "rings": [
+      {
+        "r": 84.5,
+        "label": "5 km",
+        "lx": 263.7,
+        "ly": 263.7
+      },
+      {
+        "r": 169.0,
+        "label": "10 km",
+        "lx": 323.5,
+        "ly": 323.5
+      }
+    ],
+    "near": [
+      {
+        "n": 1,
+        "x": 226.1,
+        "y": 148.8
+      },
+      {
+        "n": 2,
+        "x": 186.2,
+        "y": 136.2
+      },
+      {
+        "n": 3,
+        "x": 173.2,
+        "y": 276.1
+      },
+      {
+        "n": 4,
+        "x": 201.1,
+        "y": 113.8
+      }
+    ],
+    "others": [
+      {
+        "x": 262.2,
+        "y": 44.7,
+        "brand": "LEO",
+        "price_main": "2,31",
+        "price_sup": "9",
+        "anchor": "start",
+        "lx": 271.2,
+        "ly": 49.7
+      },
+      {
+        "x": 173.3,
+        "y": 113.6,
+        "brand": "Shell",
+        "price_main": "2,33",
+        "price_sup": "9",
+        "anchor": "end",
+        "lx": 164.3,
+        "ly": 118.6
+      },
+      {
+        "x": 187.3,
+        "y": 91.7,
+        "brand": "ARAL",
+        "price_main": "2,33",
+        "price_sup": "9",
+        "anchor": "start",
+        "lx": 196.3,
+        "ly": 96.7
+      }
+    ],
+    "towns": [
+      {
+        "name": "Jena",
+        "x": 187.2,
+        "y": 59.7
+      },
+      {
+        "name": "Stadtroda",
+        "x": 350.5,
+        "y": 191.5
+      }
+    ]
+  },
+  "source": "Tankerkönig-API (creativecommons.tankerkoenig.de), Daten: Bundeskartellamt MTS-K, CC BY 4.0"
 }
