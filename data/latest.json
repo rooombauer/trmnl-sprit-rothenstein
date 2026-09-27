@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-27T10:43:06Z",
-  "updated_local": "27.09. 12:43",
+  "updated_at": "2026-09-27T10:48:56Z",
+  "updated_local": "27.09. 12:48",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -53,84 +53,59 @@
     "size": 400,
     "cx": 200.0,
     "cy": 200.0,
-    "rings": [
-      {
-        "r": 84.5,
-        "label": "5 km",
-        "lx": 263.7,
-        "ly": 263.7
-      },
-      {
-        "r": 169.0,
-        "label": "10 km",
-        "lx": 323.5,
-        "ly": 323.5
-      }
-    ],
+    "image": "https://raw.githubusercontent.com/rooombauer/trmnl-sprit-rothenstein/main/data/karte.png",
     "near": [
       {
         "n": 1,
-        "x": 226.1,
-        "y": 148.8
+        "x": 228.6,
+        "y": 143.5
       },
       {
         "n": 2,
-        "x": 184.3,
-        "y": 136.4
+        "x": 184.6,
+        "y": 126.8
       },
       {
         "n": 3,
-        "x": 173.2,
-        "y": 276.1
+        "x": 170.6,
+        "y": 283.9
       },
       {
         "n": 4,
-        "x": 199.8,
-        "y": 115.5
+        "x": 199.1,
+        "y": 104.3
       }
     ],
     "others": [
       {
-        "x": 262.2,
-        "y": 44.7,
+        "x": 172.3,
+        "y": 103.9,
+        "brand": "Shell",
+        "price_main": "2,48",
+        "price_sup": "9",
+        "anchor": "end",
+        "lx": 163.3,
+        "ly": 108.9
+      },
+      {
+        "x": 268.2,
+        "y": 28.6,
         "brand": "LEO",
         "price_main": "2,48",
         "price_sup": "9",
         "anchor": "start",
-        "lx": 271.2,
-        "ly": 49.7
+        "lx": 277.2,
+        "ly": 33.6
       },
       {
-        "x": 189.3,
-        "y": 90.8,
+        "x": 186.1,
+        "y": 81.8,
         "brand": "ARAL",
         "price_main": "2,49",
         "price_sup": "9",
         "anchor": "start",
-        "lx": 198.3,
-        "ly": 95.8
-      },
-      {
-        "x": 174.0,
-        "y": 111.9,
-        "brand": "Shell",
-        "price_main": "2,51",
-        "price_sup": "9",
-        "anchor": "end",
-        "lx": 165.0,
-        "ly": 116.9
-      }
-    ],
-    "towns": [
-      {
-        "name": "Jena",
-        "x": 187.2,
-        "y": 59.7
-      },
-      {
-        "name": "Stadtroda",
-        "x": 350.5,
-        "y": 191.5
+        "lx": 195.1,
+        "ly": 86.8
       }
     ]
   },
