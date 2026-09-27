@@ -16,6 +16,7 @@ import os
 import sys
 import urllib.request
 import datetime
+import hashlib
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -181,7 +182,8 @@ def build_map(near: list, others: list) -> dict:
         "size": MAP_SIZE,
         "cx": c,
         "cy": c,
-        "image": MAP_IMAGE_URL,
+        # Versionskennung, damit TRMNL/GitHub-Cache eine neue Grundkarte sofort laden
+        "image": MAP_IMAGE_URL + "?v=" + hashlib.sha1((ROOT / "data" / "karte.png").read_bytes()).hexdigest()[:8],
         "near": near_pts,
         "others": other_pts,
     }
