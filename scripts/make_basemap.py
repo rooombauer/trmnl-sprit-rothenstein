@@ -109,6 +109,14 @@ def main() -> None:
 
     taken, villages = [], 0
     c = size / 2
+    # Tankstellen liegen fest: ihre Marker (aus dem letzten Lauf) nicht mit Namen überdecken
+    latest = ROOT / "data" / "latest.json"
+    if latest.exists():
+        karte = json.loads(latest.read_text()).get("karte", {})
+        k = MAP_SIZE / karte.get("size", MAP_SIZE) * SS
+        r = 13 * SS
+        for p in karte.get("near", []) + karte.get("others", []):
+            taken.append((p["x"] * k - r, p["y"] * k - r, p["x"] * k + r, p["y"] * k + r))
     for p in sorted(places, key=prio):
         name, kind = p["tags"]["name"], p["tags"]["place"]
         important = name in ALWAYS

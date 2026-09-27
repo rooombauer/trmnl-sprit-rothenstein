@@ -8,7 +8,7 @@ import math
 
 CENTER_LAT = 50.85
 CENTER_LNG = 11.60
-MAP_SIZE = 400        # Kantenlänge der Karte in Pixel
+MAP_SIZE = 340        # Kantenlänge in Pixel = tatsächliche Größe auf dem Display (sonst skaliert TRMNL unscharf)
 EXTENT_KM = 10.8      # Radius, der sicher auf die Karte passt (Tankerkönig-Umkreis 10 km)
 TILE_ZOOM = 11        # CARTO-Kachelzoom (Beschriftung in passender Größe)
 TILE_PX = 512         # @2x-Kacheln
