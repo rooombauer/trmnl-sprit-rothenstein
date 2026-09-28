@@ -7,14 +7,14 @@
   </div>
 
   <div style="flex:1; display:flex; flex-direction:column; justify-content:space-around; padding:2px 14px 0; box-sizing:border-box;">
-    {% for w in words %}
+    {% for w in words limit: 4 %}
     <div style="padding:2px 0;{% unless forloop.last %} border-bottom:1px solid black;{% endunless %}">
       <div style="display:flex; align-items:baseline; gap:8px;">
-        <span style="font-size:22px; font-weight:bold; line-height:1.1;">{{ w.en }}</span>
-        <span style="font-size:10px; border:1.5px solid black; border-radius:5px; padding:0 4px;">{{ w.type }}</span>
+        <span style="font-size:27px; font-weight:bold; line-height:1.1;">{{ w.en }}</span>
+        <span style="font-size:12px; border:1.5px solid black; border-radius:5px; padding:0 5px;">{{ w.type }}</span>
       </div>
-      <div style="font-size:17px; line-height:1.2;">{{ w.de }}</div>
-      <div style="font-size:13px; line-height:1.25;">„{{ w.example }}“</div>
+      <div style="font-size:21px; line-height:1.2;">{{ w.de }}</div>
+      <div style="font-size:16px; line-height:1.25;">„{{ w.example }}“</div>
     </div>
     {% endfor %}
   </div>

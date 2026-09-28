@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T21:26:35Z",
+  "updated_at": "2026-09-28T21:37:26Z",
   "date": "2026-09-28",
   "topic": "Englisch · 5. Klasse",
   "words": [
@@ -26,12 +26,6 @@
       "de": "der Fehler",
       "type": "Nomen",
       "example": "Everybody makes mistakes."
-    },
-    {
-      "en": "behind",
-      "de": "hinter",
-      "type": "Präposition",
-      "example": "The ball is behind the door."
     }
   ],
   "days": {
@@ -60,17 +54,17 @@
           "de": "der Fehler",
           "type": "Nomen",
           "example": "Everybody makes mistakes."
-        },
-        {
-          "en": "behind",
-          "de": "hinter",
-          "type": "Präposition",
-          "example": "The ball is behind the door."
         }
       ]
     },
     "2026-09-29": {
       "words": [
+        {
+          "en": "behind",
+          "de": "hinter",
+          "type": "Präposition",
+          "example": "The ball is behind the door."
+        },
         {
           "en": "to buy",
           "de": "kaufen",
@@ -88,7 +82,11 @@
           "de": "sich die Zähne putzen",
           "type": "Verb",
           "example": "Don't forget to brush your teeth!"
-        },
+        }
+      ]
+    },
+    "2026-09-30": {
+      "words": [
         {
           "en": "stairs",
           "de": "die Treppe",
@@ -100,11 +98,7 @@
           "de": "warm",
           "type": "Adjektiv",
           "example": "It's warm and sunny today."
-        }
-      ]
-    },
-    "2026-09-30": {
-      "words": [
+        },
         {
           "en": "exercise book",
           "de": "das Schulheft",
@@ -116,7 +110,11 @@
           "de": "der Radiergummi",
           "type": "Nomen",
           "example": "Oops, I need a rubber!"
-        },
+        }
+      ]
+    },
+    "2026-10-01": {
+      "words": [
         {
           "en": "kitchen",
           "de": "die Küche",
@@ -134,17 +132,17 @@
           "de": "die Schwester",
           "type": "Nomen",
           "example": "My little sister likes horses."
-        }
-      ]
-    },
-    "2026-10-01": {
-      "words": [
+        },
         {
           "en": "next to",
           "de": "neben",
           "type": "Präposition",
           "example": "I sit next to Paul."
-        },
+        }
+      ]
+    },
+    "2026-10-02": {
+      "words": [
         {
           "en": "between",
           "de": "zwischen",
@@ -171,7 +169,7 @@
         }
       ]
     },
-    "2026-10-02": {
+    "2026-10-03": {
       "words": [
         {
           "en": "match",
@@ -196,17 +194,17 @@
           "de": "langweilig",
           "type": "Adjektiv",
           "example": "Rainy Sundays are boring."
-        },
+        }
+      ]
+    },
+    "2026-10-04": {
+      "words": [
         {
           "en": "friendly",
           "de": "freundlich",
           "type": "Adjektiv",
           "example": "Our neighbours are friendly."
-        }
-      ]
-    },
-    "2026-10-03": {
-      "words": [
+        },
         {
           "en": "shoes",
           "de": "die Schuhe",
@@ -224,7 +222,11 @@
           "de": "zusammen",
           "type": "Adverb",
           "example": "Let's do it together."
-        },
+        }
+      ]
+    },
+    "2026-10-05": {
+      "words": [
         {
           "en": "brother",
           "de": "der Bruder",
@@ -236,11 +238,7 @@
           "de": "nie",
           "type": "Adverb",
           "example": "My brother never tidies his room."
-        }
-      ]
-    },
-    "2026-10-04": {
-      "words": [
+        },
         {
           "en": "to shout",
           "de": "rufen, schreien",
@@ -252,58 +250,6 @@
           "de": "der Geburtstag",
           "type": "Nomen",
           "example": "When is your birthday?"
-        },
-        {
-          "en": "to practise",
-          "de": "üben",
-          "type": "Verb",
-          "example": "I practise the piano every day."
-        },
-        {
-          "en": "rain",
-          "de": "der Regen",
-          "type": "Nomen",
-          "example": "Take an umbrella, there's rain today."
-        },
-        {
-          "en": "difficult",
-          "de": "schwierig",
-          "type": "Adjektiv",
-          "example": "This task is difficult."
-        }
-      ]
-    },
-    "2026-10-05": {
-      "words": [
-        {
-          "en": "idea",
-          "de": "die Idee",
-          "type": "Nomen",
-          "example": "That's a great idea!"
-        },
-        {
-          "en": "aunt",
-          "de": "die Tante",
-          "type": "Nomen",
-          "example": "My aunt makes the best cake."
-        },
-        {
-          "en": "pet",
-          "de": "das Haustier",
-          "type": "Nomen",
-          "example": "Have you got a pet?"
-        },
-        {
-          "en": "dinner",
-          "de": "das Abendessen",
-          "type": "Nomen",
-          "example": "We have dinner at six o'clock."
-        },
-        {
-          "en": "clean",
-          "de": "sauber",
-          "type": "Adjektiv",
-          "example": "My room is clean now."
         }
       ]
     }

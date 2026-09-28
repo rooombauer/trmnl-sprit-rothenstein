@@ -28,6 +28,7 @@ SETS = [
         "out": ROOT / "data" / "vokabeln.json",
         "seed": "vokabeln-klasse-5",
         "topic": "Englisch · 5. Klasse",
+        "per_day": 4,  # 4 statt 5, damit die Halbseite größere Schrift bekommt
     },
     {
         "list": ROOT / "data" / "arabisch_liste.json",
