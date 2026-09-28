@@ -20,6 +20,7 @@ TZ = ZoneInfo("Europe/Berlin")
 
 WORDS_PER_DAY = 5
 START = datetime.date(2026, 9, 28)  # Tag 0 der Reihenfolge
+DAYS_AHEAD = 7  # Vorrat: Markup wählt per Datum, falls der Workflow spät läuft
 
 SETS = [
     {
@@ -60,6 +61,12 @@ def main() -> None:
             "date": today.isoformat(),
             "topic": cfg["topic"],
             "words": words_for(today, words, cfg["seed"]),
+            "days": {
+                (today + datetime.timedelta(days=o)).isoformat(): {
+                    "words": words_for(today + datetime.timedelta(days=o), words, cfg["seed"])
+                }
+                for o in range(DAYS_AHEAD + 1)
+            },
         }
         cfg["out"].write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(f"{cfg['out'].name}: " + ", ".join(w.get("en") or w.get("de") for w in payload["words"]))

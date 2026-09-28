@@ -1,3 +1,6 @@
+{% comment %}Heutigen Tag per Datum wählen (Daten enthalten mehrere Tage im Voraus){% endcomment %}
+{% assign today_key = "now" | date: "%s" | plus: trmnl.user.utc_offset | date: "%Y-%m-%d" %}
+{% if days[today_key] %}{% assign words = days[today_key].words %}{% assign date = today_key %}{% endif %}
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;700&display=swap">
 <div class="layout" style="display:flex; flex-direction:column; align-items:stretch; height:100%; width:100%;">
   <div class="title_bar">

@@ -1,3 +1,6 @@
+{% comment %}Heutigen Tag per Datum wählen (Daten enthalten mehrere Tage im Voraus){% endcomment %}
+{% assign today_key = "now" | date: "%s" | plus: trmnl.user.utc_offset | date: "%Y-%m-%d" %}
+{% if days[today_key] %}{% assign tasks = days[today_key].tasks %}{% assign yesterday = days[today_key].yesterday %}{% assign date = today_key %}{% endif %}
 <div class="layout" style="display:flex; flex-direction:column; height:100%;">
   <div class="title_bar">
     <span class="title">✏️ Rechnen · {{ topic }}</span>

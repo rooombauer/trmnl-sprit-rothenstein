@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T06:17:05Z",
+  "updated_at": "2026-09-28T21:18:14Z",
   "date": "2026-09-28",
   "topic": "Hocharabisch · A2",
   "words": [
@@ -48,5 +48,399 @@
       "ex_ar": "هل أنت جائع؟",
       "ex_de": "Hast du Hunger?"
     }
-  ]
+  ],
+  "days": {
+    "2026-09-28": {
+      "words": [
+        {
+          "ar": "كَلْب",
+          "tr": "kalb",
+          "de": "der Hund",
+          "type": "Nomen",
+          "extra": "Pl. كِلَاب",
+          "ex_ar": "الكلب يلعب بالكرة.",
+          "ex_de": "Der Hund spielt mit dem Ball."
+        },
+        {
+          "ar": "اِشْتَرَى",
+          "tr": "ištarā",
+          "de": "kaufen",
+          "type": "Verb",
+          "extra": "Präsens: يَشْتَرِي",
+          "ex_ar": "أشتري الخبز من المخبز.",
+          "ex_de": "Ich kaufe das Brot beim Bäcker."
+        },
+        {
+          "ar": "مَشْغُول",
+          "tr": "mašġūl",
+          "de": "beschäftigt",
+          "type": "Adjektiv",
+          "extra": "f. مَشْغُولَة",
+          "ex_ar": "أمي مشغولة الآن.",
+          "ex_de": "Mama ist gerade beschäftigt."
+        },
+        {
+          "ar": "مَسَاء",
+          "tr": "masāʾ",
+          "de": "der Abend",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "أقرأ في المساء.",
+          "ex_de": "Ich lese am Abend."
+        },
+        {
+          "ar": "جَائِع",
+          "tr": "ǧāʾiʿ",
+          "de": "hungrig",
+          "type": "Adjektiv",
+          "extra": "f. جَائِعَة",
+          "ex_ar": "هل أنت جائع؟",
+          "ex_de": "Hast du Hunger?"
+        }
+      ]
+    },
+    "2026-09-29": {
+      "words": [
+        {
+          "ar": "جَمِيل",
+          "tr": "ǧamīl",
+          "de": "schön",
+          "type": "Adjektiv",
+          "extra": "f. جَمِيلَة",
+          "ex_ar": "الحديقة جميلة في الربيع.",
+          "ex_de": "Im Frühling ist der Garten schön."
+        },
+        {
+          "ar": "غَدَاء",
+          "tr": "ġadāʾ",
+          "de": "das Mittagessen",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "نأكل الغداء في الساعة الواحدة.",
+          "ex_de": "Wir essen um ein Uhr zu Mittag."
+        },
+        {
+          "ar": "مُعَلِّم",
+          "tr": "muʿallim",
+          "de": "der Lehrer",
+          "type": "Nomen",
+          "extra": "Pl. مُعَلِّمُون",
+          "ex_ar": "المعلم لطيف جدا.",
+          "ex_de": "Der Lehrer ist sehr nett."
+        },
+        {
+          "ar": "عَرَفَ",
+          "tr": "ʿarafa",
+          "de": "wissen, kennen",
+          "type": "Verb",
+          "extra": "Präsens: يَعْرِفُ",
+          "ex_ar": "هل تعرف هذه الكلمة؟",
+          "ex_de": "Kennst du dieses Wort?"
+        },
+        {
+          "ar": "عِيد",
+          "tr": "ʿīd",
+          "de": "das Fest",
+          "type": "Nomen",
+          "extra": "Pl. أَعْيَاد",
+          "ex_ar": "عيد مبارك!",
+          "ex_de": "Gesegnetes Fest!"
+        }
+      ]
+    },
+    "2026-09-30": {
+      "words": [
+        {
+          "ar": "بَاب",
+          "tr": "bāb",
+          "de": "die Tür",
+          "type": "Nomen",
+          "extra": "Pl. أَبْوَاب",
+          "ex_ar": "افتح الباب من فضلك.",
+          "ex_de": "Öffne bitte die Tür."
+        },
+        {
+          "ar": "صَدِيق",
+          "tr": "ṣadīq",
+          "de": "der Freund",
+          "type": "Nomen",
+          "extra": "Pl. أَصْدِقَاء",
+          "ex_ar": "صديقي يسكن قريبا مني.",
+          "ex_de": "Mein Freund wohnt in meiner Nähe."
+        },
+        {
+          "ar": "مَدِينَة",
+          "tr": "madīna",
+          "de": "die Stadt",
+          "type": "Nomen",
+          "extra": "Pl. مُدُن",
+          "ex_ar": "يينا مدينة جميلة.",
+          "ex_de": "Jena ist eine schöne Stadt."
+        },
+        {
+          "ar": "صَغِير",
+          "tr": "ṣaġīr",
+          "de": "klein",
+          "type": "Adjektiv",
+          "extra": "f. صَغِيرَة",
+          "ex_ar": "عندي أخت صغيرة.",
+          "ex_de": "Ich habe eine kleine Schwester."
+        },
+        {
+          "ar": "أَكَلَ",
+          "tr": "akala",
+          "de": "essen",
+          "type": "Verb",
+          "extra": "Präsens: يَأْكُلُ",
+          "ex_ar": "آكل تفاحة كل يوم.",
+          "ex_de": "Ich esse jeden Tag einen Apfel."
+        }
+      ]
+    },
+    "2026-10-01": {
+      "words": [
+        {
+          "ar": "إِنْ شَاءَ اللّٰهُ",
+          "tr": "in šāʾa llāh",
+          "de": "so Gott will, hoffentlich",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "نلتقي غدا إن شاء الله.",
+          "ex_de": "Wir sehen uns morgen, hoffentlich."
+        },
+        {
+          "ar": "بَعْدَ",
+          "tr": "baʿda",
+          "de": "nach (zeitlich)",
+          "type": "Präposition",
+          "extra": "",
+          "ex_ar": "ألعب بعد الواجب.",
+          "ex_de": "Nach den Hausaufgaben spiele ich."
+        },
+        {
+          "ar": "ذَهَبَ",
+          "tr": "ḏahaba",
+          "de": "gehen",
+          "type": "Verb",
+          "extra": "Präsens: يَذْهَبُ",
+          "ex_ar": "نذهب إلى السوق.",
+          "ex_de": "Wir gehen zum Markt."
+        },
+        {
+          "ar": "نَافِذَة",
+          "tr": "nāfiḏa",
+          "de": "das Fenster",
+          "type": "Nomen",
+          "extra": "Pl. نَوَافِذ",
+          "ex_ar": "النافذة مفتوحة.",
+          "ex_de": "Das Fenster ist offen."
+        },
+        {
+          "ar": "اِسْتَيْقَظَ",
+          "tr": "istaiqaẓa",
+          "de": "aufwachen",
+          "type": "Verb",
+          "extra": "Präsens: يَسْتَيْقِظُ",
+          "ex_ar": "أستيقظ في الساعة الخامسة والنصف.",
+          "ex_de": "Ich wache um halb sechs auf."
+        }
+      ]
+    },
+    "2026-10-02": {
+      "words": [
+        {
+          "ar": "هَدِيَّة",
+          "tr": "hadiyya",
+          "de": "das Geschenk",
+          "type": "Nomen",
+          "extra": "Pl. هَدَايَا",
+          "ex_ar": "شكرا على الهدية!",
+          "ex_de": "Danke für das Geschenk!"
+        },
+        {
+          "ar": "مُسْتَشْفَى",
+          "tr": "mustašfā",
+          "de": "das Krankenhaus",
+          "type": "Nomen",
+          "extra": "Pl. مُسْتَشْفَيَات",
+          "ex_ar": "المستشفى بعيد عن بيتنا.",
+          "ex_de": "Das Krankenhaus ist weit von unserem Haus entfernt."
+        },
+        {
+          "ar": "مَفْتُوح",
+          "tr": "maftūḥ",
+          "de": "offen",
+          "type": "Adjektiv",
+          "extra": "f. مَفْتُوحَة",
+          "ex_ar": "المحل مفتوح.",
+          "ex_de": "Der Laden ist geöffnet."
+        },
+        {
+          "ar": "جَدَّة",
+          "tr": "ǧadda",
+          "de": "die Großmutter",
+          "type": "Nomen",
+          "extra": "Pl. جَدَّات",
+          "ex_ar": "نزور جدتي يوم الأحد.",
+          "ex_de": "Wir besuchen Oma am Sonntag."
+        },
+        {
+          "ar": "شَجَرَة",
+          "tr": "šaǧara",
+          "de": "der Baum",
+          "type": "Nomen",
+          "extra": "Pl. أَشْجَار",
+          "ex_ar": "في حديقتنا شجرة تفاح.",
+          "ex_de": "In unserem Garten steht ein Apfelbaum."
+        }
+      ]
+    },
+    "2026-10-03": {
+      "words": [
+        {
+          "ar": "مَطَر",
+          "tr": "maṭar",
+          "de": "der Regen",
+          "type": "Nomen",
+          "extra": "Pl. أَمْطَار",
+          "ex_ar": "المطر غزير اليوم.",
+          "ex_de": "Heute regnet es stark."
+        },
+        {
+          "ar": "لُغَة",
+          "tr": "luġa",
+          "de": "die Sprache",
+          "type": "Nomen",
+          "extra": "Pl. لُغَات",
+          "ex_ar": "أتعلم اللغة العربية.",
+          "ex_de": "Ich lerne Arabisch."
+        },
+        {
+          "ar": "سَعِيد",
+          "tr": "saʿīd",
+          "de": "glücklich",
+          "type": "Adjektiv",
+          "extra": "f. سَعِيدَة",
+          "ex_ar": "أنا سعيدة اليوم.",
+          "ex_de": "Ich bin heute glücklich."
+        },
+        {
+          "ar": "رَجَعَ",
+          "tr": "raǧaʿa",
+          "de": "zurückkommen",
+          "type": "Verb",
+          "extra": "Präsens: يَرْجِعُ",
+          "ex_ar": "يرجع أبي من العمل في المساء.",
+          "ex_de": "Papa kommt abends von der Arbeit zurück."
+        },
+        {
+          "ar": "سَافَرَ",
+          "tr": "sāfara",
+          "de": "reisen",
+          "type": "Verb",
+          "extra": "Präsens: يُسَافِرُ",
+          "ex_ar": "نسافر في العطلة.",
+          "ex_de": "In den Ferien verreisen wir."
+        }
+      ]
+    },
+    "2026-10-04": {
+      "words": [
+        {
+          "ar": "كَتَبَ",
+          "tr": "kataba",
+          "de": "schreiben",
+          "type": "Verb",
+          "extra": "Präsens: يَكْتُبُ",
+          "ex_ar": "أكتب رسالة لصديقتي.",
+          "ex_de": "Ich schreibe meiner Freundin einen Brief."
+        },
+        {
+          "ar": "حَارّ",
+          "tr": "ḥārr",
+          "de": "heiß",
+          "type": "Adjektiv",
+          "extra": "f. حَارَّة",
+          "ex_ar": "الجو حار في الصيف.",
+          "ex_de": "Im Sommer ist es heiß."
+        },
+        {
+          "ar": "فِي",
+          "tr": "fī",
+          "de": "in",
+          "type": "Präposition",
+          "extra": "",
+          "ex_ar": "القطة في الغرفة.",
+          "ex_de": "Die Katze ist im Zimmer."
+        },
+        {
+          "ar": "جَدّ",
+          "tr": "ǧadd",
+          "de": "der Großvater",
+          "type": "Nomen",
+          "extra": "Pl. أَجْدَاد",
+          "ex_ar": "جدي يحكي قصصا جميلة.",
+          "ex_de": "Mein Opa erzählt schöne Geschichten."
+        },
+        {
+          "ar": "فَهِمَ",
+          "tr": "fahima",
+          "de": "verstehen",
+          "type": "Verb",
+          "extra": "Präsens: يَفْهَمُ",
+          "ex_ar": "هل فهمت السؤال؟",
+          "ex_de": "Hast du die Frage verstanden?"
+        }
+      ]
+    },
+    "2026-10-05": {
+      "words": [
+        {
+          "ar": "تَحْتَ",
+          "tr": "taḥta",
+          "de": "unter",
+          "type": "Präposition",
+          "extra": "",
+          "ex_ar": "الكرة تحت السرير.",
+          "ex_de": "Der Ball ist unter dem Bett."
+        },
+        {
+          "ar": "لَعِبَ",
+          "tr": "laʿiba",
+          "de": "spielen",
+          "type": "Verb",
+          "extra": "Präsens: يَلْعَبُ",
+          "ex_ar": "نلعب كرة القدم بعد المدرسة.",
+          "ex_de": "Nach der Schule spielen wir Fußball."
+        },
+        {
+          "ar": "عَائِلَة",
+          "tr": "ʿāʾila",
+          "de": "die Familie",
+          "type": "Nomen",
+          "extra": "Pl. عَائِلَات",
+          "ex_ar": "عائلتي كبيرة.",
+          "ex_de": "Meine Familie ist groß."
+        },
+        {
+          "ar": "عَشَاء",
+          "tr": "ʿašāʾ",
+          "de": "das Abendessen",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "ماذا نأكل على العشاء؟",
+          "ex_de": "Was essen wir zum Abendessen?"
+        },
+        {
+          "ar": "اِنْتَظَرَ",
+          "tr": "intaẓara",
+          "de": "warten",
+          "type": "Verb",
+          "extra": "Präsens: يَنْتَظِرُ",
+          "ex_ar": "أنتظر الحافلة.",
+          "ex_de": "Ich warte auf den Bus."
+        }
+      ]
+    }
+  }
 }

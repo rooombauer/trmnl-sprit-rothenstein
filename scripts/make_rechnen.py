@@ -20,6 +20,7 @@ TZ = ZoneInfo("Europe/Berlin")  # Datum nach deutscher Zeit, Runner läuft in UT
 TASK_COUNT = 5
 MIN_FACTOR = 2   # 1x... ist zu leicht
 MAX_FACTOR = 10
+DAYS_AHEAD = 7  # Vorrat, falls der Workflow ausfällt oder spät läuft
 
 
 def make_tasks(day: datetime.date) -> list:
@@ -40,6 +41,14 @@ def make_tasks(day: datetime.date) -> list:
 def main() -> None:
     today = datetime.datetime.now(TZ).date()
     yesterday = today - datetime.timedelta(days=1)
+    # Aufgaben für die nächsten Tage gleich mitliefern: Das Markup sucht sich per
+    # Datum den heutigen Tag heraus. So stimmt die Anzeige auch dann, wenn GitHub
+    # den nächtlichen Lauf (wie schon passiert) um Stunden verspätet startet.
+    days = {}
+    for offset in range(DAYS_AHEAD + 1):
+        d = today + datetime.timedelta(days=offset)
+        prev = d - datetime.timedelta(days=1)
+        days[d.isoformat()] = {"tasks": make_tasks(d), "yesterday": {"date": prev.isoformat(), "tasks": make_tasks(prev)}}
     payload = {
         "updated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "date": today.isoformat(),
@@ -49,6 +58,7 @@ def main() -> None:
             "date": yesterday.isoformat(),
             "tasks": make_tasks(yesterday),
         },
+        "days": days,
     }
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
