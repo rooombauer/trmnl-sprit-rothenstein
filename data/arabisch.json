@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28T21:18:14Z",
+  "updated_at": "2026-09-28T21:26:35Z",
   "date": "2026-09-28",
   "topic": "Hocharabisch · A2",
   "words": [
@@ -38,15 +38,6 @@
       "extra": "",
       "ex_ar": "أقرأ في المساء.",
       "ex_de": "Ich lese am Abend."
-    },
-    {
-      "ar": "جَائِع",
-      "tr": "ǧāʾiʿ",
-      "de": "hungrig",
-      "type": "Adjektiv",
-      "extra": "f. جَائِعَة",
-      "ex_ar": "هل أنت جائع؟",
-      "ex_de": "Hast du Hunger?"
     }
   ],
   "days": {
@@ -87,7 +78,11 @@
           "extra": "",
           "ex_ar": "أقرأ في المساء.",
           "ex_de": "Ich lese am Abend."
-        },
+        }
+      ]
+    },
+    "2026-09-29": {
+      "words": [
         {
           "ar": "جَائِع",
           "tr": "ǧāʾiʿ",
@@ -96,11 +91,7 @@
           "extra": "f. جَائِعَة",
           "ex_ar": "هل أنت جائع؟",
           "ex_de": "Hast du Hunger?"
-        }
-      ]
-    },
-    "2026-09-29": {
-      "words": [
+        },
         {
           "ar": "جَمِيل",
           "tr": "ǧamīl",
@@ -127,7 +118,11 @@
           "extra": "Pl. مُعَلِّمُون",
           "ex_ar": "المعلم لطيف جدا.",
           "ex_de": "Der Lehrer ist sehr nett."
-        },
+        }
+      ]
+    },
+    "2026-09-30": {
+      "words": [
         {
           "ar": "عَرَفَ",
           "tr": "ʿarafa",
@@ -145,11 +140,7 @@
           "extra": "Pl. أَعْيَاد",
           "ex_ar": "عيد مبارك!",
           "ex_de": "Gesegnetes Fest!"
-        }
-      ]
-    },
-    "2026-09-30": {
-      "words": [
+        },
         {
           "ar": "بَاب",
           "tr": "bāb",
@@ -167,7 +158,11 @@
           "extra": "Pl. أَصْدِقَاء",
           "ex_ar": "صديقي يسكن قريبا مني.",
           "ex_de": "Mein Freund wohnt in meiner Nähe."
-        },
+        }
+      ]
+    },
+    "2026-10-01": {
+      "words": [
         {
           "ar": "مَدِينَة",
           "tr": "madīna",
@@ -194,11 +189,7 @@
           "extra": "Präsens: يَأْكُلُ",
           "ex_ar": "آكل تفاحة كل يوم.",
           "ex_de": "Ich esse jeden Tag einen Apfel."
-        }
-      ]
-    },
-    "2026-10-01": {
-      "words": [
+        },
         {
           "ar": "إِنْ شَاءَ اللّٰهُ",
           "tr": "in šāʾa llāh",
@@ -207,7 +198,11 @@
           "extra": "",
           "ex_ar": "نلتقي غدا إن شاء الله.",
           "ex_de": "Wir sehen uns morgen, hoffentlich."
-        },
+        }
+      ]
+    },
+    "2026-10-02": {
+      "words": [
         {
           "ar": "بَعْدَ",
           "tr": "baʿda",
@@ -246,7 +241,7 @@
         }
       ]
     },
-    "2026-10-02": {
+    "2026-10-03": {
       "words": [
         {
           "ar": "هَدِيَّة",
@@ -283,7 +278,11 @@
           "extra": "Pl. جَدَّات",
           "ex_ar": "نزور جدتي يوم الأحد.",
           "ex_de": "Wir besuchen Oma am Sonntag."
-        },
+        }
+      ]
+    },
+    "2026-10-04": {
+      "words": [
         {
           "ar": "شَجَرَة",
           "tr": "šaǧara",
@@ -292,11 +291,7 @@
           "extra": "Pl. أَشْجَار",
           "ex_ar": "في حديقتنا شجرة تفاح.",
           "ex_de": "In unserem Garten steht ein Apfelbaum."
-        }
-      ]
-    },
-    "2026-10-03": {
-      "words": [
+        },
         {
           "ar": "مَطَر",
           "tr": "maṭar",
@@ -323,7 +318,11 @@
           "extra": "f. سَعِيدَة",
           "ex_ar": "أنا سعيدة اليوم.",
           "ex_de": "Ich bin heute glücklich."
-        },
+        }
+      ]
+    },
+    "2026-10-05": {
+      "words": [
         {
           "ar": "رَجَعَ",
           "tr": "raǧaʿa",
@@ -341,11 +340,7 @@
           "extra": "Präsens: يُسَافِرُ",
           "ex_ar": "نسافر في العطلة.",
           "ex_de": "In den Ferien verreisen wir."
-        }
-      ]
-    },
-    "2026-10-04": {
-      "words": [
+        },
         {
           "ar": "كَتَبَ",
           "tr": "kataba",
@@ -363,82 +358,6 @@
           "extra": "f. حَارَّة",
           "ex_ar": "الجو حار في الصيف.",
           "ex_de": "Im Sommer ist es heiß."
-        },
-        {
-          "ar": "فِي",
-          "tr": "fī",
-          "de": "in",
-          "type": "Präposition",
-          "extra": "",
-          "ex_ar": "القطة في الغرفة.",
-          "ex_de": "Die Katze ist im Zimmer."
-        },
-        {
-          "ar": "جَدّ",
-          "tr": "ǧadd",
-          "de": "der Großvater",
-          "type": "Nomen",
-          "extra": "Pl. أَجْدَاد",
-          "ex_ar": "جدي يحكي قصصا جميلة.",
-          "ex_de": "Mein Opa erzählt schöne Geschichten."
-        },
-        {
-          "ar": "فَهِمَ",
-          "tr": "fahima",
-          "de": "verstehen",
-          "type": "Verb",
-          "extra": "Präsens: يَفْهَمُ",
-          "ex_ar": "هل فهمت السؤال؟",
-          "ex_de": "Hast du die Frage verstanden?"
-        }
-      ]
-    },
-    "2026-10-05": {
-      "words": [
-        {
-          "ar": "تَحْتَ",
-          "tr": "taḥta",
-          "de": "unter",
-          "type": "Präposition",
-          "extra": "",
-          "ex_ar": "الكرة تحت السرير.",
-          "ex_de": "Der Ball ist unter dem Bett."
-        },
-        {
-          "ar": "لَعِبَ",
-          "tr": "laʿiba",
-          "de": "spielen",
-          "type": "Verb",
-          "extra": "Präsens: يَلْعَبُ",
-          "ex_ar": "نلعب كرة القدم بعد المدرسة.",
-          "ex_de": "Nach der Schule spielen wir Fußball."
-        },
-        {
-          "ar": "عَائِلَة",
-          "tr": "ʿāʾila",
-          "de": "die Familie",
-          "type": "Nomen",
-          "extra": "Pl. عَائِلَات",
-          "ex_ar": "عائلتي كبيرة.",
-          "ex_de": "Meine Familie ist groß."
-        },
-        {
-          "ar": "عَشَاء",
-          "tr": "ʿašāʾ",
-          "de": "das Abendessen",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "ماذا نأكل على العشاء؟",
-          "ex_de": "Was essen wir zum Abendessen?"
-        },
-        {
-          "ar": "اِنْتَظَرَ",
-          "tr": "intaẓara",
-          "de": "warten",
-          "type": "Verb",
-          "extra": "Präsens: يَنْتَظِرُ",
-          "ex_ar": "أنتظر الحافلة.",
-          "ex_de": "Ich warte auf den Bus."
         }
       ]
     }

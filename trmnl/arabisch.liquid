@@ -10,18 +10,18 @@
 
   <div style="flex:1; width:100%; display:flex; flex-direction:column; justify-content:space-around; margin-top:2px; padding:0 12px; box-sizing:border-box;">
     {% for w in words %}
-    <div style="display:flex; align-items:center; gap:16px; padding:2px 0;{% unless forloop.last %} border-bottom:1px solid black;{% endunless %}">
+    <div style="display:flex; align-items:center; gap:24px; padding:4px 0;{% unless forloop.last %} border-bottom:1px solid black;{% endunless %}">
       <div style="flex:1; min-width:0;">
         <div style="display:flex; align-items:baseline; gap:8px;">
-          <span style="font-size:21px; font-weight:bold; line-height:1.15;">{{ w.de }}</span>
-          <span style="font-size:11px; border:1.5px solid black; border-radius:6px; padding:0 5px;">{{ w.type }}</span>
+          <span style="font-size:28px; font-weight:bold; line-height:1.15;">{{ w.de }}</span>
+          <span style="font-size:13px; border:1.5px solid black; border-radius:6px; padding:0 6px;">{{ w.type }}</span>
         </div>
-        <div style="font-size:13px; line-height:1.25;"><i>{{ w.tr }}</i>{% if w.extra != "" %} · <span dir="ltr" style="unicode-bidi:isolate; font-family:'Noto Naskh Arabic', serif; font-size:17px;">{{ w.extra }}</span>{% endif %}</div>
-        <div style="font-size:13px; line-height:1.25; font-style:italic;">„{{ w.ex_de }}“</div>
+        <div style="font-size:18px; line-height:1.3;"><i>{{ w.tr }}</i>{% if w.extra != "" %} · <span dir="ltr" style="unicode-bidi:isolate; font-family:'Noto Naskh Arabic', serif; font-size:22px;">{{ w.extra }}</span>{% endif %}</div>
+        <div style="font-size:17px; line-height:1.3; font-style:italic;">„{{ w.ex_de }}“</div>
       </div>
-      <div dir="rtl" style="flex:1.1; text-align:right; font-family:'Noto Naskh Arabic', serif;">
-        <div style="font-size:32px; font-weight:bold; line-height:1.25;">{{ w.ar }}</div>
-        <div style="font-size:21px; line-height:1.3;">{{ w.ex_ar }}</div>
+      <div dir="rtl" style="flex:1; text-align:right; font-family:'Noto Naskh Arabic', serif;">
+        <div style="font-size:48px; font-weight:bold; line-height:1.2;">{{ w.ar }}</div>
+        <div style="font-size:27px; line-height:1.3;">{{ w.ex_ar }}</div>
       </div>
     </div>
     {% endfor %}

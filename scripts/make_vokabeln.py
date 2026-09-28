@@ -34,6 +34,7 @@ SETS = [
         "out": ROOT / "data" / "arabisch.json",
         "seed": "arabisch-a2",
         "topic": "Hocharabisch · A2",
+        "per_day": 4,  # weniger Wörter, dafür größere Schrift (arabische Schrift braucht Platz)
     },
 ]
 
@@ -45,11 +46,11 @@ def as_entry(raw) -> dict:
     return raw
 
 
-def words_for(day: datetime.date, words: list, seed: str) -> list:
+def words_for(day: datetime.date, words: list, seed: str, per_day: int = WORDS_PER_DAY) -> list:
     order = list(range(len(words)))
     random.Random(seed).shuffle(order)
-    start = ((day - START).days * WORDS_PER_DAY) % len(order)
-    return [as_entry(words[order[(start + i) % len(order)]]) for i in range(WORDS_PER_DAY)]
+    start = ((day - START).days * per_day) % len(order)
+    return [as_entry(words[order[(start + i) % len(order)]]) for i in range(per_day)]
 
 
 def main() -> None:
@@ -60,10 +61,10 @@ def main() -> None:
             "updated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
             "date": today.isoformat(),
             "topic": cfg["topic"],
-            "words": words_for(today, words, cfg["seed"]),
+            "words": words_for(today, words, cfg["seed"], cfg.get("per_day", WORDS_PER_DAY)),
             "days": {
                 (today + datetime.timedelta(days=o)).isoformat(): {
-                    "words": words_for(today + datetime.timedelta(days=o), words, cfg["seed"])
+                    "words": words_for(today + datetime.timedelta(days=o), words, cfg["seed"], cfg.get("per_day", WORDS_PER_DAY))
                 }
                 for o in range(DAYS_AHEAD + 1)
             },
