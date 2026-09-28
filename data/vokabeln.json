@@ -1,37 +1,37 @@
 {
-  "updated_at": "2026-09-27T17:29:25Z",
-  "date": "2026-09-27",
+  "updated_at": "2026-09-28T06:17:05Z",
+  "date": "2026-09-28",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "present",
-      "de": "das Geschenk",
-      "type": "Nomen",
-      "example": "Thank you for the present!"
-    },
-    {
-      "en": "to tidy up",
-      "de": "aufräumen",
+      "en": "to get up",
+      "de": "aufstehen",
       "type": "Verb",
-      "example": "Please tidy up your room."
+      "example": "I get up at half past five."
     },
     {
-      "en": "vegetables",
-      "de": "das Gemüse",
+      "en": "subject",
+      "de": "das Schulfach",
       "type": "Nomen",
-      "example": "Vegetables are good for you."
+      "example": "My favourite subject is biology."
     },
     {
-      "en": "in front of",
-      "de": "vor",
+      "en": "to look for",
+      "de": "suchen",
+      "type": "Verb",
+      "example": "I'm looking for my pencil."
+    },
+    {
+      "en": "mistake",
+      "de": "der Fehler",
+      "type": "Nomen",
+      "example": "Everybody makes mistakes."
+    },
+    {
+      "en": "behind",
+      "de": "hinter",
       "type": "Präposition",
-      "example": "Meet me in front of the school."
-    },
-    {
-      "en": "to hope",
-      "de": "hoffen",
-      "type": "Verb",
-      "example": "I hope you feel better soon."
+      "example": "The ball is behind the door."
     }
   ]
 }

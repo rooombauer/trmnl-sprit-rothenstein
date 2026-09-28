@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-09-27T17:29:25Z",
-  "date": "2026-09-27",
+  "updated_at": "2026-09-28T06:17:05Z",
+  "date": "2026-09-28",
   "topic": "Hocharabisch · A2",
   "words": [
     {
-      "ar": "جَدِيد",
-      "tr": "ǧadīd",
-      "de": "neu",
-      "type": "Adjektiv",
-      "extra": "f. جَدِيدَة",
-      "ex_ar": "حقيبتي جديدة.",
-      "ex_de": "Meine Tasche ist neu."
-    },
-    {
-      "ar": "عَفْوًا",
-      "tr": "ʿafwan",
-      "de": "gern geschehen",
-      "type": "Redewendung",
-      "extra": "",
-      "ex_ar": "– شكرا! – عفوا.",
-      "ex_de": "– Danke! – Gern geschehen."
-    },
-    {
-      "ar": "قَهْوَة",
-      "tr": "qahwa",
-      "de": "der Kaffee",
+      "ar": "كَلْب",
+      "tr": "kalb",
+      "de": "der Hund",
       "type": "Nomen",
-      "extra": "",
-      "ex_ar": "أمي تشرب القهوة في الصباح.",
-      "ex_de": "Mama trinkt morgens Kaffee."
+      "extra": "Pl. كِلَاب",
+      "ex_ar": "الكلب يلعب بالكرة.",
+      "ex_de": "Der Hund spielt mit dem Ball."
     },
     {
-      "ar": "جَلَسَ",
-      "tr": "ǧalasa",
-      "de": "sitzen, sich setzen",
+      "ar": "اِشْتَرَى",
+      "tr": "ištarā",
+      "de": "kaufen",
       "type": "Verb",
-      "extra": "Präsens: يَجْلِسُ",
-      "ex_ar": "أجلس بجانب النافذة.",
-      "ex_de": "Ich sitze neben dem Fenster."
+      "extra": "Präsens: يَشْتَرِي",
+      "ex_ar": "أشتري الخبز من المخبز.",
+      "ex_de": "Ich kaufe das Brot beim Bäcker."
     },
     {
-      "ar": "عَمَل",
-      "tr": "ʿamal",
-      "de": "die Arbeit",
+      "ar": "مَشْغُول",
+      "tr": "mašġūl",
+      "de": "beschäftigt",
+      "type": "Adjektiv",
+      "extra": "f. مَشْغُولَة",
+      "ex_ar": "أمي مشغولة الآن.",
+      "ex_de": "Mama ist gerade beschäftigt."
+    },
+    {
+      "ar": "مَسَاء",
+      "tr": "masāʾ",
+      "de": "der Abend",
       "type": "Nomen",
-      "extra": "Pl. أَعْمَال",
-      "ex_ar": "يذهب أبي إلى العمل بالسيارة.",
-      "ex_de": "Papa fährt mit dem Auto zur Arbeit."
+      "extra": "",
+      "ex_ar": "أقرأ في المساء.",
+      "ex_de": "Ich lese am Abend."
+    },
+    {
+      "ar": "جَائِع",
+      "tr": "ǧāʾiʿ",
+      "de": "hungrig",
+      "type": "Adjektiv",
+      "extra": "f. جَائِعَة",
+      "ex_ar": "هل أنت جائع؟",
+      "ex_de": "Hast du Hunger?"
     }
   ]
 }
