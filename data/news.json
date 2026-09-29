@@ -1,20 +1,52 @@
 {
-  "updated_at": "2026-09-29T06:56:57Z",
+  "updated_at": "2026-09-29T16:19:26Z",
   "date": "2026-09-29",
-  "items": [
+  "local": [
     {
-      "title": "Australien: Vermisster Schlafbeutler nach 25 Jahren wiederentdeckt",
-      "teaser": "Seit 1999 war der Westliche Schlafbeutler im Karakamia Wildlife Sanctuary nahe Perth nicht mehr nachgewiesen worden."
+      "title": "30 Jahre Stella-Skulpturen in Jena",
+      "teaser": "Großes Jubiläumsfest für den Skulpturenpark auf dem Ernst-Abbe-Platz am 29.",
+      "source": "Stadt Jena"
+    },
+    {
+      "title": "Kleines Dorf im Saale-Holzland feiert XXL-Festival mit Helikopterflügen und elf Musik-Acts",
+      "teaser": "Ein kleines Dorf in Thüringen verwandelt sich für einen Tag in ein Festivalgelände mit Musik, Markt, Helikopterflügen …",
+      "source": "OTZ Jena"
+    }
+  ],
+  "world": [
+    {
+      "title": "Deutschland erreicht Solarstrom-Rekord schon im September",
+      "teaser": "Deutschland hat 2026 bereits bis zum 27.",
+      "source": "Good News Magazin"
     },
     {
       "title": "Bolivien: Forschende identifizieren neue Wildkatzenart",
-      "teaser": "Erstmals seit mehr als 100 Jahren ist eine neue heute lebende Katzenart wissenschaftlich beschrieben worden."
+      "teaser": "Erstmals seit mehr als 100 Jahren ist eine neue heute lebende Katzenart wissenschaftlich beschrieben worden.",
+      "source": "Good News Magazin"
+    }
+  ],
+  "items": [
+    {
+      "title": "30 Jahre Stella-Skulpturen in Jena",
+      "teaser": "Großes Jubiläumsfest für den Skulpturenpark auf dem Ernst-Abbe-Platz am 29.",
+      "source": "Stadt Jena"
     },
     {
-      "title": "Spanien: Aus Wanderdünen entstand ein 800 Hektar großer Wald",
-      "teaser": "Um 1900 begann der Forstingenieur Francisco Mira y Botella, die wandernden Dünen bei Guardamar del Segura systematisch zu befestigen und zu bepflanzen."
+      "title": "Kleines Dorf im Saale-Holzland feiert XXL-Festival mit Helikopterflügen und elf Musik-Acts",
+      "teaser": "Ein kleines Dorf in Thüringen verwandelt sich für einen Tag in ein Festivalgelände mit Musik, Markt, Helikopterflügen …",
+      "source": "OTZ Jena"
+    },
+    {
+      "title": "Deutschland erreicht Solarstrom-Rekord schon im September",
+      "teaser": "Deutschland hat 2026 bereits bis zum 27.",
+      "source": "Good News Magazin"
+    },
+    {
+      "title": "Bolivien: Forschende identifizieren neue Wildkatzenart",
+      "teaser": "Erstmals seit mehr als 100 Jahren ist eine neue heute lebende Katzenart wissenschaftlich beschrieben worden.",
+      "source": "Good News Magazin"
     }
   ],
   "joke": "Wie nennt man ein Schaf ohne Beine? – Eine Wolke.",
-  "source": "Good News Magazin (goodnews-magazin.de)"
+  "source": "Good News Magazin, OTZ Jena, Stadt Jena"
 }
