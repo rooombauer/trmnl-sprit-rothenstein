@@ -3,6 +3,8 @@
   nutzt die Termine des Apple-Kalender-Plugins (Variable apple_calendar_<ID>),
   die Daten verlassen TRMNL also nicht. Die ID des Quell-Plugins steht in der ersten assign-Zeile (cal).
   Termin-Titel „Name: Text“ werden als Namensschild + Text dargestellt.
+  Feiertage Thüringen (plus Heiligabend/Silvester) 2026–2028 stehen fest in „holidays“,
+  erzeugt mit Oster-Formel; für 2029 ff. ergänzen.
 {% endcomment %}
 {% assign cal = apple_calendar_75544 %}
 {% assign offset = trmnl.user.utc_offset | default: 7200 %}
@@ -14,6 +16,9 @@
 {% assign months = "Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember" | split: "," %}
 {% assign month_idx = now_s | date: "%-m" | minus: 1 %}
 {% assign wd_i = wd | minus: 1 %}
+{% assign holidays = "2026-01-01=Neujahr;2026-04-03=Karfreitag;2026-04-05=Ostersonntag;2026-04-06=Ostermontag;2026-05-01=Tag der Arbeit;2026-05-14=Christi Himmelfahrt;2026-05-24=Pfingstsonntag;2026-05-25=Pfingstmontag;2026-09-20=Weltkindertag;2026-10-03=Tag der Deutschen Einheit;2026-10-31=Reformationstag;2026-12-24=Heiligabend;2026-12-25=1. Weihnachtstag;2026-12-26=2. Weihnachtstag;2026-12-31=Silvester;2027-01-01=Neujahr;2027-03-26=Karfreitag;2027-03-28=Ostersonntag;2027-03-29=Ostermontag;2027-05-01=Tag der Arbeit;2027-05-06=Christi Himmelfahrt;2027-05-16=Pfingstsonntag;2027-05-17=Pfingstmontag;2027-09-20=Weltkindertag;2027-10-03=Tag der Deutschen Einheit;2027-10-31=Reformationstag;2027-12-24=Heiligabend;2027-12-25=1. Weihnachtstag;2027-12-26=2. Weihnachtstag;2027-12-31=Silvester;2028-01-01=Neujahr;2028-04-14=Karfreitag;2028-04-16=Ostersonntag;2028-04-17=Ostermontag;2028-05-01=Tag der Arbeit;2028-05-25=Christi Himmelfahrt;2028-06-04=Pfingstsonntag;2028-06-05=Pfingstmontag;2028-09-20=Weltkindertag;2028-10-03=Tag der Deutschen Einheit;2028-10-31=Reformationstag;2028-12-24=Heiligabend;2028-12-25=1. Weihnachtstag;2028-12-26=2. Weihnachtstag;2028-12-31=Silvester" | split: ";" %}
+{% assign today_holiday = "" %}
+{% for h in holidays %}{% assign hp = h | split: "=" %}{% if hp[0] == today_key %}{% assign today_holiday = hp[1] %}{% endif %}{% endfor %}
 
 
 <div style="display:flex; width:100%; height:100%; font-family:Inter, sans-serif; color:black; background:white;">
@@ -34,6 +39,9 @@
 
     <div style="display:flex; align-items:center; gap:8px; font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">☀️ Heute<span style="flex:1; height:3px; background:black;"></span></div>
     <div style="margin:8px 0 12px;">
+      {% if today_holiday != "" %}
+        <div style="display:inline-block; background:black; color:white; font-size:24px; font-weight:900; border-radius:10px; padding:3px 14px; margin:2px 0 4px;">🎉 Feiertag: {{ today_holiday }}</div>
+      {% endif %}
       {% assign today_count = 0 %}
       {% for e in cal.events %}
         {% assign k = e.start_full | slice: 0, 10 %}
@@ -55,7 +63,7 @@
           </div>
         {% endif %}
       {% endfor %}
-      {% if today_count == 0 %}
+      {% if today_count == 0 and today_holiday == "" %}
         <div style="font-size:24px; font-weight:700; padding:6px 0;">🧸 Heute steht nichts im Kalender – Zeit zum Spielen!</div>
       {% endif %}
     </div>
@@ -70,6 +78,7 @@
           <span style="font-weight:900; {% if dwd >= 6 %}background:black; color:white; border-radius:6px; padding:0 6px; width:74px;{% else %}width:86px;{% endif %}">{{ wd_short[dwd_i] }} {{ day_s | date: "%-d" }}.</span>
           <span style="flex:1; font-weight:600; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;">
             {% assign n = 0 %}{% assign more = 0 %}
+            {% for h in holidays %}{% assign hp = h | split: "=" %}{% if hp[0] == day_key %}<b style="font-weight:900;">🎉 {{ hp[1] }}</b>{% assign n = 1 %}{% endif %}{% endfor %}
             {% for e in cal.events %}
               {% assign k = e.start_full | slice: 0, 10 %}
               {% if k == day_key %}
