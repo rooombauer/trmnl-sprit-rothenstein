@@ -162,7 +162,7 @@ def score(item: dict) -> int:
 
 def shorten(text: str) -> str:
     # erster Satz, sonst hart kürzen
-    first = re.split(r"(?<=[.!?])\s", text, maxsplit=1)[0]
+    first = re.split(r"(?<=[.!?])(?<!\d\.)\s", text, maxsplit=1)[0]  # nicht bei „29. Oktober“ trennen
     if len(first) <= TEASER_MAX:
         return first
     return first[: TEASER_MAX - 1].rsplit(" ", 1)[0] + " …"
