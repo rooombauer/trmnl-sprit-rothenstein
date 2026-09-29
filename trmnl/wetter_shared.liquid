@@ -17,7 +17,7 @@
 
 {% comment %}Romantischer Satz des Tages: je Wetterlage mehrere, Auswahl nach Tag im Jahr{% endcomment %}
 {% case main %}
-  {% when "sun" %}{% assign phrases = "The sun is courting the day. Let it warm your heart.|A golden day, made for holding hands.|Sunlight pours like honey over Rothenstein.|The sky wears its brightest smile – just for the two of you." | split: "|" %}
+  {% when "sun" %}{% assign phrases = "The sun is courting the day. Let it warm your heart.|A golden day, made for holding hands.|Sunlight pours like honey over Rothenstein.|The sky wears its brightest smile, just for the two of you." | split: "|" %}
   {% when "partly" %}{% assign phrases = "Clouds drift by like love letters across the sky.|Sun and clouds dance a slow waltz today.|A day of light and shadow, like a tender secret." | split: "|" %}
   {% when "cloud" %}{% assign phrases = "A soft grey sky, perfect for closeness and warm tea.|The world wears silver today; stay close.|Grey outside, warm inside, where your heart is." | split: "|" %}
   {% when "fog" %}{% assign phrases = "The valley hides behind a veil, like a secret between two hearts.|Mist softens the world. Only the two of you stay clear." | split: "|" %}
