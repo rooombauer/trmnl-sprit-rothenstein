@@ -1,86 +1,46 @@
 {
-  "updated_at": "2026-09-28T21:37:26Z",
-  "date": "2026-09-28",
+  "updated_at": "2026-09-29T02:35:31Z",
+  "date": "2026-09-29",
   "topic": "Hocharabisch · A2",
   "words": [
     {
-      "ar": "كَلْب",
-      "tr": "kalb",
-      "de": "der Hund",
-      "type": "Nomen",
-      "extra": "Pl. كِلَاب",
-      "ex_ar": "الكلب يلعب بالكرة.",
-      "ex_de": "Der Hund spielt mit dem Ball."
-    },
-    {
-      "ar": "اِشْتَرَى",
-      "tr": "ištarā",
-      "de": "kaufen",
-      "type": "Verb",
-      "extra": "Präsens: يَشْتَرِي",
-      "ex_ar": "أشتري الخبز من المخبز.",
-      "ex_de": "Ich kaufe das Brot beim Bäcker."
-    },
-    {
-      "ar": "مَشْغُول",
-      "tr": "mašġūl",
-      "de": "beschäftigt",
+      "ar": "جَائِع",
+      "tr": "ǧāʾiʿ",
+      "de": "hungrig",
       "type": "Adjektiv",
-      "extra": "f. مَشْغُولَة",
-      "ex_ar": "أمي مشغولة الآن.",
-      "ex_de": "Mama ist gerade beschäftigt."
+      "extra": "f. جَائِعَة",
+      "ex_ar": "هل أنت جائع؟",
+      "ex_de": "Hast du Hunger?"
     },
     {
-      "ar": "مَسَاء",
-      "tr": "masāʾ",
-      "de": "der Abend",
+      "ar": "جَمِيل",
+      "tr": "ǧamīl",
+      "de": "schön",
+      "type": "Adjektiv",
+      "extra": "f. جَمِيلَة",
+      "ex_ar": "الحديقة جميلة في الربيع.",
+      "ex_de": "Im Frühling ist der Garten schön."
+    },
+    {
+      "ar": "غَدَاء",
+      "tr": "ġadāʾ",
+      "de": "das Mittagessen",
       "type": "Nomen",
       "extra": "",
-      "ex_ar": "أقرأ في المساء.",
-      "ex_de": "Ich lese am Abend."
+      "ex_ar": "نأكل الغداء في الساعة الواحدة.",
+      "ex_de": "Wir essen um ein Uhr zu Mittag."
+    },
+    {
+      "ar": "مُعَلِّم",
+      "tr": "muʿallim",
+      "de": "der Lehrer",
+      "type": "Nomen",
+      "extra": "Pl. مُعَلِّمُون",
+      "ex_ar": "المعلم لطيف جدا.",
+      "ex_de": "Der Lehrer ist sehr nett."
     }
   ],
   "days": {
-    "2026-09-28": {
-      "words": [
-        {
-          "ar": "كَلْب",
-          "tr": "kalb",
-          "de": "der Hund",
-          "type": "Nomen",
-          "extra": "Pl. كِلَاب",
-          "ex_ar": "الكلب يلعب بالكرة.",
-          "ex_de": "Der Hund spielt mit dem Ball."
-        },
-        {
-          "ar": "اِشْتَرَى",
-          "tr": "ištarā",
-          "de": "kaufen",
-          "type": "Verb",
-          "extra": "Präsens: يَشْتَرِي",
-          "ex_ar": "أشتري الخبز من المخبز.",
-          "ex_de": "Ich kaufe das Brot beim Bäcker."
-        },
-        {
-          "ar": "مَشْغُول",
-          "tr": "mašġūl",
-          "de": "beschäftigt",
-          "type": "Adjektiv",
-          "extra": "f. مَشْغُولَة",
-          "ex_ar": "أمي مشغولة الآن.",
-          "ex_de": "Mama ist gerade beschäftigt."
-        },
-        {
-          "ar": "مَسَاء",
-          "tr": "masāʾ",
-          "de": "der Abend",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "أقرأ في المساء.",
-          "ex_de": "Ich lese am Abend."
-        }
-      ]
-    },
     "2026-09-29": {
       "words": [
         {
@@ -358,6 +318,46 @@
           "extra": "f. حَارَّة",
           "ex_ar": "الجو حار في الصيف.",
           "ex_de": "Im Sommer ist es heiß."
+        }
+      ]
+    },
+    "2026-10-06": {
+      "words": [
+        {
+          "ar": "فِي",
+          "tr": "fī",
+          "de": "in",
+          "type": "Präposition",
+          "extra": "",
+          "ex_ar": "القطة في الغرفة.",
+          "ex_de": "Die Katze ist im Zimmer."
+        },
+        {
+          "ar": "جَدّ",
+          "tr": "ǧadd",
+          "de": "der Großvater",
+          "type": "Nomen",
+          "extra": "Pl. أَجْدَاد",
+          "ex_ar": "جدي يحكي قصصا جميلة.",
+          "ex_de": "Mein Opa erzählt schöne Geschichten."
+        },
+        {
+          "ar": "فَهِمَ",
+          "tr": "fahima",
+          "de": "verstehen",
+          "type": "Verb",
+          "extra": "Präsens: يَفْهَمُ",
+          "ex_ar": "هل فهمت السؤال؟",
+          "ex_de": "Hast du die Frage verstanden?"
+        },
+        {
+          "ar": "تَحْتَ",
+          "tr": "taḥta",
+          "de": "unter",
+          "type": "Präposition",
+          "extra": "",
+          "ex_ar": "الكرة تحت السرير.",
+          "ex_de": "Der Ball ist unter dem Bett."
         }
       ]
     }
