@@ -1,0 +1,102 @@
+{% comment %}
+  Wetter (Englisch) für die Küche, geteilter Teil (Tab „Shared“ in TRMNL): Berechnungen,
+  romantischer Satz des Tages, Balkon-Nacht und die Wetterfiguren als SVG-Symbole.
+  Polling-URL (Open-Meteo, ohne API-Schlüssel):
+  https://api.open-meteo.com/v1/forecast?latitude=50.85&longitude=11.60&current=temperature_2m,weather_code,is_day&hourly=temperature_2m,weather_code,precipitation_probability,wind_speed_10m,cloud_cover&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,uv_index_max&timezone=Europe%2FBerlin&forecast_days=2
+  Hourly-Index 0–47 = Stunde ab heute 0 Uhr; die Nacht ist 22 Uhr (22) bis 6 Uhr (30).
+{% endcomment %}
+{% assign cats = "sun,sun,partly,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,fog,cloud,cloud,fog,cloud,cloud,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,rain,cloud,cloud,cloud,snow,snow,snow,snow,snow,snow,snow,cloud,cloud,rain,rain,rain,cloud,cloud,snow,snow,cloud,cloud,cloud,cloud,cloud,cloud,cloud,cloud,thunder,thunder,cloud,cloud,thunder" | split: "," %}
+{% assign main_code = hourly.weather_code[12] %}
+{% assign main = cats[main_code] %}
+{% assign tmax = daily.temperature_2m_max[0] | round %}
+{% assign tmin = daily.temperature_2m_min[0] | round %}
+{% assign rain = daily.precipitation_probability_max[0] %}
+{% assign uv = daily.uv_index_max[0] %}
+{% assign tmorning = hourly.temperature_2m[7] | round %}
+{% assign doy = current.time | date: "%j" | plus: 0 %}
+
+{% comment %}Romantischer Satz des Tages: je Wetterlage mehrere, Auswahl nach Tag im Jahr{% endcomment %}
+{% case main %}
+  {% when "sun" %}{% assign phrases = "The sun is courting the day – let it warm your heart.|A golden day, made for holding hands.|Sunlight pours like honey over Rothenstein.|The sky wears its brightest smile – just for the two of you." | split: "|" %}
+  {% when "partly" %}{% assign phrases = "Clouds drift by like love letters across the sky.|Sun and clouds dance a slow waltz today.|A day of light and shadow – like a tender secret." | split: "|" %}
+  {% when "cloud" %}{% assign phrases = "A soft grey sky – perfect for closeness and warm tea.|The world wears silver today; stay close.|Grey outside, warm inside – where your heart is." | split: "|" %}
+  {% when "fog" %}{% assign phrases = "The valley hides behind a veil, like a secret between two hearts.|Mist softens the world – only the two of you are clear." | split: "|" %}
+  {% when "rain" %}{% assign phrases = "Every raindrop is a little kiss from the sky.|Rain sings on the rooftops – a day for two under one umbrella.|Let it rain; love grows in the rain." | split: "|" %}
+  {% when "snow" %}{% assign phrases = "Snowflakes fall like whispered promises.|The world turns quiet and white – a blank page for two." | split: "|" %}
+  {% when "thunder" %}{% assign phrases = "The sky is passionate today – stay safe in each other's arms.|Thunder and lightning – but nothing louder than your heartbeat." | split: "|" %}
+{% endcase %}
+{% assign pi = doy | modulo: phrases.size %}
+{% assign phrase = phrases[pi] %}
+
+{% comment %}Balkon-Nacht: 22 bis 6 Uhr{% endcomment %}
+{% assign n_min = 99 %}{% assign n_rain = 0 %}{% assign n_wind = 0 %}{% assign n_cloud = 0 %}{% assign n_cnt = 0 %}{% assign n_worst = 0 %}
+{% for h in (22..30) %}
+  {% assign t = hourly.temperature_2m[h] %}{% if t < n_min %}{% assign n_min = t %}{% endif %}
+  {% assign p = hourly.precipitation_probability[h] %}{% if p > n_rain %}{% assign n_rain = p %}{% endif %}
+  {% assign w = hourly.wind_speed_10m[h] %}{% if w > n_wind %}{% assign n_wind = w %}{% endif %}
+  {% assign n_cloud = n_cloud | plus: hourly.cloud_cover[h] %}{% assign n_cnt = n_cnt | plus: 1 %}
+  {% assign wc = hourly.weather_code[h] %}{% if wc > n_worst %}{% assign n_worst = wc %}{% endif %}
+{% endfor %}
+{% assign n_min = n_min | round %}{% assign n_wind = n_wind | round %}
+{% assign n_cloud = n_cloud | divided_by: n_cnt %}
+{% assign n_eve = hourly.temperature_2m[22] | round %}
+{% if n_cloud < 30 %}{% assign n_sky = "clear sky – stars!" %}{% elsif n_cloud < 70 %}{% assign n_sky = "some clouds" %}{% else %}{% assign n_sky = "overcast" %}{% endif %}
+{% assign n_cat = cats[n_worst] %}
+{% if n_cat == "thunder" or n_rain >= 60 or n_min < 3 or n_wind >= 35 %}{% assign balcony = "Better sleep inside tonight" %}{% assign b_icon = "🏠" %}
+{% elsif n_rain >= 30 or n_min < 8 or n_wind >= 25 %}{% assign balcony = "Balcony possible – take blankets" %}{% assign b_icon = "🌙" %}
+{% else %}{% assign balcony = "A perfect night for the balcony" %}{% assign b_icon = "✨" %}{% endif %}
+
+<svg width="0" height="0" style="position:absolute">
+  <defs>
+    <symbol id="w-sun" viewBox="0 0 100 100">
+      <g stroke="black" stroke-width="5" stroke-linecap="round">
+        <line x1="50" y1="6" x2="50" y2="18"/><line x1="50" y1="82" x2="50" y2="94"/>
+        <line x1="6" y1="50" x2="18" y2="50"/><line x1="82" y1="50" x2="94" y2="50"/>
+        <line x1="19" y1="19" x2="27" y2="27"/><line x1="73" y1="73" x2="81" y2="81"/>
+        <line x1="19" y1="81" x2="27" y2="73"/><line x1="73" y1="27" x2="81" y2="19"/>
+      </g>
+      <circle cx="50" cy="50" r="24" fill="white" stroke="black" stroke-width="5"/>
+      <circle cx="42" cy="46" r="3.5"/><circle cx="58" cy="46" r="3.5"/>
+      <path d="M40 56 Q50 66 60 56" fill="none" stroke="black" stroke-width="4" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="w-cloudshape" viewBox="0 0 100 100">
+      <path d="M26 80 H74 A16 16 0 0 0 76 48 A24 24 0 0 0 31 42 A19 19 0 0 0 26 80 Z" fill="white" stroke="black" stroke-width="5" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="w-cloud" viewBox="0 0 100 100">
+      <use href="#w-cloudshape" x="0" y="-4" width="100" height="100"/>
+      <circle cx="44" cy="60" r="3"/><circle cx="60" cy="60" r="3"/>
+      <path d="M46 68 Q52 72 58 68" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="w-partly" viewBox="0 0 100 100">
+      <use href="#w-sun" x="22" y="-4" width="70" height="70"/>
+      <use href="#w-cloudshape" x="-6" y="12" width="92" height="92"/>
+      <circle cx="37" cy="68" r="3"/><circle cx="52" cy="68" r="3"/>
+      <path d="M39 75 Q44.5 79 50 75" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="w-rain" viewBox="0 0 100 100">
+      <use href="#w-cloudshape" x="0" y="-14" width="100" height="100"/>
+      <g stroke="black" stroke-width="5" stroke-linecap="round">
+        <line x1="34" y1="76" x2="30" y2="88"/><line x1="52" y1="76" x2="48" y2="90"/><line x1="70" y1="76" x2="66" y2="88"/>
+      </g>
+      <circle cx="44" cy="50" r="3"/><circle cx="60" cy="50" r="3"/>
+      <path d="M46 60 Q52 56 58 60" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="w-snow" viewBox="0 0 100 100">
+      <use href="#w-cloudshape" x="0" y="-14" width="100" height="100"/>
+      <g fill="black"><circle cx="32" cy="82" r="4.5"/><circle cx="50" cy="90" r="4.5"/><circle cx="68" cy="82" r="4.5"/></g>
+      <circle cx="44" cy="50" r="3"/><circle cx="60" cy="50" r="3"/>
+      <path d="M46 57 Q52 62 58 57" fill="none" stroke="black" stroke-width="3.5" stroke-linecap="round"/>
+    </symbol>
+    <symbol id="w-thunder" viewBox="0 0 100 100">
+      <use href="#w-cloudshape" x="0" y="-14" width="100" height="100"/>
+      <path d="M52 66 L40 84 H50 L44 98 L62 76 H52 L58 66 Z" fill="black"/>
+      <circle cx="44" cy="50" r="3"/><circle cx="60" cy="50" r="3"/>
+    </symbol>
+    <symbol id="w-fog" viewBox="0 0 100 100">
+      <use href="#w-cloudshape" x="0" y="-16" width="100" height="100"/>
+      <g stroke="black" stroke-width="5" stroke-linecap="round">
+        <line x1="18" y1="76" x2="82" y2="76"/><line x1="26" y1="88" x2="74" y2="88"/>
+      </g>
+    </symbol>
+  </defs>
+</svg>

@@ -1,0 +1,19 @@
+{% comment %}
+  Familien-Pinnwand als halbe Seite (Half Horizontal, 800×240) für die Frühstücksseite.
+  Zeigt die 2 neuesten Einträge; bei leerer Pinnwand einen freundlichen Satz.
+{% endcomment %}
+<div style="display:flex; flex-direction:column; width:100%; height:100%; padding:8px 20px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
+  <div style="display:flex; align-items:center; gap:10px; font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">📌 Für alle<span style="flex:1; height:3px; background:black;"></span></div>
+  <div style="display:flex; flex-direction:column; gap:8px; flex:1; justify-content:center;">
+    {% if anzahl > 0 %}
+      {% for e in eintraege limit: 2 %}
+        <div style="display:flex; align-items:center; gap:14px; border:3px solid black; border-radius:14px; padding:6px 16px;">
+          <div style="flex:1; font-size:28px; font-weight:800; line-height:1.15;">{{ e.text }}</div>
+          {% if e.von %}<div style="font-size:17px; font-weight:800; border:2.5px solid black; border-radius:12px; padding:1px 10px;">{{ e.von }}</div>{% endif %}
+        </div>
+      {% endfor %}
+    {% else %}
+      <div style="font-size:26px; font-weight:700; text-align:center;">Heute keine Nachrichten – einen schönen Tag euch allen!</div>
+    {% endif %}
+  </div>
+</div>
