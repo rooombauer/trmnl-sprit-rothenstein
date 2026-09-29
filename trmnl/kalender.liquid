@@ -43,7 +43,7 @@
         {% endif %}
       {% endfor %}
       {% if today_count == 0 and today_holiday == "" %}
-        <div style="font-size:24px; font-weight:700; padding:6px 0;">🧸 Heute steht nichts im Kalender – Zeit zum Spielen!</div>
+        <div style="font-size:24px; font-weight:700; padding:6px 0;">🧸 Heute steht nichts im Kalender. Zeit zum Spielen!</div>
       {% endif %}
     </div>
 
@@ -67,7 +67,7 @@
               {% endif %}
             {% endfor %}
             {% if more > 0 %} <b style="font-weight:900;">+{{ more }}</b>{% endif %}
-            {% if n == 0 %}– nichts geplant –{% endif %}
+            {% if n == 0 %}nichts geplant{% endif %}
           </span>
         </div>
       {% endfor %}

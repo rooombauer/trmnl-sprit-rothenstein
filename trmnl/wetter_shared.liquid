@@ -17,13 +17,13 @@
 
 {% comment %}Romantischer Satz des Tages: je Wetterlage mehrere, Auswahl nach Tag im Jahr{% endcomment %}
 {% case main %}
-  {% when "sun" %}{% assign phrases = "The sun is courting the day – let it warm your heart.|A golden day, made for holding hands.|Sunlight pours like honey over Rothenstein.|The sky wears its brightest smile – just for the two of you." | split: "|" %}
-  {% when "partly" %}{% assign phrases = "Clouds drift by like love letters across the sky.|Sun and clouds dance a slow waltz today.|A day of light and shadow – like a tender secret." | split: "|" %}
-  {% when "cloud" %}{% assign phrases = "A soft grey sky – perfect for closeness and warm tea.|The world wears silver today; stay close.|Grey outside, warm inside – where your heart is." | split: "|" %}
-  {% when "fog" %}{% assign phrases = "The valley hides behind a veil, like a secret between two hearts.|Mist softens the world – only the two of you are clear." | split: "|" %}
-  {% when "rain" %}{% assign phrases = "Every raindrop is a little kiss from the sky.|Rain sings on the rooftops – a day for two under one umbrella.|Let it rain; love grows in the rain." | split: "|" %}
-  {% when "snow" %}{% assign phrases = "Snowflakes fall like whispered promises.|The world turns quiet and white – a blank page for two." | split: "|" %}
-  {% when "thunder" %}{% assign phrases = "The sky is passionate today – stay safe in each other's arms.|Thunder and lightning – but nothing louder than your heartbeat." | split: "|" %}
+  {% when "sun" %}{% assign phrases = "The sun is courting the day. Let it warm your heart.|A golden day, made for holding hands.|Sunlight pours like honey over Rothenstein.|The sky wears its brightest smile – just for the two of you." | split: "|" %}
+  {% when "partly" %}{% assign phrases = "Clouds drift by like love letters across the sky.|Sun and clouds dance a slow waltz today.|A day of light and shadow, like a tender secret." | split: "|" %}
+  {% when "cloud" %}{% assign phrases = "A soft grey sky, perfect for closeness and warm tea.|The world wears silver today; stay close.|Grey outside, warm inside, where your heart is." | split: "|" %}
+  {% when "fog" %}{% assign phrases = "The valley hides behind a veil, like a secret between two hearts.|Mist softens the world. Only the two of you stay clear." | split: "|" %}
+  {% when "rain" %}{% assign phrases = "Every raindrop is a little kiss from the sky.|Rain sings on the rooftops. A day for two under one umbrella.|Let it rain; love grows in the rain." | split: "|" %}
+  {% when "snow" %}{% assign phrases = "Snowflakes fall like whispered promises.|The world turns quiet and white, a blank page for two." | split: "|" %}
+  {% when "thunder" %}{% assign phrases = "The sky is passionate today. Stay safe in each other's arms.|Thunder and lightning, but nothing louder than your heartbeat." | split: "|" %}
 {% endcase %}
 {% assign pi = doy | modulo: phrases.size %}
 {% assign phrase = phrases[pi] %}
@@ -40,10 +40,10 @@
 {% assign n_min = n_min | round %}{% assign n_wind = n_wind | round %}
 {% assign n_cloud = n_cloud | divided_by: n_cnt %}
 {% assign n_eve = hourly.temperature_2m[22] | round %}
-{% if n_cloud < 30 %}{% assign n_sky = "clear sky – stars!" %}{% elsif n_cloud < 70 %}{% assign n_sky = "some clouds" %}{% else %}{% assign n_sky = "overcast" %}{% endif %}
+{% if n_cloud < 30 %}{% assign n_sky = "clear sky, stars!" %}{% elsif n_cloud < 70 %}{% assign n_sky = "some clouds" %}{% else %}{% assign n_sky = "overcast" %}{% endif %}
 {% assign n_cat = cats[n_worst] %}
 {% if n_cat == "thunder" or n_rain >= 60 or n_min < 3 or n_wind >= 35 %}{% assign balcony = "Better sleep inside tonight" %}{% assign b_icon = "🏠" %}
-{% elsif n_rain >= 30 or n_min < 8 or n_wind >= 25 %}{% assign balcony = "Balcony possible – take blankets" %}{% assign b_icon = "🌙" %}
+{% elsif n_rain >= 30 or n_min < 8 or n_wind >= 25 %}{% assign balcony = "Balcony possible, take blankets" %}{% assign b_icon = "🌙" %}
 {% else %}{% assign balcony = "A perfect night for the balcony" %}{% assign b_icon = "✨" %}{% endif %}
 
 <svg width="0" height="0" style="position:absolute">
