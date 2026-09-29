@@ -35,7 +35,7 @@ LOCAL_FEEDS = [
 LOCAL_COUNT = 2  # insgesamt 3 Meldungen, damit die Schrift groß bleiben kann
 WORLD_COUNT = 1
 MAX_AGE_DAYS = 6
-TEASER_MAX = 120
+TEASER_MAX = 90
 
 # Lokale Meldungen: nur wenn sie erkennbar schön/interessant für Kinder sind
 LOCAL_POSITIVE = [
