@@ -22,6 +22,9 @@ OUT_PATH = ROOT / "data" / "news.json"
 TZ = ZoneInfo("Europe/Berlin")
 
 SHOWN_PATH = ROOT / "data" / "news_shown.json"
+JOKES_PATH = ROOT / "data" / "witze.json"  # von Hand gesichtet, Quelle: witzapi.de
+JOKE_START = datetime.date(2026, 9, 30)
+DAYS_AHEAD = 7
 
 WORLD_FEEDS = [("https://goodnews-magazin.de/feed/", "Good News Magazin")]
 LOCAL_FEEDS = [
@@ -29,8 +32,8 @@ LOCAL_FEEDS = [
     ("https://www.mdr.de/nachrichten/thueringen/ost-thueringen/index-rss.xml", "MDR Thüringen"),
     ("https://www.otz.de/lokales/jena/rss", "OTZ Jena"),
 ]
-LOCAL_COUNT = 2
-WORLD_COUNT = 2
+LOCAL_COUNT = 2  # insgesamt 3 Meldungen, damit die Schrift groß bleiben kann
+WORLD_COUNT = 1
 MAX_AGE_DAYS = 6
 TEASER_MAX = 120
 
@@ -80,37 +83,6 @@ BOOST = [
     "rekord", "kinder", "schule", "lesen", "weltraum", "stern", "mond",
 ]
 
-JOKES = [
-    "Was ist grün und klopft an die Tür? – Ein Klopfsalat!",
-    "Wie nennt man einen Bumerang, der nicht zurückkommt? – Stock.",
-    "Was macht ein Pirat am Computer? – Er drückt die Enter-Taste.",
-    "Welcher Bus fährt über den Ozean? – Ein Kolumbus!",
-    "Was ist orange und läuft durch den Wald? – Eine Wanderine.",
-    "Warum können Seeräuber keinen Kreis berechnen? – Weil sie Pi raten.",
-    "Was ist weiß und springt im Wald herum? – Ein Jogurt.",
-    "Was liegt am Strand und spricht undeutlich? – Eine Nuschel.",
-    "Warum summen Bienen? – Weil sie den Text vergessen haben.",
-    "Was sagt der große Stift zum kleinen Stift? – Wachs mal Stift!",
-    "Was ist ein Keks unter einem Baum? – Ein schattiges Plätzchen.",
-    "Wo wohnen Katzen? – Im Mietzhaus.",
-    "Was macht eine Wolke mit Juckreiz? – Sie fliegt zum Wolkenkratzer.",
-    "Welches Tier kann am besten rechnen? – Der Oktoplus.",
-    "Was ist braun und sitzt hinter Gittern? – Eine Knastanie.",
-    "Wie nennt man ein Schaf ohne Beine? – Eine Wolke.",
-    "Was trinken Ziegen am liebsten? – Meckermilch.",
-    "Was macht ein Clown im Büro? – Faxen!",
-    "Was ist ein Cowboy ohne Pferd? – Ein Sattelschlepper.",
-    "Was ist grün und rennt weg? – Ein Fluchtsalat.",
-    "Was sagt die Null zur Acht? – Schicker Gürtel!",
-    "Was ist das Lieblingsfach von Schlangen? – Zischkunde.",
-    "Warum sind Fische so schlau? – Weil sie in Schulen gehen.",
-    "Wie heißt ein Spanier ohne Auto? – Carlos.",
-    "Was ist grün und hat Räder? – Gras. Das mit den Rädern war geschwindelt.",
-    "Was hat vier Beine und kann fliegen? – Zwei Vögel.",
-    "Was ist blau und riecht nach roter Farbe? – Blaue Farbe.",
-    "Was macht ein Hai am Computer? – Er surft im Internet.",
-    "Was ist rot und steht am Wegrand? – Eine Hagebutte.",
-]
 
 
 def fetch(url: str, source: str) -> list:
@@ -198,6 +170,13 @@ def pick(items: list, count: int, today: datetime.date, shown: dict) -> list:
     return result
 
 
+def joke_for(day: datetime.date, jokes: list) -> str:
+    """Feste Reihenfolge: jeder Witz kommt erst wieder, wenn alle einmal dran waren."""
+    order = list(range(len(jokes)))
+    random.Random("witze").shuffle(order)
+    return jokes[order[(day - JOKE_START).days % len(order)]]
+
+
 def main() -> None:
     today = datetime.datetime.now(TZ).date()
     shown = json.loads(SHOWN_PATH.read_text(encoding="utf-8")) if SHOWN_PATH.exists() else {}
@@ -216,7 +195,13 @@ def main() -> None:
     def out(items):
         return [{"title": i["title"], "teaser": shorten(i["teaser"]), "source": i["source"]} for i in items]
 
-    joke = random.Random(today.isoformat()).choice(JOKES)
+    jokes = json.loads(JOKES_PATH.read_text(encoding="utf-8"))["witze"]
+    joke = joke_for(today, jokes)
+    # Witze für die nächsten Tage mitliefern; das Markup wählt per Datum (falls der Lauf spät kommt)
+    jokes_by_day = {
+        (today + datetime.timedelta(days=o)).isoformat(): joke_for(today + datetime.timedelta(days=o), jokes)
+        for o in range(DAYS_AHEAD + 1)
+    }
     sources = sorted({i["source"] for i in local_pick + world_pick})
     payload = {
         "updated_at": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
@@ -225,7 +210,8 @@ def main() -> None:
         "world": out(world_pick),
         "items": out(local_pick + world_pick),
         "joke": joke,
-        "source": ", ".join(sources),
+        "jokes_by_day": jokes_by_day,
+        "source": ", ".join(sources) + " · Witze: witzapi.de",
     }
     OUT_PATH.parent.mkdir(parents=True, exist_ok=True)
     OUT_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

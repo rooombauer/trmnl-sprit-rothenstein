@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29T16:21:02Z",
+  "updated_at": "2026-09-29T16:47:52Z",
   "date": "2026-09-29",
   "local": [
     {
@@ -18,11 +18,6 @@
       "title": "Deutschland erreicht Solarstrom-Rekord schon im September",
       "teaser": "Deutschland hat 2026 bereits bis zum 27. September 90,2 Terawattstunden Solarstrom erzeugt – und damit mehr als im …",
       "source": "Good News Magazin"
-    },
-    {
-      "title": "China: Solarleistung überholt erstmals Kohlekraft",
-      "teaser": "China hat einen neuen Meilenstein beim Ausbau erneuerbarer Energien erreicht: Ende Juli verfügten die Solaranlagen des …",
-      "source": "Good News Magazin"
     }
   ],
   "items": [
@@ -40,13 +35,18 @@
       "title": "Deutschland erreicht Solarstrom-Rekord schon im September",
       "teaser": "Deutschland hat 2026 bereits bis zum 27. September 90,2 Terawattstunden Solarstrom erzeugt – und damit mehr als im …",
       "source": "Good News Magazin"
-    },
-    {
-      "title": "China: Solarleistung überholt erstmals Kohlekraft",
-      "teaser": "China hat einen neuen Meilenstein beim Ausbau erneuerbarer Energien erreicht: Ende Juli verfügten die Solaranlagen des …",
-      "source": "Good News Magazin"
     }
   ],
-  "joke": "Wie nennt man ein Schaf ohne Beine? – Eine Wolke.",
-  "source": "Good News Magazin, OTZ Jena, Stadt Jena"
+  "joke": "Meine Oma ist jetzt Türsteher, wir nennen sie nun Hilde-Guard.",
+  "jokes_by_day": {
+    "2026-09-29": "Meine Oma ist jetzt Türsteher, wir nennen sie nun Hilde-Guard.",
+    "2026-09-30": "Meine Uhr ist mir runtergefallen. Aber ich kann sie nicht aufheben. Ich hab kein Urheberrecht.",
+    "2026-10-01": "Was ist süß und hangelt sich von Tortenstück zu Tortenstück? – Ein Tarzipan.",
+    "2026-10-02": "Wieso können Skelette schlecht lügen? – Weil sie so gut zu durchschauen sind.",
+    "2026-10-03": "Was machen zwei wütende Schafe?\nSie kriegen sich in die Wolle.",
+    "2026-10-04": "Da ich immer hungrig bin, habe ich mir nun Spaghetti um den Wecker gewickelt. So habe ich endlich rund um die Uhr essen.",
+    "2026-10-05": "Was ist weiß und springt im Wald umher? – Ein Jumpignon.",
+    "2026-10-06": "Was ist flüssiger als Wasser?\nHausaufgaben, die sind überflüssig."
+  },
+  "source": "Good News Magazin, OTZ Jena, Stadt Jena · Witze: witzapi.de"
 }

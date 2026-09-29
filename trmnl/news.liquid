@@ -1,30 +1,33 @@
+{% assign offset = trmnl.user.utc_offset | default: 7200 %}
+{% assign today_key = "now" | date: "%s" | plus: offset | date: "%Y-%m-%d" %}
+{% assign joke_today = jokes_by_day[today_key] | default: joke %}
 <div class="layout" style="display:flex; flex-direction:column; align-items:stretch; width:100%; height:100%;">
   <div class="title_bar">
     <span class="title">🌞 Gute Nachrichten</span>
     <span class="instance">{{ date | date: "%d.%m." }}</span>
   </div>
 
-  <div style="flex:1; display:flex; flex-direction:column; justify-content:space-around; padding:2px 14px 0; box-sizing:border-box;">
+  <div style="flex:1; display:flex; flex-direction:column; justify-content:space-around; padding:2px 16px 0; box-sizing:border-box;">
     {% if local.size > 0 %}
-    <div style="font-size:15px; font-weight:900; letter-spacing:2px; text-transform:uppercase; border-bottom:2px solid black;">📍 Aus Jena und Umgebung</div>
+    <div style="font-size:16px; font-weight:900; letter-spacing:2px; text-transform:uppercase; border-bottom:2px solid black;">📍 Aus Jena und Umgebung</div>
     {% for n in local %}
     <div>
-      <div style="font-size:22px; font-weight:bold; line-height:1.15;">{{ n.title }}</div>
-      <div style="font-size:16px; line-height:1.25; margin-top:2px;">{{ n.teaser }}</div>
+      <div style="font-size:26px; font-weight:bold; line-height:1.15;">{{ n.title }}</div>
+      <div style="font-size:19px; line-height:1.25; margin-top:2px;">{{ n.teaser }}</div>
     </div>
     {% endfor %}
     {% endif %}
-    <div style="font-size:15px; font-weight:900; letter-spacing:2px; text-transform:uppercase; border-bottom:2px solid black;">🌍 Aus aller Welt</div>
+    <div style="font-size:16px; font-weight:900; letter-spacing:2px; text-transform:uppercase; border-bottom:2px solid black;">🌍 Aus aller Welt</div>
     {% for n in world %}
     <div>
-      <div style="font-size:22px; font-weight:bold; line-height:1.15;">{{ n.title }}</div>
-      <div style="font-size:16px; line-height:1.25; margin-top:2px;">{{ n.teaser }}</div>
+      <div style="font-size:26px; font-weight:bold; line-height:1.15;">{{ n.title }}</div>
+      <div style="font-size:19px; line-height:1.25; margin-top:2px;">{{ n.teaser }}</div>
     </div>
     {% endfor %}
   </div>
 
-  <div style="border:3px solid black; border-radius:10px; padding:6px 12px; margin:6px 14px 0; font-size:19px;">
-    <b>😄 Witz des Tages:</b> {{ joke }}
+  <div style="border:3px solid black; border-radius:10px; padding:6px 12px; margin:6px 16px 0; font-size:20px; line-height:1.3;">
+    <b>😄 Witz des Tages:</b> {{ joke_today | newline_to_br }}
   </div>
-  <div style="font-size:11px; margin:3px 14px 0;">Quellen: {{ source }}</div>
+  <div style="font-size:11px; margin:3px 16px 0;">Quellen: {{ source }}</div>
 </div>
