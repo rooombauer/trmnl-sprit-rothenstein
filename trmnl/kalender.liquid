@@ -5,6 +5,9 @@
   Termin-Titel „Name: Text“ werden als Namensschild + Text dargestellt.
   Feiertage Thüringen (plus Heiligabend/Silvester) 2026–2028 stehen fest in „holidays“,
   erzeugt mit Oster-Formel; für 2029 ff. ergänzen.
+  Schulferien Thüringen in „ferien“ (Start|Ende|Name). 2026/27 aus zwei Ferienportalen
+  abgeglichen (schulferien.org, kalenderpedia.de), 2027/28 bisher nur aus einer Quelle; bitte
+  gegen bildung.thueringen.de prüfen und ab Schuljahr 2028/29 ergänzen.
 {% endcomment %}
 {% assign cal = apple_calendar_75544 %}
 {% assign offset = trmnl.user.utc_offset | default: 7200 %}
@@ -18,6 +21,13 @@
 {% assign wd_i = wd | minus: 1 %}
 {% assign holidays = "2026-01-01=Neujahr;2026-04-03=Karfreitag;2026-04-05=Ostersonntag;2026-04-06=Ostermontag;2026-05-01=Tag der Arbeit;2026-05-14=Christi Himmelfahrt;2026-05-24=Pfingstsonntag;2026-05-25=Pfingstmontag;2026-09-20=Weltkindertag;2026-10-03=Tag der Deutschen Einheit;2026-10-31=Reformationstag;2026-12-24=Heiligabend;2026-12-25=1. Weihnachtstag;2026-12-26=2. Weihnachtstag;2026-12-31=Silvester;2027-01-01=Neujahr;2027-03-26=Karfreitag;2027-03-28=Ostersonntag;2027-03-29=Ostermontag;2027-05-01=Tag der Arbeit;2027-05-06=Christi Himmelfahrt;2027-05-16=Pfingstsonntag;2027-05-17=Pfingstmontag;2027-09-20=Weltkindertag;2027-10-03=Tag der Deutschen Einheit;2027-10-31=Reformationstag;2027-12-24=Heiligabend;2027-12-25=1. Weihnachtstag;2027-12-26=2. Weihnachtstag;2027-12-31=Silvester;2028-01-01=Neujahr;2028-04-14=Karfreitag;2028-04-16=Ostersonntag;2028-04-17=Ostermontag;2028-05-01=Tag der Arbeit;2028-05-25=Christi Himmelfahrt;2028-06-04=Pfingstsonntag;2028-06-05=Pfingstmontag;2028-09-20=Weltkindertag;2028-10-03=Tag der Deutschen Einheit;2028-10-31=Reformationstag;2028-12-24=Heiligabend;2028-12-25=1. Weihnachtstag;2028-12-26=2. Weihnachtstag;2028-12-31=Silvester" | split: ";" %}
 {% assign today_holiday = "" %}
+{% assign ferien = "2026-10-12|2026-10-24|Herbstferien;2026-12-23|2027-01-02|Weihnachtsferien;2027-02-01|2027-02-06|Winterferien;2027-03-22|2027-04-03|Osterferien;2027-05-07|2027-05-07|Schulfrei;2027-07-10|2027-08-20|Sommerferien;2027-10-09|2027-10-23|Herbstferien;2027-12-23|2027-12-31|Weihnachtsferien;2028-02-07|2028-02-12|Winterferien;2028-04-03|2028-04-15|Osterferien;2028-05-26|2028-05-26|Schulfrei;2028-07-22|2028-09-01|Sommerferien" | split: ";" %}
+{% assign today_mid = today_key | date: "%s" | plus: 0 %}
+{% assign ferien_today = "" %}{% assign next_ferien = "" %}{% assign next_days = 999 %}
+{% for f in ferien %}{% assign fp = f | split: "|" %}
+  {% if today_key >= fp[0] and today_key <= fp[1] %}{% assign ferien_today = fp[2] %}{% endif %}
+  {% if fp[0] > today_key and fp[2] contains "ferien" %}{% assign fs = fp[0] | date: "%s" | plus: 0 %}{% assign dd = fs | minus: today_mid | divided_by: 86400 %}{% if dd < next_days %}{% assign next_days = dd %}{% assign next_ferien = fp[2] %}{% endif %}{% endif %}
+{% endfor %}
 {% for h in holidays %}{% assign hp = h | split: "=" %}{% if hp[0] == today_key %}{% assign today_holiday = hp[1] %}{% endif %}{% endfor %}
 
 
@@ -29,7 +39,9 @@
     <div style="font-size:28px; font-weight:700;">{{ months[month_idx] }}</div>
     <div style="margin-top:14px; border:3px solid white; border-radius:22px; padding:4px 18px; font-size:22px; font-weight:800;">KW {{ now_s | date: "%V" | plus: 0 }}</div>
     <div style="margin-top:22px; font-size:18px; font-weight:700; line-height:1.3;">
-      {% if wd >= 6 %}Wochenende! 🎉
+      {% if ferien_today != "" %}<span style="font-size:24px;">🏖️ {{ ferien_today }}!</span>
+      {% elsif next_days <= 21 %}{% if next_days == 1 %}Morgen beginnen<br>die {{ next_ferien }}! 🏖️{% else %}Noch {{ next_days }}× schlafen<br>bis zu den {{ next_ferien }}! 🏖️{% endif %}
+      {% elsif wd >= 6 %}Wochenende! 🎉
       {% elsif wd == 5 %}Morgen ist<br>Wochenende! 🎉
       {% else %}{% assign left = 6 | minus: wd %}Noch {{ left }}× schlafen<br>bis zum Wochenende!{% endif %}
     </div>
@@ -79,6 +91,7 @@
           <span style="flex:1; font-weight:600; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;">
             {% assign n = 0 %}{% assign more = 0 %}
             {% for h in holidays %}{% assign hp = h | split: "=" %}{% if hp[0] == day_key %}<b style="font-weight:900;">🎉 {{ hp[1] }}</b>{% assign n = 1 %}{% endif %}{% endfor %}
+            {% for f in ferien %}{% assign fp = f | split: "|" %}{% if day_key == fp[0] %}{% if n > 0 %} · {% endif %}<b style="font-weight:900;">🏖️ {% if fp[2] contains "ferien" %}{{ fp[2] }} beginnen{% else %}Schulfrei{% endif %}</b>{% assign n = n | plus: 1 %}{% elsif day_key > fp[0] and day_key <= fp[1] and n == 0 %}🏖️ {% endif %}{% endfor %}
             {% for e in cal.events %}
               {% assign k = e.start_full | slice: 0, 10 %}
               {% if k == day_key %}
