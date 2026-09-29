@@ -13,12 +13,13 @@
 {% assign wd_short = "Mo,Di,Mi,Do,Fr,Sa,So" | split: "," %}
 {% assign months = "Januar,Februar,März,April,Mai,Juni,Juli,August,September,Oktober,November,Dezember" | split: "," %}
 {% assign month_idx = now_s | date: "%-m" | minus: 1 %}
+{% assign wd_i = wd | minus: 1 %}
 
 
 <div style="display:flex; width:100%; height:100%; font-family:Inter, sans-serif; color:black; background:white;">
 
   <div style="width:250px; flex-shrink:0; background:black; color:white; display:flex; flex-direction:column; align-items:center; justify-content:center; text-align:center; padding:0 14px; box-sizing:border-box;">
-    <div style="font-size:30px; font-weight:800; letter-spacing:1px; text-transform:uppercase;">{{ weekdays[wd | minus: 1] }}</div>
+    <div style="font-size:30px; font-weight:800; letter-spacing:1px; text-transform:uppercase;">{{ weekdays[wd_i] }}</div>
     <div style="font-size:132px; font-weight:900; line-height:1; margin:2px 0;">{{ now_s | date: "%-d" }}</div>
     <div style="font-size:28px; font-weight:700;">{{ months[month_idx] }}</div>
     <div style="margin-top:14px; border:3px solid white; border-radius:22px; padding:4px 18px; font-size:22px; font-weight:800;">KW {{ now_s | date: "%V" | plus: 0 }}</div>
@@ -64,9 +65,9 @@
       {% for i in (1..7) %}
         {% assign day_s = i | times: 86400 | plus: now_s %}
         {% assign day_key = day_s | date: "%Y-%m-%d" %}
-        {% assign dwd = day_s | date: "%u" | plus: 0 %}
+        {% assign dwd = day_s | date: "%u" | plus: 0 %}{% assign dwd_i = dwd | minus: 1 %}
         <div style="display:flex; align-items:baseline; gap:12px; padding:3px 0;{% unless forloop.last %} border-bottom:1.5px solid black;{% endunless %} font-size:19px; line-height:1.25;">
-          <span style="font-weight:900; {% if dwd >= 6 %}background:black; color:white; border-radius:6px; padding:0 6px; width:66px;{% else %}width:78px;{% endif %}">{{ wd_short[dwd | minus: 1] }} {{ day_s | date: "%-d" }}.</span>
+          <span style="font-weight:900; {% if dwd >= 6 %}background:black; color:white; border-radius:6px; padding:0 6px; width:66px;{% else %}width:78px;{% endif %}">{{ wd_short[dwd_i] }} {{ day_s | date: "%-d" }}.</span>
           <span style="flex:1; font-weight:600; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;">
             {% assign n = 0 %}{% assign more = 0 %}
             {% for e in cal.events %}
