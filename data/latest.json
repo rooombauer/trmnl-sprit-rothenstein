@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-09-29T09:43:51Z",
-  "updated_local": "29.09. 11:43",
+  "updated_at": "2026-09-29T12:36:36Z",
+  "updated_local": "29.09. 14:36",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -10,7 +10,7 @@
       "street": "Stadtrodaer Straße 102",
       "place": "Jena",
       "dist": "3,4 km",
-      "price_main": "2,27",
+      "price_main": "2,39",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -21,7 +21,7 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "2,20",
+      "price_main": "2,35",
       "price_sup": "9",
       "open": true,
       "cheapest": true
@@ -32,7 +32,7 @@
       "street": "Am Heerweg 33",
       "place": "Kahla",
       "dist": "4,8 km",
-      "price_main": "2,28",
+      "price_main": "2,38",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -43,7 +43,7 @@
       "street": "Goeschwitzer Str. 1",
       "place": "Jena",
       "dist": "5,4 km",
-      "price_main": "2,21",
+      "price_main": "2,36",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -78,34 +78,34 @@
     ],
     "others": [
       {
-        "x": 145.1,
-        "y": 86.6,
-        "brand": "Shell",
-        "price_main": "2,24",
+        "x": 139.2,
+        "y": 26.1,
+        "brand": "TotalEnergies",
+        "price_main": "2,35",
         "price_sup": "9",
-        "anchor": "end",
-        "lx": 136.1,
-        "ly": 91.6
+        "anchor": "middle",
+        "lx": 139.2,
+        "ly": 14.1
       },
       {
         "x": 227.9,
         "y": 24.3,
         "brand": "LEO",
-        "price_main": "2,25",
+        "price_main": "2,35",
         "price_sup": "9",
         "anchor": "start",
         "lx": 236.9,
         "ly": 29.3
       },
       {
-        "x": 139.2,
-        "y": 26.1,
-        "brand": "TotalEnergies",
-        "price_main": "2,26",
+        "x": 145.1,
+        "y": 86.6,
+        "brand": "Shell",
+        "price_main": "2,38",
         "price_sup": "9",
-        "anchor": "middle",
-        "lx": 139.2,
-        "ly": 14.1
+        "anchor": "end",
+        "lx": 136.1,
+        "ly": 91.6
       }
     ]
   },
