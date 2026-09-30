@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-09-30T00:30:40Z",
+  "updated_at": "2026-09-30T06:45:34Z",
   "date": "2026-09-30",
   "local": [
+    {
+      "title": "„Die Lange Nacht der Sterne“ im Saale-Holzland: Was Besucher wissen müssen",
+      "teaser": "Am Samstag können Interessierte den Sternenhimmel erkunden: Das Team der Thüringer …",
+      "source": "OTZ Jena"
+    },
     {
       "title": "Energie- und Wärmekompetenzzentrum in Jena eröffnet",
       "teaser": "Die Klimaschutzagentur Jena und die Stadtwerke haben ein neues Info-Angebot aufgebaut.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Tag der Deutschen Einheit: Jena und Erlangen feiern ihre Partnerschaft",
-      "teaser": "Festakt, Stadtführungen, Gespräche, Musik und gemeinsames Singen am 3. Oktober",
-      "source": "Stadt Jena"
     }
   ],
   "world": [
@@ -22,14 +22,14 @@
   ],
   "items": [
     {
+      "title": "„Die Lange Nacht der Sterne“ im Saale-Holzland: Was Besucher wissen müssen",
+      "teaser": "Am Samstag können Interessierte den Sternenhimmel erkunden: Das Team der Thüringer …",
+      "source": "OTZ Jena"
+    },
+    {
       "title": "Energie- und Wärmekompetenzzentrum in Jena eröffnet",
       "teaser": "Die Klimaschutzagentur Jena und die Stadtwerke haben ein neues Info-Angebot aufgebaut.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Tag der Deutschen Einheit: Jena und Erlangen feiern ihre Partnerschaft",
-      "teaser": "Festakt, Stadtführungen, Gespräche, Musik und gemeinsames Singen am 3. Oktober",
-      "source": "Stadt Jena"
     },
     {
       "title": "UN unterstützt Weltkarte, die Afrikas tatsächliche Größe zeigt",
@@ -48,5 +48,5 @@
     "2026-10-06": "Was ist flüssiger als Wasser?\nHausaufgaben, die sind überflüssig.",
     "2026-10-07": "Was ist grün, glücklich und hüpft von Grashalm zu Grashalm? – Eine Freuschrecke."
   },
-  "source": "Good News Magazin, MDR Thüringen, Stadt Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
 }
