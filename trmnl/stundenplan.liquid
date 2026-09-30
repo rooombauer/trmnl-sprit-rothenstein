@@ -1,6 +1,12 @@
 {% comment %}Stundenplan, ganze Seite. Braucht den Shared-Teil (stundenplan_shared.liquid).{% endcomment %}
 {% assign hat_geaendert = false %}
 {% assign hat_hausaufgaben = false %}{% if hausaufgaben %}{% assign hat_hausaufgaben = true %}{% endif %}
+{% comment %}Schriftgröße nach Platzbedarf: viele Einzelstunden oder Hausaufgaben brauchen mehr Zeilen{% endcomment %}
+{% assign max_n = 0 %}{% for t in tage limit: 2 %}{% assign n = t.stunden | size %}{% if n > max_n %}{% assign max_n = n %}{% endif %}{% endfor %}
+{% assign fs = 44 %}{% if max_n > 4 %}{% assign fs = 38 %}{% endif %}{% if max_n > 5 %}{% assign fs = 34 %}{% endif %}{% if max_n > 6 %}{% assign fs = 30 %}{% endif %}{% if max_n > 7 %}{% assign fs = 26 %}{% endif %}
+{% assign ha_max = 3 %}
+{% if hat_hausaufgaben %}{% assign fs = fs | minus: 6 %}{% if max_n > 6 %}{% assign fs = 22 %}{% assign ha_max = 2 %}{% endif %}{% endif %}
+{% assign fs_ic = fs | times: 0.8 | round %}{% assign fs_nr = fs | times: 0.5 | round %}{% if fs_nr < 14 %}{% assign fs_nr = 14 %}{% endif %}
 <div style="display:flex; flex-direction:column; width:100%; height:100%; padding:12px 20px 10px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
   <div style="display:flex; align-items:center; gap:10px; font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">
     🎒 Schultag · {{ name }}<span style="flex:1; height:3px; background:black;"></span>
@@ -24,14 +30,14 @@
           {% assign paar_offen = doppel %}
           {% if s.geaendert %}{% assign hat_geaendert = true %}{% endif %}
           {% assign ic = "📚" %}{% for c in fach_codes %}{% if c == s.fach %}{% assign ic = fach_icons[forloop.index0] %}{% endif %}{% endfor %}
-          <div style="display:flex; align-items:center; gap:10px; padding:2px 0;">
-            <span style="width:54px; text-align:right; font-size:21px; font-weight:800;">{% if doppel %}{{ s.nr }}+{{ next.nr }}{% else %}{{ s.nr }}.{% endif %}</span>
-            <span style="font-size:34px; width:46px; text-align:center;">{{ ic }}</span>
+          <div style="display:flex; align-items:center; gap:10px; padding:0;">
+            <span style="width:54px; text-align:right; font-size:{{ fs_nr }}px; font-weight:800;">{% if doppel %}{{ s.nr }}+{{ next.nr }}{% else %}{{ s.nr }}.{% endif %}</span>
+            <span style="font-size:{{ fs_ic }}px; width:46px; text-align:center;">{{ ic }}</span>
             {% if s.ausfall %}
-              <span style="font-size:44px; font-weight:900; line-height:1.1; text-decoration:line-through; text-decoration-thickness:3px;">{{ s.fach }}</span>
+              <span style="font-size:{{ fs }}px; font-weight:900; line-height:1.05; text-decoration:line-through; text-decoration-thickness:3px;">{{ s.fach }}</span>
               <span style="font-size:20px; font-weight:900; background:black; color:white; border-radius:8px; padding:1px 10px;">fällt aus</span>
             {% else %}
-              <span style="font-size:44px; font-weight:900; line-height:1.1;">{{ s.fach }}{% if s.geaendert %}*{% endif %}</span>
+              <span style="font-size:{{ fs }}px; font-weight:900; line-height:1.05;">{{ s.fach }}{% if s.geaendert %}*{% endif %}</span>
             {% endif %}
           </div>
         {% endfor %}
@@ -47,7 +53,7 @@
     {% if ha_n == 0 %}
       <div style="font-size:21px; font-weight:800; margin-top:2px;">Keine Hausaufgaben. Hurra! 🎉</div>
     {% else %}
-      {% for h in hausaufgaben limit: 3 %}
+      {% for h in hausaufgaben limit: ha_max %}
         {% assign ic = "📚" %}{% for c in fach_codes %}{% if c == h.fach %}{% assign ic = fach_icons[forloop.index0] %}{% endif %}{% endfor %}
         <div style="display:flex; align-items:baseline; gap:10px; font-size:20px; line-height:1.3; margin-top:2px;">
           <span style="font-weight:900; white-space:nowrap;">{{ ic }} {{ h.fach }}</span>
@@ -55,7 +61,7 @@
           {% if h.faellig_text %}<span style="font-size:15px; font-weight:900; border:2px solid black; border-radius:10px; padding:0 8px; white-space:nowrap;">bis {{ h.faellig_text }}</span>{% endif %}
         </div>
       {% endfor %}
-      {% if ha_n > 3 %}<div style="font-size:15px; font-weight:800;">und {{ ha_n | minus: 3 }} weitere</div>{% endif %}
+      {% if ha_n > ha_max %}<div style="font-size:15px; font-weight:800;">und {{ ha_n | minus: ha_max }} weitere</div>{% endif %}
     {% endif %}
   </div>
   {% endif %}
