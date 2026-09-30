@@ -1,9 +1,10 @@
 {% comment %}
-  Stundenplan, gemeinsamer Teil (Tab „Shared“): Symbole je Schulfach-Kürzel.
+  Stundenplan, gemeinsamer Teil (Tab „Shared“): ausgeschriebene Fachnamen und Symbole je Kürzel.
   Daten von Ronny per Webhook (MeineSchule.digital): name, tage[] (datum, titel,
   stunden[] mit nr, fach, ausfall, geaendert), stand_text, veraltet und optional
-  hausaufgaben[] (fach, text, faellig_text). Fächer bleiben Kürzel und werden nicht übersetzt.
-  Aufeinanderfolgende gleiche Fächer werden als Doppelstunde zusammengefasst.
+  hausaufgaben[] (fach, text, faellig_text). Angezeigt wird „Fachname (Kürzel)“,
+  unbekannte Kürzel erscheinen so, wie sie geliefert werden.
 {% endcomment %}
 {% assign fach_codes = "Ma,De,En,Et,Ge,Gg,Ku,Mu,Sp,MNT,MBI,KLA,Re,Ph,Ch,Bio,Fr,La,Ru,Inf" | split: "," %}
+{% assign fach_namen = "Mathematik,Deutsch,Englisch,Ethik,Geschichte,Geografie,Kunst,Musik,Sport,Mensch Natur Technik,Medienbildung und Informatik,Klassenleiterstunde,Religion,Physik,Chemie,Biologie,Französisch,Latein,Russisch,Informatik" | split: "," %}
 {% assign fach_icons = "📐,📖,💬,🤔,🏛️,🌍,🎨,🎵,⚽,🔬,💻,👥,🕊️,⚡,🧪,🌱,🥖,🏺,🪆,💻" | split: "," %}
