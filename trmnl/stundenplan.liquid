@@ -1,0 +1,42 @@
+{% comment %}
+  Stundenplan, gefüllt von Ronny per Webhook aus MeineSchule.digital (nur der Plan,
+  keine Noten, Bemerkungen, Fehlzeiten oder Hausaufgaben).
+  Variablen: name, tage[] (datum, titel, stunden[] mit nr, fach, ausfall, geaendert),
+  stand_text, veraltet. Fächer sind Schulkürzel und werden nicht übersetzt.
+  Ohne Schultage schickt Ronny TRMNL_SKIP_DISPLAY, dann fällt die Seite aus der Runde.
+{% endcomment %}
+{% assign spalten = tage | size %}{% if spalten > 2 %}{% assign spalten = 2 %}{% endif %}
+{% assign max_stunden = 0 %}
+{% for t in tage limit: 2 %}{% assign n = t.stunden | size %}{% if n > max_stunden %}{% assign max_stunden = n %}{% endif %}{% endfor %}
+{% if max_stunden > 7 %}{% assign fs = 26 %}{% assign rowpad = 1 %}{% elsif max_stunden > 6 %}{% assign fs = 30 %}{% assign rowpad = 2 %}{% else %}{% assign fs = 34 %}{% assign rowpad = 3 %}{% endif %}
+{% assign hat_geaendert = false %}
+<div style="display:flex; flex-direction:column; width:100%; height:100%; padding:14px 22px 10px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
+  <div style="display:flex; align-items:center; gap:10px; font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">
+    🎒 Stundenplan · {{ name }}<span style="flex:1; height:3px; background:black;"></span>
+    {% if veraltet %}<span style="font-size:15px; letter-spacing:0; text-transform:none; border:2.5px solid black; border-radius:10px; padding:1px 8px;">Stand: {{ stand_text }}</span>{% endif %}
+  </div>
+  <div style="flex:1; display:flex; gap:28px; margin-top:10px; min-height:0;">
+    {% for t in tage limit: 2 %}
+    <div style="flex:1; display:flex; flex-direction:column; min-width:0;">
+      <div style="background:black; color:white; border-radius:10px; padding:5px 14px; font-size:22px; font-weight:900;">{{ t.titel }}</div>
+      <div style="flex:1; display:flex; flex-direction:column; justify-content:space-evenly; margin-top:4px;">
+        {% assign vorige = 0 %}
+        {% for s in t.stunden %}
+          {% if s.geaendert %}{% assign hat_geaendert = true %}{% endif %}
+          <div style="display:flex; align-items:baseline; gap:14px; padding:{{ rowpad }}px 0;{% unless forloop.last %} border-bottom:1.5px solid black;{% endunless %}">
+            <span style="width:26px; text-align:right; font-size:18px; font-weight:800;">{% if s.nr != vorige %}{{ s.nr }}.{% endif %}</span>
+            {% if s.ausfall %}
+              <span style="font-size:{{ fs }}px; font-weight:900; line-height:1.1; text-decoration:line-through; text-decoration-thickness:3px;">{{ s.fach }}</span>
+              <span style="font-size:18px; font-weight:900; background:black; color:white; border-radius:8px; padding:0 8px;">fällt aus</span>
+            {% else %}
+              <span style="font-size:{{ fs }}px; font-weight:900; line-height:1.1;">{{ s.fach }}{% if s.geaendert %}<span style="font-size:{{ fs | times: 0.7 | round }}px;">*</span>{% endif %}</span>
+            {% endif %}
+          </div>
+          {% assign vorige = s.nr %}
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+  {% if hat_geaendert %}<div style="font-size:15px; font-weight:700; margin-top:4px;">* verlegt oder anderes Fach</div>{% endif %}
+</div>

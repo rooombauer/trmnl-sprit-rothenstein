@@ -1,0 +1,18 @@
+{% comment %}
+  Familien-Pinnwand als Viertel (Quadrant, 400×240) für die Frühstücksseite.
+{% endcomment %}
+<div style="display:flex; flex-direction:column; width:100%; height:100%; padding:8px 12px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
+  <div style="display:flex; align-items:center; gap:8px; font-size:15px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">📌 Für alle<span style="flex:1; height:3px; background:black;"></span></div>
+  <div style="display:flex; flex-direction:column; gap:6px; flex:1; justify-content:center;">
+    {% if anzahl > 0 %}
+      {% for e in eintraege limit: 2 %}
+        <div style="border:2.5px solid black; border-radius:12px; padding:4px 10px;">
+          <div style="font-size:21px; font-weight:800; line-height:1.15;">{{ e.text }}</div>
+          {% if e.von %}<div style="font-size:14px; font-weight:800; margin-top:2px;">{{ e.von }}</div>{% endif %}
+        </div>
+      {% endfor %}
+    {% else %}
+      <div style="font-size:21px; font-weight:700; text-align:center; line-height:1.3;">Heute keine Nachrichten. Einen schönen Tag euch allen!</div>
+    {% endif %}
+  </div>
+</div>
