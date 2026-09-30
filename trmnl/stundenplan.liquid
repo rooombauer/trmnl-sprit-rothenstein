@@ -1,42 +1,63 @@
-{% comment %}
-  Stundenplan, gefüllt von Ronny per Webhook aus MeineSchule.digital (nur der Plan,
-  keine Noten, Bemerkungen, Fehlzeiten oder Hausaufgaben).
-  Variablen: name, tage[] (datum, titel, stunden[] mit nr, fach, ausfall, geaendert),
-  stand_text, veraltet. Fächer sind Schulkürzel und werden nicht übersetzt.
-  Ohne Schultage schickt Ronny TRMNL_SKIP_DISPLAY, dann fällt die Seite aus der Runde.
-{% endcomment %}
-{% assign spalten = tage | size %}{% if spalten > 2 %}{% assign spalten = 2 %}{% endif %}
-{% assign max_stunden = 0 %}
-{% for t in tage limit: 2 %}{% assign n = t.stunden | size %}{% if n > max_stunden %}{% assign max_stunden = n %}{% endif %}{% endfor %}
-{% if max_stunden > 7 %}{% assign fs = 26 %}{% assign rowpad = 1 %}{% elsif max_stunden > 6 %}{% assign fs = 30 %}{% assign rowpad = 2 %}{% else %}{% assign fs = 34 %}{% assign rowpad = 3 %}{% endif %}
+{% comment %}Stundenplan, ganze Seite. Braucht den Shared-Teil (stundenplan_shared.liquid).{% endcomment %}
 {% assign hat_geaendert = false %}
-<div style="display:flex; flex-direction:column; width:100%; height:100%; padding:14px 22px 10px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
+{% assign hat_hausaufgaben = false %}{% if hausaufgaben %}{% assign hat_hausaufgaben = true %}{% endif %}
+<div style="display:flex; flex-direction:column; width:100%; height:100%; padding:12px 20px 10px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
   <div style="display:flex; align-items:center; gap:10px; font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">
-    🎒 Stundenplan · {{ name }}<span style="flex:1; height:3px; background:black;"></span>
+    🎒 Schultag · {{ name }}<span style="flex:1; height:3px; background:black;"></span>
     {% if veraltet %}<span style="font-size:15px; letter-spacing:0; text-transform:none; border:2.5px solid black; border-radius:10px; padding:1px 8px;">Stand: {{ stand_text }}</span>{% endif %}
   </div>
-  <div style="flex:1; display:flex; gap:28px; margin-top:10px; min-height:0;">
+
+  <div style="flex:1; display:flex; gap:22px; margin-top:8px; min-height:0;">
     {% for t in tage limit: 2 %}
-    <div style="flex:1; display:flex; flex-direction:column; min-width:0;">
-      <div style="background:black; color:white; border-radius:10px; padding:5px 14px; font-size:22px; font-weight:900;">{{ t.titel }}</div>
-      <div style="flex:1; display:flex; flex-direction:column; justify-content:space-evenly; margin-top:4px;">
-        {% assign vorige = 0 %}
-        {% for s in t.stunden %}
+    <div style="flex:1; display:flex; flex-direction:column; min-width:0; border:3px solid black; border-radius:16px; overflow:hidden;">
+      <div style="background:black; color:white; padding:5px 14px; font-size:21px; font-weight:900;">{{ t.titel }}</div>
+      <div style="flex:1; display:flex; flex-direction:column; justify-content:space-evenly; padding:2px 12px;">
+        {% assign n = t.stunden | size %}
+        {% assign paar_offen = false %}{% for s in t.stunden %}
+          {% assign i = forloop.index0 %}{% assign prev_i = i | minus: 1 %}{% assign next_i = i | plus: 1 %}
+          {% assign prev = t.stunden[prev_i] %}{% assign next = t.stunden[next_i] %}
+          {% comment %}Doppelstunden: jeweils zwei gleiche Stunden hintereinander zu einer Zeile zusammenfassen{% endcomment %}
+          {% assign gleich_vorher = false %}{% if i > 0 and prev.fach == s.fach and prev.ausfall == s.ausfall and prev.nr != s.nr and prev.geaendert == s.geaendert %}{% assign gleich_vorher = true %}{% endif %}
+          {% if gleich_vorher and paar_offen %}{% assign paar_offen = false %}{% continue %}{% endif %}
+          {% assign doppel = false %}
+          {% if next and next.fach == s.fach and next.ausfall == s.ausfall and next.nr != s.nr and next.geaendert == s.geaendert %}{% assign doppel = true %}{% endif %}
+          {% assign paar_offen = doppel %}
           {% if s.geaendert %}{% assign hat_geaendert = true %}{% endif %}
-          <div style="display:flex; align-items:baseline; gap:14px; padding:{{ rowpad }}px 0;{% unless forloop.last %} border-bottom:1.5px solid black;{% endunless %}">
-            <span style="width:26px; text-align:right; font-size:18px; font-weight:800;">{% if s.nr != vorige %}{{ s.nr }}.{% endif %}</span>
+          {% assign ic = "📚" %}{% for c in fach_codes %}{% if c == s.fach %}{% assign ic = fach_icons[forloop.index0] %}{% endif %}{% endfor %}
+          <div style="display:flex; align-items:center; gap:10px; padding:2px 0;">
+            <span style="width:44px; text-align:right; font-size:17px; font-weight:800;">{% if doppel %}{{ s.nr }}+{{ next.nr }}{% else %}{{ s.nr }}.{% endif %}</span>
+            <span style="font-size:24px; width:32px; text-align:center;">{{ ic }}</span>
             {% if s.ausfall %}
-              <span style="font-size:{{ fs }}px; font-weight:900; line-height:1.1; text-decoration:line-through; text-decoration-thickness:3px;">{{ s.fach }}</span>
-              <span style="font-size:18px; font-weight:900; background:black; color:white; border-radius:8px; padding:0 8px;">fällt aus</span>
+              <span style="font-size:30px; font-weight:900; line-height:1.1; text-decoration:line-through; text-decoration-thickness:3px;">{{ s.fach }}</span>
+              <span style="font-size:16px; font-weight:900; background:black; color:white; border-radius:8px; padding:1px 8px;">fällt aus</span>
             {% else %}
-              <span style="font-size:{{ fs }}px; font-weight:900; line-height:1.1;">{{ s.fach }}{% if s.geaendert %}<span style="font-size:{{ fs | times: 0.7 | round }}px;">*</span>{% endif %}</span>
+              <span style="font-size:30px; font-weight:900; line-height:1.1;">{{ s.fach }}{% if s.geaendert %}*{% endif %}</span>
             {% endif %}
           </div>
-          {% assign vorige = s.nr %}
         {% endfor %}
       </div>
     </div>
     {% endfor %}
   </div>
+
+  {% if hat_hausaufgaben %}
+  <div style="margin-top:8px; border:3px solid black; border-radius:16px; padding:6px 14px;">
+    <div style="font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">📝 Hausaufgaben</div>
+    {% assign ha_n = hausaufgaben | size %}
+    {% if ha_n == 0 %}
+      <div style="font-size:21px; font-weight:800; margin-top:2px;">Keine Hausaufgaben. Hurra! 🎉</div>
+    {% else %}
+      {% for h in hausaufgaben limit: 3 %}
+        {% assign ic = "📚" %}{% for c in fach_codes %}{% if c == h.fach %}{% assign ic = fach_icons[forloop.index0] %}{% endif %}{% endfor %}
+        <div style="display:flex; align-items:baseline; gap:10px; font-size:20px; line-height:1.3; margin-top:2px;">
+          <span style="font-weight:900; white-space:nowrap;">{{ ic }} {{ h.fach }}</span>
+          <span style="flex:1; font-weight:600; overflow:hidden; white-space:nowrap; text-overflow:ellipsis;">{{ h.text }}</span>
+          {% if h.faellig_text %}<span style="font-size:15px; font-weight:900; border:2px solid black; border-radius:10px; padding:0 8px; white-space:nowrap;">bis {{ h.faellig_text }}</span>{% endif %}
+        </div>
+      {% endfor %}
+      {% if ha_n > 3 %}<div style="font-size:15px; font-weight:800;">und {{ ha_n | minus: 3 }} weitere</div>{% endif %}
+    {% endif %}
+  </div>
+  {% endif %}
   {% if hat_geaendert %}<div style="font-size:15px; font-weight:700; margin-top:4px;">* verlegt oder anderes Fach</div>{% endif %}
 </div>
