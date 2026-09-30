@@ -8,18 +8,18 @@
 
   <div style="flex:1; display:flex; flex-direction:column; justify-content:space-around; padding:2px 14px 0; box-sizing:border-box;">
     {% for w in words limit: 4 %}
-    <div style="padding:2px 0;{% unless forloop.last %} border-bottom:1px solid black;{% endunless %}">
+    <div style="padding:1px 0;{% unless forloop.last %} border-bottom:1px solid black;{% endunless %}">
       <div style="display:flex; align-items:baseline; gap:8px;">
-        <span style="font-size:27px; font-weight:bold; line-height:1.1;">{{ w.en }}</span>
+        <span style="font-size:24px; font-weight:bold; line-height:1.05;">{{ w.en }}</span>
         <span style="font-size:12px; border:1.5px solid black; border-radius:5px; padding:0 5px;">{{ w.type }}</span>
       </div>
-      <div style="font-size:21px; line-height:1.2;">{{ w.de }}</div>
-      <div style="font-size:16px; line-height:1.25;">„{{ w.example }}“</div>
+      <div style="font-size:19px; line-height:1.15;">{{ w.de }}</div>
+      <div style="font-size:15px; line-height:1.2;">„{{ w.example }}“</div>
     </div>
     {% endfor %}
   </div>
   {% if gestern and gestern.size > 0 %}
-  <div style="border-top:1.5px solid black; margin:4px 14px 0; padding-top:3px; font-size:15px; line-height:1.3;">
+  <div style="border-top:1.5px solid black; margin:2px 14px 4px; padding-top:2px; font-size:15px; line-height:1.25;">
     <b>Gestern, wie heißt das auf Englisch?</b> {% for g in gestern %}{{ g }}{% unless forloop.last %} · {% endunless %}{% endfor %}
   </div>
   {% endif %}
