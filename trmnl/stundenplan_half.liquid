@@ -8,7 +8,7 @@
     {% for t in tage limit: 2 %}
     <div style="flex:1; display:flex; flex-direction:column; min-width:0;">
       <div style="font-size:18px; font-weight:900; border-bottom:2.5px solid black; padding-bottom:1px;">{{ t.titel }}</div>
-      <div style="flex:1; display:flex; flex-wrap:wrap; align-content:center; gap:5px 6px; margin-top:3px;">
+      <div style="flex:1; display:flex; flex-wrap:wrap; align-content:center; gap:6px 8px; margin-top:3px;">
         {% assign paar_offen = false %}{% for s in t.stunden %}
           {% assign i = forloop.index0 %}{% assign prev_i = i | minus: 1 %}{% assign next_i = i | plus: 1 %}
           {% assign prev = t.stunden[prev_i] %}{% assign next = t.stunden[next_i] %}
@@ -19,11 +19,11 @@
           {% if next and next.fach == s.fach and next.ausfall == s.ausfall and next.nr != s.nr and next.geaendert == s.geaendert %}{% assign doppel = true %}{% endif %}
           {% assign paar_offen = doppel %}
           {% assign ic = "📚" %}{% for c in fach_codes %}{% if c == s.fach %}{% assign ic = fach_icons[forloop.index0] %}{% endif %}{% endfor %}
-          <div style="display:flex; align-items:center; gap:4px; border:2.5px solid black; border-radius:10px; padding:1px 7px;{% if s.ausfall %} background:black; color:white;{% endif %}">
-            <span style="font-size:18px;">{{ ic }}</span>
-            <span style="font-size:23px; font-weight:900; line-height:1.1;{% if s.ausfall %} text-decoration:line-through; text-decoration-thickness:3px;{% endif %}">{{ s.fach }}{% if s.geaendert %}*{% endif %}</span>
-            {% if doppel %}<span style="font-size:13px; font-weight:900;">×2</span>{% endif %}
-            {% if s.ausfall %}<span style="font-size:12px; font-weight:900;">fällt aus</span>{% endif %}
+          <div style="display:flex; align-items:center; gap:4px; border:3px solid black; border-radius:12px; padding:2px 9px;{% if s.ausfall %} background:black; color:white;{% endif %}">
+            <span style="font-size:24px;">{{ ic }}</span>
+            <span style="font-size:32px; font-weight:900; line-height:1.1;{% if s.ausfall %} text-decoration:line-through; text-decoration-thickness:3px;{% endif %}">{{ s.fach }}{% if s.geaendert %}*{% endif %}</span>
+            {% if doppel %}<span style="font-size:16px; font-weight:900;">×2</span>{% endif %}
+            {% if s.ausfall %}<span style="font-size:15px; font-weight:900;">fällt aus</span>{% endif %}
           </div>
         {% endfor %}
       </div>

@@ -10,7 +10,7 @@
   <div style="flex:1; display:flex; gap:22px; margin-top:8px; min-height:0;">
     {% for t in tage limit: 2 %}
     <div style="flex:1; display:flex; flex-direction:column; min-width:0; border:3px solid black; border-radius:16px; overflow:hidden;">
-      <div style="background:black; color:white; padding:5px 14px; font-size:21px; font-weight:900;">{{ t.titel }}</div>
+      <div style="background:black; color:white; padding:6px 14px; font-size:24px; font-weight:900;">{{ t.titel }}</div>
       <div style="flex:1; display:flex; flex-direction:column; justify-content:space-evenly; padding:2px 12px;">
         {% assign n = t.stunden | size %}
         {% assign paar_offen = false %}{% for s in t.stunden %}
@@ -25,13 +25,13 @@
           {% if s.geaendert %}{% assign hat_geaendert = true %}{% endif %}
           {% assign ic = "📚" %}{% for c in fach_codes %}{% if c == s.fach %}{% assign ic = fach_icons[forloop.index0] %}{% endif %}{% endfor %}
           <div style="display:flex; align-items:center; gap:10px; padding:2px 0;">
-            <span style="width:44px; text-align:right; font-size:17px; font-weight:800;">{% if doppel %}{{ s.nr }}+{{ next.nr }}{% else %}{{ s.nr }}.{% endif %}</span>
-            <span style="font-size:24px; width:32px; text-align:center;">{{ ic }}</span>
+            <span style="width:54px; text-align:right; font-size:21px; font-weight:800;">{% if doppel %}{{ s.nr }}+{{ next.nr }}{% else %}{{ s.nr }}.{% endif %}</span>
+            <span style="font-size:34px; width:46px; text-align:center;">{{ ic }}</span>
             {% if s.ausfall %}
-              <span style="font-size:30px; font-weight:900; line-height:1.1; text-decoration:line-through; text-decoration-thickness:3px;">{{ s.fach }}</span>
-              <span style="font-size:16px; font-weight:900; background:black; color:white; border-radius:8px; padding:1px 8px;">fällt aus</span>
+              <span style="font-size:44px; font-weight:900; line-height:1.1; text-decoration:line-through; text-decoration-thickness:3px;">{{ s.fach }}</span>
+              <span style="font-size:20px; font-weight:900; background:black; color:white; border-radius:8px; padding:1px 10px;">fällt aus</span>
             {% else %}
-              <span style="font-size:30px; font-weight:900; line-height:1.1;">{{ s.fach }}{% if s.geaendert %}*{% endif %}</span>
+              <span style="font-size:44px; font-weight:900; line-height:1.1;">{{ s.fach }}{% if s.geaendert %}*{% endif %}</span>
             {% endif %}
           </div>
         {% endfor %}
