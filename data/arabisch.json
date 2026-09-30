@@ -1,86 +1,46 @@
 {
-  "updated_at": "2026-09-29T06:56:55Z",
-  "date": "2026-09-29",
+  "updated_at": "2026-09-30T00:30:35Z",
+  "date": "2026-09-30",
   "topic": "Hocharabisch · A2",
   "words": [
     {
-      "ar": "جَائِع",
-      "tr": "ǧāʾiʿ",
-      "de": "hungrig",
-      "type": "Adjektiv",
-      "extra": "f. جَائِعَة",
-      "ex_ar": "هل أنت جائع؟",
-      "ex_de": "Hast du Hunger?"
+      "ar": "عَرَفَ",
+      "tr": "ʿarafa",
+      "de": "wissen, kennen",
+      "type": "Verb",
+      "extra": "Präsens: يَعْرِفُ",
+      "ex_ar": "هل تعرف هذه الكلمة؟",
+      "ex_de": "Kennst du dieses Wort?"
     },
     {
-      "ar": "جَمِيل",
-      "tr": "ǧamīl",
-      "de": "schön",
-      "type": "Adjektiv",
-      "extra": "f. جَمِيلَة",
-      "ex_ar": "الحديقة جميلة في الربيع.",
-      "ex_de": "Im Frühling ist der Garten schön."
-    },
-    {
-      "ar": "غَدَاء",
-      "tr": "ġadāʾ",
-      "de": "das Mittagessen",
+      "ar": "عِيد",
+      "tr": "ʿīd",
+      "de": "das Fest",
       "type": "Nomen",
-      "extra": "",
-      "ex_ar": "نأكل الغداء في الساعة الواحدة.",
-      "ex_de": "Wir essen um ein Uhr zu Mittag."
+      "extra": "Pl. أَعْيَاد",
+      "ex_ar": "عيد مبارك!",
+      "ex_de": "Gesegnetes Fest!"
     },
     {
-      "ar": "مُعَلِّم",
-      "tr": "muʿallim",
-      "de": "der Lehrer",
+      "ar": "بَاب",
+      "tr": "bāb",
+      "de": "die Tür",
       "type": "Nomen",
-      "extra": "Pl. مُعَلِّمُون",
-      "ex_ar": "المعلم لطيف جدا.",
-      "ex_de": "Der Lehrer ist sehr nett."
+      "extra": "Pl. أَبْوَاب",
+      "ex_ar": "افتح الباب من فضلك.",
+      "ex_de": "Öffne bitte die Tür."
+    },
+    {
+      "ar": "صَدِيق",
+      "tr": "ṣadīq",
+      "de": "der Freund",
+      "type": "Nomen",
+      "extra": "Pl. أَصْدِقَاء",
+      "ex_ar": "صديقي يسكن قريبا مني.",
+      "ex_de": "Mein Freund wohnt in meiner Nähe."
     }
   ],
   "days": {
-    "2026-09-29": {
-      "words": [
-        {
-          "ar": "جَائِع",
-          "tr": "ǧāʾiʿ",
-          "de": "hungrig",
-          "type": "Adjektiv",
-          "extra": "f. جَائِعَة",
-          "ex_ar": "هل أنت جائع؟",
-          "ex_de": "Hast du Hunger?"
-        },
-        {
-          "ar": "جَمِيل",
-          "tr": "ǧamīl",
-          "de": "schön",
-          "type": "Adjektiv",
-          "extra": "f. جَمِيلَة",
-          "ex_ar": "الحديقة جميلة في الربيع.",
-          "ex_de": "Im Frühling ist der Garten schön."
-        },
-        {
-          "ar": "غَدَاء",
-          "tr": "ġadāʾ",
-          "de": "das Mittagessen",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "نأكل الغداء في الساعة الواحدة.",
-          "ex_de": "Wir essen um ein Uhr zu Mittag."
-        },
-        {
-          "ar": "مُعَلِّم",
-          "tr": "muʿallim",
-          "de": "der Lehrer",
-          "type": "Nomen",
-          "extra": "Pl. مُعَلِّمُون",
-          "ex_ar": "المعلم لطيف جدا.",
-          "ex_de": "Der Lehrer ist sehr nett."
-        }
-      ]
-    },
     "2026-09-30": {
       "words": [
         {
@@ -358,6 +318,46 @@
           "extra": "",
           "ex_ar": "الكرة تحت السرير.",
           "ex_de": "Der Ball ist unter dem Bett."
+        }
+      ]
+    },
+    "2026-10-07": {
+      "words": [
+        {
+          "ar": "لَعِبَ",
+          "tr": "laʿiba",
+          "de": "spielen",
+          "type": "Verb",
+          "extra": "Präsens: يَلْعَبُ",
+          "ex_ar": "نلعب كرة القدم بعد المدرسة.",
+          "ex_de": "Nach der Schule spielen wir Fußball."
+        },
+        {
+          "ar": "عَائِلَة",
+          "tr": "ʿāʾila",
+          "de": "die Familie",
+          "type": "Nomen",
+          "extra": "Pl. عَائِلَات",
+          "ex_ar": "عائلتي كبيرة.",
+          "ex_de": "Meine Familie ist groß."
+        },
+        {
+          "ar": "عَشَاء",
+          "tr": "ʿašāʾ",
+          "de": "das Abendessen",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "ماذا نأكل على العشاء؟",
+          "ex_de": "Was essen wir zum Abendessen?"
+        },
+        {
+          "ar": "اِنْتَظَرَ",
+          "tr": "intaẓara",
+          "de": "warten",
+          "type": "Verb",
+          "extra": "Präsens: يَنْتَظِرُ",
+          "ex_ar": "أنتظر الحافلة.",
+          "ex_de": "Ich warte auf den Bus."
         }
       ]
     }
