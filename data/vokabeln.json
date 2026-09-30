@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T06:45:28Z",
+  "updated_at": "2026-09-30T17:37:48Z",
   "date": "2026-09-30",
   "topic": "Englisch · 5. Klasse",
   "words": [
@@ -55,6 +55,12 @@
           "type": "Nomen",
           "example": "Oops, I need a rubber!"
         }
+      ],
+      "gestern": [
+        "hinter",
+        "kaufen",
+        "faul",
+        "sich die Zähne putzen"
       ]
     },
     "2026-10-01": {
@@ -83,6 +89,12 @@
           "type": "Präposition",
           "example": "I sit next to Paul."
         }
+      ],
+      "gestern": [
+        "die Treppe",
+        "warm",
+        "das Schulheft",
+        "der Radiergummi"
       ]
     },
     "2026-10-02": {
@@ -111,6 +123,12 @@
           "type": "Redewendung",
           "example": "Hurry up, we're late!"
         }
+      ],
+      "gestern": [
+        "die Küche",
+        "immer",
+        "die Schwester",
+        "neben"
       ]
     },
     "2026-10-03": {
@@ -139,6 +157,12 @@
           "type": "Adjektiv",
           "example": "Rainy Sundays are boring."
         }
+      ],
+      "gestern": [
+        "zwischen",
+        "ins Bett gehen",
+        "kochen",
+        "Beeil dich!"
       ]
     },
     "2026-10-04": {
@@ -167,6 +191,12 @@
           "type": "Adverb",
           "example": "Let's do it together."
         }
+      ],
+      "gestern": [
+        "das Spiel",
+        "Lieblings-",
+        "lustig",
+        "langweilig"
       ]
     },
     "2026-10-05": {
@@ -195,6 +225,12 @@
           "type": "Nomen",
           "example": "When is your birthday?"
         }
+      ],
+      "gestern": [
+        "freundlich",
+        "die Schuhe",
+        "wieder, noch einmal",
+        "zusammen"
       ]
     },
     "2026-10-06": {
@@ -223,6 +259,12 @@
           "type": "Nomen",
           "example": "That's a great idea!"
         }
+      ],
+      "gestern": [
+        "der Bruder",
+        "nie",
+        "rufen, schreien",
+        "der Geburtstag"
       ]
     },
     "2026-10-07": {
@@ -251,6 +293,12 @@
           "type": "Adjektiv",
           "example": "My room is clean now."
         }
+      ],
+      "gestern": [
+        "üben",
+        "der Regen",
+        "schwierig",
+        "die Idee"
       ]
     }
   }

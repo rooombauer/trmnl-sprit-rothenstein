@@ -65,7 +65,11 @@ def main() -> None:
             "words": words_for(today, words, cfg["seed"], cfg.get("per_day", WORDS_PER_DAY)),
             "days": {
                 (today + datetime.timedelta(days=o)).isoformat(): {
-                    "words": words_for(today + datetime.timedelta(days=o), words, cfg["seed"], cfg.get("per_day", WORDS_PER_DAY))
+                    "words": words_for(today + datetime.timedelta(days=o), words, cfg["seed"], cfg.get("per_day", WORDS_PER_DAY)),
+                    # zum Abfragen: die deutschen Wörter vom Vortag
+                    "gestern": [
+                        w["de"] for w in words_for(today + datetime.timedelta(days=o - 1), words, cfg["seed"], cfg.get("per_day", WORDS_PER_DAY))
+                    ],
                 }
                 for o in range(DAYS_AHEAD + 1)
             },

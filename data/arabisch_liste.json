@@ -6,7 +6,8 @@
   "type": "Nomen",
   "extra": "Pl. بُيُوت",
   "ex_ar": "بيتي قريب من المدرسة.",
-  "ex_de": "Mein Haus ist nahe der Schule."
+  "ex_de": "Mein Haus ist nahe der Schule.",
+  "en": "the house"
  },
  {
   "ar": "مَدْرَسَة",
@@ -15,7 +16,8 @@
   "type": "Nomen",
   "extra": "Pl. مَدَارِس",
   "ex_ar": "أذهب إلى المدرسة كل صباح.",
-  "ex_de": "Ich gehe jeden Morgen zur Schule."
+  "ex_de": "Ich gehe jeden Morgen zur Schule.",
+  "en": "the school"
  },
  {
   "ar": "كِتَاب",
@@ -24,7 +26,8 @@
   "type": "Nomen",
   "extra": "Pl. كُتُب",
   "ex_ar": "هذا الكتاب جميل جدا.",
-  "ex_de": "Dieses Buch ist sehr schön."
+  "ex_de": "Dieses Buch ist sehr schön.",
+  "en": "the book"
  },
  {
   "ar": "قَلَم",
@@ -33,7 +36,8 @@
   "type": "Nomen",
   "extra": "Pl. أَقْلَام",
   "ex_ar": "هل عندك قلم؟",
-  "ex_de": "Hast du einen Stift?"
+  "ex_de": "Hast du einen Stift?",
+  "en": "the pen"
  },
  {
   "ar": "بَاب",
@@ -42,7 +46,8 @@
   "type": "Nomen",
   "extra": "Pl. أَبْوَاب",
   "ex_ar": "افتح الباب من فضلك.",
-  "ex_de": "Öffne bitte die Tür."
+  "ex_de": "Öffne bitte die Tür.",
+  "en": "the door"
  },
  {
   "ar": "نَافِذَة",
@@ -51,7 +56,8 @@
   "type": "Nomen",
   "extra": "Pl. نَوَافِذ",
   "ex_ar": "النافذة مفتوحة.",
-  "ex_de": "Das Fenster ist offen."
+  "ex_de": "Das Fenster ist offen.",
+  "en": "the window"
  },
  {
   "ar": "سَيَّارَة",
@@ -60,7 +66,8 @@
   "type": "Nomen",
   "extra": "Pl. سَيَّارَات",
   "ex_ar": "سيارة أبي بيضاء.",
-  "ex_de": "Papas Auto ist weiß."
+  "ex_de": "Papas Auto ist weiß.",
+  "en": "the car"
  },
  {
   "ar": "مَدِينَة",
@@ -69,7 +76,8 @@
   "type": "Nomen",
   "extra": "Pl. مُدُن",
   "ex_ar": "يينا مدينة جميلة.",
-  "ex_de": "Jena ist eine schöne Stadt."
+  "ex_de": "Jena ist eine schöne Stadt.",
+  "en": "the city"
  },
  {
   "ar": "قَرْيَة",
@@ -78,7 +86,8 @@
   "type": "Nomen",
   "extra": "Pl. قُرًى",
   "ex_ar": "نسكن في قرية صغيرة.",
-  "ex_de": "Wir wohnen in einem kleinen Dorf."
+  "ex_de": "Wir wohnen in einem kleinen Dorf.",
+  "en": "the village"
  },
  {
   "ar": "شَارِع",
@@ -87,7 +96,8 @@
   "type": "Nomen",
   "extra": "Pl. شَوَارِع",
   "ex_ar": "هذا الشارع طويل.",
-  "ex_de": "Diese Straße ist lang."
+  "ex_de": "Diese Straße ist lang.",
+  "en": "the street"
  },
  {
   "ar": "سُوق",
@@ -96,7 +106,8 @@
   "type": "Nomen",
   "extra": "Pl. أَسْوَاق",
   "ex_ar": "نشتري الخضار من السوق.",
-  "ex_de": "Wir kaufen das Gemüse auf dem Markt."
+  "ex_de": "Wir kaufen das Gemüse auf dem Markt.",
+  "en": "the market"
  },
  {
   "ar": "طَعَام",
@@ -105,7 +116,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "الطعام لذيذ.",
-  "ex_de": "Das Essen ist lecker."
+  "ex_de": "Das Essen ist lecker.",
+  "en": "the food"
  },
  {
   "ar": "مَاء",
@@ -114,7 +126,8 @@
   "type": "Nomen",
   "extra": "Pl. مِيَاه",
   "ex_ar": "أشرب الماء كل يوم.",
-  "ex_de": "Ich trinke jeden Tag Wasser."
+  "ex_de": "Ich trinke jeden Tag Wasser.",
+  "en": "the water"
  },
  {
   "ar": "خُبْز",
@@ -123,7 +136,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "أريد خبزا وجبنا.",
-  "ex_de": "Ich möchte Brot und Käse."
+  "ex_de": "Ich möchte Brot und Käse.",
+  "en": "the bread"
  },
  {
   "ar": "قَهْوَة",
@@ -132,7 +146,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "أمي تشرب القهوة في الصباح.",
-  "ex_de": "Mama trinkt morgens Kaffee."
+  "ex_de": "Mama trinkt morgens Kaffee.",
+  "en": "the coffee"
  },
  {
   "ar": "شَاي",
@@ -141,7 +156,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "هل تحب الشاي بالنعناع؟",
-  "ex_de": "Magst du Tee mit Minze?"
+  "ex_de": "Magst du Tee mit Minze?",
+  "en": "the tea"
  },
  {
   "ar": "فُطُور",
@@ -150,7 +166,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "الفطور جاهز.",
-  "ex_de": "Das Frühstück ist fertig."
+  "ex_de": "Das Frühstück ist fertig.",
+  "en": "breakfast"
  },
  {
   "ar": "غَدَاء",
@@ -159,7 +176,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "نأكل الغداء في الساعة الواحدة.",
-  "ex_de": "Wir essen um ein Uhr zu Mittag."
+  "ex_de": "Wir essen um ein Uhr zu Mittag.",
+  "en": "lunch"
  },
  {
   "ar": "عَشَاء",
@@ -168,7 +186,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "ماذا نأكل على العشاء؟",
-  "ex_de": "Was essen wir zum Abendessen?"
+  "ex_de": "Was essen wir zum Abendessen?",
+  "en": "dinner"
  },
  {
   "ar": "عَائِلَة",
@@ -177,7 +196,8 @@
   "type": "Nomen",
   "extra": "Pl. عَائِلَات",
   "ex_ar": "عائلتي كبيرة.",
-  "ex_de": "Meine Familie ist groß."
+  "ex_de": "Meine Familie ist groß.",
+  "en": "the family"
  },
  {
   "ar": "أَب",
@@ -186,7 +206,8 @@
   "type": "Nomen",
   "extra": "Pl. آبَاء",
   "ex_ar": "أبي يعمل في مكتب.",
-  "ex_de": "Mein Vater arbeitet in einem Büro."
+  "ex_de": "Mein Vater arbeitet in einem Büro.",
+  "en": "the father"
  },
  {
   "ar": "أُمّ",
@@ -195,7 +216,8 @@
   "type": "Nomen",
   "extra": "Pl. أُمَّهَات",
   "ex_ar": "أمي تطبخ جيدا.",
-  "ex_de": "Meine Mutter kocht gut."
+  "ex_de": "Meine Mutter kocht gut.",
+  "en": "the mother"
  },
  {
   "ar": "أَخ",
@@ -204,7 +226,8 @@
   "type": "Nomen",
   "extra": "Pl. إِخْوَة",
   "ex_ar": "عندي أخ وأخت.",
-  "ex_de": "Ich habe einen Bruder und eine Schwester."
+  "ex_de": "Ich habe einen Bruder und eine Schwester.",
+  "en": "the brother"
  },
  {
   "ar": "أُخْت",
@@ -213,7 +236,8 @@
   "type": "Nomen",
   "extra": "Pl. أَخَوَات",
   "ex_ar": "أختي تحب الرسم.",
-  "ex_de": "Meine Schwester malt gern."
+  "ex_de": "Meine Schwester malt gern.",
+  "en": "the sister"
  },
  {
   "ar": "صَدِيق",
@@ -222,7 +246,8 @@
   "type": "Nomen",
   "extra": "Pl. أَصْدِقَاء",
   "ex_ar": "صديقي يسكن قريبا مني.",
-  "ex_de": "Mein Freund wohnt in meiner Nähe."
+  "ex_de": "Mein Freund wohnt in meiner Nähe.",
+  "en": "the friend"
  },
  {
   "ar": "جَدّ",
@@ -231,7 +256,8 @@
   "type": "Nomen",
   "extra": "Pl. أَجْدَاد",
   "ex_ar": "جدي يحكي قصصا جميلة.",
-  "ex_de": "Mein Opa erzählt schöne Geschichten."
+  "ex_de": "Mein Opa erzählt schöne Geschichten.",
+  "en": "the grandfather"
  },
  {
   "ar": "جَدَّة",
@@ -240,7 +266,8 @@
   "type": "Nomen",
   "extra": "Pl. جَدَّات",
   "ex_ar": "نزور جدتي يوم الأحد.",
-  "ex_de": "Wir besuchen Oma am Sonntag."
+  "ex_de": "Wir besuchen Oma am Sonntag.",
+  "en": "the grandmother"
  },
  {
   "ar": "وَلَد",
@@ -249,7 +276,8 @@
   "type": "Nomen",
   "extra": "Pl. أَوْلَاد",
   "ex_ar": "الولد يلعب في الحديقة.",
-  "ex_de": "Der Junge spielt im Garten."
+  "ex_de": "Der Junge spielt im Garten.",
+  "en": "the boy, the child"
  },
  {
   "ar": "بِنْت",
@@ -258,7 +286,8 @@
   "type": "Nomen",
   "extra": "Pl. بَنَات",
   "ex_ar": "البنت تقرأ كتابا.",
-  "ex_de": "Das Mädchen liest ein Buch."
+  "ex_de": "Das Mädchen liest ein Buch.",
+  "en": "the girl"
  },
  {
   "ar": "مُعَلِّم",
@@ -267,7 +296,8 @@
   "type": "Nomen",
   "extra": "Pl. مُعَلِّمُون",
   "ex_ar": "المعلم لطيف جدا.",
-  "ex_de": "Der Lehrer ist sehr nett."
+  "ex_de": "Der Lehrer ist sehr nett.",
+  "en": "the teacher"
  },
  {
   "ar": "طَالِب",
@@ -276,7 +306,8 @@
   "type": "Nomen",
   "extra": "Pl. طُلَّاب",
   "ex_ar": "في صفي عشرون طالبا.",
-  "ex_de": "In meiner Klasse sind zwanzig Schüler."
+  "ex_de": "In meiner Klasse sind zwanzig Schüler.",
+  "en": "the pupil, student"
  },
  {
   "ar": "طَبِيب",
@@ -285,7 +316,8 @@
   "type": "Nomen",
   "extra": "Pl. أَطِبَّاء",
   "ex_ar": "أذهب إلى الطبيب لأنني مريض.",
-  "ex_de": "Ich gehe zum Arzt, weil ich krank bin."
+  "ex_de": "Ich gehe zum Arzt, weil ich krank bin.",
+  "en": "the doctor"
  },
  {
   "ar": "عَمَل",
@@ -294,7 +326,8 @@
   "type": "Nomen",
   "extra": "Pl. أَعْمَال",
   "ex_ar": "يذهب أبي إلى العمل بالسيارة.",
-  "ex_de": "Papa fährt mit dem Auto zur Arbeit."
+  "ex_de": "Papa fährt mit dem Auto zur Arbeit.",
+  "en": "the work"
  },
  {
   "ar": "يَوْم",
@@ -303,7 +336,8 @@
   "type": "Nomen",
   "extra": "Pl. أَيَّام",
   "ex_ar": "اليوم يوم جميل.",
-  "ex_de": "Heute ist ein schöner Tag."
+  "ex_de": "Heute ist ein schöner Tag.",
+  "en": "the day"
  },
  {
   "ar": "أُسْبُوع",
@@ -312,7 +346,8 @@
   "type": "Nomen",
   "extra": "Pl. أَسَابِيع",
   "ex_ar": "في الأسبوع سبعة أيام.",
-  "ex_de": "Die Woche hat sieben Tage."
+  "ex_de": "Die Woche hat sieben Tage.",
+  "en": "the week"
  },
  {
   "ar": "شَهْر",
@@ -321,7 +356,8 @@
   "type": "Nomen",
   "extra": "Pl. أَشْهُر",
   "ex_ar": "عيد ميلادي في هذا الشهر.",
-  "ex_de": "Mein Geburtstag ist in diesem Monat."
+  "ex_de": "Mein Geburtstag ist in diesem Monat.",
+  "en": "the month"
  },
  {
   "ar": "سَنَة",
@@ -330,7 +366,8 @@
   "type": "Nomen",
   "extra": "Pl. سَنَوَات",
   "ex_ar": "عمر أخي عشر سنوات.",
-  "ex_de": "Mein Bruder ist zehn Jahre alt."
+  "ex_de": "Mein Bruder ist zehn Jahre alt.",
+  "en": "the year"
  },
  {
   "ar": "سَاعَة",
@@ -339,7 +376,8 @@
   "type": "Nomen",
   "extra": "Pl. سَاعَات",
   "ex_ar": "كم الساعة الآن؟",
-  "ex_de": "Wie spät ist es jetzt?"
+  "ex_de": "Wie spät ist es jetzt?",
+  "en": "the hour, the clock"
  },
  {
   "ar": "صَبَاح",
@@ -348,7 +386,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "صباح الخير!",
-  "ex_de": "Guten Morgen!"
+  "ex_de": "Guten Morgen!",
+  "en": "the morning"
  },
  {
   "ar": "مَسَاء",
@@ -357,7 +396,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "أقرأ في المساء.",
-  "ex_de": "Ich lese am Abend."
+  "ex_de": "Ich lese am Abend.",
+  "en": "the evening"
  },
  {
   "ar": "لَيْل",
@@ -366,7 +406,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "القمر جميل في الليل.",
-  "ex_de": "Nachts ist der Mond schön."
+  "ex_de": "Nachts ist der Mond schön.",
+  "en": "the night"
  },
  {
   "ar": "طَقْس",
@@ -375,7 +416,8 @@
   "type": "Nomen",
   "extra": "",
   "ex_ar": "الطقس بارد اليوم.",
-  "ex_de": "Das Wetter ist heute kalt."
+  "ex_de": "Das Wetter ist heute kalt.",
+  "en": "the weather"
  },
  {
   "ar": "شَمْس",
@@ -384,7 +426,8 @@
   "type": "Nomen",
   "extra": "weiblich",
   "ex_ar": "الشمس ساطعة اليوم.",
-  "ex_de": "Heute scheint die Sonne."
+  "ex_de": "Heute scheint die Sonne.",
+  "en": "the sun"
  },
  {
   "ar": "مَطَر",
@@ -393,7 +436,8 @@
   "type": "Nomen",
   "extra": "Pl. أَمْطَار",
   "ex_ar": "المطر غزير اليوم.",
-  "ex_de": "Heute regnet es stark."
+  "ex_de": "Heute regnet es stark.",
+  "en": "the rain"
  },
  {
   "ar": "بَحْر",
@@ -402,7 +446,8 @@
   "type": "Nomen",
   "extra": "Pl. بِحَار",
   "ex_ar": "نسافر إلى البحر في الصيف.",
-  "ex_de": "Im Sommer fahren wir ans Meer."
+  "ex_de": "Im Sommer fahren wir ans Meer.",
+  "en": "the sea"
  },
  {
   "ar": "شَجَرَة",
@@ -411,7 +456,8 @@
   "type": "Nomen",
   "extra": "Pl. أَشْجَار",
   "ex_ar": "في حديقتنا شجرة تفاح.",
-  "ex_de": "In unserem Garten steht ein Apfelbaum."
+  "ex_de": "In unserem Garten steht ein Apfelbaum.",
+  "en": "the tree"
  },
  {
   "ar": "حَدِيقَة",
@@ -420,7 +466,8 @@
   "type": "Nomen",
   "extra": "Pl. حَدَائِق",
   "ex_ar": "نلعب في الحديقة.",
-  "ex_de": "Wir spielen im Garten."
+  "ex_de": "Wir spielen im Garten.",
+  "en": "the garden, park"
  },
  {
   "ar": "قِطَّة",
@@ -429,7 +476,8 @@
   "type": "Nomen",
   "extra": "Pl. قِطَط",
   "ex_ar": "القطة نائمة على الكرسي.",
-  "ex_de": "Die Katze schläft auf dem Stuhl."
+  "ex_de": "Die Katze schläft auf dem Stuhl.",
+  "en": "the cat"
  },
  {
   "ar": "كَلْب",
@@ -438,7 +486,8 @@
   "type": "Nomen",
   "extra": "Pl. كِلَاب",
   "ex_ar": "الكلب يلعب بالكرة.",
-  "ex_de": "Der Hund spielt mit dem Ball."
+  "ex_de": "Der Hund spielt mit dem Ball.",
+  "en": "the dog"
  },
  {
   "ar": "سَرِير",
@@ -447,7 +496,8 @@
   "type": "Nomen",
   "extra": "Pl. أَسِرَّة",
   "ex_ar": "سريري مريح.",
-  "ex_de": "Mein Bett ist bequem."
+  "ex_de": "Mein Bett ist bequem.",
+  "en": "the bed"
  },
  {
   "ar": "مَطْبَخ",
@@ -456,7 +506,8 @@
   "type": "Nomen",
   "extra": "Pl. مَطَابِخ",
   "ex_ar": "نأكل الفطور في المطبخ.",
-  "ex_de": "Wir frühstücken in der Küche."
+  "ex_de": "Wir frühstücken in der Küche.",
+  "en": "the kitchen"
  },
  {
   "ar": "غُرْفَة",
@@ -465,7 +516,8 @@
   "type": "Nomen",
   "extra": "Pl. غُرَف",
   "ex_ar": "غرفتي صغيرة ومرتبة.",
-  "ex_de": "Mein Zimmer ist klein und ordentlich."
+  "ex_de": "Mein Zimmer ist klein und ordentlich.",
+  "en": "the room"
  },
  {
   "ar": "طَاوِلَة",
@@ -474,7 +526,8 @@
   "type": "Nomen",
   "extra": "Pl. طَاوِلَات",
   "ex_ar": "الكتاب على الطاولة.",
-  "ex_de": "Das Buch liegt auf dem Tisch."
+  "ex_de": "Das Buch liegt auf dem Tisch.",
+  "en": "the table"
  },
  {
   "ar": "كُرْسِيّ",
@@ -483,7 +536,8 @@
   "type": "Nomen",
   "extra": "Pl. كَرَاسِيّ",
   "ex_ar": "اجلس على الكرسي.",
-  "ex_de": "Setz dich auf den Stuhl."
+  "ex_de": "Setz dich auf den Stuhl.",
+  "en": "the chair"
  },
  {
   "ar": "مَلَابِس",
@@ -492,7 +546,8 @@
   "type": "Nomen",
   "extra": "nur Plural",
   "ex_ar": "ملابسي في الخزانة.",
-  "ex_de": "Meine Kleidung ist im Schrank."
+  "ex_de": "Meine Kleidung ist im Schrank.",
+  "en": "the clothes"
  },
  {
   "ar": "لَوْن",
@@ -501,7 +556,8 @@
   "type": "Nomen",
   "extra": "Pl. أَلْوَان",
   "ex_ar": "ما لونك المفضل؟",
-  "ex_de": "Was ist deine Lieblingsfarbe?"
+  "ex_de": "Was ist deine Lieblingsfarbe?",
+  "en": "the colour"
  },
  {
   "ar": "سُؤَال",
@@ -510,7 +566,8 @@
   "type": "Nomen",
   "extra": "Pl. أَسْئِلَة",
   "ex_ar": "عندي سؤال.",
-  "ex_de": "Ich habe eine Frage."
+  "ex_de": "Ich habe eine Frage.",
+  "en": "the question"
  },
  {
   "ar": "جَوَاب",
@@ -519,7 +576,8 @@
   "type": "Nomen",
   "extra": "Pl. أَجْوِبَة",
   "ex_ar": "الجواب صحيح.",
-  "ex_de": "Die Antwort ist richtig."
+  "ex_de": "Die Antwort ist richtig.",
+  "en": "the answer"
  },
  {
   "ar": "لُغَة",
@@ -528,7 +586,8 @@
   "type": "Nomen",
   "extra": "Pl. لُغَات",
   "ex_ar": "أتعلم اللغة العربية.",
-  "ex_de": "Ich lerne Arabisch."
+  "ex_de": "Ich lerne Arabisch.",
+  "en": "the language"
  },
  {
   "ar": "هَدِيَّة",
@@ -537,7 +596,8 @@
   "type": "Nomen",
   "extra": "Pl. هَدَايَا",
   "ex_ar": "شكرا على الهدية!",
-  "ex_de": "Danke für das Geschenk!"
+  "ex_de": "Danke für das Geschenk!",
+  "en": "the present"
  },
  {
   "ar": "عِيد",
@@ -546,7 +606,8 @@
   "type": "Nomen",
   "extra": "Pl. أَعْيَاد",
   "ex_ar": "عيد مبارك!",
-  "ex_de": "Gesegnetes Fest!"
+  "ex_de": "Gesegnetes Fest!",
+  "en": "the festival"
  },
  {
   "ar": "مُسْتَشْفَى",
@@ -555,7 +616,8 @@
   "type": "Nomen",
   "extra": "Pl. مُسْتَشْفَيَات",
   "ex_ar": "المستشفى بعيد عن بيتنا.",
-  "ex_de": "Das Krankenhaus ist weit von unserem Haus entfernt."
+  "ex_de": "Das Krankenhaus ist weit von unserem Haus entfernt.",
+  "en": "the hospital"
  },
  {
   "ar": "قِطَار",
@@ -564,7 +626,8 @@
   "type": "Nomen",
   "extra": "Pl. قِطَارَات",
   "ex_ar": "يصل القطار في الساعة الثامنة.",
-  "ex_de": "Der Zug kommt um acht Uhr an."
+  "ex_de": "Der Zug kommt um acht Uhr an.",
+  "en": "the train"
  },
  {
   "ar": "رِحْلَة",
@@ -573,7 +636,8 @@
   "type": "Nomen",
   "extra": "Pl. رِحْلَات",
   "ex_ar": "كانت الرحلة ممتعة.",
-  "ex_de": "Der Ausflug hat Spaß gemacht."
+  "ex_de": "Der Ausflug hat Spaß gemacht.",
+  "en": "the trip"
  },
  {
   "ar": "كَتَبَ",
@@ -582,7 +646,8 @@
   "type": "Verb",
   "extra": "Präsens: يَكْتُبُ",
   "ex_ar": "أكتب رسالة لصديقتي.",
-  "ex_de": "Ich schreibe meiner Freundin einen Brief."
+  "ex_de": "Ich schreibe meiner Freundin einen Brief.",
+  "en": "to write"
  },
  {
   "ar": "قَرَأَ",
@@ -591,7 +656,8 @@
   "type": "Verb",
   "extra": "Präsens: يَقْرَأُ",
   "ex_ar": "أقرأ قصة قبل النوم.",
-  "ex_de": "Vor dem Schlafen lese ich eine Geschichte."
+  "ex_de": "Vor dem Schlafen lese ich eine Geschichte.",
+  "en": "to read"
  },
  {
   "ar": "ذَهَبَ",
@@ -600,7 +666,8 @@
   "type": "Verb",
   "extra": "Präsens: يَذْهَبُ",
   "ex_ar": "نذهب إلى السوق.",
-  "ex_de": "Wir gehen zum Markt."
+  "ex_de": "Wir gehen zum Markt.",
+  "en": "to go"
  },
  {
   "ar": "أَكَلَ",
@@ -609,7 +676,8 @@
   "type": "Verb",
   "extra": "Präsens: يَأْكُلُ",
   "ex_ar": "آكل تفاحة كل يوم.",
-  "ex_de": "Ich esse jeden Tag einen Apfel."
+  "ex_de": "Ich esse jeden Tag einen Apfel.",
+  "en": "to eat"
  },
  {
   "ar": "شَرِبَ",
@@ -618,7 +686,8 @@
   "type": "Verb",
   "extra": "Präsens: يَشْرَبُ",
   "ex_ar": "يشرب أخي الحليب.",
-  "ex_de": "Mein Bruder trinkt Milch."
+  "ex_de": "Mein Bruder trinkt Milch.",
+  "en": "to drink"
  },
  {
   "ar": "نَامَ",
@@ -627,7 +696,8 @@
   "type": "Verb",
   "extra": "Präsens: يَنَامُ",
   "ex_ar": "أنام في الساعة التاسعة.",
-  "ex_de": "Ich schlafe um neun Uhr."
+  "ex_de": "Ich schlafe um neun Uhr.",
+  "en": "to sleep"
  },
  {
   "ar": "فَهِمَ",
@@ -636,7 +706,8 @@
   "type": "Verb",
   "extra": "Präsens: يَفْهَمُ",
   "ex_ar": "هل فهمت السؤال؟",
-  "ex_de": "Hast du die Frage verstanden?"
+  "ex_de": "Hast du die Frage verstanden?",
+  "en": "to understand"
  },
  {
   "ar": "تَعَلَّمَ",
@@ -645,7 +716,8 @@
   "type": "Verb",
   "extra": "Präsens: يَتَعَلَّمُ",
   "ex_ar": "أتعلم كلمات جديدة كل يوم.",
-  "ex_de": "Ich lerne jeden Tag neue Wörter."
+  "ex_de": "Ich lerne jeden Tag neue Wörter.",
+  "en": "to learn"
  },
  {
   "ar": "عَمِلَ",
@@ -654,7 +726,8 @@
   "type": "Verb",
   "extra": "Präsens: يَعْمَلُ",
   "ex_ar": "تعمل أمي في المستشفى.",
-  "ex_de": "Meine Mutter arbeitet im Krankenhaus."
+  "ex_de": "Meine Mutter arbeitet im Krankenhaus.",
+  "en": "to work"
  },
  {
   "ar": "سَكَنَ",
@@ -663,7 +736,8 @@
   "type": "Verb",
   "extra": "Präsens: يَسْكُنُ",
   "ex_ar": "نسكن قرب يينا.",
-  "ex_de": "Wir wohnen bei Jena."
+  "ex_de": "Wir wohnen bei Jena.",
+  "en": "to live"
  },
  {
   "ar": "لَعِبَ",
@@ -672,7 +746,8 @@
   "type": "Verb",
   "extra": "Präsens: يَلْعَبُ",
   "ex_ar": "نلعب كرة القدم بعد المدرسة.",
-  "ex_de": "Nach der Schule spielen wir Fußball."
+  "ex_de": "Nach der Schule spielen wir Fußball.",
+  "en": "to play"
  },
  {
   "ar": "فَتَحَ",
@@ -681,7 +756,8 @@
   "type": "Verb",
   "extra": "Präsens: يَفْتَحُ",
   "ex_ar": "يفتح المحل في الساعة الثامنة.",
-  "ex_de": "Der Laden öffnet um acht Uhr."
+  "ex_de": "Der Laden öffnet um acht Uhr.",
+  "en": "to open"
  },
  {
   "ar": "أَغْلَقَ",
@@ -690,7 +766,8 @@
   "type": "Verb",
   "extra": "Präsens: يُغْلِقُ",
   "ex_ar": "أغلق الباب من فضلك.",
-  "ex_de": "Schließ bitte die Tür."
+  "ex_de": "Schließ bitte die Tür.",
+  "en": "to close"
  },
  {
   "ar": "سَمِعَ",
@@ -699,7 +776,8 @@
   "type": "Verb",
   "extra": "Präsens: يَسْمَعُ",
   "ex_ar": "أسمع الموسيقى في غرفتي.",
-  "ex_de": "Ich höre Musik in meinem Zimmer."
+  "ex_de": "Ich höre Musik in meinem Zimmer.",
+  "en": "to hear"
  },
  {
   "ar": "رَأَى",
@@ -708,7 +786,8 @@
   "type": "Verb",
   "extra": "Präsens: يَرَى",
   "ex_ar": "أرى القطة في الحديقة.",
-  "ex_de": "Ich sehe die Katze im Garten."
+  "ex_de": "Ich sehe die Katze im Garten.",
+  "en": "to see"
  },
  {
   "ar": "قَالَ",
@@ -717,7 +796,8 @@
   "type": "Verb",
   "extra": "Präsens: يَقُولُ",
   "ex_ar": "ماذا قال المعلم؟",
-  "ex_de": "Was hat der Lehrer gesagt?"
+  "ex_de": "Was hat der Lehrer gesagt?",
+  "en": "to say"
  },
  {
   "ar": "أَرَادَ",
@@ -726,7 +806,8 @@
   "type": "Verb",
   "extra": "Präsens: يُرِيدُ",
   "ex_ar": "أريد كوب ماء.",
-  "ex_de": "Ich möchte ein Glas Wasser."
+  "ex_de": "Ich möchte ein Glas Wasser.",
+  "en": "to want"
  },
  {
   "ar": "أَحَبَّ",
@@ -735,7 +816,8 @@
   "type": "Verb",
   "extra": "Präsens: يُحِبُّ",
   "ex_ar": "أحب الرسم كثيرا.",
-  "ex_de": "Ich male sehr gern."
+  "ex_de": "Ich male sehr gern.",
+  "en": "to love, to like"
  },
  {
   "ar": "سَافَرَ",
@@ -744,7 +826,8 @@
   "type": "Verb",
   "extra": "Präsens: يُسَافِرُ",
   "ex_ar": "نسافر في العطلة.",
-  "ex_de": "In den Ferien verreisen wir."
+  "ex_de": "In den Ferien verreisen wir.",
+  "en": "to travel"
  },
  {
   "ar": "طَبَخَ",
@@ -753,7 +836,8 @@
   "type": "Verb",
   "extra": "Präsens: يَطْبُخُ",
   "ex_ar": "يطبخ أبي الأرز.",
-  "ex_de": "Papa kocht Reis."
+  "ex_de": "Papa kocht Reis.",
+  "en": "to cook"
  },
  {
   "ar": "سَاعَدَ",
@@ -762,7 +846,8 @@
   "type": "Verb",
   "extra": "Präsens: يُسَاعِدُ",
   "ex_ar": "أساعد أمي في المطبخ.",
-  "ex_de": "Ich helfe Mama in der Küche."
+  "ex_de": "Ich helfe Mama in der Küche.",
+  "en": "to help"
  },
  {
   "ar": "اِسْتَيْقَظَ",
@@ -771,7 +856,8 @@
   "type": "Verb",
   "extra": "Präsens: يَسْتَيْقِظُ",
   "ex_ar": "أستيقظ في الساعة الخامسة والنصف.",
-  "ex_de": "Ich wache um halb sechs auf."
+  "ex_de": "Ich wache um halb sechs auf.",
+  "en": "to wake up"
  },
  {
   "ar": "جَلَسَ",
@@ -780,7 +866,8 @@
   "type": "Verb",
   "extra": "Präsens: يَجْلِسُ",
   "ex_ar": "أجلس بجانب النافذة.",
-  "ex_de": "Ich sitze neben dem Fenster."
+  "ex_de": "Ich sitze neben dem Fenster.",
+  "en": "to sit, to sit down"
  },
  {
   "ar": "دَخَلَ",
@@ -789,7 +876,8 @@
   "type": "Verb",
   "extra": "Präsens: يَدْخُلُ",
   "ex_ar": "ادخل من فضلك!",
-  "ex_de": "Komm bitte herein!"
+  "ex_de": "Komm bitte herein!",
+  "en": "to enter"
  },
  {
   "ar": "خَرَجَ",
@@ -798,7 +886,8 @@
   "type": "Verb",
   "extra": "Präsens: يَخْرُجُ",
   "ex_ar": "نخرج من البيت في الساعة السابعة.",
-  "ex_de": "Wir gehen um sieben Uhr aus dem Haus."
+  "ex_de": "Wir gehen um sieben Uhr aus dem Haus.",
+  "en": "to go out"
  },
  {
   "ar": "رَجَعَ",
@@ -807,7 +896,8 @@
   "type": "Verb",
   "extra": "Präsens: يَرْجِعُ",
   "ex_ar": "يرجع أبي من العمل في المساء.",
-  "ex_de": "Papa kommt abends von der Arbeit zurück."
+  "ex_de": "Papa kommt abends von der Arbeit zurück.",
+  "en": "to come back"
  },
  {
   "ar": "اِشْتَرَى",
@@ -816,7 +906,8 @@
   "type": "Verb",
   "extra": "Präsens: يَشْتَرِي",
   "ex_ar": "أشتري الخبز من المخبز.",
-  "ex_de": "Ich kaufe das Brot beim Bäcker."
+  "ex_de": "Ich kaufe das Brot beim Bäcker.",
+  "en": "to buy"
  },
  {
   "ar": "عَرَفَ",
@@ -825,7 +916,8 @@
   "type": "Verb",
   "extra": "Präsens: يَعْرِفُ",
   "ex_ar": "هل تعرف هذه الكلمة؟",
-  "ex_de": "Kennst du dieses Wort?"
+  "ex_de": "Kennst du dieses Wort?",
+  "en": "to know"
  },
  {
   "ar": "سَأَلَ",
@@ -834,7 +926,8 @@
   "type": "Verb",
   "extra": "Präsens: يَسْأَلُ",
   "ex_ar": "أسأل المعلمة سؤالا.",
-  "ex_de": "Ich stelle der Lehrerin eine Frage."
+  "ex_de": "Ich stelle der Lehrerin eine Frage.",
+  "en": "to ask"
  },
  {
   "ar": "اِنْتَظَرَ",
@@ -843,7 +936,8 @@
   "type": "Verb",
   "extra": "Präsens: يَنْتَظِرُ",
   "ex_ar": "أنتظر الحافلة.",
-  "ex_de": "Ich warte auf den Bus."
+  "ex_de": "Ich warte auf den Bus.",
+  "en": "to wait"
  },
  {
   "ar": "نَسِيَ",
@@ -852,7 +946,8 @@
   "type": "Verb",
   "extra": "Präsens: يَنْسَى",
   "ex_ar": "لا تنس حقيبتك!",
-  "ex_de": "Vergiss deine Tasche nicht!"
+  "ex_de": "Vergiss deine Tasche nicht!",
+  "en": "to forget"
  },
  {
   "ar": "ضَحِكَ",
@@ -861,7 +956,8 @@
   "type": "Verb",
   "extra": "Präsens: يَضْحَكُ",
   "ex_ar": "نضحك كثيرا معا.",
-  "ex_de": "Wir lachen viel zusammen."
+  "ex_de": "Wir lachen viel zusammen.",
+  "en": "to laugh"
  },
  {
   "ar": "كَبِير",
@@ -870,7 +966,8 @@
   "type": "Adjektiv",
   "extra": "f. كَبِيرَة",
   "ex_ar": "بيتنا كبير.",
-  "ex_de": "Unser Haus ist groß."
+  "ex_de": "Unser Haus ist groß.",
+  "en": "big"
  },
  {
   "ar": "صَغِير",
@@ -879,7 +976,8 @@
   "type": "Adjektiv",
   "extra": "f. صَغِيرَة",
   "ex_ar": "عندي أخت صغيرة.",
-  "ex_de": "Ich habe eine kleine Schwester."
+  "ex_de": "Ich habe eine kleine Schwester.",
+  "en": "small"
  },
  {
   "ar": "جَمِيل",
@@ -888,7 +986,8 @@
   "type": "Adjektiv",
   "extra": "f. جَمِيلَة",
   "ex_ar": "الحديقة جميلة في الربيع.",
-  "ex_de": "Im Frühling ist der Garten schön."
+  "ex_de": "Im Frühling ist der Garten schön.",
+  "en": "beautiful"
  },
  {
   "ar": "جَدِيد",
@@ -897,7 +996,8 @@
   "type": "Adjektiv",
   "extra": "f. جَدِيدَة",
   "ex_ar": "حقيبتي جديدة.",
-  "ex_de": "Meine Tasche ist neu."
+  "ex_de": "Meine Tasche ist neu.",
+  "en": "new"
  },
  {
   "ar": "قَدِيم",
@@ -906,7 +1006,8 @@
   "type": "Adjektiv",
   "extra": "f. قَدِيمَة",
   "ex_ar": "هذا البيت قديم جدا.",
-  "ex_de": "Dieses Haus ist sehr alt."
+  "ex_de": "Dieses Haus ist sehr alt.",
+  "en": "old (things)"
  },
  {
   "ar": "سَعِيد",
@@ -915,7 +1016,8 @@
   "type": "Adjektiv",
   "extra": "f. سَعِيدَة",
   "ex_ar": "أنا سعيدة اليوم.",
-  "ex_de": "Ich bin heute glücklich."
+  "ex_de": "Ich bin heute glücklich.",
+  "en": "happy"
  },
  {
   "ar": "حَزِين",
@@ -924,7 +1026,8 @@
   "type": "Adjektiv",
   "extra": "f. حَزِينَة",
   "ex_ar": "لماذا أنت حزين؟",
-  "ex_de": "Warum bist du traurig?"
+  "ex_de": "Warum bist du traurig?",
+  "en": "sad"
  },
  {
   "ar": "مُتْعَب",
@@ -933,7 +1036,8 @@
   "type": "Adjektiv",
   "extra": "f. مُتْعَبَة",
   "ex_ar": "أنا متعبة بعد المدرسة.",
-  "ex_de": "Nach der Schule bin ich müde."
+  "ex_de": "Nach der Schule bin ich müde.",
+  "en": "tired"
  },
  {
   "ar": "جَائِع",
@@ -942,7 +1046,8 @@
   "type": "Adjektiv",
   "extra": "f. جَائِعَة",
   "ex_ar": "هل أنت جائع؟",
-  "ex_de": "Hast du Hunger?"
+  "ex_de": "Hast du Hunger?",
+  "en": "hungry"
  },
  {
   "ar": "سَهْل",
@@ -951,7 +1056,8 @@
   "type": "Adjektiv",
   "extra": "f. سَهْلَة",
   "ex_ar": "الدرس سهل.",
-  "ex_de": "Die Lektion ist leicht."
+  "ex_de": "Die Lektion ist leicht.",
+  "en": "easy"
  },
  {
   "ar": "صَعْب",
@@ -960,7 +1066,8 @@
   "type": "Adjektiv",
   "extra": "f. صَعْبَة",
   "ex_ar": "الامتحان صعب.",
-  "ex_de": "Die Prüfung ist schwierig."
+  "ex_de": "Die Prüfung ist schwierig.",
+  "en": "difficult"
  },
  {
   "ar": "حَارّ",
@@ -969,7 +1076,8 @@
   "type": "Adjektiv",
   "extra": "f. حَارَّة",
   "ex_ar": "الجو حار في الصيف.",
-  "ex_de": "Im Sommer ist es heiß."
+  "ex_de": "Im Sommer ist es heiß.",
+  "en": "hot"
  },
  {
   "ar": "بَارِد",
@@ -978,7 +1086,8 @@
   "type": "Adjektiv",
   "extra": "f. بَارِدَة",
   "ex_ar": "الماء بارد.",
-  "ex_de": "Das Wasser ist kalt."
+  "ex_de": "Das Wasser ist kalt.",
+  "en": "cold"
  },
  {
   "ar": "لَذِيذ",
@@ -987,7 +1096,8 @@
   "type": "Adjektiv",
   "extra": "f. لَذِيذَة",
   "ex_ar": "الكعكة لذيذة!",
-  "ex_de": "Der Kuchen ist lecker!"
+  "ex_de": "Der Kuchen ist lecker!",
+  "en": "delicious"
  },
  {
   "ar": "سَرِيع",
@@ -996,7 +1106,8 @@
   "type": "Adjektiv",
   "extra": "f. سَرِيعَة",
   "ex_ar": "القطار سريع.",
-  "ex_de": "Der Zug ist schnell."
+  "ex_de": "Der Zug ist schnell.",
+  "en": "fast"
  },
  {
   "ar": "بَطِيء",
@@ -1005,7 +1116,8 @@
   "type": "Adjektiv",
   "extra": "f. بَطِيئَة",
   "ex_ar": "السلحفاة بطيئة.",
-  "ex_de": "Die Schildkröte ist langsam."
+  "ex_de": "Die Schildkröte ist langsam.",
+  "en": "slow"
  },
  {
   "ar": "قَرِيب",
@@ -1014,7 +1126,8 @@
   "type": "Adjektiv",
   "extra": "f. قَرِيبَة",
   "ex_ar": "المدرسة قريبة من بيتنا.",
-  "ex_de": "Die Schule ist nah an unserem Haus."
+  "ex_de": "Die Schule ist nah an unserem Haus.",
+  "en": "near"
  },
  {
   "ar": "بَعِيد",
@@ -1023,7 +1136,8 @@
   "type": "Adjektiv",
   "extra": "f. بَعِيدَة",
   "ex_ar": "البحر بعيد عن هنا.",
-  "ex_de": "Das Meer ist weit von hier."
+  "ex_de": "Das Meer ist weit von hier.",
+  "en": "far"
  },
  {
   "ar": "مَفْتُوح",
@@ -1032,7 +1146,8 @@
   "type": "Adjektiv",
   "extra": "f. مَفْتُوحَة",
   "ex_ar": "المحل مفتوح.",
-  "ex_de": "Der Laden ist geöffnet."
+  "ex_de": "Der Laden ist geöffnet.",
+  "en": "open"
  },
  {
   "ar": "نَظِيف",
@@ -1041,7 +1156,8 @@
   "type": "Adjektiv",
   "extra": "f. نَظِيفَة",
   "ex_ar": "المطبخ نظيف.",
-  "ex_de": "Die Küche ist sauber."
+  "ex_de": "Die Küche ist sauber.",
+  "en": "clean"
  },
  {
   "ar": "مَرِيض",
@@ -1050,7 +1166,8 @@
   "type": "Adjektiv",
   "extra": "f. مَرِيضَة",
   "ex_ar": "أخي مريض اليوم.",
-  "ex_de": "Mein Bruder ist heute krank."
+  "ex_de": "Mein Bruder ist heute krank.",
+  "en": "ill, sick"
  },
  {
   "ar": "طَوِيل",
@@ -1059,7 +1176,8 @@
   "type": "Adjektiv",
   "extra": "f. طَوِيلَة",
   "ex_ar": "أبي طويل.",
-  "ex_de": "Mein Vater ist groß."
+  "ex_de": "Mein Vater ist groß.",
+  "en": "long, tall"
  },
  {
   "ar": "مَشْغُول",
@@ -1068,7 +1186,8 @@
   "type": "Adjektiv",
   "extra": "f. مَشْغُولَة",
   "ex_ar": "أمي مشغولة الآن.",
-  "ex_de": "Mama ist gerade beschäftigt."
+  "ex_de": "Mama ist gerade beschäftigt.",
+  "en": "busy"
  },
  {
   "ar": "مُهِمّ",
@@ -1077,7 +1196,8 @@
   "type": "Adjektiv",
   "extra": "f. مُهِمَّة",
   "ex_ar": "هذا سؤال مهم.",
-  "ex_de": "Das ist eine wichtige Frage."
+  "ex_de": "Das ist eine wichtige Frage.",
+  "en": "important"
  },
  {
   "ar": "اَلْيَوْمَ",
@@ -1086,7 +1206,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "اليوم الأحد.",
-  "ex_de": "Heute ist Sonntag."
+  "ex_de": "Heute ist Sonntag.",
+  "en": "today"
  },
  {
   "ar": "غَدًا",
@@ -1095,7 +1216,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "غدا عندنا امتحان.",
-  "ex_de": "Morgen haben wir eine Prüfung."
+  "ex_de": "Morgen haben wir eine Prüfung.",
+  "en": "tomorrow"
  },
  {
   "ar": "أَمْسِ",
@@ -1104,7 +1226,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "أمس زرنا جدتي.",
-  "ex_de": "Gestern haben wir Oma besucht."
+  "ex_de": "Gestern haben wir Oma besucht.",
+  "en": "yesterday"
  },
  {
   "ar": "اَلْآنَ",
@@ -1113,7 +1236,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "أنا مشغول الآن.",
-  "ex_de": "Ich bin jetzt beschäftigt."
+  "ex_de": "Ich bin jetzt beschäftigt.",
+  "en": "now"
  },
  {
   "ar": "دَائِمًا",
@@ -1122,7 +1246,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "أشرب الحليب دائما في الصباح.",
-  "ex_de": "Morgens trinke ich immer Milch."
+  "ex_de": "Morgens trinke ich immer Milch.",
+  "en": "always"
  },
  {
   "ar": "أَحْيَانًا",
@@ -1131,7 +1256,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "أحيانا نأكل في المطعم.",
-  "ex_de": "Manchmal essen wir im Restaurant."
+  "ex_de": "Manchmal essen wir im Restaurant.",
+  "en": "sometimes"
  },
  {
   "ar": "كَثِيرًا",
@@ -1140,7 +1266,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "أحب القراءة كثيرا.",
-  "ex_de": "Ich lese sehr gern."
+  "ex_de": "Ich lese sehr gern.",
+  "en": "much, often"
  },
  {
   "ar": "مَعًا",
@@ -1149,7 +1276,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "نطبخ معا.",
-  "ex_de": "Wir kochen zusammen."
+  "ex_de": "Wir kochen zusammen.",
+  "en": "together"
  },
  {
   "ar": "هُنَا",
@@ -1158,7 +1286,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "أنا هنا!",
-  "ex_de": "Ich bin hier!"
+  "ex_de": "Ich bin hier!",
+  "en": "here"
  },
  {
   "ar": "هُنَاكَ",
@@ -1167,7 +1296,8 @@
   "type": "Adverb",
   "extra": "",
   "ex_ar": "الحافلة هناك.",
-  "ex_de": "Der Bus ist dort."
+  "ex_de": "Der Bus ist dort.",
+  "en": "there"
  },
  {
   "ar": "فِي",
@@ -1176,7 +1306,8 @@
   "type": "Präposition",
   "extra": "",
   "ex_ar": "القطة في الغرفة.",
-  "ex_de": "Die Katze ist im Zimmer."
+  "ex_de": "Die Katze ist im Zimmer.",
+  "en": "in"
  },
  {
   "ar": "عَلَى",
@@ -1185,7 +1316,8 @@
   "type": "Präposition",
   "extra": "",
   "ex_ar": "الكوب على الطاولة.",
-  "ex_de": "Die Tasse steht auf dem Tisch."
+  "ex_de": "Die Tasse steht auf dem Tisch.",
+  "en": "on"
  },
  {
   "ar": "تَحْتَ",
@@ -1194,7 +1326,8 @@
   "type": "Präposition",
   "extra": "",
   "ex_ar": "الكرة تحت السرير.",
-  "ex_de": "Der Ball ist unter dem Bett."
+  "ex_de": "Der Ball ist unter dem Bett.",
+  "en": "under"
  },
  {
   "ar": "بَيْنَ",
@@ -1203,7 +1336,8 @@
   "type": "Präposition",
   "extra": "",
   "ex_ar": "أجلس بين أخي وأختي.",
-  "ex_de": "Ich sitze zwischen meinem Bruder und meiner Schwester."
+  "ex_de": "Ich sitze zwischen meinem Bruder und meiner Schwester.",
+  "en": "between"
  },
  {
   "ar": "مَعَ",
@@ -1212,7 +1346,8 @@
   "type": "Präposition",
   "extra": "",
   "ex_ar": "أذهب مع صديقتي.",
-  "ex_de": "Ich gehe mit meiner Freundin."
+  "ex_de": "Ich gehe mit meiner Freundin.",
+  "en": "with"
  },
  {
   "ar": "بَعْدَ",
@@ -1221,7 +1356,8 @@
   "type": "Präposition",
   "extra": "",
   "ex_ar": "ألعب بعد الواجب.",
-  "ex_de": "Nach den Hausaufgaben spiele ich."
+  "ex_de": "Nach den Hausaufgaben spiele ich.",
+  "en": "after"
  },
  {
   "ar": "قَبْلَ",
@@ -1230,7 +1366,8 @@
   "type": "Präposition",
   "extra": "",
   "ex_ar": "أغسل يدي قبل الأكل.",
-  "ex_de": "Vor dem Essen wasche ich mir die Hände."
+  "ex_de": "Vor dem Essen wasche ich mir die Hände.",
+  "en": "before"
  },
  {
   "ar": "مِنْ فَضْلِكَ",
@@ -1239,7 +1376,8 @@
   "type": "Redewendung",
   "extra": "zu einer Frau: مِنْ فَضْلِكِ",
   "ex_ar": "ماء من فضلك.",
-  "ex_de": "Wasser, bitte."
+  "ex_de": "Wasser, bitte.",
+  "en": "please"
  },
  {
   "ar": "شُكْرًا",
@@ -1248,7 +1386,8 @@
   "type": "Redewendung",
   "extra": "",
   "ex_ar": "شكرا جزيلا!",
-  "ex_de": "Vielen Dank!"
+  "ex_de": "Vielen Dank!",
+  "en": "thank you"
  },
  {
   "ar": "عَفْوًا",
@@ -1257,7 +1396,8 @@
   "type": "Redewendung",
   "extra": "",
   "ex_ar": "– شكرا! – عفوا.",
-  "ex_de": "– Danke! – Gern geschehen."
+  "ex_de": "– Danke! – Gern geschehen.",
+  "en": "you're welcome"
  },
  {
   "ar": "كَيْفَ حَالُكَ؟",
@@ -1266,7 +1406,8 @@
   "type": "Redewendung",
   "extra": "zu einer Frau: كَيْفَ حَالُكِ؟",
   "ex_ar": "– كيف حالك؟ – بخير، شكرا.",
-  "ex_de": "– Wie geht's? – Gut, danke."
+  "ex_de": "– Wie geht's? – Gut, danke.",
+  "en": "How are you?"
  },
  {
   "ar": "مَعَ السَّلَامَة",
@@ -1275,7 +1416,8 @@
   "type": "Redewendung",
   "extra": "",
   "ex_ar": "مع السلامة، إلى الغد!",
-  "ex_de": "Tschüss, bis morgen!"
+  "ex_de": "Tschüss, bis morgen!",
+  "en": "Goodbye"
  },
  {
   "ar": "إِنْ شَاءَ اللّٰهُ",
@@ -1284,7 +1426,8 @@
   "type": "Redewendung",
   "extra": "",
   "ex_ar": "نلتقي غدا إن شاء الله.",
-  "ex_de": "Wir sehen uns morgen, hoffentlich."
+  "ex_de": "Wir sehen uns morgen, hoffentlich.",
+  "en": "God willing, hopefully"
  },
  {
   "ar": "تُصْبِحُ عَلَى خَيْر",
@@ -1293,7 +1436,8 @@
   "type": "Redewendung",
   "extra": "",
   "ex_ar": "تصبح على خير يا أبي!",
-  "ex_de": "Gute Nacht, Papa!"
+  "ex_de": "Gute Nacht, Papa!",
+  "en": "Good night"
  },
  {
   "ar": "لَا بَأْسَ",
@@ -1302,6 +1446,7 @@
   "type": "Redewendung",
   "extra": "",
   "ex_ar": "لا بأس، نحاول مرة أخرى.",
-  "ex_de": "Macht nichts, wir versuchen es noch einmal."
+  "ex_de": "Macht nichts, wir versuchen es noch einmal.",
+  "en": "never mind, no problem"
  }
 ]

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-30T06:45:28Z",
+  "updated_at": "2026-09-30T17:37:48Z",
   "date": "2026-09-30",
   "topic": "Hocharabisch · A2",
   "words": [
@@ -10,7 +10,8 @@
       "type": "Verb",
       "extra": "Präsens: يَعْرِفُ",
       "ex_ar": "هل تعرف هذه الكلمة؟",
-      "ex_de": "Kennst du dieses Wort?"
+      "ex_de": "Kennst du dieses Wort?",
+      "en": "to know"
     },
     {
       "ar": "عِيد",
@@ -19,7 +20,8 @@
       "type": "Nomen",
       "extra": "Pl. أَعْيَاد",
       "ex_ar": "عيد مبارك!",
-      "ex_de": "Gesegnetes Fest!"
+      "ex_de": "Gesegnetes Fest!",
+      "en": "the festival"
     },
     {
       "ar": "بَاب",
@@ -28,7 +30,8 @@
       "type": "Nomen",
       "extra": "Pl. أَبْوَاب",
       "ex_ar": "افتح الباب من فضلك.",
-      "ex_de": "Öffne bitte die Tür."
+      "ex_de": "Öffne bitte die Tür.",
+      "en": "the door"
     },
     {
       "ar": "صَدِيق",
@@ -37,7 +40,8 @@
       "type": "Nomen",
       "extra": "Pl. أَصْدِقَاء",
       "ex_ar": "صديقي يسكن قريبا مني.",
-      "ex_de": "Mein Freund wohnt in meiner Nähe."
+      "ex_de": "Mein Freund wohnt in meiner Nähe.",
+      "en": "the friend"
     }
   ],
   "days": {
@@ -50,7 +54,8 @@
           "type": "Verb",
           "extra": "Präsens: يَعْرِفُ",
           "ex_ar": "هل تعرف هذه الكلمة؟",
-          "ex_de": "Kennst du dieses Wort?"
+          "ex_de": "Kennst du dieses Wort?",
+          "en": "to know"
         },
         {
           "ar": "عِيد",
@@ -59,7 +64,8 @@
           "type": "Nomen",
           "extra": "Pl. أَعْيَاد",
           "ex_ar": "عيد مبارك!",
-          "ex_de": "Gesegnetes Fest!"
+          "ex_de": "Gesegnetes Fest!",
+          "en": "the festival"
         },
         {
           "ar": "بَاب",
@@ -68,7 +74,8 @@
           "type": "Nomen",
           "extra": "Pl. أَبْوَاب",
           "ex_ar": "افتح الباب من فضلك.",
-          "ex_de": "Öffne bitte die Tür."
+          "ex_de": "Öffne bitte die Tür.",
+          "en": "the door"
         },
         {
           "ar": "صَدِيق",
@@ -77,8 +84,15 @@
           "type": "Nomen",
           "extra": "Pl. أَصْدِقَاء",
           "ex_ar": "صديقي يسكن قريبا مني.",
-          "ex_de": "Mein Freund wohnt in meiner Nähe."
+          "ex_de": "Mein Freund wohnt in meiner Nähe.",
+          "en": "the friend"
         }
+      ],
+      "gestern": [
+        "hungrig",
+        "schön",
+        "das Mittagessen",
+        "der Lehrer"
       ]
     },
     "2026-10-01": {
@@ -90,7 +104,8 @@
           "type": "Nomen",
           "extra": "Pl. مُدُن",
           "ex_ar": "يينا مدينة جميلة.",
-          "ex_de": "Jena ist eine schöne Stadt."
+          "ex_de": "Jena ist eine schöne Stadt.",
+          "en": "the city"
         },
         {
           "ar": "صَغِير",
@@ -99,7 +114,8 @@
           "type": "Adjektiv",
           "extra": "f. صَغِيرَة",
           "ex_ar": "عندي أخت صغيرة.",
-          "ex_de": "Ich habe eine kleine Schwester."
+          "ex_de": "Ich habe eine kleine Schwester.",
+          "en": "small"
         },
         {
           "ar": "أَكَلَ",
@@ -108,7 +124,8 @@
           "type": "Verb",
           "extra": "Präsens: يَأْكُلُ",
           "ex_ar": "آكل تفاحة كل يوم.",
-          "ex_de": "Ich esse jeden Tag einen Apfel."
+          "ex_de": "Ich esse jeden Tag einen Apfel.",
+          "en": "to eat"
         },
         {
           "ar": "إِنْ شَاءَ اللّٰهُ",
@@ -117,8 +134,15 @@
           "type": "Redewendung",
           "extra": "",
           "ex_ar": "نلتقي غدا إن شاء الله.",
-          "ex_de": "Wir sehen uns morgen, hoffentlich."
+          "ex_de": "Wir sehen uns morgen, hoffentlich.",
+          "en": "God willing, hopefully"
         }
+      ],
+      "gestern": [
+        "wissen, kennen",
+        "das Fest",
+        "die Tür",
+        "der Freund"
       ]
     },
     "2026-10-02": {
@@ -130,7 +154,8 @@
           "type": "Präposition",
           "extra": "",
           "ex_ar": "ألعب بعد الواجب.",
-          "ex_de": "Nach den Hausaufgaben spiele ich."
+          "ex_de": "Nach den Hausaufgaben spiele ich.",
+          "en": "after"
         },
         {
           "ar": "ذَهَبَ",
@@ -139,7 +164,8 @@
           "type": "Verb",
           "extra": "Präsens: يَذْهَبُ",
           "ex_ar": "نذهب إلى السوق.",
-          "ex_de": "Wir gehen zum Markt."
+          "ex_de": "Wir gehen zum Markt.",
+          "en": "to go"
         },
         {
           "ar": "نَافِذَة",
@@ -148,7 +174,8 @@
           "type": "Nomen",
           "extra": "Pl. نَوَافِذ",
           "ex_ar": "النافذة مفتوحة.",
-          "ex_de": "Das Fenster ist offen."
+          "ex_de": "Das Fenster ist offen.",
+          "en": "the window"
         },
         {
           "ar": "اِسْتَيْقَظَ",
@@ -157,8 +184,15 @@
           "type": "Verb",
           "extra": "Präsens: يَسْتَيْقِظُ",
           "ex_ar": "أستيقظ في الساعة الخامسة والنصف.",
-          "ex_de": "Ich wache um halb sechs auf."
+          "ex_de": "Ich wache um halb sechs auf.",
+          "en": "to wake up"
         }
+      ],
+      "gestern": [
+        "die Stadt",
+        "klein",
+        "essen",
+        "so Gott will, hoffentlich"
       ]
     },
     "2026-10-03": {
@@ -170,7 +204,8 @@
           "type": "Nomen",
           "extra": "Pl. هَدَايَا",
           "ex_ar": "شكرا على الهدية!",
-          "ex_de": "Danke für das Geschenk!"
+          "ex_de": "Danke für das Geschenk!",
+          "en": "the present"
         },
         {
           "ar": "مُسْتَشْفَى",
@@ -179,7 +214,8 @@
           "type": "Nomen",
           "extra": "Pl. مُسْتَشْفَيَات",
           "ex_ar": "المستشفى بعيد عن بيتنا.",
-          "ex_de": "Das Krankenhaus ist weit von unserem Haus entfernt."
+          "ex_de": "Das Krankenhaus ist weit von unserem Haus entfernt.",
+          "en": "the hospital"
         },
         {
           "ar": "مَفْتُوح",
@@ -188,7 +224,8 @@
           "type": "Adjektiv",
           "extra": "f. مَفْتُوحَة",
           "ex_ar": "المحل مفتوح.",
-          "ex_de": "Der Laden ist geöffnet."
+          "ex_de": "Der Laden ist geöffnet.",
+          "en": "open"
         },
         {
           "ar": "جَدَّة",
@@ -197,8 +234,15 @@
           "type": "Nomen",
           "extra": "Pl. جَدَّات",
           "ex_ar": "نزور جدتي يوم الأحد.",
-          "ex_de": "Wir besuchen Oma am Sonntag."
+          "ex_de": "Wir besuchen Oma am Sonntag.",
+          "en": "the grandmother"
         }
+      ],
+      "gestern": [
+        "nach (zeitlich)",
+        "gehen",
+        "das Fenster",
+        "aufwachen"
       ]
     },
     "2026-10-04": {
@@ -210,7 +254,8 @@
           "type": "Nomen",
           "extra": "Pl. أَشْجَار",
           "ex_ar": "في حديقتنا شجرة تفاح.",
-          "ex_de": "In unserem Garten steht ein Apfelbaum."
+          "ex_de": "In unserem Garten steht ein Apfelbaum.",
+          "en": "the tree"
         },
         {
           "ar": "مَطَر",
@@ -219,7 +264,8 @@
           "type": "Nomen",
           "extra": "Pl. أَمْطَار",
           "ex_ar": "المطر غزير اليوم.",
-          "ex_de": "Heute regnet es stark."
+          "ex_de": "Heute regnet es stark.",
+          "en": "the rain"
         },
         {
           "ar": "لُغَة",
@@ -228,7 +274,8 @@
           "type": "Nomen",
           "extra": "Pl. لُغَات",
           "ex_ar": "أتعلم اللغة العربية.",
-          "ex_de": "Ich lerne Arabisch."
+          "ex_de": "Ich lerne Arabisch.",
+          "en": "the language"
         },
         {
           "ar": "سَعِيد",
@@ -237,8 +284,15 @@
           "type": "Adjektiv",
           "extra": "f. سَعِيدَة",
           "ex_ar": "أنا سعيدة اليوم.",
-          "ex_de": "Ich bin heute glücklich."
+          "ex_de": "Ich bin heute glücklich.",
+          "en": "happy"
         }
+      ],
+      "gestern": [
+        "das Geschenk",
+        "das Krankenhaus",
+        "offen",
+        "die Großmutter"
       ]
     },
     "2026-10-05": {
@@ -250,7 +304,8 @@
           "type": "Verb",
           "extra": "Präsens: يَرْجِعُ",
           "ex_ar": "يرجع أبي من العمل في المساء.",
-          "ex_de": "Papa kommt abends von der Arbeit zurück."
+          "ex_de": "Papa kommt abends von der Arbeit zurück.",
+          "en": "to come back"
         },
         {
           "ar": "سَافَرَ",
@@ -259,7 +314,8 @@
           "type": "Verb",
           "extra": "Präsens: يُسَافِرُ",
           "ex_ar": "نسافر في العطلة.",
-          "ex_de": "In den Ferien verreisen wir."
+          "ex_de": "In den Ferien verreisen wir.",
+          "en": "to travel"
         },
         {
           "ar": "كَتَبَ",
@@ -268,7 +324,8 @@
           "type": "Verb",
           "extra": "Präsens: يَكْتُبُ",
           "ex_ar": "أكتب رسالة لصديقتي.",
-          "ex_de": "Ich schreibe meiner Freundin einen Brief."
+          "ex_de": "Ich schreibe meiner Freundin einen Brief.",
+          "en": "to write"
         },
         {
           "ar": "حَارّ",
@@ -277,8 +334,15 @@
           "type": "Adjektiv",
           "extra": "f. حَارَّة",
           "ex_ar": "الجو حار في الصيف.",
-          "ex_de": "Im Sommer ist es heiß."
+          "ex_de": "Im Sommer ist es heiß.",
+          "en": "hot"
         }
+      ],
+      "gestern": [
+        "der Baum",
+        "der Regen",
+        "die Sprache",
+        "glücklich"
       ]
     },
     "2026-10-06": {
@@ -290,7 +354,8 @@
           "type": "Präposition",
           "extra": "",
           "ex_ar": "القطة في الغرفة.",
-          "ex_de": "Die Katze ist im Zimmer."
+          "ex_de": "Die Katze ist im Zimmer.",
+          "en": "in"
         },
         {
           "ar": "جَدّ",
@@ -299,7 +364,8 @@
           "type": "Nomen",
           "extra": "Pl. أَجْدَاد",
           "ex_ar": "جدي يحكي قصصا جميلة.",
-          "ex_de": "Mein Opa erzählt schöne Geschichten."
+          "ex_de": "Mein Opa erzählt schöne Geschichten.",
+          "en": "the grandfather"
         },
         {
           "ar": "فَهِمَ",
@@ -308,7 +374,8 @@
           "type": "Verb",
           "extra": "Präsens: يَفْهَمُ",
           "ex_ar": "هل فهمت السؤال؟",
-          "ex_de": "Hast du die Frage verstanden?"
+          "ex_de": "Hast du die Frage verstanden?",
+          "en": "to understand"
         },
         {
           "ar": "تَحْتَ",
@@ -317,8 +384,15 @@
           "type": "Präposition",
           "extra": "",
           "ex_ar": "الكرة تحت السرير.",
-          "ex_de": "Der Ball ist unter dem Bett."
+          "ex_de": "Der Ball ist unter dem Bett.",
+          "en": "under"
         }
+      ],
+      "gestern": [
+        "zurückkommen",
+        "reisen",
+        "schreiben",
+        "heiß"
       ]
     },
     "2026-10-07": {
@@ -330,7 +404,8 @@
           "type": "Verb",
           "extra": "Präsens: يَلْعَبُ",
           "ex_ar": "نلعب كرة القدم بعد المدرسة.",
-          "ex_de": "Nach der Schule spielen wir Fußball."
+          "ex_de": "Nach der Schule spielen wir Fußball.",
+          "en": "to play"
         },
         {
           "ar": "عَائِلَة",
@@ -339,7 +414,8 @@
           "type": "Nomen",
           "extra": "Pl. عَائِلَات",
           "ex_ar": "عائلتي كبيرة.",
-          "ex_de": "Meine Familie ist groß."
+          "ex_de": "Meine Familie ist groß.",
+          "en": "the family"
         },
         {
           "ar": "عَشَاء",
@@ -348,7 +424,8 @@
           "type": "Nomen",
           "extra": "",
           "ex_ar": "ماذا نأكل على العشاء؟",
-          "ex_de": "Was essen wir zum Abendessen?"
+          "ex_de": "Was essen wir zum Abendessen?",
+          "en": "dinner"
         },
         {
           "ar": "اِنْتَظَرَ",
@@ -357,8 +434,15 @@
           "type": "Verb",
           "extra": "Präsens: يَنْتَظِرُ",
           "ex_ar": "أنتظر الحافلة.",
-          "ex_de": "Ich warte auf den Bus."
+          "ex_de": "Ich warte auf den Bus.",
+          "en": "to wait"
         }
+      ],
+      "gestern": [
+        "in",
+        "der Großvater",
+        "verstehen",
+        "unter"
       ]
     }
   }
