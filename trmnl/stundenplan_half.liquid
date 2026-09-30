@@ -4,10 +4,12 @@
   Braucht den Shared-Teil.
 {% endcomment %}
 {% assign t = tage[0] %}
+{% comment %}Stand immer als echtes Datum, auch wenn die Daten ein paar Tage alt sind{% endcomment %}
+{% if stand %}{% assign stand_datum = stand | date: "%-d.%-m. %H:%M" %}{% else %}{% assign stand_datum = stand_text | default: "" %}{% endif %}
 <div style="display:flex; flex-direction:column; width:100%; height:100%; padding:6px 12px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
   <div style="display:flex; align-items:center; gap:10px; font-size:15px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">
     🎒 {{ name }} · {{ t.titel }}<span style="flex:1; height:3px; background:black;"></span>
-    {% if veraltet %}<span style="font-size:13px; letter-spacing:0; text-transform:none; border:2px solid black; border-radius:8px; padding:0 6px;">Stand: {{ stand_text }}</span>{% elsif stand_text %}<span style="font-size:12px; font-weight:600; letter-spacing:0; text-transform:none;">Stand: {{ stand_text }}</span>{% endif %}
+    {% if veraltet %}<span style="font-size:13px; letter-spacing:0; text-transform:none; border:2px solid black; border-radius:8px; padding:0 6px;">Stand: {{ stand_datum }}</span>{% elsif stand_datum != "" %}<span style="font-size:12px; font-weight:600; letter-spacing:0; text-transform:none;">Stand: {{ stand_datum }}</span>{% endif %}
   </div>
   <table style="width:100%; flex:1; border-collapse:collapse; table-layout:fixed; margin-top:6px;">
     <tr>

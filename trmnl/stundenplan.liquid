@@ -5,10 +5,12 @@
 {% assign max_n = 0 %}{% for t in tage limit: 2 %}{% assign n = t.stunden | size %}{% if n > max_n %}{% assign max_n = n %}{% endif %}{% endfor %}
 {% assign fs = 24 %}{% if max_n > 6 %}{% assign fs = 22 %}{% endif %}{% if max_n > 7 %}{% assign fs = 19 %}{% endif %}
 {% assign ha_max = 3 %}{% if hat_hausaufgaben %}{% assign fs = fs | minus: 3 %}{% if max_n > 6 %}{% assign ha_max = 2 %}{% endif %}{% endif %}
+{% comment %}Stand immer als echtes Datum, auch wenn die Daten ein paar Tage alt sind{% endcomment %}
+{% if stand %}{% assign stand_datum = stand | date: "%-d.%-m. %H:%M" %}{% else %}{% assign stand_datum = stand_text | default: "" %}{% endif %}
 <div style="display:flex; flex-direction:column; width:100%; height:100%; padding:12px 18px 10px; box-sizing:border-box; font-family:Inter, sans-serif; color:black; background:white;">
   <div style="display:flex; align-items:center; gap:10px; font-size:17px; font-weight:900; letter-spacing:2px; text-transform:uppercase;">
     🎒 Stundenplan · {{ name }}<span style="flex:1; height:3px; background:black;"></span>
-    {% if veraltet %}<span style="font-size:15px; letter-spacing:0; text-transform:none; border:2.5px solid black; border-radius:10px; padding:1px 8px;">Stand: {{ stand_text }}</span>{% elsif stand_text %}<span style="font-size:14px; font-weight:600; letter-spacing:0; text-transform:none;">Stand: {{ stand_text }}</span>{% endif %}
+    {% if veraltet %}<span style="font-size:15px; letter-spacing:0; text-transform:none; border:2.5px solid black; border-radius:10px; padding:1px 8px;">Stand: {{ stand_datum }}</span>{% elsif stand_datum != "" %}<span style="font-size:14px; font-weight:600; letter-spacing:0; text-transform:none;">Stand: {{ stand_datum }}</span>{% endif %}
   </div>
 
   <div style="flex:1; display:flex; gap:16px; margin-top:8px; min-height:0;">
