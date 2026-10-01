@@ -1,448 +1,448 @@
 {
-  "updated_at": "2026-10-01T07:12:04Z",
+  "updated_at": "2026-10-01T16:12:17Z",
   "date": "2026-10-01",
-  "topic": "Hocharabisch · A2",
+  "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "مَدِينَة",
-      "tr": "madīna",
-      "de": "die Stadt",
+      "ar": "فُرْصَة",
+      "tr": "furṣa",
+      "de": "die Gelegenheit",
+      "en": "the opportunity",
       "type": "Nomen",
-      "extra": "Pl. مُدُن",
-      "ex_ar": "يينا مدينة جميلة.",
-      "ex_de": "Jena ist eine schöne Stadt.",
-      "en": "the city"
+      "extra": "Pl. فُرَص",
+      "ex_ar": "هذه فرصة جيدة لنا.",
+      "ex_de": "Das ist eine gute Gelegenheit für uns."
     },
     {
-      "ar": "صَغِير",
-      "tr": "ṣaġīr",
-      "de": "klein",
-      "type": "Adjektiv",
-      "extra": "f. صَغِيرَة",
-      "ex_ar": "عندي أخت صغيرة.",
-      "ex_de": "Ich habe eine kleine Schwester.",
-      "en": "small"
-    },
-    {
-      "ar": "أَكَلَ",
-      "tr": "akala",
-      "de": "essen",
-      "type": "Verb",
-      "extra": "Präsens: يَأْكُلُ",
-      "ex_ar": "آكل تفاحة كل يوم.",
-      "ex_de": "Ich esse jeden Tag einen Apfel.",
-      "en": "to eat"
-    },
-    {
-      "ar": "إِنْ شَاءَ اللّٰهُ",
-      "tr": "in šāʾa llāh",
-      "de": "so Gott will, hoffentlich",
+      "ar": "بِالتَّأْكِيد",
+      "tr": "bi-t-taʾkīd",
+      "de": "sicher, natürlich",
+      "en": "of course",
       "type": "Redewendung",
       "extra": "",
-      "ex_ar": "نلتقي غدا إن شاء الله.",
-      "ex_de": "Wir sehen uns morgen, hoffentlich.",
-      "en": "God willing, hopefully"
+      "ex_ar": "هل ستأتي؟ بالتأكيد!",
+      "ex_de": "Kommst du? Natürlich!"
+    },
+    {
+      "ar": "اِسْتَعْمَلَ",
+      "tr": "istaʿmala",
+      "de": "benutzen",
+      "en": "to use",
+      "type": "Verb",
+      "extra": "Präsens: يَسْتَعْمِلُ",
+      "ex_ar": "أستعمل الحاسوب كل يوم.",
+      "ex_de": "Ich benutze jeden Tag den Computer."
+    },
+    {
+      "ar": "اِسْتَفَادَ",
+      "tr": "istafāda",
+      "de": "profitieren (من)",
+      "en": "to benefit",
+      "type": "Verb",
+      "extra": "Präsens: يَسْتَفِيدُ",
+      "ex_ar": "استفدت كثيرا من الدورة.",
+      "ex_de": "Ich habe viel vom Kurs profitiert."
     }
   ],
   "days": {
     "2026-10-01": {
       "words": [
         {
-          "ar": "مَدِينَة",
-          "tr": "madīna",
-          "de": "die Stadt",
+          "ar": "فُرْصَة",
+          "tr": "furṣa",
+          "de": "die Gelegenheit",
+          "en": "the opportunity",
           "type": "Nomen",
-          "extra": "Pl. مُدُن",
-          "ex_ar": "يينا مدينة جميلة.",
-          "ex_de": "Jena ist eine schöne Stadt.",
-          "en": "the city"
+          "extra": "Pl. فُرَص",
+          "ex_ar": "هذه فرصة جيدة لنا.",
+          "ex_de": "Das ist eine gute Gelegenheit für uns."
         },
         {
-          "ar": "صَغِير",
-          "tr": "ṣaġīr",
-          "de": "klein",
-          "type": "Adjektiv",
-          "extra": "f. صَغِيرَة",
-          "ex_ar": "عندي أخت صغيرة.",
-          "ex_de": "Ich habe eine kleine Schwester.",
-          "en": "small"
-        },
-        {
-          "ar": "أَكَلَ",
-          "tr": "akala",
-          "de": "essen",
-          "type": "Verb",
-          "extra": "Präsens: يَأْكُلُ",
-          "ex_ar": "آكل تفاحة كل يوم.",
-          "ex_de": "Ich esse jeden Tag einen Apfel.",
-          "en": "to eat"
-        },
-        {
-          "ar": "إِنْ شَاءَ اللّٰهُ",
-          "tr": "in šāʾa llāh",
-          "de": "so Gott will, hoffentlich",
+          "ar": "بِالتَّأْكِيد",
+          "tr": "bi-t-taʾkīd",
+          "de": "sicher, natürlich",
+          "en": "of course",
           "type": "Redewendung",
           "extra": "",
-          "ex_ar": "نلتقي غدا إن شاء الله.",
-          "ex_de": "Wir sehen uns morgen, hoffentlich.",
-          "en": "God willing, hopefully"
+          "ex_ar": "هل ستأتي؟ بالتأكيد!",
+          "ex_de": "Kommst du? Natürlich!"
+        },
+        {
+          "ar": "اِسْتَعْمَلَ",
+          "tr": "istaʿmala",
+          "de": "benutzen",
+          "en": "to use",
+          "type": "Verb",
+          "extra": "Präsens: يَسْتَعْمِلُ",
+          "ex_ar": "أستعمل الحاسوب كل يوم.",
+          "ex_de": "Ich benutze jeden Tag den Computer."
+        },
+        {
+          "ar": "اِسْتَفَادَ",
+          "tr": "istafāda",
+          "de": "profitieren (من)",
+          "en": "to benefit",
+          "type": "Verb",
+          "extra": "Präsens: يَسْتَفِيدُ",
+          "ex_ar": "استفدت كثيرا من الدورة.",
+          "ex_de": "Ich habe viel vom Kurs profitiert."
         }
       ],
       "gestern": [
-        "wissen, kennen",
-        "das Fest",
-        "die Tür",
-        "der Freund"
+        "der Gast",
+        "der Preis",
+        "scheitern",
+        "die Miete"
       ]
     },
     "2026-10-02": {
       "words": [
         {
-          "ar": "بَعْدَ",
-          "tr": "baʿda",
-          "de": "nach (zeitlich)",
-          "type": "Präposition",
-          "extra": "",
-          "ex_ar": "ألعب بعد الواجب.",
-          "ex_de": "Nach den Hausaufgaben spiele ich.",
-          "en": "after"
-        },
-        {
-          "ar": "ذَهَبَ",
-          "tr": "ḏahaba",
-          "de": "gehen",
-          "type": "Verb",
-          "extra": "Präsens: يَذْهَبُ",
-          "ex_ar": "نذهب إلى السوق.",
-          "ex_de": "Wir gehen zum Markt.",
-          "en": "to go"
-        },
-        {
-          "ar": "نَافِذَة",
-          "tr": "nāfiḏa",
-          "de": "das Fenster",
+          "ar": "ثَقَافَة",
+          "tr": "ṯaqāfa",
+          "de": "die Kultur",
+          "en": "the culture",
           "type": "Nomen",
-          "extra": "Pl. نَوَافِذ",
-          "ex_ar": "النافذة مفتوحة.",
-          "ex_de": "Das Fenster ist offen.",
-          "en": "the window"
+          "extra": "Pl. ثَقَافَات",
+          "ex_ar": "أحب أن أتعرف على ثقافات جديدة.",
+          "ex_de": "Ich lerne gern neue Kulturen kennen."
         },
         {
-          "ar": "اِسْتَيْقَظَ",
-          "tr": "istaiqaẓa",
-          "de": "aufwachen",
-          "type": "Verb",
-          "extra": "Präsens: يَسْتَيْقِظُ",
-          "ex_ar": "أستيقظ في الساعة الخامسة والنصف.",
-          "ex_de": "Ich wache um halb sechs auf.",
-          "en": "to wake up"
+          "ar": "رَاتِب",
+          "tr": "rātib",
+          "de": "das Gehalt",
+          "en": "the salary",
+          "type": "Nomen",
+          "extra": "Pl. رَوَاتِب",
+          "ex_ar": "الراتب جيد.",
+          "ex_de": "Das Gehalt ist gut."
+        },
+        {
+          "ar": "فَجْأَةً",
+          "tr": "faǧʾatan",
+          "de": "plötzlich",
+          "en": "suddenly",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "بدأ المطر فجأة.",
+          "ex_de": "Plötzlich fing es an zu regnen."
+        },
+        {
+          "ar": "خَاصّ",
+          "tr": "ḫāṣṣ",
+          "de": "besonders, privat",
+          "en": "special, private",
+          "type": "Adjektiv",
+          "extra": "f. خَاصَّة",
+          "ex_ar": "هذه هدية خاصة.",
+          "ex_de": "Das ist ein besonderes Geschenk."
         }
       ],
       "gestern": [
-        "die Stadt",
-        "klein",
-        "essen",
-        "so Gott will, hoffentlich"
+        "die Gelegenheit",
+        "sicher, natürlich",
+        "benutzen",
+        "profitieren (من)"
       ]
     },
     "2026-10-03": {
       "words": [
         {
-          "ar": "هَدِيَّة",
-          "tr": "hadiyya",
-          "de": "das Geschenk",
-          "type": "Nomen",
-          "extra": "Pl. هَدَايَا",
-          "ex_ar": "شكرا على الهدية!",
-          "ex_de": "Danke für das Geschenk!",
-          "en": "the present"
+          "ar": "مَا شَاءَ اللّٰهُ",
+          "tr": "mā šāʾa llāh",
+          "de": "wie schön (Bewunderung)",
+          "en": "how wonderful",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "ما شاء الله، بيتك جميل!",
+          "ex_de": "Wie schön, dein Haus ist wunderbar!"
         },
         {
-          "ar": "مُسْتَشْفَى",
-          "tr": "mustašfā",
-          "de": "das Krankenhaus",
-          "type": "Nomen",
-          "extra": "Pl. مُسْتَشْفَيَات",
-          "ex_ar": "المستشفى بعيد عن بيتنا.",
-          "ex_de": "Das Krankenhaus ist weit von unserem Haus entfernt.",
-          "en": "the hospital"
+          "ar": "أَخِيرًا",
+          "tr": "aḫīran",
+          "de": "endlich",
+          "en": "finally",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "وصلنا أخيرا!",
+          "ex_de": "Endlich sind wir angekommen!"
         },
         {
-          "ar": "مَفْتُوح",
-          "tr": "maftūḥ",
-          "de": "offen",
-          "type": "Adjektiv",
-          "extra": "f. مَفْتُوحَة",
-          "ex_ar": "المحل مفتوح.",
-          "ex_de": "Der Laden ist geöffnet.",
-          "en": "open"
+          "ar": "بَيْنَمَا",
+          "tr": "bainamā",
+          "de": "während",
+          "en": "while",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "قرأت كتابا بينما كان الأطفال نائمين.",
+          "ex_de": "Ich habe ein Buch gelesen, während die Kinder schliefen."
         },
         {
-          "ar": "جَدَّة",
-          "tr": "ǧadda",
-          "de": "die Großmutter",
+          "ar": "بِيئَة",
+          "tr": "bīʾa",
+          "de": "die Umwelt",
+          "en": "the environment",
           "type": "Nomen",
-          "extra": "Pl. جَدَّات",
-          "ex_ar": "نزور جدتي يوم الأحد.",
-          "ex_de": "Wir besuchen Oma am Sonntag.",
-          "en": "the grandmother"
+          "extra": "",
+          "ex_ar": "يجب أن نحمي البيئة.",
+          "ex_de": "Wir müssen die Umwelt schützen."
         }
       ],
       "gestern": [
-        "nach (zeitlich)",
-        "gehen",
-        "das Fenster",
-        "aufwachen"
+        "die Kultur",
+        "das Gehalt",
+        "plötzlich",
+        "besonders, privat"
       ]
     },
     "2026-10-04": {
       "words": [
         {
-          "ar": "شَجَرَة",
-          "tr": "šaǧara",
-          "de": "der Baum",
+          "ar": "فَاتُورَة",
+          "tr": "fātūra",
+          "de": "die Rechnung",
+          "en": "the bill",
           "type": "Nomen",
-          "extra": "Pl. أَشْجَار",
-          "ex_ar": "في حديقتنا شجرة تفاح.",
-          "ex_de": "In unserem Garten steht ein Apfelbaum.",
-          "en": "the tree"
+          "extra": "Pl. فَوَاتِير",
+          "ex_ar": "وصلت فاتورة الكهرباء.",
+          "ex_de": "Die Stromrechnung ist angekommen."
         },
         {
-          "ar": "مَطَر",
-          "tr": "maṭar",
-          "de": "der Regen",
-          "type": "Nomen",
-          "extra": "Pl. أَمْطَار",
-          "ex_ar": "المطر غزير اليوم.",
-          "ex_de": "Heute regnet es stark.",
-          "en": "the rain"
+          "ar": "اِنْتَقَلَ",
+          "tr": "intaqala",
+          "de": "umziehen",
+          "en": "to move",
+          "type": "Verb",
+          "extra": "Präsens: يَنْتَقِلُ",
+          "ex_ar": "انتقلنا إلى شقة جديدة.",
+          "ex_de": "Wir sind in eine neue Wohnung umgezogen."
         },
         {
-          "ar": "لُغَة",
-          "tr": "luġa",
-          "de": "die Sprache",
+          "ar": "فَرْق",
+          "tr": "farq",
+          "de": "der Unterschied",
+          "en": "the difference",
           "type": "Nomen",
-          "extra": "Pl. لُغَات",
-          "ex_ar": "أتعلم اللغة العربية.",
-          "ex_de": "Ich lerne Arabisch.",
-          "en": "the language"
+          "extra": "Pl. فُرُوق",
+          "ex_ar": "ما الفرق بين الكلمتين؟",
+          "ex_de": "Was ist der Unterschied zwischen den beiden Wörtern?"
         },
         {
-          "ar": "سَعِيد",
-          "tr": "saʿīd",
-          "de": "glücklich",
-          "type": "Adjektiv",
-          "extra": "f. سَعِيدَة",
-          "ex_ar": "أنا سعيدة اليوم.",
-          "ex_de": "Ich bin heute glücklich.",
-          "en": "happy"
+          "ar": "بِسَبَبِ",
+          "tr": "bi-sababi",
+          "de": "wegen",
+          "en": "because of",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "تأخرت بسبب الزحام.",
+          "ex_de": "Ich habe mich wegen des Staus verspätet."
         }
       ],
       "gestern": [
-        "das Geschenk",
-        "das Krankenhaus",
-        "offen",
-        "die Großmutter"
+        "wie schön (Bewunderung)",
+        "endlich",
+        "während",
+        "die Umwelt"
       ]
     },
     "2026-10-05": {
       "words": [
         {
-          "ar": "رَجَعَ",
-          "tr": "raǧaʿa",
-          "de": "zurückkommen",
+          "ar": "اِخْتَارَ",
+          "tr": "iḫtāra",
+          "de": "auswählen",
+          "en": "to choose",
           "type": "Verb",
-          "extra": "Präsens: يَرْجِعُ",
-          "ex_ar": "يرجع أبي من العمل في المساء.",
-          "ex_de": "Papa kommt abends von der Arbeit zurück.",
-          "en": "to come back"
+          "extra": "Präsens: يَخْتَارُ",
+          "ex_ar": "اخترت اللون الأزرق.",
+          "ex_de": "Ich habe die blaue Farbe ausgesucht."
         },
         {
-          "ar": "سَافَرَ",
-          "tr": "sāfara",
-          "de": "reisen",
-          "type": "Verb",
-          "extra": "Präsens: يُسَافِرُ",
-          "ex_ar": "نسافر في العطلة.",
-          "ex_de": "In den Ferien verreisen wir.",
-          "en": "to travel"
+          "ar": "أَيْضًا",
+          "tr": "aiḍan",
+          "de": "auch",
+          "en": "also",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "أنا أيضا أحب القهوة.",
+          "ex_de": "Ich mag auch Kaffee."
         },
         {
-          "ar": "كَتَبَ",
-          "tr": "kataba",
-          "de": "schreiben",
-          "type": "Verb",
-          "extra": "Präsens: يَكْتُبُ",
-          "ex_ar": "أكتب رسالة لصديقتي.",
-          "ex_de": "Ich schreibe meiner Freundin einen Brief.",
-          "en": "to write"
+          "ar": "عِنْدَمَا",
+          "tr": "ʿindamā",
+          "de": "wenn, als",
+          "en": "when",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "عندما كنت صغيرا، كنت أحب الرسم.",
+          "ex_de": "Als ich klein war, habe ich gern gemalt."
         },
         {
-          "ar": "حَارّ",
-          "tr": "ḥārr",
-          "de": "heiß",
+          "ar": "مُنَاسِب",
+          "tr": "munāsib",
+          "de": "passend",
+          "en": "suitable",
           "type": "Adjektiv",
-          "extra": "f. حَارَّة",
-          "ex_ar": "الجو حار في الصيف.",
-          "ex_de": "Im Sommer ist es heiß.",
-          "en": "hot"
+          "extra": "f. مُنَاسِبَة",
+          "ex_ar": "هذا وقت مناسب.",
+          "ex_de": "Das ist ein passender Zeitpunkt."
         }
       ],
       "gestern": [
-        "der Baum",
-        "der Regen",
-        "die Sprache",
-        "glücklich"
+        "die Rechnung",
+        "umziehen",
+        "der Unterschied",
+        "wegen"
       ]
     },
     "2026-10-06": {
       "words": [
         {
-          "ar": "فِي",
-          "tr": "fī",
-          "de": "in",
-          "type": "Präposition",
-          "extra": "",
-          "ex_ar": "القطة في الغرفة.",
-          "ex_de": "Die Katze ist im Zimmer.",
-          "en": "in"
-        },
-        {
-          "ar": "جَدّ",
-          "tr": "ǧadd",
-          "de": "der Großvater",
-          "type": "Nomen",
-          "extra": "Pl. أَجْدَاد",
-          "ex_ar": "جدي يحكي قصصا جميلة.",
-          "ex_de": "Mein Opa erzählt schöne Geschichten.",
-          "en": "the grandfather"
-        },
-        {
-          "ar": "فَهِمَ",
-          "tr": "fahima",
-          "de": "verstehen",
+          "ar": "أَعْجَبَ",
+          "tr": "aʿǧaba",
+          "de": "gefallen",
+          "en": "to please",
           "type": "Verb",
-          "extra": "Präsens: يَفْهَمُ",
-          "ex_ar": "هل فهمت السؤال؟",
-          "ex_de": "Hast du die Frage verstanden?",
-          "en": "to understand"
+          "extra": "Präsens: يُعْجِبُ",
+          "ex_ar": "أعجبني الفيلم كثيرا.",
+          "ex_de": "Der Film hat mir sehr gefallen."
         },
         {
-          "ar": "تَحْتَ",
-          "tr": "taḥta",
-          "de": "unter",
-          "type": "Präposition",
-          "extra": "",
-          "ex_ar": "الكرة تحت السرير.",
-          "ex_de": "Der Ball ist unter dem Bett.",
-          "en": "under"
+          "ar": "شَرَحَ",
+          "tr": "šaraḥa",
+          "de": "erklären",
+          "en": "to explain",
+          "type": "Verb",
+          "extra": "Präsens: يَشْرَحُ",
+          "ex_ar": "شرح المعلم الدرس جيدا.",
+          "ex_de": "Der Lehrer hat die Lektion gut erklärt."
+        },
+        {
+          "ar": "مَبْلَغ",
+          "tr": "mablaġ",
+          "de": "der Betrag",
+          "en": "the amount",
+          "type": "Nomen",
+          "extra": "Pl. مَبَالِغ",
+          "ex_ar": "دفعت المبلغ كاملا.",
+          "ex_de": "Ich habe den ganzen Betrag bezahlt."
+        },
+        {
+          "ar": "أَتَمَنَّى لَكَ",
+          "tr": "atamannā laka",
+          "de": "ich wünsche dir",
+          "en": "I wish you",
+          "type": "Redewendung",
+          "extra": "zu einer Frau: أَتَمَنَّى لَكِ",
+          "ex_ar": "أتمنى لك يوما سعيدا.",
+          "ex_de": "Ich wünsche dir einen schönen Tag."
         }
       ],
       "gestern": [
-        "zurückkommen",
-        "reisen",
-        "schreiben",
-        "heiß"
+        "auswählen",
+        "auch",
+        "wenn, als",
+        "passend"
       ]
     },
     "2026-10-07": {
       "words": [
         {
-          "ar": "لَعِبَ",
-          "tr": "laʿiba",
-          "de": "spielen",
-          "type": "Verb",
-          "extra": "Präsens: يَلْعَبُ",
-          "ex_ar": "نلعب كرة القدم بعد المدرسة.",
-          "ex_de": "Nach der Schule spielen wir Fußball.",
-          "en": "to play"
+          "ar": "صُورَة",
+          "tr": "ṣūra",
+          "de": "das Bild, Foto",
+          "en": "the picture",
+          "type": "Nomen",
+          "extra": "Pl. صُوَر",
+          "ex_ar": "التقطت صورا كثيرة في الرحلة.",
+          "ex_de": "Ich habe auf der Reise viele Fotos gemacht."
         },
         {
-          "ar": "عَائِلَة",
-          "tr": "ʿāʾila",
-          "de": "die Familie",
-          "type": "Nomen",
-          "extra": "Pl. عَائِلَات",
-          "ex_ar": "عائلتي كبيرة.",
-          "ex_de": "Meine Familie ist groß.",
-          "en": "the family"
-        },
-        {
-          "ar": "عَشَاء",
-          "tr": "ʿašāʾ",
-          "de": "das Abendessen",
-          "type": "Nomen",
+          "ar": "رَغْمَ",
+          "tr": "raġma",
+          "de": "trotz",
+          "en": "despite",
+          "type": "Bindewort",
           "extra": "",
-          "ex_ar": "ماذا نأكل على العشاء؟",
-          "ex_de": "Was essen wir zum Abendessen?",
-          "en": "dinner"
+          "ex_ar": "خرجنا رغم المطر.",
+          "ex_de": "Wir gingen trotz des Regens hinaus."
         },
         {
-          "ar": "اِنْتَظَرَ",
-          "tr": "intaẓara",
-          "de": "warten",
-          "type": "Verb",
-          "extra": "Präsens: يَنْتَظِرُ",
-          "ex_ar": "أنتظر الحافلة.",
-          "ex_de": "Ich warte auf den Bus.",
-          "en": "to wait"
+          "ar": "هَدَف",
+          "tr": "hadaf",
+          "de": "das Ziel",
+          "en": "the goal",
+          "type": "Nomen",
+          "extra": "Pl. أَهْدَاف",
+          "ex_ar": "هدفي أن أتكلم العربية بطلاقة.",
+          "ex_de": "Mein Ziel ist, fließend Arabisch zu sprechen."
+        },
+        {
+          "ar": "عَلَى فِكْرَة",
+          "tr": "ʿalā fikra",
+          "de": "übrigens",
+          "en": "by the way",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "على فكرة، اتصلت أختك.",
+          "ex_de": "Übrigens, deine Schwester hat angerufen."
         }
       ],
       "gestern": [
-        "in",
-        "der Großvater",
-        "verstehen",
-        "unter"
+        "gefallen",
+        "erklären",
+        "der Betrag",
+        "ich wünsche dir"
       ]
     },
     "2026-10-08": {
       "words": [
         {
-          "ar": "نَامَ",
-          "tr": "nāma",
-          "de": "schlafen",
+          "ar": "نَتِيجَة",
+          "tr": "natīǧa",
+          "de": "das Ergebnis",
+          "en": "the result",
+          "type": "Nomen",
+          "extra": "Pl. نَتَائِج",
+          "ex_ar": "النتيجة ممتازة.",
+          "ex_de": "Das Ergebnis ist ausgezeichnet."
+        },
+        {
+          "ar": "تَجْرِبَة",
+          "tr": "taǧriba",
+          "de": "die Erfahrung",
+          "en": "the experience",
+          "type": "Nomen",
+          "extra": "Pl. تَجَارِب",
+          "ex_ar": "كانت تجربة جميلة.",
+          "ex_de": "Es war eine schöne Erfahrung."
+        },
+        {
+          "ar": "سَمَحَ",
+          "tr": "samaḥa",
+          "de": "erlauben (لـ)",
+          "en": "to allow",
           "type": "Verb",
-          "extra": "Präsens: يَنَامُ",
-          "ex_ar": "أنام في الساعة التاسعة.",
-          "ex_de": "Ich schlafe um neun Uhr.",
-          "en": "to sleep"
+          "extra": "Präsens: يَسْمَحُ",
+          "ex_ar": "هل تسمح لي بسؤال؟",
+          "ex_de": "Darf ich dir eine Frage stellen?"
         },
         {
-          "ar": "أَب",
-          "tr": "ab",
-          "de": "der Vater",
-          "type": "Nomen",
-          "extra": "Pl. آبَاء",
-          "ex_ar": "أبي يعمل في مكتب.",
-          "ex_de": "Mein Vater arbeitet in einem Büro.",
-          "en": "the father"
-        },
-        {
-          "ar": "طَالِب",
-          "tr": "ṭālib",
-          "de": "der Schüler, Student",
-          "type": "Nomen",
-          "extra": "Pl. طُلَّاب",
-          "ex_ar": "في صفي عشرون طالبا.",
-          "ex_de": "In meiner Klasse sind zwanzig Schüler.",
-          "en": "the pupil, student"
-        },
-        {
-          "ar": "صَبَاح",
-          "tr": "ṣabāḥ",
-          "de": "der Morgen",
-          "type": "Nomen",
+          "ar": "فِي رَأْيِي",
+          "tr": "fī raʾyī",
+          "de": "meiner Meinung nach",
+          "en": "in my opinion",
+          "type": "Redewendung",
           "extra": "",
-          "ex_ar": "صباح الخير!",
-          "ex_de": "Guten Morgen!",
-          "en": "the morning"
+          "ex_ar": "في رأيي هذه فكرة جيدة.",
+          "ex_de": "Meiner Meinung nach ist das eine gute Idee."
         }
       ],
       "gestern": [
-        "spielen",
-        "die Familie",
-        "das Abendessen",
-        "warten"
+        "das Bild, Foto",
+        "trotz",
+        "das Ziel",
+        "übrigens"
       ]
     }
   }

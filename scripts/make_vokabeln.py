@@ -4,7 +4,7 @@ Wählt täglich 5 Vokabeln pro Sprache für die Küchen-Anzeige aus und schreibt
 sie als JSON (was TRMNL abruft):
 
 - Englisch, Niveau Klasse 5 Gymnasium: data/vokabeln_liste.json -> data/vokabeln.json
-- Hocharabisch, Niveau A2:              data/arabisch_liste.json -> data/arabisch.json
+- Hocharabisch, Niveau B1:              data/arabisch_liste.json -> data/arabisch.json
 
 Jede Liste wird einmal fest gemischt und dann Tag für Tag der Reihe nach
 abgearbeitet, damit sich Wörter erst wiederholen, wenn alle einmal dran waren.
@@ -33,8 +33,8 @@ SETS = [
     {
         "list": ROOT / "data" / "arabisch_liste.json",
         "out": ROOT / "data" / "arabisch.json",
-        "seed": "arabisch-a2",
-        "topic": "Hocharabisch · A2",
+        "seed": "arabisch-b1",
+        "topic": "Hocharabisch · B1",
         "per_day": 4,  # weniger Wörter, dafür größere Schrift (arabische Schrift braucht Platz)
     },
 ]
