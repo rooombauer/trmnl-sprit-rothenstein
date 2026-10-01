@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-01T10:02:18Z",
-  "updated_local": "01.10. 12:02",
+  "updated_at": "2026-10-01T12:57:13Z",
+  "updated_local": "01.10. 14:57",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -10,7 +10,7 @@
       "street": "Stadtrodaer Straße 102",
       "place": "Jena",
       "dist": "3,4 km",
-      "price_main": "2,09",
+      "price_main": "2,11",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -21,10 +21,10 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "2,08",
+      "price_main": "2,10",
       "price_sup": "9",
       "open": true,
-      "cheapest": true
+      "cheapest": false
     },
     {
       "n": 3,
@@ -32,7 +32,7 @@
       "street": "Am Heerweg 33",
       "place": "Kahla",
       "dist": "4,8 km",
-      "price_main": "2,08",
+      "price_main": "2,10",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -46,7 +46,7 @@
       "price_main": "2,09",
       "price_sup": "9",
       "open": true,
-      "cheapest": false
+      "cheapest": true
     }
   ],
   "karte": {
@@ -78,16 +78,6 @@
     ],
     "others": [
       {
-        "x": 227.9,
-        "y": 24.3,
-        "brand": "LEO",
-        "price_main": "2,05",
-        "price_sup": "9",
-        "anchor": "start",
-        "lx": 236.9,
-        "ly": 29.3
-      },
-      {
         "x": 139.2,
         "y": 26.1,
         "brand": "TotalEnergies",
@@ -98,10 +88,20 @@
         "ly": 14.1
       },
       {
+        "x": 227.9,
+        "y": 24.3,
+        "brand": "LEO",
+        "price_main": "2,11",
+        "price_sup": "9",
+        "anchor": "start",
+        "lx": 236.9,
+        "ly": 29.3
+      },
+      {
         "x": 145.1,
         "y": 86.6,
         "brand": "Shell",
-        "price_main": "2,09",
+        "price_main": "2,12",
         "price_sup": "9",
         "anchor": "end",
         "lx": 136.1,
