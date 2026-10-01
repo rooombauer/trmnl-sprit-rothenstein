@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-09-30T17:37:48Z",
-  "date": "2026-09-30",
+  "updated_at": "2026-10-01T00:35:51Z",
+  "date": "2026-10-01",
   "topic": "Hocharabisch · A2",
   "words": [
     {
-      "ar": "عَرَفَ",
-      "tr": "ʿarafa",
-      "de": "wissen, kennen",
+      "ar": "مَدِينَة",
+      "tr": "madīna",
+      "de": "die Stadt",
+      "type": "Nomen",
+      "extra": "Pl. مُدُن",
+      "ex_ar": "يينا مدينة جميلة.",
+      "ex_de": "Jena ist eine schöne Stadt.",
+      "en": "the city"
+    },
+    {
+      "ar": "صَغِير",
+      "tr": "ṣaġīr",
+      "de": "klein",
+      "type": "Adjektiv",
+      "extra": "f. صَغِيرَة",
+      "ex_ar": "عندي أخت صغيرة.",
+      "ex_de": "Ich habe eine kleine Schwester.",
+      "en": "small"
+    },
+    {
+      "ar": "أَكَلَ",
+      "tr": "akala",
+      "de": "essen",
       "type": "Verb",
-      "extra": "Präsens: يَعْرِفُ",
-      "ex_ar": "هل تعرف هذه الكلمة؟",
-      "ex_de": "Kennst du dieses Wort?",
-      "en": "to know"
+      "extra": "Präsens: يَأْكُلُ",
+      "ex_ar": "آكل تفاحة كل يوم.",
+      "ex_de": "Ich esse jeden Tag einen Apfel.",
+      "en": "to eat"
     },
     {
-      "ar": "عِيد",
-      "tr": "ʿīd",
-      "de": "das Fest",
-      "type": "Nomen",
-      "extra": "Pl. أَعْيَاد",
-      "ex_ar": "عيد مبارك!",
-      "ex_de": "Gesegnetes Fest!",
-      "en": "the festival"
-    },
-    {
-      "ar": "بَاب",
-      "tr": "bāb",
-      "de": "die Tür",
-      "type": "Nomen",
-      "extra": "Pl. أَبْوَاب",
-      "ex_ar": "افتح الباب من فضلك.",
-      "ex_de": "Öffne bitte die Tür.",
-      "en": "the door"
-    },
-    {
-      "ar": "صَدِيق",
-      "tr": "ṣadīq",
-      "de": "der Freund",
-      "type": "Nomen",
-      "extra": "Pl. أَصْدِقَاء",
-      "ex_ar": "صديقي يسكن قريبا مني.",
-      "ex_de": "Mein Freund wohnt in meiner Nähe.",
-      "en": "the friend"
+      "ar": "إِنْ شَاءَ اللّٰهُ",
+      "tr": "in šāʾa llāh",
+      "de": "so Gott will, hoffentlich",
+      "type": "Redewendung",
+      "extra": "",
+      "ex_ar": "نلتقي غدا إن شاء الله.",
+      "ex_de": "Wir sehen uns morgen, hoffentlich.",
+      "en": "God willing, hopefully"
     }
   ],
   "days": {
-    "2026-09-30": {
-      "words": [
-        {
-          "ar": "عَرَفَ",
-          "tr": "ʿarafa",
-          "de": "wissen, kennen",
-          "type": "Verb",
-          "extra": "Präsens: يَعْرِفُ",
-          "ex_ar": "هل تعرف هذه الكلمة؟",
-          "ex_de": "Kennst du dieses Wort?",
-          "en": "to know"
-        },
-        {
-          "ar": "عِيد",
-          "tr": "ʿīd",
-          "de": "das Fest",
-          "type": "Nomen",
-          "extra": "Pl. أَعْيَاد",
-          "ex_ar": "عيد مبارك!",
-          "ex_de": "Gesegnetes Fest!",
-          "en": "the festival"
-        },
-        {
-          "ar": "بَاب",
-          "tr": "bāb",
-          "de": "die Tür",
-          "type": "Nomen",
-          "extra": "Pl. أَبْوَاب",
-          "ex_ar": "افتح الباب من فضلك.",
-          "ex_de": "Öffne bitte die Tür.",
-          "en": "the door"
-        },
-        {
-          "ar": "صَدِيق",
-          "tr": "ṣadīq",
-          "de": "der Freund",
-          "type": "Nomen",
-          "extra": "Pl. أَصْدِقَاء",
-          "ex_ar": "صديقي يسكن قريبا مني.",
-          "ex_de": "Mein Freund wohnt in meiner Nähe.",
-          "en": "the friend"
-        }
-      ],
-      "gestern": [
-        "hungrig",
-        "schön",
-        "das Mittagessen",
-        "der Lehrer"
-      ]
-    },
     "2026-10-01": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "der Großvater",
         "verstehen",
         "unter"
+      ]
+    },
+    "2026-10-08": {
+      "words": [
+        {
+          "ar": "نَامَ",
+          "tr": "nāma",
+          "de": "schlafen",
+          "type": "Verb",
+          "extra": "Präsens: يَنَامُ",
+          "ex_ar": "أنام في الساعة التاسعة.",
+          "ex_de": "Ich schlafe um neun Uhr.",
+          "en": "to sleep"
+        },
+        {
+          "ar": "أَب",
+          "tr": "ab",
+          "de": "der Vater",
+          "type": "Nomen",
+          "extra": "Pl. آبَاء",
+          "ex_ar": "أبي يعمل في مكتب.",
+          "ex_de": "Mein Vater arbeitet in einem Büro.",
+          "en": "the father"
+        },
+        {
+          "ar": "طَالِب",
+          "tr": "ṭālib",
+          "de": "der Schüler, Student",
+          "type": "Nomen",
+          "extra": "Pl. طُلَّاب",
+          "ex_ar": "في صفي عشرون طالبا.",
+          "ex_de": "In meiner Klasse sind zwanzig Schüler.",
+          "en": "the pupil, student"
+        },
+        {
+          "ar": "صَبَاح",
+          "tr": "ṣabāḥ",
+          "de": "der Morgen",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "صباح الخير!",
+          "ex_de": "Guten Morgen!",
+          "en": "the morning"
+        }
+      ],
+      "gestern": [
+        "spielen",
+        "die Familie",
+        "das Abendessen",
+        "warten"
       ]
     }
   }
