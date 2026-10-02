@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-01T16:12:17Z",
-  "date": "2026-10-01",
+  "updated_at": "2026-10-02T00:49:41Z",
+  "date": "2026-10-02",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "فُرْصَة",
-      "tr": "furṣa",
-      "de": "die Gelegenheit",
-      "en": "the opportunity",
+      "ar": "ثَقَافَة",
+      "tr": "ṯaqāfa",
+      "de": "die Kultur",
+      "en": "the culture",
       "type": "Nomen",
-      "extra": "Pl. فُرَص",
-      "ex_ar": "هذه فرصة جيدة لنا.",
-      "ex_de": "Das ist eine gute Gelegenheit für uns."
+      "extra": "Pl. ثَقَافَات",
+      "ex_ar": "أحب أن أتعرف على ثقافات جديدة.",
+      "ex_de": "Ich lerne gern neue Kulturen kennen."
     },
     {
-      "ar": "بِالتَّأْكِيد",
-      "tr": "bi-t-taʾkīd",
-      "de": "sicher, natürlich",
-      "en": "of course",
-      "type": "Redewendung",
+      "ar": "رَاتِب",
+      "tr": "rātib",
+      "de": "das Gehalt",
+      "en": "the salary",
+      "type": "Nomen",
+      "extra": "Pl. رَوَاتِب",
+      "ex_ar": "الراتب جيد.",
+      "ex_de": "Das Gehalt ist gut."
+    },
+    {
+      "ar": "فَجْأَةً",
+      "tr": "faǧʾatan",
+      "de": "plötzlich",
+      "en": "suddenly",
+      "type": "Adverb",
       "extra": "",
-      "ex_ar": "هل ستأتي؟ بالتأكيد!",
-      "ex_de": "Kommst du? Natürlich!"
+      "ex_ar": "بدأ المطر فجأة.",
+      "ex_de": "Plötzlich fing es an zu regnen."
     },
     {
-      "ar": "اِسْتَعْمَلَ",
-      "tr": "istaʿmala",
-      "de": "benutzen",
-      "en": "to use",
-      "type": "Verb",
-      "extra": "Präsens: يَسْتَعْمِلُ",
-      "ex_ar": "أستعمل الحاسوب كل يوم.",
-      "ex_de": "Ich benutze jeden Tag den Computer."
-    },
-    {
-      "ar": "اِسْتَفَادَ",
-      "tr": "istafāda",
-      "de": "profitieren (من)",
-      "en": "to benefit",
-      "type": "Verb",
-      "extra": "Präsens: يَسْتَفِيدُ",
-      "ex_ar": "استفدت كثيرا من الدورة.",
-      "ex_de": "Ich habe viel vom Kurs profitiert."
+      "ar": "خَاصّ",
+      "tr": "ḫāṣṣ",
+      "de": "besonders, privat",
+      "en": "special, private",
+      "type": "Adjektiv",
+      "extra": "f. خَاصَّة",
+      "ex_ar": "هذه هدية خاصة.",
+      "ex_de": "Das ist ein besonderes Geschenk."
     }
   ],
   "days": {
-    "2026-10-01": {
-      "words": [
-        {
-          "ar": "فُرْصَة",
-          "tr": "furṣa",
-          "de": "die Gelegenheit",
-          "en": "the opportunity",
-          "type": "Nomen",
-          "extra": "Pl. فُرَص",
-          "ex_ar": "هذه فرصة جيدة لنا.",
-          "ex_de": "Das ist eine gute Gelegenheit für uns."
-        },
-        {
-          "ar": "بِالتَّأْكِيد",
-          "tr": "bi-t-taʾkīd",
-          "de": "sicher, natürlich",
-          "en": "of course",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "هل ستأتي؟ بالتأكيد!",
-          "ex_de": "Kommst du? Natürlich!"
-        },
-        {
-          "ar": "اِسْتَعْمَلَ",
-          "tr": "istaʿmala",
-          "de": "benutzen",
-          "en": "to use",
-          "type": "Verb",
-          "extra": "Präsens: يَسْتَعْمِلُ",
-          "ex_ar": "أستعمل الحاسوب كل يوم.",
-          "ex_de": "Ich benutze jeden Tag den Computer."
-        },
-        {
-          "ar": "اِسْتَفَادَ",
-          "tr": "istafāda",
-          "de": "profitieren (من)",
-          "en": "to benefit",
-          "type": "Verb",
-          "extra": "Präsens: يَسْتَفِيدُ",
-          "ex_ar": "استفدت كثيرا من الدورة.",
-          "ex_de": "Ich habe viel vom Kurs profitiert."
-        }
-      ],
-      "gestern": [
-        "der Gast",
-        "der Preis",
-        "scheitern",
-        "die Miete"
-      ]
-    },
     "2026-10-02": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "trotz",
         "das Ziel",
         "übrigens"
+      ]
+    },
+    "2026-10-09": {
+      "words": [
+        {
+          "ar": "وَظِيفَة",
+          "tr": "waẓīfa",
+          "de": "die Stelle, der Job",
+          "en": "the job",
+          "type": "Nomen",
+          "extra": "Pl. وَظَائِف",
+          "ex_ar": "وجدت أختي وظيفة جديدة.",
+          "ex_de": "Meine Schwester hat eine neue Stelle gefunden."
+        },
+        {
+          "ar": "اِشْتَاقَ",
+          "tr": "ištāqa",
+          "de": "vermissen (إلى)",
+          "en": "to miss",
+          "type": "Verb",
+          "extra": "Präsens: يَشْتَاقُ",
+          "ex_ar": "أشتاق إلى عائلتي.",
+          "ex_de": "Ich vermisse meine Familie."
+        },
+        {
+          "ar": "مَحَطَّة",
+          "tr": "maḥaṭṭa",
+          "de": "der Bahnhof, die Haltestelle",
+          "en": "the station",
+          "type": "Nomen",
+          "extra": "Pl. مَحَطَّات",
+          "ex_ar": "المحطة قريبة من بيتنا.",
+          "ex_de": "Der Bahnhof ist nah an unserem Haus."
+        },
+        {
+          "ar": "قَانُون",
+          "tr": "qānūn",
+          "de": "das Gesetz",
+          "en": "the law",
+          "type": "Nomen",
+          "extra": "Pl. قَوَانِين",
+          "ex_ar": "يجب احترام القانون.",
+          "ex_de": "Man muss das Gesetz achten."
+        }
+      ],
+      "gestern": [
+        "das Ergebnis",
+        "die Erfahrung",
+        "erlauben (لـ)",
+        "meiner Meinung nach"
       ]
     }
   }
