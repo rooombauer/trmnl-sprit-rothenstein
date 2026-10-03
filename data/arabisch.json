@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-03T06:34:50Z",
-  "date": "2026-10-03",
+  "updated_at": "2026-10-03T23:47:25Z",
+  "date": "2026-10-04",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "مَا شَاءَ اللّٰهُ",
-      "tr": "mā šāʾa llāh",
-      "de": "wie schön (Bewunderung)",
-      "en": "how wonderful",
-      "type": "Redewendung",
-      "extra": "",
-      "ex_ar": "ما شاء الله، بيتك جميل!",
-      "ex_de": "Wie schön, dein Haus ist wunderbar!"
+      "ar": "فَاتُورَة",
+      "tr": "fātūra",
+      "de": "die Rechnung",
+      "en": "the bill",
+      "type": "Nomen",
+      "extra": "Pl. فَوَاتِير",
+      "ex_ar": "وصلت فاتورة الكهرباء.",
+      "ex_de": "Die Stromrechnung ist angekommen."
     },
     {
-      "ar": "أَخِيرًا",
-      "tr": "aḫīran",
-      "de": "endlich",
-      "en": "finally",
-      "type": "Adverb",
-      "extra": "",
-      "ex_ar": "وصلنا أخيرا!",
-      "ex_de": "Endlich sind wir angekommen!"
+      "ar": "اِنْتَقَلَ",
+      "tr": "intaqala",
+      "de": "umziehen",
+      "en": "to move",
+      "type": "Verb",
+      "extra": "Präsens: يَنْتَقِلُ",
+      "ex_ar": "انتقلنا إلى شقة جديدة.",
+      "ex_de": "Wir sind in eine neue Wohnung umgezogen."
     },
     {
-      "ar": "بَيْنَمَا",
-      "tr": "bainamā",
-      "de": "während",
-      "en": "while",
+      "ar": "فَرْق",
+      "tr": "farq",
+      "de": "der Unterschied",
+      "en": "the difference",
+      "type": "Nomen",
+      "extra": "Pl. فُرُوق",
+      "ex_ar": "ما الفرق بين الكلمتين؟",
+      "ex_de": "Was ist der Unterschied zwischen den beiden Wörtern?"
+    },
+    {
+      "ar": "بِسَبَبِ",
+      "tr": "bi-sababi",
+      "de": "wegen",
+      "en": "because of",
       "type": "Bindewort",
       "extra": "",
-      "ex_ar": "قرأت كتابا بينما كان الأطفال نائمين.",
-      "ex_de": "Ich habe ein Buch gelesen, während die Kinder schliefen."
-    },
-    {
-      "ar": "بِيئَة",
-      "tr": "bīʾa",
-      "de": "die Umwelt",
-      "en": "the environment",
-      "type": "Nomen",
-      "extra": "",
-      "ex_ar": "يجب أن نحمي البيئة.",
-      "ex_de": "Wir müssen die Umwelt schützen."
+      "ex_ar": "تأخرت بسبب الزحام.",
+      "ex_de": "Ich habe mich wegen des Staus verspätet."
     }
   ],
   "days": {
-    "2026-10-03": {
-      "words": [
-        {
-          "ar": "مَا شَاءَ اللّٰهُ",
-          "tr": "mā šāʾa llāh",
-          "de": "wie schön (Bewunderung)",
-          "en": "how wonderful",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "ما شاء الله، بيتك جميل!",
-          "ex_de": "Wie schön, dein Haus ist wunderbar!"
-        },
-        {
-          "ar": "أَخِيرًا",
-          "tr": "aḫīran",
-          "de": "endlich",
-          "en": "finally",
-          "type": "Adverb",
-          "extra": "",
-          "ex_ar": "وصلنا أخيرا!",
-          "ex_de": "Endlich sind wir angekommen!"
-        },
-        {
-          "ar": "بَيْنَمَا",
-          "tr": "bainamā",
-          "de": "während",
-          "en": "while",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "قرأت كتابا بينما كان الأطفال نائمين.",
-          "ex_de": "Ich habe ein Buch gelesen, während die Kinder schliefen."
-        },
-        {
-          "ar": "بِيئَة",
-          "tr": "bīʾa",
-          "de": "die Umwelt",
-          "en": "the environment",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "يجب أن نحمي البيئة.",
-          "ex_de": "Wir müssen die Umwelt schützen."
-        }
-      ],
-      "gestern": [
-        "die Kultur",
-        "das Gehalt",
-        "plötzlich",
-        "besonders, privat"
-      ]
-    },
     "2026-10-04": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "vermissen (إلى)",
         "der Bahnhof, die Haltestelle",
         "das Gesetz"
+      ]
+    },
+    "2026-10-11": {
+      "words": [
+        {
+          "ar": "قَلِق",
+          "tr": "qaliq",
+          "de": "besorgt",
+          "en": "worried",
+          "type": "Adjektiv",
+          "extra": "f. قَلِقَة",
+          "ex_ar": "لا تكن قلقا.",
+          "ex_de": "Mach dir keine Sorgen."
+        },
+        {
+          "ar": "مُسَاعَدَة",
+          "tr": "musāʿada",
+          "de": "die Hilfe",
+          "en": "the help",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "هل تحتاج إلى مساعدة؟",
+          "ex_de": "Brauchst du Hilfe?"
+        },
+        {
+          "ar": "هِوَايَة",
+          "tr": "hiwāya",
+          "de": "das Hobby",
+          "en": "the hobby",
+          "type": "Nomen",
+          "extra": "Pl. هِوَايَات",
+          "ex_ar": "هوايتي القراءة.",
+          "ex_de": "Mein Hobby ist Lesen."
+        },
+        {
+          "ar": "تَذْكِرَة",
+          "tr": "taḏkira",
+          "de": "die Fahrkarte",
+          "en": "the ticket",
+          "type": "Nomen",
+          "extra": "Pl. تَذَاكِر",
+          "ex_ar": "اشتريت تذكرة القطار.",
+          "ex_de": "Ich habe die Zugfahrkarte gekauft."
+        }
+      ],
+      "gestern": [
+        "nichts dagegen",
+        "bevor",
+        "versuchen",
+        "brauchen (إلى)"
       ]
     }
   }

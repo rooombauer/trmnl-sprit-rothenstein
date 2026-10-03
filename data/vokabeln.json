@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-03T06:34:50Z",
-  "date": "2026-10-03",
+  "updated_at": "2026-10-03T23:47:25Z",
+  "date": "2026-10-04",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "match",
-      "de": "das Spiel",
+      "en": "friendly",
+      "de": "freundlich",
+      "type": "Adjektiv",
+      "example": "Our neighbours are friendly."
+    },
+    {
+      "en": "shoes",
+      "de": "die Schuhe",
       "type": "Nomen",
-      "example": "The match starts at three."
+      "example": "Take off your shoes, please."
     },
     {
-      "en": "favourite",
-      "de": "Lieblings-",
-      "type": "Adjektiv",
-      "example": "What's your favourite colour?"
+      "en": "again",
+      "de": "wieder, noch einmal",
+      "type": "Adverb",
+      "example": "Can you say that again, please?"
     },
     {
-      "en": "funny",
-      "de": "lustig",
-      "type": "Adjektiv",
-      "example": "The film was really funny."
-    },
-    {
-      "en": "boring",
-      "de": "langweilig",
-      "type": "Adjektiv",
-      "example": "Rainy Sundays are boring."
+      "en": "together",
+      "de": "zusammen",
+      "type": "Adverb",
+      "example": "Let's do it together."
     }
   ],
   "days": {
-    "2026-10-03": {
-      "words": [
-        {
-          "en": "match",
-          "de": "das Spiel",
-          "type": "Nomen",
-          "example": "The match starts at three."
-        },
-        {
-          "en": "favourite",
-          "de": "Lieblings-",
-          "type": "Adjektiv",
-          "example": "What's your favourite colour?"
-        },
-        {
-          "en": "funny",
-          "de": "lustig",
-          "type": "Adjektiv",
-          "example": "The film was really funny."
-        },
-        {
-          "en": "boring",
-          "de": "langweilig",
-          "type": "Adjektiv",
-          "example": "Rainy Sundays are boring."
-        }
-      ],
-      "gestern": [
-        "zwischen",
-        "ins Bett gehen",
-        "kochen",
-        "Beeil dich!"
-      ]
-    },
     "2026-10-04": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "teilen",
         "das Geld",
         "gewinnen"
+      ]
+    },
+    "2026-10-11": {
+      "words": [
+        {
+          "en": "fork",
+          "de": "die Gabel",
+          "type": "Nomen",
+          "example": "Put the fork on the left."
+        },
+        {
+          "en": "early",
+          "de": "früh",
+          "type": "Adjektiv",
+          "example": "We have an early start today."
+        },
+        {
+          "en": "under",
+          "de": "unter",
+          "type": "Präposition",
+          "example": "The cat is under the table."
+        },
+        {
+          "en": "shop",
+          "de": "das Geschäft",
+          "type": "Nomen",
+          "example": "The shop opens at eight."
+        }
+      ],
+      "gestern": [
+        "das Messer",
+        "Gut gemacht!",
+        "lachen",
+        "das Federmäppchen"
       ]
     }
   }
