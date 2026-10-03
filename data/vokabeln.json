@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-02T07:01:39Z",
-  "date": "2026-10-02",
+  "updated_at": "2026-10-03T00:32:05Z",
+  "date": "2026-10-03",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "between",
-      "de": "zwischen",
-      "type": "Präposition",
-      "example": "The shop is between the bank and the café."
+      "en": "match",
+      "de": "das Spiel",
+      "type": "Nomen",
+      "example": "The match starts at three."
     },
     {
-      "en": "to go to bed",
-      "de": "ins Bett gehen",
-      "type": "Verb",
-      "example": "I go to bed at nine."
+      "en": "favourite",
+      "de": "Lieblings-",
+      "type": "Adjektiv",
+      "example": "What's your favourite colour?"
     },
     {
-      "en": "to cook",
-      "de": "kochen",
-      "type": "Verb",
-      "example": "Dad cooks spaghetti on Fridays."
+      "en": "funny",
+      "de": "lustig",
+      "type": "Adjektiv",
+      "example": "The film was really funny."
     },
     {
-      "en": "Hurry up!",
-      "de": "Beeil dich!",
-      "type": "Redewendung",
-      "example": "Hurry up, we're late!"
+      "en": "boring",
+      "de": "langweilig",
+      "type": "Adjektiv",
+      "example": "Rainy Sundays are boring."
     }
   ],
   "days": {
-    "2026-10-02": {
-      "words": [
-        {
-          "en": "between",
-          "de": "zwischen",
-          "type": "Präposition",
-          "example": "The shop is between the bank and the café."
-        },
-        {
-          "en": "to go to bed",
-          "de": "ins Bett gehen",
-          "type": "Verb",
-          "example": "I go to bed at nine."
-        },
-        {
-          "en": "to cook",
-          "de": "kochen",
-          "type": "Verb",
-          "example": "Dad cooks spaghetti on Fridays."
-        },
-        {
-          "en": "Hurry up!",
-          "de": "Beeil dich!",
-          "type": "Redewendung",
-          "example": "Hurry up, we're late!"
-        }
-      ],
-      "gestern": [
-        "die Küche",
-        "immer",
-        "die Schwester",
-        "neben"
-      ]
-    },
     "2026-10-03": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "das Frühstück",
         "die Bücherei",
         "ausleihen"
+      ]
+    },
+    "2026-10-10": {
+      "words": [
+        {
+          "en": "knife",
+          "de": "das Messer",
+          "type": "Nomen",
+          "example": "Be careful with the knife!"
+        },
+        {
+          "en": "Well done!",
+          "de": "Gut gemacht!",
+          "type": "Redewendung",
+          "example": "Well done, that's correct!"
+        },
+        {
+          "en": "to laugh",
+          "de": "lachen",
+          "type": "Verb",
+          "example": "We laugh at his jokes."
+        },
+        {
+          "en": "pencil case",
+          "de": "das Federmäppchen",
+          "type": "Nomen",
+          "example": "Can I borrow a pen from your pencil case?"
+        }
+      ],
+      "gestern": [
+        "beschäftigt",
+        "teilen",
+        "das Geld",
+        "gewinnen"
       ]
     }
   }

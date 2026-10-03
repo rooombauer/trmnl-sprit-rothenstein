@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-02T07:01:39Z",
-  "date": "2026-10-02",
+  "updated_at": "2026-10-03T00:32:05Z",
+  "date": "2026-10-03",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "ثَقَافَة",
-      "tr": "ṯaqāfa",
-      "de": "die Kultur",
-      "en": "the culture",
-      "type": "Nomen",
-      "extra": "Pl. ثَقَافَات",
-      "ex_ar": "أحب أن أتعرف على ثقافات جديدة.",
-      "ex_de": "Ich lerne gern neue Kulturen kennen."
+      "ar": "مَا شَاءَ اللّٰهُ",
+      "tr": "mā šāʾa llāh",
+      "de": "wie schön (Bewunderung)",
+      "en": "how wonderful",
+      "type": "Redewendung",
+      "extra": "",
+      "ex_ar": "ما شاء الله، بيتك جميل!",
+      "ex_de": "Wie schön, dein Haus ist wunderbar!"
     },
     {
-      "ar": "رَاتِب",
-      "tr": "rātib",
-      "de": "das Gehalt",
-      "en": "the salary",
-      "type": "Nomen",
-      "extra": "Pl. رَوَاتِب",
-      "ex_ar": "الراتب جيد.",
-      "ex_de": "Das Gehalt ist gut."
-    },
-    {
-      "ar": "فَجْأَةً",
-      "tr": "faǧʾatan",
-      "de": "plötzlich",
-      "en": "suddenly",
+      "ar": "أَخِيرًا",
+      "tr": "aḫīran",
+      "de": "endlich",
+      "en": "finally",
       "type": "Adverb",
       "extra": "",
-      "ex_ar": "بدأ المطر فجأة.",
-      "ex_de": "Plötzlich fing es an zu regnen."
+      "ex_ar": "وصلنا أخيرا!",
+      "ex_de": "Endlich sind wir angekommen!"
     },
     {
-      "ar": "خَاصّ",
-      "tr": "ḫāṣṣ",
-      "de": "besonders, privat",
-      "en": "special, private",
-      "type": "Adjektiv",
-      "extra": "f. خَاصَّة",
-      "ex_ar": "هذه هدية خاصة.",
-      "ex_de": "Das ist ein besonderes Geschenk."
+      "ar": "بَيْنَمَا",
+      "tr": "bainamā",
+      "de": "während",
+      "en": "while",
+      "type": "Bindewort",
+      "extra": "",
+      "ex_ar": "قرأت كتابا بينما كان الأطفال نائمين.",
+      "ex_de": "Ich habe ein Buch gelesen, während die Kinder schliefen."
+    },
+    {
+      "ar": "بِيئَة",
+      "tr": "bīʾa",
+      "de": "die Umwelt",
+      "en": "the environment",
+      "type": "Nomen",
+      "extra": "",
+      "ex_ar": "يجب أن نحمي البيئة.",
+      "ex_de": "Wir müssen die Umwelt schützen."
     }
   ],
   "days": {
-    "2026-10-02": {
-      "words": [
-        {
-          "ar": "ثَقَافَة",
-          "tr": "ṯaqāfa",
-          "de": "die Kultur",
-          "en": "the culture",
-          "type": "Nomen",
-          "extra": "Pl. ثَقَافَات",
-          "ex_ar": "أحب أن أتعرف على ثقافات جديدة.",
-          "ex_de": "Ich lerne gern neue Kulturen kennen."
-        },
-        {
-          "ar": "رَاتِب",
-          "tr": "rātib",
-          "de": "das Gehalt",
-          "en": "the salary",
-          "type": "Nomen",
-          "extra": "Pl. رَوَاتِب",
-          "ex_ar": "الراتب جيد.",
-          "ex_de": "Das Gehalt ist gut."
-        },
-        {
-          "ar": "فَجْأَةً",
-          "tr": "faǧʾatan",
-          "de": "plötzlich",
-          "en": "suddenly",
-          "type": "Adverb",
-          "extra": "",
-          "ex_ar": "بدأ المطر فجأة.",
-          "ex_de": "Plötzlich fing es an zu regnen."
-        },
-        {
-          "ar": "خَاصّ",
-          "tr": "ḫāṣṣ",
-          "de": "besonders, privat",
-          "en": "special, private",
-          "type": "Adjektiv",
-          "extra": "f. خَاصَّة",
-          "ex_ar": "هذه هدية خاصة.",
-          "ex_de": "Das ist ein besonderes Geschenk."
-        }
-      ],
-      "gestern": [
-        "die Gelegenheit",
-        "sicher, natürlich",
-        "benutzen",
-        "profitieren (من)"
-      ]
-    },
     "2026-10-03": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "die Erfahrung",
         "erlauben (لـ)",
         "meiner Meinung nach"
+      ]
+    },
+    "2026-10-10": {
+      "words": [
+        {
+          "ar": "لَا مَانِعَ",
+          "tr": "lā māniʿa",
+          "de": "nichts dagegen",
+          "en": "no objection",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "لا مانع عندي.",
+          "ex_de": "Ich habe nichts dagegen."
+        },
+        {
+          "ar": "قَبْلَ أَنْ",
+          "tr": "qabla an",
+          "de": "bevor",
+          "en": "before",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "اغسل يديك قبل أن تأكل.",
+          "ex_de": "Wasch dir die Hände, bevor du isst."
+        },
+        {
+          "ar": "حَاوَلَ",
+          "tr": "ḥāwala",
+          "de": "versuchen",
+          "en": "to try",
+          "type": "Verb",
+          "extra": "Präsens: يُحَاوِلُ",
+          "ex_ar": "سأحاول مرة أخرى.",
+          "ex_de": "Ich werde es noch einmal versuchen."
+        },
+        {
+          "ar": "اِحْتَاجَ",
+          "tr": "iḥtāǧa",
+          "de": "brauchen (إلى)",
+          "en": "to need",
+          "type": "Verb",
+          "extra": "Präsens: يَحْتَاجُ",
+          "ex_ar": "أحتاج إلى وقت أكثر.",
+          "ex_de": "Ich brauche mehr Zeit."
+        }
+      ],
+      "gestern": [
+        "die Stelle, der Job",
+        "vermissen (إلى)",
+        "der Bahnhof, die Haltestelle",
+        "das Gesetz"
       ]
     }
   }
