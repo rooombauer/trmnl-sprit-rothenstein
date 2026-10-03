@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-03T16:05:33Z",
-  "updated_local": "03.10. 18:05",
+  "updated_at": "2026-10-03T19:10:33Z",
+  "updated_local": "03.10. 21:10",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -45,7 +45,7 @@
       "dist": "5,4 km",
       "price_main": "2,10",
       "price_sup": "9",
-      "open": true,
+      "open": false,
       "cheapest": false
     }
   ],
