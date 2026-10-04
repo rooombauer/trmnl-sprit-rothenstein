@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-04T06:50:42Z",
-  "date": "2026-10-04",
+  "updated_at": "2026-10-04T23:58:28Z",
+  "date": "2026-10-05",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "فَاتُورَة",
-      "tr": "fātūra",
-      "de": "die Rechnung",
-      "en": "the bill",
-      "type": "Nomen",
-      "extra": "Pl. فَوَاتِير",
-      "ex_ar": "وصلت فاتورة الكهرباء.",
-      "ex_de": "Die Stromrechnung ist angekommen."
-    },
-    {
-      "ar": "اِنْتَقَلَ",
-      "tr": "intaqala",
-      "de": "umziehen",
-      "en": "to move",
+      "ar": "اِخْتَارَ",
+      "tr": "iḫtāra",
+      "de": "auswählen",
+      "en": "to choose",
       "type": "Verb",
-      "extra": "Präsens: يَنْتَقِلُ",
-      "ex_ar": "انتقلنا إلى شقة جديدة.",
-      "ex_de": "Wir sind in eine neue Wohnung umgezogen."
+      "extra": "Präsens: يَخْتَارُ",
+      "ex_ar": "اخترت اللون الأزرق.",
+      "ex_de": "Ich habe die blaue Farbe ausgesucht."
     },
     {
-      "ar": "فَرْق",
-      "tr": "farq",
-      "de": "der Unterschied",
-      "en": "the difference",
-      "type": "Nomen",
-      "extra": "Pl. فُرُوق",
-      "ex_ar": "ما الفرق بين الكلمتين؟",
-      "ex_de": "Was ist der Unterschied zwischen den beiden Wörtern?"
+      "ar": "أَيْضًا",
+      "tr": "aiḍan",
+      "de": "auch",
+      "en": "also",
+      "type": "Adverb",
+      "extra": "",
+      "ex_ar": "أنا أيضا أحب القهوة.",
+      "ex_de": "Ich mag auch Kaffee."
     },
     {
-      "ar": "بِسَبَبِ",
-      "tr": "bi-sababi",
-      "de": "wegen",
-      "en": "because of",
+      "ar": "عِنْدَمَا",
+      "tr": "ʿindamā",
+      "de": "wenn, als",
+      "en": "when",
       "type": "Bindewort",
       "extra": "",
-      "ex_ar": "تأخرت بسبب الزحام.",
-      "ex_de": "Ich habe mich wegen des Staus verspätet."
+      "ex_ar": "عندما كنت صغيرا، كنت أحب الرسم.",
+      "ex_de": "Als ich klein war, habe ich gern gemalt."
+    },
+    {
+      "ar": "مُنَاسِب",
+      "tr": "munāsib",
+      "de": "passend",
+      "en": "suitable",
+      "type": "Adjektiv",
+      "extra": "f. مُنَاسِبَة",
+      "ex_ar": "هذا وقت مناسب.",
+      "ex_de": "Das ist ein passender Zeitpunkt."
     }
   ],
   "days": {
-    "2026-10-04": {
-      "words": [
-        {
-          "ar": "فَاتُورَة",
-          "tr": "fātūra",
-          "de": "die Rechnung",
-          "en": "the bill",
-          "type": "Nomen",
-          "extra": "Pl. فَوَاتِير",
-          "ex_ar": "وصلت فاتورة الكهرباء.",
-          "ex_de": "Die Stromrechnung ist angekommen."
-        },
-        {
-          "ar": "اِنْتَقَلَ",
-          "tr": "intaqala",
-          "de": "umziehen",
-          "en": "to move",
-          "type": "Verb",
-          "extra": "Präsens: يَنْتَقِلُ",
-          "ex_ar": "انتقلنا إلى شقة جديدة.",
-          "ex_de": "Wir sind in eine neue Wohnung umgezogen."
-        },
-        {
-          "ar": "فَرْق",
-          "tr": "farq",
-          "de": "der Unterschied",
-          "en": "the difference",
-          "type": "Nomen",
-          "extra": "Pl. فُرُوق",
-          "ex_ar": "ما الفرق بين الكلمتين؟",
-          "ex_de": "Was ist der Unterschied zwischen den beiden Wörtern?"
-        },
-        {
-          "ar": "بِسَبَبِ",
-          "tr": "bi-sababi",
-          "de": "wegen",
-          "en": "because of",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "تأخرت بسبب الزحام.",
-          "ex_de": "Ich habe mich wegen des Staus verspätet."
-        }
-      ],
-      "gestern": [
-        "wie schön (Bewunderung)",
-        "endlich",
-        "während",
-        "die Umwelt"
-      ]
-    },
     "2026-10-05": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "bevor",
         "versuchen",
         "brauchen (إلى)"
+      ]
+    },
+    "2026-10-12": {
+      "words": [
+        {
+          "ar": "سَبَب",
+          "tr": "sabab",
+          "de": "der Grund",
+          "en": "the reason",
+          "type": "Nomen",
+          "extra": "Pl. أَسْبَاب",
+          "ex_ar": "ما سبب التأخير؟",
+          "ex_de": "Was ist der Grund für die Verspätung?"
+        },
+        {
+          "ar": "تَعَرَّفَ",
+          "tr": "taʿarrafa",
+          "de": "kennenlernen (على)",
+          "en": "to get to know",
+          "type": "Verb",
+          "extra": "Präsens: يَتَعَرَّفُ",
+          "ex_ar": "تعرفت على أصدقاء جدد.",
+          "ex_de": "Ich habe neue Freunde kennengelernt."
+        },
+        {
+          "ar": "خَاصَّةً",
+          "tr": "ḫāṣṣatan",
+          "de": "besonders",
+          "en": "especially",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "أحب الفواكه، خاصة التفاح.",
+          "ex_de": "Ich mag Obst, besonders Äpfel."
+        },
+        {
+          "ar": "نَصِيحَة",
+          "tr": "naṣīḥa",
+          "de": "der Rat",
+          "en": "the advice",
+          "type": "Nomen",
+          "extra": "Pl. نَصَائِح",
+          "ex_ar": "شكرا على النصيحة.",
+          "ex_de": "Danke für den Rat."
+        }
+      ],
+      "gestern": [
+        "besorgt",
+        "die Hilfe",
+        "das Hobby",
+        "die Fahrkarte"
       ]
     }
   }

@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-04T06:50:42Z",
-  "date": "2026-10-04",
+  "updated_at": "2026-10-04T23:58:28Z",
+  "date": "2026-10-05",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "friendly",
-      "de": "freundlich",
-      "type": "Adjektiv",
-      "example": "Our neighbours are friendly."
-    },
-    {
-      "en": "shoes",
-      "de": "die Schuhe",
+      "en": "brother",
+      "de": "der Bruder",
       "type": "Nomen",
-      "example": "Take off your shoes, please."
+      "example": "My brother is two years older than me."
     },
     {
-      "en": "again",
-      "de": "wieder, noch einmal",
+      "en": "never",
+      "de": "nie",
       "type": "Adverb",
-      "example": "Can you say that again, please?"
+      "example": "My brother never tidies his room."
     },
     {
-      "en": "together",
-      "de": "zusammen",
-      "type": "Adverb",
-      "example": "Let's do it together."
+      "en": "to shout",
+      "de": "rufen, schreien",
+      "type": "Verb",
+      "example": "Don't shout in the classroom!"
+    },
+    {
+      "en": "birthday",
+      "de": "der Geburtstag",
+      "type": "Nomen",
+      "example": "When is your birthday?"
     }
   ],
   "days": {
-    "2026-10-04": {
-      "words": [
-        {
-          "en": "friendly",
-          "de": "freundlich",
-          "type": "Adjektiv",
-          "example": "Our neighbours are friendly."
-        },
-        {
-          "en": "shoes",
-          "de": "die Schuhe",
-          "type": "Nomen",
-          "example": "Take off your shoes, please."
-        },
-        {
-          "en": "again",
-          "de": "wieder, noch einmal",
-          "type": "Adverb",
-          "example": "Can you say that again, please?"
-        },
-        {
-          "en": "together",
-          "de": "zusammen",
-          "type": "Adverb",
-          "example": "Let's do it together."
-        }
-      ],
-      "gestern": [
-        "das Spiel",
-        "Lieblings-",
-        "lustig",
-        "langweilig"
-      ]
-    },
     "2026-10-05": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "Gut gemacht!",
         "lachen",
         "das Federmäppchen"
+      ]
+    },
+    "2026-10-12": {
+      "words": [
+        {
+          "en": "bread",
+          "de": "das Brot",
+          "type": "Nomen",
+          "example": "Can you pass me the bread, please?"
+        },
+        {
+          "en": "to feed",
+          "de": "füttern",
+          "type": "Verb",
+          "example": "I feed the cat every morning."
+        },
+        {
+          "en": "usually",
+          "de": "normalerweise",
+          "type": "Adverb",
+          "example": "I usually have toast for breakfast."
+        },
+        {
+          "en": "strawberry",
+          "de": "die Erdbeere",
+          "type": "Nomen",
+          "example": "Strawberries are my favourite fruit."
+        }
+      ],
+      "gestern": [
+        "die Gabel",
+        "früh",
+        "unter",
+        "das Geschäft"
       ]
     }
   }
