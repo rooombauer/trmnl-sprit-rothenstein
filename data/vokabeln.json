@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-05T07:05:20Z",
-  "date": "2026-10-05",
+  "updated_at": "2026-10-06T01:46:16Z",
+  "date": "2026-10-06",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "brother",
-      "de": "der Bruder",
-      "type": "Nomen",
-      "example": "My brother is two years older than me."
-    },
-    {
-      "en": "never",
-      "de": "nie",
-      "type": "Adverb",
-      "example": "My brother never tidies his room."
-    },
-    {
-      "en": "to shout",
-      "de": "rufen, schreien",
+      "en": "to practise",
+      "de": "üben",
       "type": "Verb",
-      "example": "Don't shout in the classroom!"
+      "example": "I practise the piano every day."
     },
     {
-      "en": "birthday",
-      "de": "der Geburtstag",
+      "en": "rain",
+      "de": "der Regen",
       "type": "Nomen",
-      "example": "When is your birthday?"
+      "example": "Take an umbrella, there's rain today."
+    },
+    {
+      "en": "difficult",
+      "de": "schwierig",
+      "type": "Adjektiv",
+      "example": "This task is difficult."
+    },
+    {
+      "en": "idea",
+      "de": "die Idee",
+      "type": "Nomen",
+      "example": "That's a great idea!"
     }
   ],
   "days": {
-    "2026-10-05": {
-      "words": [
-        {
-          "en": "brother",
-          "de": "der Bruder",
-          "type": "Nomen",
-          "example": "My brother is two years older than me."
-        },
-        {
-          "en": "never",
-          "de": "nie",
-          "type": "Adverb",
-          "example": "My brother never tidies his room."
-        },
-        {
-          "en": "to shout",
-          "de": "rufen, schreien",
-          "type": "Verb",
-          "example": "Don't shout in the classroom!"
-        },
-        {
-          "en": "birthday",
-          "de": "der Geburtstag",
-          "type": "Nomen",
-          "example": "When is your birthday?"
-        }
-      ],
-      "gestern": [
-        "freundlich",
-        "die Schuhe",
-        "wieder, noch einmal",
-        "zusammen"
-      ]
-    },
     "2026-10-06": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "früh",
         "unter",
         "das Geschäft"
+      ]
+    },
+    "2026-10-13": {
+      "words": [
+        {
+          "en": "cupboard",
+          "de": "der Schrank",
+          "type": "Nomen",
+          "example": "The cups are in the cupboard."
+        },
+        {
+          "en": "to understand",
+          "de": "verstehen",
+          "type": "Verb",
+          "example": "Sorry, I don't understand."
+        },
+        {
+          "en": "dirty",
+          "de": "schmutzig",
+          "type": "Adjektiv",
+          "example": "Your shoes are dirty."
+        },
+        {
+          "en": "to forget",
+          "de": "vergessen",
+          "type": "Verb",
+          "example": "Don't forget your lunch box!"
+        }
+      ],
+      "gestern": [
+        "das Brot",
+        "füttern",
+        "normalerweise",
+        "die Erdbeere"
       ]
     }
   }

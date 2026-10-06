@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-05T07:05:20Z",
-  "date": "2026-10-05",
+  "updated_at": "2026-10-06T01:46:16Z",
+  "date": "2026-10-06",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "اِخْتَارَ",
-      "tr": "iḫtāra",
-      "de": "auswählen",
-      "en": "to choose",
+      "ar": "أَعْجَبَ",
+      "tr": "aʿǧaba",
+      "de": "gefallen",
+      "en": "to please",
       "type": "Verb",
-      "extra": "Präsens: يَخْتَارُ",
-      "ex_ar": "اخترت اللون الأزرق.",
-      "ex_de": "Ich habe die blaue Farbe ausgesucht."
+      "extra": "Präsens: يُعْجِبُ",
+      "ex_ar": "أعجبني الفيلم كثيرا.",
+      "ex_de": "Der Film hat mir sehr gefallen."
     },
     {
-      "ar": "أَيْضًا",
-      "tr": "aiḍan",
-      "de": "auch",
-      "en": "also",
-      "type": "Adverb",
-      "extra": "",
-      "ex_ar": "أنا أيضا أحب القهوة.",
-      "ex_de": "Ich mag auch Kaffee."
+      "ar": "شَرَحَ",
+      "tr": "šaraḥa",
+      "de": "erklären",
+      "en": "to explain",
+      "type": "Verb",
+      "extra": "Präsens: يَشْرَحُ",
+      "ex_ar": "شرح المعلم الدرس جيدا.",
+      "ex_de": "Der Lehrer hat die Lektion gut erklärt."
     },
     {
-      "ar": "عِنْدَمَا",
-      "tr": "ʿindamā",
-      "de": "wenn, als",
-      "en": "when",
-      "type": "Bindewort",
-      "extra": "",
-      "ex_ar": "عندما كنت صغيرا، كنت أحب الرسم.",
-      "ex_de": "Als ich klein war, habe ich gern gemalt."
+      "ar": "مَبْلَغ",
+      "tr": "mablaġ",
+      "de": "der Betrag",
+      "en": "the amount",
+      "type": "Nomen",
+      "extra": "Pl. مَبَالِغ",
+      "ex_ar": "دفعت المبلغ كاملا.",
+      "ex_de": "Ich habe den ganzen Betrag bezahlt."
     },
     {
-      "ar": "مُنَاسِب",
-      "tr": "munāsib",
-      "de": "passend",
-      "en": "suitable",
-      "type": "Adjektiv",
-      "extra": "f. مُنَاسِبَة",
-      "ex_ar": "هذا وقت مناسب.",
-      "ex_de": "Das ist ein passender Zeitpunkt."
+      "ar": "أَتَمَنَّى لَكَ",
+      "tr": "atamannā laka",
+      "de": "ich wünsche dir",
+      "en": "I wish you",
+      "type": "Redewendung",
+      "extra": "zu einer Frau: أَتَمَنَّى لَكِ",
+      "ex_ar": "أتمنى لك يوما سعيدا.",
+      "ex_de": "Ich wünsche dir einen schönen Tag."
     }
   ],
   "days": {
-    "2026-10-05": {
-      "words": [
-        {
-          "ar": "اِخْتَارَ",
-          "tr": "iḫtāra",
-          "de": "auswählen",
-          "en": "to choose",
-          "type": "Verb",
-          "extra": "Präsens: يَخْتَارُ",
-          "ex_ar": "اخترت اللون الأزرق.",
-          "ex_de": "Ich habe die blaue Farbe ausgesucht."
-        },
-        {
-          "ar": "أَيْضًا",
-          "tr": "aiḍan",
-          "de": "auch",
-          "en": "also",
-          "type": "Adverb",
-          "extra": "",
-          "ex_ar": "أنا أيضا أحب القهوة.",
-          "ex_de": "Ich mag auch Kaffee."
-        },
-        {
-          "ar": "عِنْدَمَا",
-          "tr": "ʿindamā",
-          "de": "wenn, als",
-          "en": "when",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "عندما كنت صغيرا، كنت أحب الرسم.",
-          "ex_de": "Als ich klein war, habe ich gern gemalt."
-        },
-        {
-          "ar": "مُنَاسِب",
-          "tr": "munāsib",
-          "de": "passend",
-          "en": "suitable",
-          "type": "Adjektiv",
-          "extra": "f. مُنَاسِبَة",
-          "ex_ar": "هذا وقت مناسب.",
-          "ex_de": "Das ist ein passender Zeitpunkt."
-        }
-      ],
-      "gestern": [
-        "die Rechnung",
-        "umziehen",
-        "der Unterschied",
-        "wegen"
-      ]
-    },
     "2026-10-06": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "die Hilfe",
         "das Hobby",
         "die Fahrkarte"
+      ]
+    },
+    "2026-10-13": {
+      "words": [
+        {
+          "ar": "كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر",
+          "tr": "kullu ʿāmin wa-antum bi-ḫair",
+          "de": "alles Gute (zum Fest)",
+          "en": "happy holidays",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "كل عام وأنتم بخير بمناسبة العيد!",
+          "ex_de": "Alles Gute zum Fest!"
+        },
+        {
+          "ar": "مُدَّة",
+          "tr": "mudda",
+          "de": "die Dauer",
+          "en": "the period",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "بقينا هناك مدة أسبوع.",
+          "ex_de": "Wir sind eine Woche dort geblieben."
+        },
+        {
+          "ar": "بَعْدَ أَنْ",
+          "tr": "baʿda an",
+          "de": "nachdem",
+          "en": "after",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "خرجنا بعد أن توقف المطر.",
+          "ex_de": "Wir gingen hinaus, nachdem der Regen aufgehört hatte."
+        },
+        {
+          "ar": "عَامّ",
+          "tr": "ʿāmm",
+          "de": "öffentlich, allgemein",
+          "en": "public, general",
+          "type": "Adjektiv",
+          "extra": "f. عَامَّة",
+          "ex_ar": "الحديقة العامة جميلة.",
+          "ex_de": "Der öffentliche Park ist schön."
+        }
+      ],
+      "gestern": [
+        "der Grund",
+        "kennenlernen (على)",
+        "besonders",
+        "der Rat"
       ]
     }
   }
