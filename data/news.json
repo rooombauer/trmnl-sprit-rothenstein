@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-07T00:45:34Z",
+  "updated_at": "2026-10-07T07:16:11Z",
   "date": "2026-10-07",
   "local": [
+    {
+      "title": "Mitten im Oktober: Dieses Naturschauspiel verblüfft viele Jenaer",
+      "teaser": "Am Wilhelm-Pitt-Weg in Wenigenjena staunen Anwohner derzeit über einen Baum, der aus dem …",
+      "source": "OTZ Jena"
+    },
     {
       "title": "Senioren-Tagespflege in früherem Dornburger Kindergarten",
       "teaser": "Die Bevölkerung in Thüringen wird älter und weniger Junges kommt nach.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Eile geboten: So viele Tickets für Weihnachtssingen in der Fußballarena Jena sind verkauft",
-      "teaser": "Der Vorverkauf für das Große Weihnachtssingen in Jena ist stark angelaufen.",
-      "source": "OTZ Jena"
     }
   ],
   "world": [
@@ -22,14 +22,14 @@
   ],
   "items": [
     {
+      "title": "Mitten im Oktober: Dieses Naturschauspiel verblüfft viele Jenaer",
+      "teaser": "Am Wilhelm-Pitt-Weg in Wenigenjena staunen Anwohner derzeit über einen Baum, der aus dem …",
+      "source": "OTZ Jena"
+    },
+    {
       "title": "Senioren-Tagespflege in früherem Dornburger Kindergarten",
       "teaser": "Die Bevölkerung in Thüringen wird älter und weniger Junges kommt nach.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Eile geboten: So viele Tickets für Weihnachtssingen in der Fußballarena Jena sind verkauft",
-      "teaser": "Der Vorverkauf für das Große Weihnachtssingen in Jena ist stark angelaufen.",
-      "source": "OTZ Jena"
     },
     {
       "title": "Bedrohte Irawadi-Delfine: Rekord-Nachwuchs im Mekong",
