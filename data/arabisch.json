@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-06T07:36:04Z",
-  "date": "2026-10-06",
+  "updated_at": "2026-10-07T00:45:29Z",
+  "date": "2026-10-07",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "أَعْجَبَ",
-      "tr": "aʿǧaba",
-      "de": "gefallen",
-      "en": "to please",
-      "type": "Verb",
-      "extra": "Präsens: يُعْجِبُ",
-      "ex_ar": "أعجبني الفيلم كثيرا.",
-      "ex_de": "Der Film hat mir sehr gefallen."
-    },
-    {
-      "ar": "شَرَحَ",
-      "tr": "šaraḥa",
-      "de": "erklären",
-      "en": "to explain",
-      "type": "Verb",
-      "extra": "Präsens: يَشْرَحُ",
-      "ex_ar": "شرح المعلم الدرس جيدا.",
-      "ex_de": "Der Lehrer hat die Lektion gut erklärt."
-    },
-    {
-      "ar": "مَبْلَغ",
-      "tr": "mablaġ",
-      "de": "der Betrag",
-      "en": "the amount",
+      "ar": "صُورَة",
+      "tr": "ṣūra",
+      "de": "das Bild, Foto",
+      "en": "the picture",
       "type": "Nomen",
-      "extra": "Pl. مَبَالِغ",
-      "ex_ar": "دفعت المبلغ كاملا.",
-      "ex_de": "Ich habe den ganzen Betrag bezahlt."
+      "extra": "Pl. صُوَر",
+      "ex_ar": "التقطت صورا كثيرة في الرحلة.",
+      "ex_de": "Ich habe auf der Reise viele Fotos gemacht."
     },
     {
-      "ar": "أَتَمَنَّى لَكَ",
-      "tr": "atamannā laka",
-      "de": "ich wünsche dir",
-      "en": "I wish you",
+      "ar": "رَغْمَ",
+      "tr": "raġma",
+      "de": "trotz",
+      "en": "despite",
+      "type": "Bindewort",
+      "extra": "",
+      "ex_ar": "خرجنا رغم المطر.",
+      "ex_de": "Wir gingen trotz des Regens hinaus."
+    },
+    {
+      "ar": "هَدَف",
+      "tr": "hadaf",
+      "de": "das Ziel",
+      "en": "the goal",
+      "type": "Nomen",
+      "extra": "Pl. أَهْدَاف",
+      "ex_ar": "هدفي أن أتكلم العربية بطلاقة.",
+      "ex_de": "Mein Ziel ist, fließend Arabisch zu sprechen."
+    },
+    {
+      "ar": "عَلَى فِكْرَة",
+      "tr": "ʿalā fikra",
+      "de": "übrigens",
+      "en": "by the way",
       "type": "Redewendung",
-      "extra": "zu einer Frau: أَتَمَنَّى لَكِ",
-      "ex_ar": "أتمنى لك يوما سعيدا.",
-      "ex_de": "Ich wünsche dir einen schönen Tag."
+      "extra": "",
+      "ex_ar": "على فكرة، اتصلت أختك.",
+      "ex_de": "Übrigens, deine Schwester hat angerufen."
     }
   ],
   "days": {
-    "2026-10-06": {
-      "words": [
-        {
-          "ar": "أَعْجَبَ",
-          "tr": "aʿǧaba",
-          "de": "gefallen",
-          "en": "to please",
-          "type": "Verb",
-          "extra": "Präsens: يُعْجِبُ",
-          "ex_ar": "أعجبني الفيلم كثيرا.",
-          "ex_de": "Der Film hat mir sehr gefallen."
-        },
-        {
-          "ar": "شَرَحَ",
-          "tr": "šaraḥa",
-          "de": "erklären",
-          "en": "to explain",
-          "type": "Verb",
-          "extra": "Präsens: يَشْرَحُ",
-          "ex_ar": "شرح المعلم الدرس جيدا.",
-          "ex_de": "Der Lehrer hat die Lektion gut erklärt."
-        },
-        {
-          "ar": "مَبْلَغ",
-          "tr": "mablaġ",
-          "de": "der Betrag",
-          "en": "the amount",
-          "type": "Nomen",
-          "extra": "Pl. مَبَالِغ",
-          "ex_ar": "دفعت المبلغ كاملا.",
-          "ex_de": "Ich habe den ganzen Betrag bezahlt."
-        },
-        {
-          "ar": "أَتَمَنَّى لَكَ",
-          "tr": "atamannā laka",
-          "de": "ich wünsche dir",
-          "en": "I wish you",
-          "type": "Redewendung",
-          "extra": "zu einer Frau: أَتَمَنَّى لَكِ",
-          "ex_ar": "أتمنى لك يوما سعيدا.",
-          "ex_de": "Ich wünsche dir einen schönen Tag."
-        }
-      ],
-      "gestern": [
-        "auswählen",
-        "auch",
-        "wenn, als",
-        "passend"
-      ]
-    },
     "2026-10-07": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "kennenlernen (على)",
         "besonders",
         "der Rat"
+      ]
+    },
+    "2026-10-14": {
+      "words": [
+        {
+          "ar": "نَاقَشَ",
+          "tr": "nāqaša",
+          "de": "besprechen",
+          "en": "to discuss",
+          "type": "Verb",
+          "extra": "Präsens: يُنَاقِشُ",
+          "ex_ar": "ناقشنا الموضوع طويلا.",
+          "ex_de": "Wir haben das Thema lange besprochen."
+        },
+        {
+          "ar": "إِذَا",
+          "tr": "iḏā",
+          "de": "wenn, falls",
+          "en": "if",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "إذا كان الطقس جميلا، نذهب إلى البحر.",
+          "ex_de": "Wenn das Wetter schön ist, fahren wir ans Meer."
+        },
+        {
+          "ar": "مَعَ الْأَسَف",
+          "tr": "maʿa l-asaf",
+          "de": "leider",
+          "en": "unfortunately",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "مع الأسف لا أستطيع الحضور.",
+          "ex_de": "Leider kann ich nicht kommen."
+        },
+        {
+          "ar": "اِمْتِحَان",
+          "tr": "imtiḥān",
+          "de": "die Prüfung",
+          "en": "the exam",
+          "type": "Nomen",
+          "extra": "Pl. اِمْتِحَانَات",
+          "ex_ar": "نجحت في الامتحان.",
+          "ex_de": "Ich habe die Prüfung bestanden."
+        }
+      ],
+      "gestern": [
+        "alles Gute (zum Fest)",
+        "die Dauer",
+        "nachdem",
+        "öffentlich, allgemein"
       ]
     }
   }
