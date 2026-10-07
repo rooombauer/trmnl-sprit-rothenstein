@@ -17,6 +17,12 @@
     {% for t in tage limit: 2 %}
     <div style="flex:1; display:flex; flex-direction:column; min-width:0; border:3px solid black; border-radius:14px; overflow:hidden;">
       <div style="background:black; color:white; padding:5px 12px; font-size:21px; font-weight:900;">{{ t.titel }}</div>
+      {% if t.info and t.info != "" %}
+        {% comment %}Tageshinweis der Schule: erste Zeile, höchstens etwa 140 Zeichen{% endcomment %}
+        {% assign info_zeilen = t.info | strip | newline_to_br | split: "<br />" %}
+        {% assign info_kurz = info_zeilen | first | strip | truncate: 140, " …" %}
+        <div style="margin:5px 8px 2px; border:2.5px solid black; border-radius:8px; padding:2px 8px; font-size:16px; font-weight:900; line-height:1.2;">ℹ️ {{ info_kurz }}{% if info_zeilen.size > 1 %} …{% endif %}</div>
+      {% endif %}
       <table style="width:100%; border-collapse:collapse; flex:1;">
         {% for s in t.stunden %}
           {% if s.geaendert %}{% assign hat_geaendert = true %}{% endif %}
@@ -29,7 +35,8 @@
               {% if s.ausfall %}
                 <span style="font-weight:800; text-decoration:line-through; text-decoration-thickness:2px;">{{ fname }}</span> <span style="font-size:{{ fs | minus: 6 }}px; font-weight:900; background:black; color:white; border-radius:6px; padding:0 6px; white-space:nowrap;">fällt aus</span>
               {% else %}
-                <span style="font-weight:800;">{{ fname }}{% if s.geaendert %}*{% endif %}</span> <span style="font-size:{{ fs | minus: 5 }}px; font-weight:700;">({{ s.fach }})</span>
+                <span style="font-weight:800;">{{ fname }}{% if s.geaendert %}*{% endif %}</span>
+                {% if s.geaendert and s.hinweis and s.hinweis != "" %}<span style="font-size:{{ fs | minus: 6 }}px; font-weight:900; border:2px solid black; border-radius:6px; padding:0 5px; white-space:nowrap;">{{ s.hinweis }}</span>{% else %}<span style="font-size:{{ fs | minus: 5 }}px; font-weight:700;">({{ s.fach }})</span>{% endif %}
               {% endif %}
             </td>
           </tr>
@@ -63,5 +70,5 @@
     {% endif %}
   </div>
   {% endif %}
-  {% if hat_geaendert %}<div style="font-size:15px; font-weight:700; margin-top:4px;">* verlegt oder anderes Fach</div>{% endif %}
+  {% if hat_geaendert %}<div style="font-size:15px; font-weight:700; margin-top:4px;">* geändert: verlegt, anderes Fach, Vertretung oder anderer Raum</div>{% endif %}
 </div>

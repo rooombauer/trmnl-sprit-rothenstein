@@ -11,6 +11,7 @@
     🎒 {{ name }} · {{ t.titel }}<span style="flex:1; height:3px; background:black;"></span>
     {% if veraltet %}<span style="font-size:13px; letter-spacing:0; text-transform:none; border:2px solid black; border-radius:8px; padding:0 6px;">Stand: {{ stand_datum }}</span>{% elsif stand_datum != "" %}<span style="font-size:12px; font-weight:600; letter-spacing:0; text-transform:none;">Stand: {{ stand_datum }}</span>{% endif %}
   </div>
+  {% if t.info and t.info != "" %}{% assign info_zeilen = t.info | strip | newline_to_br | split: "<br />" %}<div style="font-size:14px; font-weight:900; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">ℹ️ {{ info_zeilen | first | strip }}</div>{% endif %}
   <table style="width:100%; flex:1; border-collapse:collapse; table-layout:fixed; margin-top:6px;">
     <tr>
       {% for s in t.stunden %}
@@ -20,7 +21,7 @@
           <div style="font-size:18px; font-weight:900;">{{ s.nr }}.</div>
           <div style="font-size:22px;">{{ ic }}</div>
           <div style="font-size:16px; font-weight:800; line-height:1.15;{% if s.ausfall %} text-decoration:line-through;{% endif %}">{{ fname }}{% if s.geaendert %}*{% endif %}</div>
-          <div style="font-size:14px; font-weight:700;">({{ s.fach }})</div>
+          {% if s.geaendert and s.hinweis and s.hinweis != "" %}<div style="font-size:12px; font-weight:900; line-height:1.15;">{{ s.hinweis | truncate: 24, "…" }}</div>{% else %}<div style="font-size:14px; font-weight:700;">({{ s.fach }})</div>{% endif %}
           {% if s.ausfall %}<div style="font-size:14px; font-weight:900;">fällt aus</div>{% endif %}
         </td>
       {% endfor %}
