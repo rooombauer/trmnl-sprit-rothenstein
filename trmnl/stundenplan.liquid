@@ -18,10 +18,12 @@
     <div style="flex:1; display:flex; flex-direction:column; min-width:0; border:3px solid black; border-radius:14px; overflow:hidden;">
       <div style="background:black; color:white; padding:5px 12px; font-size:21px; font-weight:900;">{{ t.titel }}</div>
       {% if t.info and t.info != "" %}
-        {% comment %}Tageshinweis der Schule: erste Zeile, höchstens etwa 140 Zeichen{% endcomment %}
+        {% comment %}Tageshinweis der Schule: alle Zeilen hintereinander (Spiegelstriche entfernt), höchstens etwa 140 Zeichen, bis zu zwei Zeilen{% endcomment %}
         {% assign info_zeilen = t.info | strip | newline_to_br | split: "<br />" %}
-        {% assign info_kurz = info_zeilen | first | strip | truncate: 140, " …" %}
-        <div style="margin:5px 8px 2px; border:2.5px solid black; border-radius:8px; padding:2px 8px; font-size:16px; font-weight:900; line-height:1.2;">ℹ️ {{ info_kurz }}{% if info_zeilen.size > 1 %} …{% endif %}</div>
+        {% assign info_kurz = "" %}
+        {% for z in info_zeilen %}{% assign zz = z | strip | remove_first: "- " | strip %}{% if zz != "" %}{% if info_kurz != "" %}{% assign info_kurz = info_kurz | append: " · " %}{% endif %}{% assign info_kurz = info_kurz | append: zz %}{% endif %}{% endfor %}
+        {% assign info_kurz = info_kurz | truncate: 140, " …" %}
+        <div style="margin:5px 8px 2px; border:2.5px solid black; border-radius:8px; padding:2px 8px; font-size:15px; font-weight:900; line-height:1.2; display:-webkit-box; -webkit-line-clamp:2; -webkit-box-orient:vertical; overflow:hidden;">ℹ️ {{ info_kurz }}</div>
       {% endif %}
       <table style="width:100%; border-collapse:collapse; flex:1;">
         {% for s in t.stunden %}

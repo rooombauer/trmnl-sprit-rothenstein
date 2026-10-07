@@ -11,7 +11,7 @@
     🎒 {{ name }} · {{ t.titel }}<span style="flex:1; height:3px; background:black;"></span>
     {% if veraltet %}<span style="font-size:13px; letter-spacing:0; text-transform:none; border:2px solid black; border-radius:8px; padding:0 6px;">Stand: {{ stand_datum }}</span>{% elsif stand_datum != "" %}<span style="font-size:12px; font-weight:600; letter-spacing:0; text-transform:none;">Stand: {{ stand_datum }}</span>{% endif %}
   </div>
-  {% if t.info and t.info != "" %}{% assign info_zeilen = t.info | strip | newline_to_br | split: "<br />" %}<div style="font-size:14px; font-weight:900; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">ℹ️ {{ info_zeilen | first | strip }}</div>{% endif %}
+  {% if t.info and t.info != "" %}{% assign info_zeilen = t.info | strip | newline_to_br | split: "<br />" %}{% assign info_kurz = "" %}{% for z in info_zeilen %}{% assign zz = z | strip | remove_first: "- " | strip %}{% if zz != "" %}{% if info_kurz != "" %}{% assign info_kurz = info_kurz | append: " · " %}{% endif %}{% assign info_kurz = info_kurz | append: zz %}{% endif %}{% endfor %}<div style="font-size:14px; font-weight:900; margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">ℹ️ {{ info_kurz }}</div>{% endif %}
   <table style="width:100%; flex:1; border-collapse:collapse; table-layout:fixed; margin-top:6px;">
     <tr>
       {% for s in t.stunden %}
