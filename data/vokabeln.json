@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-07T07:16:05Z",
-  "date": "2026-10-07",
+  "updated_at": "2026-10-08T01:02:21Z",
+  "date": "2026-10-08",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "aunt",
-      "de": "die Tante",
-      "type": "Nomen",
-      "example": "My aunt makes the best cake."
+      "en": "to wash",
+      "de": "waschen",
+      "type": "Verb",
+      "example": "Wash your hands before dinner."
     },
     {
-      "en": "pet",
-      "de": "das Haustier",
+      "en": "breakfast",
+      "de": "das Frühstück",
       "type": "Nomen",
-      "example": "Have you got a pet?"
+      "example": "I have cereal for breakfast."
     },
     {
-      "en": "dinner",
-      "de": "das Abendessen",
+      "en": "library",
+      "de": "die Bücherei",
       "type": "Nomen",
-      "example": "We have dinner at six o'clock."
+      "example": "I get books from the library."
     },
     {
-      "en": "clean",
-      "de": "sauber",
-      "type": "Adjektiv",
-      "example": "My room is clean now."
+      "en": "to borrow",
+      "de": "ausleihen",
+      "type": "Verb",
+      "example": "Can I borrow your ruler?"
     }
   ],
   "days": {
-    "2026-10-07": {
-      "words": [
-        {
-          "en": "aunt",
-          "de": "die Tante",
-          "type": "Nomen",
-          "example": "My aunt makes the best cake."
-        },
-        {
-          "en": "pet",
-          "de": "das Haustier",
-          "type": "Nomen",
-          "example": "Have you got a pet?"
-        },
-        {
-          "en": "dinner",
-          "de": "das Abendessen",
-          "type": "Nomen",
-          "example": "We have dinner at six o'clock."
-        },
-        {
-          "en": "clean",
-          "de": "sauber",
-          "type": "Adjektiv",
-          "example": "My room is clean now."
-        }
-      ],
-      "gestern": [
-        "üben",
-        "der Regen",
-        "schwierig",
-        "die Idee"
-      ]
-    },
     "2026-10-08": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "verstehen",
         "schmutzig",
         "vergessen"
+      ]
+    },
+    "2026-10-15": {
+      "words": [
+        {
+          "en": "to think",
+          "de": "denken, glauben",
+          "type": "Verb",
+          "example": "I think it's going to rain."
+        },
+        {
+          "en": "Never mind.",
+          "de": "Macht nichts.",
+          "type": "Redewendung",
+          "example": "Never mind, we can try again."
+        },
+        {
+          "en": "shelf",
+          "de": "das Regal",
+          "type": "Nomen",
+          "example": "My books are on the shelf."
+        },
+        {
+          "en": "sad",
+          "de": "traurig",
+          "type": "Adjektiv",
+          "example": "Why are you sad?"
+        }
+      ],
+      "gestern": [
+        "finden",
+        "lernen",
+        "die Wolke",
+        "Entschuldigung."
       ]
     }
   }

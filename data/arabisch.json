@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-07T07:16:05Z",
-  "date": "2026-10-07",
+  "updated_at": "2026-10-08T01:02:21Z",
+  "date": "2026-10-08",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "صُورَة",
-      "tr": "ṣūra",
-      "de": "das Bild, Foto",
-      "en": "the picture",
+      "ar": "نَتِيجَة",
+      "tr": "natīǧa",
+      "de": "das Ergebnis",
+      "en": "the result",
       "type": "Nomen",
-      "extra": "Pl. صُوَر",
-      "ex_ar": "التقطت صورا كثيرة في الرحلة.",
-      "ex_de": "Ich habe auf der Reise viele Fotos gemacht."
+      "extra": "Pl. نَتَائِج",
+      "ex_ar": "النتيجة ممتازة.",
+      "ex_de": "Das Ergebnis ist ausgezeichnet."
     },
     {
-      "ar": "رَغْمَ",
-      "tr": "raġma",
-      "de": "trotz",
-      "en": "despite",
-      "type": "Bindewort",
-      "extra": "",
-      "ex_ar": "خرجنا رغم المطر.",
-      "ex_de": "Wir gingen trotz des Regens hinaus."
-    },
-    {
-      "ar": "هَدَف",
-      "tr": "hadaf",
-      "de": "das Ziel",
-      "en": "the goal",
+      "ar": "تَجْرِبَة",
+      "tr": "taǧriba",
+      "de": "die Erfahrung",
+      "en": "the experience",
       "type": "Nomen",
-      "extra": "Pl. أَهْدَاف",
-      "ex_ar": "هدفي أن أتكلم العربية بطلاقة.",
-      "ex_de": "Mein Ziel ist, fließend Arabisch zu sprechen."
+      "extra": "Pl. تَجَارِب",
+      "ex_ar": "كانت تجربة جميلة.",
+      "ex_de": "Es war eine schöne Erfahrung."
     },
     {
-      "ar": "عَلَى فِكْرَة",
-      "tr": "ʿalā fikra",
-      "de": "übrigens",
-      "en": "by the way",
+      "ar": "سَمَحَ",
+      "tr": "samaḥa",
+      "de": "erlauben (لـ)",
+      "en": "to allow",
+      "type": "Verb",
+      "extra": "Präsens: يَسْمَحُ",
+      "ex_ar": "هل تسمح لي بسؤال؟",
+      "ex_de": "Darf ich dir eine Frage stellen?"
+    },
+    {
+      "ar": "فِي رَأْيِي",
+      "tr": "fī raʾyī",
+      "de": "meiner Meinung nach",
+      "en": "in my opinion",
       "type": "Redewendung",
       "extra": "",
-      "ex_ar": "على فكرة، اتصلت أختك.",
-      "ex_de": "Übrigens, deine Schwester hat angerufen."
+      "ex_ar": "في رأيي هذه فكرة جيدة.",
+      "ex_de": "Meiner Meinung nach ist das eine gute Idee."
     }
   ],
   "days": {
-    "2026-10-07": {
-      "words": [
-        {
-          "ar": "صُورَة",
-          "tr": "ṣūra",
-          "de": "das Bild, Foto",
-          "en": "the picture",
-          "type": "Nomen",
-          "extra": "Pl. صُوَر",
-          "ex_ar": "التقطت صورا كثيرة في الرحلة.",
-          "ex_de": "Ich habe auf der Reise viele Fotos gemacht."
-        },
-        {
-          "ar": "رَغْمَ",
-          "tr": "raġma",
-          "de": "trotz",
-          "en": "despite",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "خرجنا رغم المطر.",
-          "ex_de": "Wir gingen trotz des Regens hinaus."
-        },
-        {
-          "ar": "هَدَف",
-          "tr": "hadaf",
-          "de": "das Ziel",
-          "en": "the goal",
-          "type": "Nomen",
-          "extra": "Pl. أَهْدَاف",
-          "ex_ar": "هدفي أن أتكلم العربية بطلاقة.",
-          "ex_de": "Mein Ziel ist, fließend Arabisch zu sprechen."
-        },
-        {
-          "ar": "عَلَى فِكْرَة",
-          "tr": "ʿalā fikra",
-          "de": "übrigens",
-          "en": "by the way",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "على فكرة، اتصلت أختك.",
-          "ex_de": "Übrigens, deine Schwester hat angerufen."
-        }
-      ],
-      "gestern": [
-        "gefallen",
-        "erklären",
-        "der Betrag",
-        "ich wünsche dir"
-      ]
-    },
     "2026-10-08": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "die Dauer",
         "nachdem",
         "öffentlich, allgemein"
+      ]
+    },
+    "2026-10-15": {
+      "words": [
+        {
+          "ar": "شَهَادَة",
+          "tr": "šahāda",
+          "de": "das Zeugnis, Zertifikat",
+          "en": "the certificate",
+          "type": "Nomen",
+          "extra": "Pl. شَهَادَات",
+          "ex_ar": "حصلت على شهادة اللغة.",
+          "ex_de": "Ich habe das Sprachzertifikat bekommen."
+        },
+        {
+          "ar": "قَرَّرَ",
+          "tr": "qarrara",
+          "de": "beschließen",
+          "en": "to decide",
+          "type": "Verb",
+          "extra": "Präsens: يُقَرِّرُ",
+          "ex_ar": "قررنا أن نسافر في الصيف.",
+          "ex_de": "Wir haben beschlossen, im Sommer zu verreisen."
+        },
+        {
+          "ar": "مُوَاصَلَات",
+          "tr": "muwāṣalāt",
+          "de": "die Verkehrsmittel",
+          "en": "public transport",
+          "type": "Nomen",
+          "extra": "nur Plural",
+          "ex_ar": "المواصلات العامة جيدة هنا.",
+          "ex_de": "Die öffentlichen Verkehrsmittel sind hier gut."
+        },
+        {
+          "ar": "لِذَلِكَ",
+          "tr": "li-ḏālika",
+          "de": "deshalb",
+          "en": "therefore",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "كنت مريضا، لذلك بقيت في البيت.",
+          "ex_de": "Ich war krank, deshalb bin ich zu Hause geblieben."
+        }
+      ],
+      "gestern": [
+        "besprechen",
+        "wenn, falls",
+        "leider",
+        "die Prüfung"
       ]
     }
   }
