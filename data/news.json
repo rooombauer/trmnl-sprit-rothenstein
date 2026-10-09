@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-09T01:14:49Z",
+  "updated_at": "2026-10-09T07:24:58Z",
   "date": "2026-10-09",
   "local": [
+    {
+      "title": "Neues Angebot in Jena: „Viele kommen nicht auf die Idee, dass ihnen jemand helfen könnte“",
+      "teaser": "Wandern, stricken, Skat spielen oder kreativ gestalten: Neben dem Umsonsthaus, gibt es …",
+      "source": "OTZ Jena"
+    },
     {
       "title": "Erinnerung an Eisenerz-Abbau: Bergbaupark in Schmiedefeld eingeweiht",
       "teaser": "250 Jahre lang wurde bei Schmiedefeld, heute ein Ortsteil von Saalfeld, Eisenerz abgebaut.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Ausgehen in Thüringen: Acht anregende Kultur-Tipps fürs Wochenende",
-      "teaser": "Zwiebelmarkt, Karikaturen, Orchester und viel Faust: Diese Veranstaltungen, Konzerte und …",
-      "source": "OTZ Jena"
     }
   ],
   "world": [
@@ -22,14 +22,14 @@
   ],
   "items": [
     {
+      "title": "Neues Angebot in Jena: „Viele kommen nicht auf die Idee, dass ihnen jemand helfen könnte“",
+      "teaser": "Wandern, stricken, Skat spielen oder kreativ gestalten: Neben dem Umsonsthaus, gibt es …",
+      "source": "OTZ Jena"
+    },
+    {
       "title": "Erinnerung an Eisenerz-Abbau: Bergbaupark in Schmiedefeld eingeweiht",
       "teaser": "250 Jahre lang wurde bei Schmiedefeld, heute ein Ortsteil von Saalfeld, Eisenerz abgebaut.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Ausgehen in Thüringen: Acht anregende Kultur-Tipps fürs Wochenende",
-      "teaser": "Zwiebelmarkt, Karikaturen, Orchester und viel Faust: Diese Veranstaltungen, Konzerte und …",
-      "source": "OTZ Jena"
     },
     {
       "title": "Mehr Verantwortung, weniger Bürokratie: Was das BEEP in der Pflege verändert",
