@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-08T19:46:47Z",
-  "updated_local": "08.10. 21:46",
+  "updated_at": "2026-10-09T00:14:01Z",
+  "updated_local": "09.10. 02:14",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -13,7 +13,7 @@
       "price_main": "2,16",
       "price_sup": "9",
       "open": true,
-      "cheapest": false
+      "cheapest": true
     },
     {
       "n": 2,
@@ -23,8 +23,8 @@
       "dist": "4,2 km",
       "price_main": "2,12",
       "price_sup": "9",
-      "open": true,
-      "cheapest": true
+      "open": false,
+      "cheapest": false
     },
     {
       "n": 3,
@@ -34,7 +34,7 @@
       "dist": "4,8 km",
       "price_main": "2,16",
       "price_sup": "9",
-      "open": true,
+      "open": false,
       "cheapest": false
     },
     {
@@ -62,8 +62,8 @@
       },
       {
         "n": 2,
-        "x": 154.9,
-        "y": 112.0
+        "x": 153.0,
+        "y": 112.6
       },
       {
         "n": 3,
@@ -72,8 +72,8 @@
       },
       {
         "n": 4,
-        "x": 171.0,
-        "y": 91.5
+        "x": 167.7,
+        "y": 91.1
       }
     ],
     "others": [
@@ -88,24 +88,14 @@
         "ly": 29.3
       },
       {
-        "x": 160.4,
-        "y": 66.5,
+        "x": 157.2,
+        "y": 67.3,
         "brand": "ARAL",
         "price_main": "2,16",
         "price_sup": "9",
         "anchor": "start",
-        "lx": 169.4,
-        "ly": 71.5
-      },
-      {
-        "x": 145.2,
-        "y": 87.5,
-        "brand": "Shell",
-        "price_main": "2,17",
-        "price_sup": "9",
-        "anchor": "end",
-        "lx": 136.2,
-        "ly": 92.5
+        "lx": 166.2,
+        "ly": 72.3
       }
     ]
   },
