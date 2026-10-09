@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-08T07:27:10Z",
-  "date": "2026-10-08",
+  "updated_at": "2026-10-09T01:14:44Z",
+  "date": "2026-10-09",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "نَتِيجَة",
-      "tr": "natīǧa",
-      "de": "das Ergebnis",
-      "en": "the result",
+      "ar": "وَظِيفَة",
+      "tr": "waẓīfa",
+      "de": "die Stelle, der Job",
+      "en": "the job",
       "type": "Nomen",
-      "extra": "Pl. نَتَائِج",
-      "ex_ar": "النتيجة ممتازة.",
-      "ex_de": "Das Ergebnis ist ausgezeichnet."
+      "extra": "Pl. وَظَائِف",
+      "ex_ar": "وجدت أختي وظيفة جديدة.",
+      "ex_de": "Meine Schwester hat eine neue Stelle gefunden."
     },
     {
-      "ar": "تَجْرِبَة",
-      "tr": "taǧriba",
-      "de": "die Erfahrung",
-      "en": "the experience",
-      "type": "Nomen",
-      "extra": "Pl. تَجَارِب",
-      "ex_ar": "كانت تجربة جميلة.",
-      "ex_de": "Es war eine schöne Erfahrung."
-    },
-    {
-      "ar": "سَمَحَ",
-      "tr": "samaḥa",
-      "de": "erlauben (لـ)",
-      "en": "to allow",
+      "ar": "اِشْتَاقَ",
+      "tr": "ištāqa",
+      "de": "vermissen (إلى)",
+      "en": "to miss",
       "type": "Verb",
-      "extra": "Präsens: يَسْمَحُ",
-      "ex_ar": "هل تسمح لي بسؤال؟",
-      "ex_de": "Darf ich dir eine Frage stellen?"
+      "extra": "Präsens: يَشْتَاقُ",
+      "ex_ar": "أشتاق إلى عائلتي.",
+      "ex_de": "Ich vermisse meine Familie."
     },
     {
-      "ar": "فِي رَأْيِي",
-      "tr": "fī raʾyī",
-      "de": "meiner Meinung nach",
-      "en": "in my opinion",
-      "type": "Redewendung",
-      "extra": "",
-      "ex_ar": "في رأيي هذه فكرة جيدة.",
-      "ex_de": "Meiner Meinung nach ist das eine gute Idee."
+      "ar": "مَحَطَّة",
+      "tr": "maḥaṭṭa",
+      "de": "der Bahnhof, die Haltestelle",
+      "en": "the station",
+      "type": "Nomen",
+      "extra": "Pl. مَحَطَّات",
+      "ex_ar": "المحطة قريبة من بيتنا.",
+      "ex_de": "Der Bahnhof ist nah an unserem Haus."
+    },
+    {
+      "ar": "قَانُون",
+      "tr": "qānūn",
+      "de": "das Gesetz",
+      "en": "the law",
+      "type": "Nomen",
+      "extra": "Pl. قَوَانِين",
+      "ex_ar": "يجب احترام القانون.",
+      "ex_de": "Man muss das Gesetz achten."
     }
   ],
   "days": {
-    "2026-10-08": {
-      "words": [
-        {
-          "ar": "نَتِيجَة",
-          "tr": "natīǧa",
-          "de": "das Ergebnis",
-          "en": "the result",
-          "type": "Nomen",
-          "extra": "Pl. نَتَائِج",
-          "ex_ar": "النتيجة ممتازة.",
-          "ex_de": "Das Ergebnis ist ausgezeichnet."
-        },
-        {
-          "ar": "تَجْرِبَة",
-          "tr": "taǧriba",
-          "de": "die Erfahrung",
-          "en": "the experience",
-          "type": "Nomen",
-          "extra": "Pl. تَجَارِب",
-          "ex_ar": "كانت تجربة جميلة.",
-          "ex_de": "Es war eine schöne Erfahrung."
-        },
-        {
-          "ar": "سَمَحَ",
-          "tr": "samaḥa",
-          "de": "erlauben (لـ)",
-          "en": "to allow",
-          "type": "Verb",
-          "extra": "Präsens: يَسْمَحُ",
-          "ex_ar": "هل تسمح لي بسؤال؟",
-          "ex_de": "Darf ich dir eine Frage stellen?"
-        },
-        {
-          "ar": "فِي رَأْيِي",
-          "tr": "fī raʾyī",
-          "de": "meiner Meinung nach",
-          "en": "in my opinion",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "في رأيي هذه فكرة جيدة.",
-          "ex_de": "Meiner Meinung nach ist das eine gute Idee."
-        }
-      ],
-      "gestern": [
-        "das Bild, Foto",
-        "trotz",
-        "das Ziel",
-        "übrigens"
-      ]
-    },
     "2026-10-09": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "wenn, falls",
         "leider",
         "die Prüfung"
+      ]
+    },
+    "2026-10-16": {
+      "words": [
+        {
+          "ar": "فَخُور",
+          "tr": "faḫūr",
+          "de": "stolz",
+          "en": "proud",
+          "type": "Adjektiv",
+          "extra": "f. فَخُورَة",
+          "ex_ar": "أنا فخور بك.",
+          "ex_de": "Ich bin stolz auf dich."
+        },
+        {
+          "ar": "ضَرُورِيّ",
+          "tr": "ḍarūrī",
+          "de": "notwendig",
+          "en": "necessary",
+          "type": "Adjektiv",
+          "extra": "f. ضَرُورِيَّة",
+          "ex_ar": "النوم ضروري للصحة.",
+          "ex_de": "Schlaf ist notwendig für die Gesundheit."
+        },
+        {
+          "ar": "تَفَضَّلْ",
+          "tr": "tafaḍḍal",
+          "de": "bitte sehr",
+          "en": "here you are, please",
+          "type": "Redewendung",
+          "extra": "zu einer Frau: تَفَضَّلِي",
+          "ex_ar": "تفضل، اجلس.",
+          "ex_de": "Bitte, setz dich."
+        },
+        {
+          "ar": "بَلَد",
+          "tr": "balad",
+          "de": "das Land",
+          "en": "the country",
+          "type": "Nomen",
+          "extra": "Pl. بُلْدَان",
+          "ex_ar": "زرت بلدانا كثيرة.",
+          "ex_de": "Ich habe viele Länder besucht."
+        }
+      ],
+      "gestern": [
+        "das Zeugnis, Zertifikat",
+        "beschließen",
+        "die Verkehrsmittel",
+        "deshalb"
       ]
     }
   }
