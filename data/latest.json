@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-09T00:14:01Z",
-  "updated_local": "09.10. 02:14",
+  "updated_at": "2026-10-09T10:25:47Z",
+  "updated_local": "09.10. 12:25",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -10,10 +10,10 @@
       "street": "Stadtrodaer Straße 102",
       "place": "Jena",
       "dist": "3,4 km",
-      "price_main": "2,16",
+      "price_main": "2,35",
       "price_sup": "9",
       "open": true,
-      "cheapest": true
+      "cheapest": false
     },
     {
       "n": 2,
@@ -21,9 +21,9 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "2,12",
+      "price_main": "2,32",
       "price_sup": "9",
-      "open": false,
+      "open": true,
       "cheapest": false
     },
     {
@@ -32,9 +32,9 @@
       "street": "Am Heerweg 33",
       "place": "Kahla",
       "dist": "4,8 km",
-      "price_main": "2,16",
+      "price_main": "2,35",
       "price_sup": "9",
-      "open": false,
+      "open": true,
       "cheapest": false
     },
     {
@@ -43,10 +43,10 @@
       "street": "Goeschwitzer Str. 1",
       "place": "Jena",
       "dist": "5,4 km",
-      "price_main": "2,13",
+      "price_main": "2,31",
       "price_sup": "9",
-      "open": false,
-      "cheapest": false
+      "open": true,
+      "cheapest": true
     }
   ],
   "karte": {
@@ -81,17 +81,27 @@
         "x": 227.9,
         "y": 24.3,
         "brand": "LEO",
-        "price_main": "2,14",
+        "price_main": "2,33",
         "price_sup": "9",
         "anchor": "start",
         "lx": 236.9,
         "ly": 29.3
       },
       {
+        "x": 139.2,
+        "y": 26.1,
+        "brand": "TotalEnergies",
+        "price_main": "2,34",
+        "price_sup": "9",
+        "anchor": "middle",
+        "lx": 139.2,
+        "ly": 14.1
+      },
+      {
         "x": 157.2,
         "y": 67.3,
         "brand": "ARAL",
-        "price_main": "2,16",
+        "price_main": "2,35",
         "price_sup": "9",
         "anchor": "start",
         "lx": 166.2,
