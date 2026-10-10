@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-09T07:24:51Z",
-  "date": "2026-10-09",
+  "updated_at": "2026-10-10T00:55:14Z",
+  "date": "2026-10-10",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "busy",
-      "de": "beschäftigt",
-      "type": "Adjektiv",
-      "example": "Mum is busy right now."
-    },
-    {
-      "en": "to share",
-      "de": "teilen",
-      "type": "Verb",
-      "example": "Let's share the pizza."
-    },
-    {
-      "en": "money",
-      "de": "das Geld",
+      "en": "knife",
+      "de": "das Messer",
       "type": "Nomen",
-      "example": "I save my money for a new game."
+      "example": "Be careful with the knife!"
     },
     {
-      "en": "to win",
-      "de": "gewinnen",
+      "en": "Well done!",
+      "de": "Gut gemacht!",
+      "type": "Redewendung",
+      "example": "Well done, that's correct!"
+    },
+    {
+      "en": "to laugh",
+      "de": "lachen",
       "type": "Verb",
-      "example": "I hope we win the game."
+      "example": "We laugh at his jokes."
+    },
+    {
+      "en": "pencil case",
+      "de": "das Federmäppchen",
+      "type": "Nomen",
+      "example": "Can I borrow a pen from your pencil case?"
     }
   ],
   "days": {
-    "2026-10-09": {
-      "words": [
-        {
-          "en": "busy",
-          "de": "beschäftigt",
-          "type": "Adjektiv",
-          "example": "Mum is busy right now."
-        },
-        {
-          "en": "to share",
-          "de": "teilen",
-          "type": "Verb",
-          "example": "Let's share the pizza."
-        },
-        {
-          "en": "money",
-          "de": "das Geld",
-          "type": "Nomen",
-          "example": "I save my money for a new game."
-        },
-        {
-          "en": "to win",
-          "de": "gewinnen",
-          "type": "Verb",
-          "example": "I hope we win the game."
-        }
-      ],
-      "gestern": [
-        "waschen",
-        "das Frühstück",
-        "die Bücherei",
-        "ausleihen"
-      ]
-    },
     "2026-10-10": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "Macht nichts.",
         "das Regal",
         "traurig"
+      ]
+    },
+    "2026-10-17": {
+      "words": [
+        {
+          "en": "bus stop",
+          "de": "die Bushaltestelle",
+          "type": "Nomen",
+          "example": "Wait for me at the bus stop."
+        },
+        {
+          "en": "break",
+          "de": "die Pause",
+          "type": "Nomen",
+          "example": "We play football in the break."
+        },
+        {
+          "en": "town",
+          "de": "die Stadt",
+          "type": "Nomen",
+          "example": "Kahla is a small town."
+        },
+        {
+          "en": "school bag",
+          "de": "die Schultasche",
+          "type": "Nomen",
+          "example": "My school bag is very heavy today."
+        }
+      ],
+      "gestern": [
+        "das Wetter",
+        "der Freund / die Freundin",
+        "zeigen",
+        "helfen"
       ]
     }
   }

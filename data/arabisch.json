@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-09T07:24:51Z",
-  "date": "2026-10-09",
+  "updated_at": "2026-10-10T00:55:14Z",
+  "date": "2026-10-10",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "وَظِيفَة",
-      "tr": "waẓīfa",
-      "de": "die Stelle, der Job",
-      "en": "the job",
-      "type": "Nomen",
-      "extra": "Pl. وَظَائِف",
-      "ex_ar": "وجدت أختي وظيفة جديدة.",
-      "ex_de": "Meine Schwester hat eine neue Stelle gefunden."
+      "ar": "لَا مَانِعَ",
+      "tr": "lā māniʿa",
+      "de": "nichts dagegen",
+      "en": "no objection",
+      "type": "Redewendung",
+      "extra": "",
+      "ex_ar": "لا مانع عندي.",
+      "ex_de": "Ich habe nichts dagegen."
     },
     {
-      "ar": "اِشْتَاقَ",
-      "tr": "ištāqa",
-      "de": "vermissen (إلى)",
-      "en": "to miss",
+      "ar": "قَبْلَ أَنْ",
+      "tr": "qabla an",
+      "de": "bevor",
+      "en": "before",
+      "type": "Bindewort",
+      "extra": "",
+      "ex_ar": "اغسل يديك قبل أن تأكل.",
+      "ex_de": "Wasch dir die Hände, bevor du isst."
+    },
+    {
+      "ar": "حَاوَلَ",
+      "tr": "ḥāwala",
+      "de": "versuchen",
+      "en": "to try",
       "type": "Verb",
-      "extra": "Präsens: يَشْتَاقُ",
-      "ex_ar": "أشتاق إلى عائلتي.",
-      "ex_de": "Ich vermisse meine Familie."
+      "extra": "Präsens: يُحَاوِلُ",
+      "ex_ar": "سأحاول مرة أخرى.",
+      "ex_de": "Ich werde es noch einmal versuchen."
     },
     {
-      "ar": "مَحَطَّة",
-      "tr": "maḥaṭṭa",
-      "de": "der Bahnhof, die Haltestelle",
-      "en": "the station",
-      "type": "Nomen",
-      "extra": "Pl. مَحَطَّات",
-      "ex_ar": "المحطة قريبة من بيتنا.",
-      "ex_de": "Der Bahnhof ist nah an unserem Haus."
-    },
-    {
-      "ar": "قَانُون",
-      "tr": "qānūn",
-      "de": "das Gesetz",
-      "en": "the law",
-      "type": "Nomen",
-      "extra": "Pl. قَوَانِين",
-      "ex_ar": "يجب احترام القانون.",
-      "ex_de": "Man muss das Gesetz achten."
+      "ar": "اِحْتَاجَ",
+      "tr": "iḥtāǧa",
+      "de": "brauchen (إلى)",
+      "en": "to need",
+      "type": "Verb",
+      "extra": "Präsens: يَحْتَاجُ",
+      "ex_ar": "أحتاج إلى وقت أكثر.",
+      "ex_de": "Ich brauche mehr Zeit."
     }
   ],
   "days": {
-    "2026-10-09": {
-      "words": [
-        {
-          "ar": "وَظِيفَة",
-          "tr": "waẓīfa",
-          "de": "die Stelle, der Job",
-          "en": "the job",
-          "type": "Nomen",
-          "extra": "Pl. وَظَائِف",
-          "ex_ar": "وجدت أختي وظيفة جديدة.",
-          "ex_de": "Meine Schwester hat eine neue Stelle gefunden."
-        },
-        {
-          "ar": "اِشْتَاقَ",
-          "tr": "ištāqa",
-          "de": "vermissen (إلى)",
-          "en": "to miss",
-          "type": "Verb",
-          "extra": "Präsens: يَشْتَاقُ",
-          "ex_ar": "أشتاق إلى عائلتي.",
-          "ex_de": "Ich vermisse meine Familie."
-        },
-        {
-          "ar": "مَحَطَّة",
-          "tr": "maḥaṭṭa",
-          "de": "der Bahnhof, die Haltestelle",
-          "en": "the station",
-          "type": "Nomen",
-          "extra": "Pl. مَحَطَّات",
-          "ex_ar": "المحطة قريبة من بيتنا.",
-          "ex_de": "Der Bahnhof ist nah an unserem Haus."
-        },
-        {
-          "ar": "قَانُون",
-          "tr": "qānūn",
-          "de": "das Gesetz",
-          "en": "the law",
-          "type": "Nomen",
-          "extra": "Pl. قَوَانِين",
-          "ex_ar": "يجب احترام القانون.",
-          "ex_de": "Man muss das Gesetz achten."
-        }
-      ],
-      "gestern": [
-        "das Ergebnis",
-        "die Erfahrung",
-        "erlauben (لـ)",
-        "meiner Meinung nach"
-      ]
-    },
     "2026-10-10": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "beschließen",
         "die Verkehrsmittel",
         "deshalb"
+      ]
+    },
+    "2026-10-17": {
+      "words": [
+        {
+          "ar": "مُزْدَحِم",
+          "tr": "muzdaḥim",
+          "de": "überfüllt, voll",
+          "en": "crowded",
+          "type": "Adjektiv",
+          "extra": "f. مُزْدَحِمَة",
+          "ex_ar": "الشارع مزدحم في الصباح.",
+          "ex_de": "Morgens ist die Straße voll."
+        },
+        {
+          "ar": "حَتَّى",
+          "tr": "ḥattā",
+          "de": "bis, sogar",
+          "en": "until, even",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "انتظرتك حتى المساء.",
+          "ex_de": "Ich habe bis zum Abend auf dich gewartet."
+        },
+        {
+          "ar": "حَادِث",
+          "tr": "ḥādiṯ",
+          "de": "der Unfall",
+          "en": "the accident",
+          "type": "Nomen",
+          "extra": "Pl. حَوَادِث",
+          "ex_ar": "وقع حادث في الشارع.",
+          "ex_de": "Auf der Straße ist ein Unfall passiert."
+        },
+        {
+          "ar": "عَادَة",
+          "tr": "ʿāda",
+          "de": "die Gewohnheit",
+          "en": "the habit",
+          "type": "Nomen",
+          "extra": "Pl. عَادَات",
+          "ex_ar": "عندي عادة سيئة.",
+          "ex_de": "Ich habe eine schlechte Angewohnheit."
+        }
+      ],
+      "gestern": [
+        "stolz",
+        "notwendig",
+        "bitte sehr",
+        "das Land"
       ]
     }
   }
