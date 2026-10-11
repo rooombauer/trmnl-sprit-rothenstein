@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-10T07:10:39Z",
-  "date": "2026-10-10",
+  "updated_at": "2026-10-11T00:15:17Z",
+  "date": "2026-10-11",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "لَا مَانِعَ",
-      "tr": "lā māniʿa",
-      "de": "nichts dagegen",
-      "en": "no objection",
-      "type": "Redewendung",
+      "ar": "قَلِق",
+      "tr": "qaliq",
+      "de": "besorgt",
+      "en": "worried",
+      "type": "Adjektiv",
+      "extra": "f. قَلِقَة",
+      "ex_ar": "لا تكن قلقا.",
+      "ex_de": "Mach dir keine Sorgen."
+    },
+    {
+      "ar": "مُسَاعَدَة",
+      "tr": "musāʿada",
+      "de": "die Hilfe",
+      "en": "the help",
+      "type": "Nomen",
       "extra": "",
-      "ex_ar": "لا مانع عندي.",
-      "ex_de": "Ich habe nichts dagegen."
+      "ex_ar": "هل تحتاج إلى مساعدة؟",
+      "ex_de": "Brauchst du Hilfe?"
     },
     {
-      "ar": "قَبْلَ أَنْ",
-      "tr": "qabla an",
-      "de": "bevor",
-      "en": "before",
-      "type": "Bindewort",
-      "extra": "",
-      "ex_ar": "اغسل يديك قبل أن تأكل.",
-      "ex_de": "Wasch dir die Hände, bevor du isst."
+      "ar": "هِوَايَة",
+      "tr": "hiwāya",
+      "de": "das Hobby",
+      "en": "the hobby",
+      "type": "Nomen",
+      "extra": "Pl. هِوَايَات",
+      "ex_ar": "هوايتي القراءة.",
+      "ex_de": "Mein Hobby ist Lesen."
     },
     {
-      "ar": "حَاوَلَ",
-      "tr": "ḥāwala",
-      "de": "versuchen",
-      "en": "to try",
-      "type": "Verb",
-      "extra": "Präsens: يُحَاوِلُ",
-      "ex_ar": "سأحاول مرة أخرى.",
-      "ex_de": "Ich werde es noch einmal versuchen."
-    },
-    {
-      "ar": "اِحْتَاجَ",
-      "tr": "iḥtāǧa",
-      "de": "brauchen (إلى)",
-      "en": "to need",
-      "type": "Verb",
-      "extra": "Präsens: يَحْتَاجُ",
-      "ex_ar": "أحتاج إلى وقت أكثر.",
-      "ex_de": "Ich brauche mehr Zeit."
+      "ar": "تَذْكِرَة",
+      "tr": "taḏkira",
+      "de": "die Fahrkarte",
+      "en": "the ticket",
+      "type": "Nomen",
+      "extra": "Pl. تَذَاكِر",
+      "ex_ar": "اشتريت تذكرة القطار.",
+      "ex_de": "Ich habe die Zugfahrkarte gekauft."
     }
   ],
   "days": {
-    "2026-10-10": {
-      "words": [
-        {
-          "ar": "لَا مَانِعَ",
-          "tr": "lā māniʿa",
-          "de": "nichts dagegen",
-          "en": "no objection",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "لا مانع عندي.",
-          "ex_de": "Ich habe nichts dagegen."
-        },
-        {
-          "ar": "قَبْلَ أَنْ",
-          "tr": "qabla an",
-          "de": "bevor",
-          "en": "before",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "اغسل يديك قبل أن تأكل.",
-          "ex_de": "Wasch dir die Hände, bevor du isst."
-        },
-        {
-          "ar": "حَاوَلَ",
-          "tr": "ḥāwala",
-          "de": "versuchen",
-          "en": "to try",
-          "type": "Verb",
-          "extra": "Präsens: يُحَاوِلُ",
-          "ex_ar": "سأحاول مرة أخرى.",
-          "ex_de": "Ich werde es noch einmal versuchen."
-        },
-        {
-          "ar": "اِحْتَاجَ",
-          "tr": "iḥtāǧa",
-          "de": "brauchen (إلى)",
-          "en": "to need",
-          "type": "Verb",
-          "extra": "Präsens: يَحْتَاجُ",
-          "ex_ar": "أحتاج إلى وقت أكثر.",
-          "ex_de": "Ich brauche mehr Zeit."
-        }
-      ],
-      "gestern": [
-        "die Stelle, der Job",
-        "vermissen (إلى)",
-        "der Bahnhof, die Haltestelle",
-        "das Gesetz"
-      ]
-    },
     "2026-10-11": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "notwendig",
         "bitte sehr",
         "das Land"
+      ]
+    },
+    "2026-10-18": {
+      "words": [
+        {
+          "ar": "اِعْتَذَرَ",
+          "tr": "iʿtaḏara",
+          "de": "sich entschuldigen",
+          "en": "to apologise",
+          "type": "Verb",
+          "extra": "Präsens: يَعْتَذِرُ",
+          "ex_ar": "أعتذر عن التأخير.",
+          "ex_de": "Ich entschuldige mich für die Verspätung."
+        },
+        {
+          "ar": "مُخْتَلِف",
+          "tr": "muḫtalif",
+          "de": "verschieden, anders",
+          "en": "different",
+          "type": "Adjektiv",
+          "extra": "f. مُخْتَلِفَة",
+          "ex_ar": "رأيي مختلف.",
+          "ex_de": "Meine Meinung ist anders."
+        },
+        {
+          "ar": "مَوْضُوع",
+          "tr": "mauḍūʿ",
+          "de": "das Thema",
+          "en": "the topic",
+          "type": "Nomen",
+          "extra": "Pl. مَوَاضِيع",
+          "ex_ar": "هذا موضوع مهم.",
+          "ex_de": "Das ist ein wichtiges Thema."
+        },
+        {
+          "ar": "دِرَاسَة",
+          "tr": "dirāsa",
+          "de": "das Studium",
+          "en": "the studies",
+          "type": "Nomen",
+          "extra": "Pl. دِرَاسَات",
+          "ex_ar": "أنهى دراسته هذا العام.",
+          "ex_de": "Er hat dieses Jahr sein Studium abgeschlossen."
+        }
+      ],
+      "gestern": [
+        "überfüllt, voll",
+        "bis, sogar",
+        "der Unfall",
+        "die Gewohnheit"
       ]
     }
   }

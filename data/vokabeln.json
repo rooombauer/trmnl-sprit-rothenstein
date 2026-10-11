@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-10T07:10:39Z",
-  "date": "2026-10-10",
+  "updated_at": "2026-10-11T00:15:17Z",
+  "date": "2026-10-11",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "knife",
-      "de": "das Messer",
+      "en": "fork",
+      "de": "die Gabel",
       "type": "Nomen",
-      "example": "Be careful with the knife!"
+      "example": "Put the fork on the left."
     },
     {
-      "en": "Well done!",
-      "de": "Gut gemacht!",
-      "type": "Redewendung",
-      "example": "Well done, that's correct!"
+      "en": "early",
+      "de": "früh",
+      "type": "Adjektiv",
+      "example": "We have an early start today."
     },
     {
-      "en": "to laugh",
-      "de": "lachen",
-      "type": "Verb",
-      "example": "We laugh at his jokes."
+      "en": "under",
+      "de": "unter",
+      "type": "Präposition",
+      "example": "The cat is under the table."
     },
     {
-      "en": "pencil case",
-      "de": "das Federmäppchen",
+      "en": "shop",
+      "de": "das Geschäft",
       "type": "Nomen",
-      "example": "Can I borrow a pen from your pencil case?"
+      "example": "The shop opens at eight."
     }
   ],
   "days": {
-    "2026-10-10": {
-      "words": [
-        {
-          "en": "knife",
-          "de": "das Messer",
-          "type": "Nomen",
-          "example": "Be careful with the knife!"
-        },
-        {
-          "en": "Well done!",
-          "de": "Gut gemacht!",
-          "type": "Redewendung",
-          "example": "Well done, that's correct!"
-        },
-        {
-          "en": "to laugh",
-          "de": "lachen",
-          "type": "Verb",
-          "example": "We laugh at his jokes."
-        },
-        {
-          "en": "pencil case",
-          "de": "das Federmäppchen",
-          "type": "Nomen",
-          "example": "Can I borrow a pen from your pencil case?"
-        }
-      ],
-      "gestern": [
-        "beschäftigt",
-        "teilen",
-        "das Geld",
-        "gewinnen"
-      ]
-    },
     "2026-10-11": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "der Freund / die Freundin",
         "zeigen",
         "helfen"
+      ]
+    },
+    "2026-10-18": {
+      "words": [
+        {
+          "en": "happy",
+          "de": "glücklich, froh",
+          "type": "Adjektiv",
+          "example": "I'm happy because it's Friday."
+        },
+        {
+          "en": "yesterday",
+          "de": "gestern",
+          "type": "Adverb",
+          "example": "Yesterday it rained all day."
+        },
+        {
+          "en": "classroom",
+          "de": "das Klassenzimmer",
+          "type": "Nomen",
+          "example": "Our classroom is on the second floor."
+        },
+        {
+          "en": "brave",
+          "de": "mutig",
+          "type": "Adjektiv",
+          "example": "The firefighter is very brave."
+        }
+      ],
+      "gestern": [
+        "die Bushaltestelle",
+        "die Pause",
+        "die Stadt",
+        "die Schultasche"
       ]
     }
   }
