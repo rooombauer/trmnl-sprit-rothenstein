@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-11T07:14:29Z",
-  "date": "2026-10-11",
+  "updated_at": "2026-10-12T00:35:48Z",
+  "date": "2026-10-12",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "قَلِق",
-      "tr": "qaliq",
-      "de": "besorgt",
-      "en": "worried",
-      "type": "Adjektiv",
-      "extra": "f. قَلِقَة",
-      "ex_ar": "لا تكن قلقا.",
-      "ex_de": "Mach dir keine Sorgen."
+      "ar": "سَبَب",
+      "tr": "sabab",
+      "de": "der Grund",
+      "en": "the reason",
+      "type": "Nomen",
+      "extra": "Pl. أَسْبَاب",
+      "ex_ar": "ما سبب التأخير؟",
+      "ex_de": "Was ist der Grund für die Verspätung?"
     },
     {
-      "ar": "مُسَاعَدَة",
-      "tr": "musāʿada",
-      "de": "die Hilfe",
-      "en": "the help",
-      "type": "Nomen",
+      "ar": "تَعَرَّفَ",
+      "tr": "taʿarrafa",
+      "de": "kennenlernen (على)",
+      "en": "to get to know",
+      "type": "Verb",
+      "extra": "Präsens: يَتَعَرَّفُ",
+      "ex_ar": "تعرفت على أصدقاء جدد.",
+      "ex_de": "Ich habe neue Freunde kennengelernt."
+    },
+    {
+      "ar": "خَاصَّةً",
+      "tr": "ḫāṣṣatan",
+      "de": "besonders",
+      "en": "especially",
+      "type": "Adverb",
       "extra": "",
-      "ex_ar": "هل تحتاج إلى مساعدة؟",
-      "ex_de": "Brauchst du Hilfe?"
+      "ex_ar": "أحب الفواكه، خاصة التفاح.",
+      "ex_de": "Ich mag Obst, besonders Äpfel."
     },
     {
-      "ar": "هِوَايَة",
-      "tr": "hiwāya",
-      "de": "das Hobby",
-      "en": "the hobby",
+      "ar": "نَصِيحَة",
+      "tr": "naṣīḥa",
+      "de": "der Rat",
+      "en": "the advice",
       "type": "Nomen",
-      "extra": "Pl. هِوَايَات",
-      "ex_ar": "هوايتي القراءة.",
-      "ex_de": "Mein Hobby ist Lesen."
-    },
-    {
-      "ar": "تَذْكِرَة",
-      "tr": "taḏkira",
-      "de": "die Fahrkarte",
-      "en": "the ticket",
-      "type": "Nomen",
-      "extra": "Pl. تَذَاكِر",
-      "ex_ar": "اشتريت تذكرة القطار.",
-      "ex_de": "Ich habe die Zugfahrkarte gekauft."
+      "extra": "Pl. نَصَائِح",
+      "ex_ar": "شكرا على النصيحة.",
+      "ex_de": "Danke für den Rat."
     }
   ],
   "days": {
-    "2026-10-11": {
-      "words": [
-        {
-          "ar": "قَلِق",
-          "tr": "qaliq",
-          "de": "besorgt",
-          "en": "worried",
-          "type": "Adjektiv",
-          "extra": "f. قَلِقَة",
-          "ex_ar": "لا تكن قلقا.",
-          "ex_de": "Mach dir keine Sorgen."
-        },
-        {
-          "ar": "مُسَاعَدَة",
-          "tr": "musāʿada",
-          "de": "die Hilfe",
-          "en": "the help",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "هل تحتاج إلى مساعدة؟",
-          "ex_de": "Brauchst du Hilfe?"
-        },
-        {
-          "ar": "هِوَايَة",
-          "tr": "hiwāya",
-          "de": "das Hobby",
-          "en": "the hobby",
-          "type": "Nomen",
-          "extra": "Pl. هِوَايَات",
-          "ex_ar": "هوايتي القراءة.",
-          "ex_de": "Mein Hobby ist Lesen."
-        },
-        {
-          "ar": "تَذْكِرَة",
-          "tr": "taḏkira",
-          "de": "die Fahrkarte",
-          "en": "the ticket",
-          "type": "Nomen",
-          "extra": "Pl. تَذَاكِر",
-          "ex_ar": "اشتريت تذكرة القطار.",
-          "ex_de": "Ich habe die Zugfahrkarte gekauft."
-        }
-      ],
-      "gestern": [
-        "nichts dagegen",
-        "bevor",
-        "versuchen",
-        "brauchen (إلى)"
-      ]
-    },
     "2026-10-12": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "bis, sogar",
         "der Unfall",
         "die Gewohnheit"
+      ]
+    },
+    "2026-10-19": {
+      "words": [
+        {
+          "ar": "عَادَةً",
+          "tr": "ʿādatan",
+          "de": "normalerweise",
+          "en": "usually",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "أستيقظ عادة في السادسة.",
+          "ex_de": "Normalerweise stehe ich um sechs auf."
+        },
+        {
+          "ar": "الْحَمْدُ لِلّٰه",
+          "tr": "al-ḥamdu li-llāh",
+          "de": "Gott sei Dank",
+          "en": "thank God",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "الحمد لله، كل شيء بخير.",
+          "ex_de": "Gott sei Dank, alles ist gut."
+        },
+        {
+          "ar": "رِسَالَة",
+          "tr": "risāla",
+          "de": "die Nachricht, der Brief",
+          "en": "the message, the letter",
+          "type": "Nomen",
+          "extra": "Pl. رَسَائِل",
+          "ex_ar": "أرسلت لك رسالة.",
+          "ex_de": "Ich habe dir eine Nachricht geschickt."
+        },
+        {
+          "ar": "رُبَّمَا",
+          "tr": "rubbamā",
+          "de": "vielleicht",
+          "en": "maybe",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "ربما نسافر في الربيع.",
+          "ex_de": "Vielleicht verreisen wir im Frühling."
+        }
+      ],
+      "gestern": [
+        "sich entschuldigen",
+        "verschieden, anders",
+        "das Thema",
+        "das Studium"
       ]
     }
   }
