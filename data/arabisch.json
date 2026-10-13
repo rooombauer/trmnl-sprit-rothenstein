@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-12T07:23:22Z",
-  "date": "2026-10-12",
+  "updated_at": "2026-10-13T02:35:51Z",
+  "date": "2026-10-13",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "سَبَب",
-      "tr": "sabab",
-      "de": "der Grund",
-      "en": "the reason",
-      "type": "Nomen",
-      "extra": "Pl. أَسْبَاب",
-      "ex_ar": "ما سبب التأخير؟",
-      "ex_de": "Was ist der Grund für die Verspätung?"
-    },
-    {
-      "ar": "تَعَرَّفَ",
-      "tr": "taʿarrafa",
-      "de": "kennenlernen (على)",
-      "en": "to get to know",
-      "type": "Verb",
-      "extra": "Präsens: يَتَعَرَّفُ",
-      "ex_ar": "تعرفت على أصدقاء جدد.",
-      "ex_de": "Ich habe neue Freunde kennengelernt."
-    },
-    {
-      "ar": "خَاصَّةً",
-      "tr": "ḫāṣṣatan",
-      "de": "besonders",
-      "en": "especially",
-      "type": "Adverb",
+      "ar": "كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر",
+      "tr": "kullu ʿāmin wa-antum bi-ḫair",
+      "de": "alles Gute (zum Fest)",
+      "en": "happy holidays",
+      "type": "Redewendung",
       "extra": "",
-      "ex_ar": "أحب الفواكه، خاصة التفاح.",
-      "ex_de": "Ich mag Obst, besonders Äpfel."
+      "ex_ar": "كل عام وأنتم بخير بمناسبة العيد!",
+      "ex_de": "Alles Gute zum Fest!"
     },
     {
-      "ar": "نَصِيحَة",
-      "tr": "naṣīḥa",
-      "de": "der Rat",
-      "en": "the advice",
+      "ar": "مُدَّة",
+      "tr": "mudda",
+      "de": "die Dauer",
+      "en": "the period",
       "type": "Nomen",
-      "extra": "Pl. نَصَائِح",
-      "ex_ar": "شكرا على النصيحة.",
-      "ex_de": "Danke für den Rat."
+      "extra": "",
+      "ex_ar": "بقينا هناك مدة أسبوع.",
+      "ex_de": "Wir sind eine Woche dort geblieben."
+    },
+    {
+      "ar": "بَعْدَ أَنْ",
+      "tr": "baʿda an",
+      "de": "nachdem",
+      "en": "after",
+      "type": "Bindewort",
+      "extra": "",
+      "ex_ar": "خرجنا بعد أن توقف المطر.",
+      "ex_de": "Wir gingen hinaus, nachdem der Regen aufgehört hatte."
+    },
+    {
+      "ar": "عَامّ",
+      "tr": "ʿāmm",
+      "de": "öffentlich, allgemein",
+      "en": "public, general",
+      "type": "Adjektiv",
+      "extra": "f. عَامَّة",
+      "ex_ar": "الحديقة العامة جميلة.",
+      "ex_de": "Der öffentliche Park ist schön."
     }
   ],
   "days": {
-    "2026-10-12": {
-      "words": [
-        {
-          "ar": "سَبَب",
-          "tr": "sabab",
-          "de": "der Grund",
-          "en": "the reason",
-          "type": "Nomen",
-          "extra": "Pl. أَسْبَاب",
-          "ex_ar": "ما سبب التأخير؟",
-          "ex_de": "Was ist der Grund für die Verspätung?"
-        },
-        {
-          "ar": "تَعَرَّفَ",
-          "tr": "taʿarrafa",
-          "de": "kennenlernen (على)",
-          "en": "to get to know",
-          "type": "Verb",
-          "extra": "Präsens: يَتَعَرَّفُ",
-          "ex_ar": "تعرفت على أصدقاء جدد.",
-          "ex_de": "Ich habe neue Freunde kennengelernt."
-        },
-        {
-          "ar": "خَاصَّةً",
-          "tr": "ḫāṣṣatan",
-          "de": "besonders",
-          "en": "especially",
-          "type": "Adverb",
-          "extra": "",
-          "ex_ar": "أحب الفواكه، خاصة التفاح.",
-          "ex_de": "Ich mag Obst, besonders Äpfel."
-        },
-        {
-          "ar": "نَصِيحَة",
-          "tr": "naṣīḥa",
-          "de": "der Rat",
-          "en": "the advice",
-          "type": "Nomen",
-          "extra": "Pl. نَصَائِح",
-          "ex_ar": "شكرا على النصيحة.",
-          "ex_de": "Danke für den Rat."
-        }
-      ],
-      "gestern": [
-        "besorgt",
-        "die Hilfe",
-        "das Hobby",
-        "die Fahrkarte"
-      ]
-    },
     "2026-10-13": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "verschieden, anders",
         "das Thema",
         "das Studium"
+      ]
+    },
+    "2026-10-20": {
+      "words": [
+        {
+          "ar": "جَار",
+          "tr": "ǧār",
+          "de": "der Nachbar",
+          "en": "the neighbour",
+          "type": "Nomen",
+          "extra": "Pl. جِيرَان",
+          "ex_ar": "جيراننا لطفاء جدا.",
+          "ex_de": "Unsere Nachbarn sind sehr nett."
+        },
+        {
+          "ar": "مِثَال",
+          "tr": "miṯāl",
+          "de": "das Beispiel",
+          "en": "the example",
+          "type": "Nomen",
+          "extra": "Pl. أَمْثِلَة",
+          "ex_ar": "أعطني مثالا من فضلك.",
+          "ex_de": "Gib mir bitte ein Beispiel."
+        },
+        {
+          "ar": "اِسْتَطَاعَ",
+          "tr": "istaṭāʿa",
+          "de": "können",
+          "en": "to be able to",
+          "type": "Verb",
+          "extra": "Präsens: يَسْتَطِيعُ",
+          "ex_ar": "لا أستطيع أن أحضر اليوم.",
+          "ex_de": "Ich kann heute nicht kommen."
+        },
+        {
+          "ar": "مُمْكِن",
+          "tr": "mumkin",
+          "de": "möglich",
+          "en": "possible",
+          "type": "Adjektiv",
+          "extra": "f. مُمْكِنَة",
+          "ex_ar": "هل من الممكن أن تساعدني؟",
+          "ex_de": "Kannst du mir vielleicht helfen?"
+        }
+      ],
+      "gestern": [
+        "normalerweise",
+        "Gott sei Dank",
+        "die Nachricht, der Brief",
+        "vielleicht"
       ]
     }
   }
