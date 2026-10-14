@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-13T07:44:27Z",
-  "date": "2026-10-13",
+  "updated_at": "2026-10-14T00:19:49Z",
+  "date": "2026-10-14",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "cupboard",
-      "de": "der Schrank",
+      "en": "to find",
+      "de": "finden",
+      "type": "Verb",
+      "example": "I can't find my keys."
+    },
+    {
+      "en": "to learn",
+      "de": "lernen",
+      "type": "Verb",
+      "example": "We learn new words every day."
+    },
+    {
+      "en": "cloud",
+      "de": "die Wolke",
       "type": "Nomen",
-      "example": "The cups are in the cupboard."
+      "example": "There isn't a cloud in the sky."
     },
     {
-      "en": "to understand",
-      "de": "verstehen",
-      "type": "Verb",
-      "example": "Sorry, I don't understand."
-    },
-    {
-      "en": "dirty",
-      "de": "schmutzig",
-      "type": "Adjektiv",
-      "example": "Your shoes are dirty."
-    },
-    {
-      "en": "to forget",
-      "de": "vergessen",
-      "type": "Verb",
-      "example": "Don't forget your lunch box!"
+      "en": "Excuse me.",
+      "de": "Entschuldigung.",
+      "type": "Redewendung",
+      "example": "Excuse me, where is the station?"
     }
   ],
   "days": {
-    "2026-10-13": {
-      "words": [
-        {
-          "en": "cupboard",
-          "de": "der Schrank",
-          "type": "Nomen",
-          "example": "The cups are in the cupboard."
-        },
-        {
-          "en": "to understand",
-          "de": "verstehen",
-          "type": "Verb",
-          "example": "Sorry, I don't understand."
-        },
-        {
-          "en": "dirty",
-          "de": "schmutzig",
-          "type": "Adjektiv",
-          "example": "Your shoes are dirty."
-        },
-        {
-          "en": "to forget",
-          "de": "vergessen",
-          "type": "Verb",
-          "example": "Don't forget your lunch box!"
-        }
-      ],
-      "gestern": [
-        "das Brot",
-        "füttern",
-        "normalerweise",
-        "die Erdbeere"
-      ]
-    },
     "2026-10-14": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "die Mannschaft",
         "die Antwort",
         "müde"
+      ]
+    },
+    "2026-10-21": {
+      "words": [
+        {
+          "en": "late",
+          "de": "spät",
+          "type": "Adjektiv",
+          "example": "Sorry, I'm late!"
+        },
+        {
+          "en": "to lose",
+          "de": "verlieren",
+          "type": "Verb",
+          "example": "It's okay to lose sometimes."
+        },
+        {
+          "en": "thirsty",
+          "de": "durstig",
+          "type": "Adjektiv",
+          "example": "After football I'm always thirsty."
+        },
+        {
+          "en": "to explain",
+          "de": "erklären",
+          "type": "Verb",
+          "example": "Can you explain the task again?"
+        }
+      ],
+      "gestern": [
+        "gefährlich",
+        "das Fahrrad",
+        "klettern",
+        "kalt"
       ]
     }
   }

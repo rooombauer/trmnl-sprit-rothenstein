@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-13T07:44:27Z",
-  "date": "2026-10-13",
+  "updated_at": "2026-10-14T00:19:49Z",
+  "date": "2026-10-14",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر",
-      "tr": "kullu ʿāmin wa-antum bi-ḫair",
-      "de": "alles Gute (zum Fest)",
-      "en": "happy holidays",
-      "type": "Redewendung",
-      "extra": "",
-      "ex_ar": "كل عام وأنتم بخير بمناسبة العيد!",
-      "ex_de": "Alles Gute zum Fest!"
+      "ar": "نَاقَشَ",
+      "tr": "nāqaša",
+      "de": "besprechen",
+      "en": "to discuss",
+      "type": "Verb",
+      "extra": "Präsens: يُنَاقِشُ",
+      "ex_ar": "ناقشنا الموضوع طويلا.",
+      "ex_de": "Wir haben das Thema lange besprochen."
     },
     {
-      "ar": "مُدَّة",
-      "tr": "mudda",
-      "de": "die Dauer",
-      "en": "the period",
-      "type": "Nomen",
-      "extra": "",
-      "ex_ar": "بقينا هناك مدة أسبوع.",
-      "ex_de": "Wir sind eine Woche dort geblieben."
-    },
-    {
-      "ar": "بَعْدَ أَنْ",
-      "tr": "baʿda an",
-      "de": "nachdem",
-      "en": "after",
+      "ar": "إِذَا",
+      "tr": "iḏā",
+      "de": "wenn, falls",
+      "en": "if",
       "type": "Bindewort",
       "extra": "",
-      "ex_ar": "خرجنا بعد أن توقف المطر.",
-      "ex_de": "Wir gingen hinaus, nachdem der Regen aufgehört hatte."
+      "ex_ar": "إذا كان الطقس جميلا، نذهب إلى البحر.",
+      "ex_de": "Wenn das Wetter schön ist, fahren wir ans Meer."
     },
     {
-      "ar": "عَامّ",
-      "tr": "ʿāmm",
-      "de": "öffentlich, allgemein",
-      "en": "public, general",
-      "type": "Adjektiv",
-      "extra": "f. عَامَّة",
-      "ex_ar": "الحديقة العامة جميلة.",
-      "ex_de": "Der öffentliche Park ist schön."
+      "ar": "مَعَ الْأَسَف",
+      "tr": "maʿa l-asaf",
+      "de": "leider",
+      "en": "unfortunately",
+      "type": "Redewendung",
+      "extra": "",
+      "ex_ar": "مع الأسف لا أستطيع الحضور.",
+      "ex_de": "Leider kann ich nicht kommen."
+    },
+    {
+      "ar": "اِمْتِحَان",
+      "tr": "imtiḥān",
+      "de": "die Prüfung",
+      "en": "the exam",
+      "type": "Nomen",
+      "extra": "Pl. اِمْتِحَانَات",
+      "ex_ar": "نجحت في الامتحان.",
+      "ex_de": "Ich habe die Prüfung bestanden."
     }
   ],
   "days": {
-    "2026-10-13": {
-      "words": [
-        {
-          "ar": "كُلُّ عَامٍ وَأَنْتُمْ بِخَيْر",
-          "tr": "kullu ʿāmin wa-antum bi-ḫair",
-          "de": "alles Gute (zum Fest)",
-          "en": "happy holidays",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "كل عام وأنتم بخير بمناسبة العيد!",
-          "ex_de": "Alles Gute zum Fest!"
-        },
-        {
-          "ar": "مُدَّة",
-          "tr": "mudda",
-          "de": "die Dauer",
-          "en": "the period",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "بقينا هناك مدة أسبوع.",
-          "ex_de": "Wir sind eine Woche dort geblieben."
-        },
-        {
-          "ar": "بَعْدَ أَنْ",
-          "tr": "baʿda an",
-          "de": "nachdem",
-          "en": "after",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "خرجنا بعد أن توقف المطر.",
-          "ex_de": "Wir gingen hinaus, nachdem der Regen aufgehört hatte."
-        },
-        {
-          "ar": "عَامّ",
-          "tr": "ʿāmm",
-          "de": "öffentlich, allgemein",
-          "en": "public, general",
-          "type": "Adjektiv",
-          "extra": "f. عَامَّة",
-          "ex_ar": "الحديقة العامة جميلة.",
-          "ex_de": "Der öffentliche Park ist schön."
-        }
-      ],
-      "gestern": [
-        "der Grund",
-        "kennenlernen (على)",
-        "besonders",
-        "der Rat"
-      ]
-    },
     "2026-10-14": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "Gott sei Dank",
         "die Nachricht, der Brief",
         "vielleicht"
+      ]
+    },
+    "2026-10-21": {
+      "words": [
+        {
+          "ar": "مُمْتِع",
+          "tr": "mumtiʿ",
+          "de": "spannend, unterhaltsam",
+          "en": "enjoyable",
+          "type": "Adjektiv",
+          "extra": "f. مُمْتِعَة",
+          "ex_ar": "كان الكتاب ممتعا.",
+          "ex_de": "Das Buch war spannend."
+        },
+        {
+          "ar": "شَارَكَ",
+          "tr": "šāraka",
+          "de": "teilnehmen (في)",
+          "en": "to take part",
+          "type": "Verb",
+          "extra": "Präsens: يُشَارِكُ",
+          "ex_ar": "شاركت في المسابقة.",
+          "ex_de": "Ich habe am Wettbewerb teilgenommen."
+        },
+        {
+          "ar": "مُشْكِلَة",
+          "tr": "muškila",
+          "de": "das Problem",
+          "en": "the problem",
+          "type": "Nomen",
+          "extra": "Pl. مَشَاكِل",
+          "ex_ar": "لا توجد مشكلة.",
+          "ex_de": "Es gibt kein Problem."
+        },
+        {
+          "ar": "صِحَّة",
+          "tr": "ṣiḥḥa",
+          "de": "die Gesundheit",
+          "en": "the health",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "الرياضة مفيدة للصحة.",
+          "ex_de": "Sport ist gut für die Gesundheit."
+        }
+      ],
+      "gestern": [
+        "der Nachbar",
+        "das Beispiel",
+        "können",
+        "möglich"
       ]
     }
   }
