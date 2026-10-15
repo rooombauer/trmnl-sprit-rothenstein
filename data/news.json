@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-14T23:57:10Z",
+  "updated_at": "2026-10-15T05:55:37Z",
   "date": "2026-10-15",
   "local": [
     {
-      "title": "Jena hat eine besondere Verantwortung – und will die weiter übernehmen",
-      "teaser": "Mit Ausstellungen und Veranstaltungen erinnert Jena an die NSU‑Verbrechen.",
+      "title": "Jena am Donnerstag: Die Nachrichten zum Morgen",
+      "teaser": "„Queeres Herzblatt“, ein Konzertabend und ein „Radeltreff“: Diese Neuigkeiten gibt es …",
       "source": "OTZ Jena"
     },
     {
-      "title": "Ausgehen in Thüringen: Zehn packende Kultur-Tipps fürs Wochenende",
-      "teaser": "Verdi und Wagner, Strauss und Mozart, Karikaturen und Klezmer: Diese Veranstaltungen, …",
-      "source": "OTZ Jena"
+      "title": "Theaterhaus Jena startet mit \"Das blaue Haus\" in neue Spielzeit",
+      "teaser": "Mit \"Das blaue Haus\" eröffnet das Theater in Jena seine neue Spielzeit.",
+      "source": "MDR Thüringen"
     }
   ],
   "world": [
@@ -22,14 +22,14 @@
   ],
   "items": [
     {
-      "title": "Jena hat eine besondere Verantwortung – und will die weiter übernehmen",
-      "teaser": "Mit Ausstellungen und Veranstaltungen erinnert Jena an die NSU‑Verbrechen.",
+      "title": "Jena am Donnerstag: Die Nachrichten zum Morgen",
+      "teaser": "„Queeres Herzblatt“, ein Konzertabend und ein „Radeltreff“: Diese Neuigkeiten gibt es …",
       "source": "OTZ Jena"
     },
     {
-      "title": "Ausgehen in Thüringen: Zehn packende Kultur-Tipps fürs Wochenende",
-      "teaser": "Verdi und Wagner, Strauss und Mozart, Karikaturen und Klezmer: Diese Veranstaltungen, …",
-      "source": "OTZ Jena"
+      "title": "Theaterhaus Jena startet mit \"Das blaue Haus\" in neue Spielzeit",
+      "teaser": "Mit \"Das blaue Haus\" eröffnet das Theater in Jena seine neue Spielzeit.",
+      "source": "MDR Thüringen"
     },
     {
       "title": "Renaturierung in Deutschland: Moore und Flüsse erholen sich",
@@ -48,5 +48,5 @@
     "2026-10-21": "Was hüpft von Eisscholle zu Eisscholle und ist schwarz-weiß? – Ein Springuin.",
     "2026-10-22": "Kommt ein Frosch in den Laden. Fragt der Verkäufer: „Was kann ich Ihnen geben?“ Sagt der Frosch: „Quark.“"
   },
-  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
 }
