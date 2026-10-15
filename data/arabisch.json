@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-15T05:55:33Z",
-  "date": "2026-10-15",
+  "updated_at": "2026-10-15T23:41:56Z",
+  "date": "2026-10-16",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "شَهَادَة",
-      "tr": "šahāda",
-      "de": "das Zeugnis, Zertifikat",
-      "en": "the certificate",
+      "ar": "فَخُور",
+      "tr": "faḫūr",
+      "de": "stolz",
+      "en": "proud",
+      "type": "Adjektiv",
+      "extra": "f. فَخُورَة",
+      "ex_ar": "أنا فخور بك.",
+      "ex_de": "Ich bin stolz auf dich."
+    },
+    {
+      "ar": "ضَرُورِيّ",
+      "tr": "ḍarūrī",
+      "de": "notwendig",
+      "en": "necessary",
+      "type": "Adjektiv",
+      "extra": "f. ضَرُورِيَّة",
+      "ex_ar": "النوم ضروري للصحة.",
+      "ex_de": "Schlaf ist notwendig für die Gesundheit."
+    },
+    {
+      "ar": "تَفَضَّلْ",
+      "tr": "tafaḍḍal",
+      "de": "bitte sehr",
+      "en": "here you are, please",
+      "type": "Redewendung",
+      "extra": "zu einer Frau: تَفَضَّلِي",
+      "ex_ar": "تفضل، اجلس.",
+      "ex_de": "Bitte, setz dich."
+    },
+    {
+      "ar": "بَلَد",
+      "tr": "balad",
+      "de": "das Land",
+      "en": "the country",
       "type": "Nomen",
-      "extra": "Pl. شَهَادَات",
-      "ex_ar": "حصلت على شهادة اللغة.",
-      "ex_de": "Ich habe das Sprachzertifikat bekommen."
-    },
-    {
-      "ar": "قَرَّرَ",
-      "tr": "qarrara",
-      "de": "beschließen",
-      "en": "to decide",
-      "type": "Verb",
-      "extra": "Präsens: يُقَرِّرُ",
-      "ex_ar": "قررنا أن نسافر في الصيف.",
-      "ex_de": "Wir haben beschlossen, im Sommer zu verreisen."
-    },
-    {
-      "ar": "مُوَاصَلَات",
-      "tr": "muwāṣalāt",
-      "de": "die Verkehrsmittel",
-      "en": "public transport",
-      "type": "Nomen",
-      "extra": "nur Plural",
-      "ex_ar": "المواصلات العامة جيدة هنا.",
-      "ex_de": "Die öffentlichen Verkehrsmittel sind hier gut."
-    },
-    {
-      "ar": "لِذَلِكَ",
-      "tr": "li-ḏālika",
-      "de": "deshalb",
-      "en": "therefore",
-      "type": "Bindewort",
-      "extra": "",
-      "ex_ar": "كنت مريضا، لذلك بقيت في البيت.",
-      "ex_de": "Ich war krank, deshalb bin ich zu Hause geblieben."
+      "extra": "Pl. بُلْدَان",
+      "ex_ar": "زرت بلدانا كثيرة.",
+      "ex_de": "Ich habe viele Länder besucht."
     }
   ],
   "days": {
-    "2026-10-15": {
-      "words": [
-        {
-          "ar": "شَهَادَة",
-          "tr": "šahāda",
-          "de": "das Zeugnis, Zertifikat",
-          "en": "the certificate",
-          "type": "Nomen",
-          "extra": "Pl. شَهَادَات",
-          "ex_ar": "حصلت على شهادة اللغة.",
-          "ex_de": "Ich habe das Sprachzertifikat bekommen."
-        },
-        {
-          "ar": "قَرَّرَ",
-          "tr": "qarrara",
-          "de": "beschließen",
-          "en": "to decide",
-          "type": "Verb",
-          "extra": "Präsens: يُقَرِّرُ",
-          "ex_ar": "قررنا أن نسافر في الصيف.",
-          "ex_de": "Wir haben beschlossen, im Sommer zu verreisen."
-        },
-        {
-          "ar": "مُوَاصَلَات",
-          "tr": "muwāṣalāt",
-          "de": "die Verkehrsmittel",
-          "en": "public transport",
-          "type": "Nomen",
-          "extra": "nur Plural",
-          "ex_ar": "المواصلات العامة جيدة هنا.",
-          "ex_de": "Die öffentlichen Verkehrsmittel sind hier gut."
-        },
-        {
-          "ar": "لِذَلِكَ",
-          "tr": "li-ḏālika",
-          "de": "deshalb",
-          "en": "therefore",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "كنت مريضا، لذلك بقيت في البيت.",
-          "ex_de": "Ich war krank, deshalb bin ich zu Hause geblieben."
-        }
-      ],
-      "gestern": [
-        "besprechen",
-        "wenn, falls",
-        "leider",
-        "die Prüfung"
-      ]
-    },
     "2026-10-16": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "teilnehmen (في)",
         "das Problem",
         "die Gesundheit"
+      ]
+    },
+    "2026-10-23": {
+      "words": [
+        {
+          "ar": "اِسْتَرَاحَ",
+          "tr": "istarāḥa",
+          "de": "sich ausruhen",
+          "en": "to rest",
+          "type": "Verb",
+          "extra": "Präsens: يَسْتَرِيحُ",
+          "ex_ar": "استرحنا قليلا بعد الرحلة.",
+          "ex_de": "Nach der Reise haben wir uns etwas ausgeruht."
+        },
+        {
+          "ar": "خِبْرَة",
+          "tr": "ḫibra",
+          "de": "die Berufserfahrung",
+          "en": "the expertise",
+          "type": "Nomen",
+          "extra": "Pl. خِبْرَات",
+          "ex_ar": "عنده خبرة طويلة في العمل.",
+          "ex_de": "Er hat lange Berufserfahrung."
+        },
+        {
+          "ar": "أَنْهَى",
+          "tr": "anhā",
+          "de": "beenden",
+          "en": "to finish",
+          "type": "Verb",
+          "extra": "Präsens: يُنْهِي",
+          "ex_ar": "أنهيت العمل مبكرا.",
+          "ex_de": "Ich habe die Arbeit früh beendet."
+        },
+        {
+          "ar": "مَعْلُومَة",
+          "tr": "maʿlūma",
+          "de": "die Information",
+          "en": "the information",
+          "type": "Nomen",
+          "extra": "Pl. مَعْلُومَات",
+          "ex_ar": "أحتاج إلى معلومات أكثر.",
+          "ex_de": "Ich brauche mehr Informationen."
+        }
+      ],
+      "gestern": [
+        "die Vergangenheit",
+        "anrufen (بـ)",
+        "ungefähr",
+        "sich verbessern"
       ]
     }
   }
