@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-16T05:53:05Z",
-  "date": "2026-10-16",
+  "updated_at": "2026-10-16T23:38:12Z",
+  "date": "2026-10-17",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "فَخُور",
-      "tr": "faḫūr",
-      "de": "stolz",
-      "en": "proud",
+      "ar": "مُزْدَحِم",
+      "tr": "muzdaḥim",
+      "de": "überfüllt, voll",
+      "en": "crowded",
       "type": "Adjektiv",
-      "extra": "f. فَخُورَة",
-      "ex_ar": "أنا فخور بك.",
-      "ex_de": "Ich bin stolz auf dich."
+      "extra": "f. مُزْدَحِمَة",
+      "ex_ar": "الشارع مزدحم في الصباح.",
+      "ex_de": "Morgens ist die Straße voll."
     },
     {
-      "ar": "ضَرُورِيّ",
-      "tr": "ḍarūrī",
-      "de": "notwendig",
-      "en": "necessary",
-      "type": "Adjektiv",
-      "extra": "f. ضَرُورِيَّة",
-      "ex_ar": "النوم ضروري للصحة.",
-      "ex_de": "Schlaf ist notwendig für die Gesundheit."
+      "ar": "حَتَّى",
+      "tr": "ḥattā",
+      "de": "bis, sogar",
+      "en": "until, even",
+      "type": "Bindewort",
+      "extra": "",
+      "ex_ar": "انتظرتك حتى المساء.",
+      "ex_de": "Ich habe bis zum Abend auf dich gewartet."
     },
     {
-      "ar": "تَفَضَّلْ",
-      "tr": "tafaḍḍal",
-      "de": "bitte sehr",
-      "en": "here you are, please",
-      "type": "Redewendung",
-      "extra": "zu einer Frau: تَفَضَّلِي",
-      "ex_ar": "تفضل، اجلس.",
-      "ex_de": "Bitte, setz dich."
-    },
-    {
-      "ar": "بَلَد",
-      "tr": "balad",
-      "de": "das Land",
-      "en": "the country",
+      "ar": "حَادِث",
+      "tr": "ḥādiṯ",
+      "de": "der Unfall",
+      "en": "the accident",
       "type": "Nomen",
-      "extra": "Pl. بُلْدَان",
-      "ex_ar": "زرت بلدانا كثيرة.",
-      "ex_de": "Ich habe viele Länder besucht."
+      "extra": "Pl. حَوَادِث",
+      "ex_ar": "وقع حادث في الشارع.",
+      "ex_de": "Auf der Straße ist ein Unfall passiert."
+    },
+    {
+      "ar": "عَادَة",
+      "tr": "ʿāda",
+      "de": "die Gewohnheit",
+      "en": "the habit",
+      "type": "Nomen",
+      "extra": "Pl. عَادَات",
+      "ex_ar": "عندي عادة سيئة.",
+      "ex_de": "Ich habe eine schlechte Angewohnheit."
     }
   ],
   "days": {
-    "2026-10-16": {
-      "words": [
-        {
-          "ar": "فَخُور",
-          "tr": "faḫūr",
-          "de": "stolz",
-          "en": "proud",
-          "type": "Adjektiv",
-          "extra": "f. فَخُورَة",
-          "ex_ar": "أنا فخور بك.",
-          "ex_de": "Ich bin stolz auf dich."
-        },
-        {
-          "ar": "ضَرُورِيّ",
-          "tr": "ḍarūrī",
-          "de": "notwendig",
-          "en": "necessary",
-          "type": "Adjektiv",
-          "extra": "f. ضَرُورِيَّة",
-          "ex_ar": "النوم ضروري للصحة.",
-          "ex_de": "Schlaf ist notwendig für die Gesundheit."
-        },
-        {
-          "ar": "تَفَضَّلْ",
-          "tr": "tafaḍḍal",
-          "de": "bitte sehr",
-          "en": "here you are, please",
-          "type": "Redewendung",
-          "extra": "zu einer Frau: تَفَضَّلِي",
-          "ex_ar": "تفضل، اجلس.",
-          "ex_de": "Bitte, setz dich."
-        },
-        {
-          "ar": "بَلَد",
-          "tr": "balad",
-          "de": "das Land",
-          "en": "the country",
-          "type": "Nomen",
-          "extra": "Pl. بُلْدَان",
-          "ex_ar": "زرت بلدانا كثيرة.",
-          "ex_de": "Ich habe viele Länder besucht."
-        }
-      ],
-      "gestern": [
-        "das Zeugnis, Zertifikat",
-        "beschließen",
-        "die Verkehrsmittel",
-        "deshalb"
-      ]
-    },
     "2026-10-17": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "anrufen (بـ)",
         "ungefähr",
         "sich verbessern"
+      ]
+    },
+    "2026-10-24": {
+      "words": [
+        {
+          "ar": "وَقْت",
+          "tr": "waqt",
+          "de": "die Zeit",
+          "en": "the time",
+          "type": "Nomen",
+          "extra": "Pl. أَوْقَات",
+          "ex_ar": "ليس عندي وقت الآن.",
+          "ex_de": "Ich habe jetzt keine Zeit."
+        },
+        {
+          "ar": "جَامِعَة",
+          "tr": "ǧāmiʿa",
+          "de": "die Universität",
+          "en": "the university",
+          "type": "Nomen",
+          "extra": "Pl. جَامِعَات",
+          "ex_ar": "تدرس في جامعة يينا.",
+          "ex_de": "Sie studiert an der Universität Jena."
+        },
+        {
+          "ar": "نَجَحَ",
+          "tr": "naǧaḥa",
+          "de": "bestehen, Erfolg haben",
+          "en": "to succeed",
+          "type": "Verb",
+          "extra": "Präsens: يَنْجَحُ",
+          "ex_ar": "نجح أخي في الامتحان.",
+          "ex_de": "Mein Bruder hat die Prüfung bestanden."
+        },
+        {
+          "ar": "غَالٍ",
+          "tr": "ġālin",
+          "de": "teuer",
+          "en": "expensive",
+          "type": "Adjektiv",
+          "extra": "f. غَالِيَة",
+          "ex_ar": "هذا المعطف غال.",
+          "ex_de": "Dieser Mantel ist teuer."
+        }
+      ],
+      "gestern": [
+        "sich ausruhen",
+        "die Berufserfahrung",
+        "beenden",
+        "die Information"
       ]
     }
   }

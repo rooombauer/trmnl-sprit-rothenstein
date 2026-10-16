@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-16T05:53:05Z",
-  "date": "2026-10-16",
+  "updated_at": "2026-10-16T23:38:12Z",
+  "date": "2026-10-17",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "weather",
-      "de": "das Wetter",
+      "en": "bus stop",
+      "de": "die Bushaltestelle",
       "type": "Nomen",
-      "example": "The weather is sunny today."
+      "example": "Wait for me at the bus stop."
     },
     {
-      "en": "friend",
-      "de": "der Freund / die Freundin",
+      "en": "break",
+      "de": "die Pause",
       "type": "Nomen",
-      "example": "Max is my best friend."
+      "example": "We play football in the break."
     },
     {
-      "en": "to show",
-      "de": "zeigen",
-      "type": "Verb",
-      "example": "Can you show me your drawing?"
+      "en": "town",
+      "de": "die Stadt",
+      "type": "Nomen",
+      "example": "Kahla is a small town."
     },
     {
-      "en": "to help",
-      "de": "helfen",
-      "type": "Verb",
-      "example": "Can you help me with my homework?"
+      "en": "school bag",
+      "de": "die Schultasche",
+      "type": "Nomen",
+      "example": "My school bag is very heavy today."
     }
   ],
   "days": {
-    "2026-10-16": {
-      "words": [
-        {
-          "en": "weather",
-          "de": "das Wetter",
-          "type": "Nomen",
-          "example": "The weather is sunny today."
-        },
-        {
-          "en": "friend",
-          "de": "der Freund / die Freundin",
-          "type": "Nomen",
-          "example": "Max is my best friend."
-        },
-        {
-          "en": "to show",
-          "de": "zeigen",
-          "type": "Verb",
-          "example": "Can you show me your drawing?"
-        },
-        {
-          "en": "to help",
-          "de": "helfen",
-          "type": "Verb",
-          "example": "Can you help me with my homework?"
-        }
-      ],
-      "gestern": [
-        "denken, glauben",
-        "Macht nichts.",
-        "das Regal",
-        "traurig"
-      ]
-    },
     "2026-10-17": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "manchmal",
         "schwimmen",
         "laut"
+      ]
+    },
+    "2026-10-24": {
+      "words": [
+        {
+          "en": "parents",
+          "de": "die Eltern",
+          "type": "Nomen",
+          "example": "My parents work in Jena."
+        },
+        {
+          "en": "angry",
+          "de": "wütend",
+          "type": "Adjektiv",
+          "example": "Don't be angry with me!"
+        },
+        {
+          "en": "guinea pig",
+          "de": "das Meerschweinchen",
+          "type": "Nomen",
+          "example": "My guinea pig eats carrots."
+        },
+        {
+          "en": "to remember",
+          "de": "sich erinnern",
+          "type": "Verb",
+          "example": "I can't remember his name."
+        }
+      ],
+      "gestern": [
+        "der Wellensittich",
+        "der Onkel",
+        "sich beeilen",
+        "das Hobby"
       ]
     }
   }
