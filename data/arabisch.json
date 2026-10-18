@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-18T05:56:02Z",
-  "date": "2026-10-18",
+  "updated_at": "2026-10-18T23:16:57Z",
+  "date": "2026-10-19",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "اِعْتَذَرَ",
-      "tr": "iʿtaḏara",
-      "de": "sich entschuldigen",
-      "en": "to apologise",
-      "type": "Verb",
-      "extra": "Präsens: يَعْتَذِرُ",
-      "ex_ar": "أعتذر عن التأخير.",
-      "ex_de": "Ich entschuldige mich für die Verspätung."
+      "ar": "عَادَةً",
+      "tr": "ʿādatan",
+      "de": "normalerweise",
+      "en": "usually",
+      "type": "Adverb",
+      "extra": "",
+      "ex_ar": "أستيقظ عادة في السادسة.",
+      "ex_de": "Normalerweise stehe ich um sechs auf."
     },
     {
-      "ar": "مُخْتَلِف",
-      "tr": "muḫtalif",
-      "de": "verschieden, anders",
-      "en": "different",
-      "type": "Adjektiv",
-      "extra": "f. مُخْتَلِفَة",
-      "ex_ar": "رأيي مختلف.",
-      "ex_de": "Meine Meinung ist anders."
+      "ar": "الْحَمْدُ لِلّٰه",
+      "tr": "al-ḥamdu li-llāh",
+      "de": "Gott sei Dank",
+      "en": "thank God",
+      "type": "Redewendung",
+      "extra": "",
+      "ex_ar": "الحمد لله، كل شيء بخير.",
+      "ex_de": "Gott sei Dank, alles ist gut."
     },
     {
-      "ar": "مَوْضُوع",
-      "tr": "mauḍūʿ",
-      "de": "das Thema",
-      "en": "the topic",
+      "ar": "رِسَالَة",
+      "tr": "risāla",
+      "de": "die Nachricht, der Brief",
+      "en": "the message, the letter",
       "type": "Nomen",
-      "extra": "Pl. مَوَاضِيع",
-      "ex_ar": "هذا موضوع مهم.",
-      "ex_de": "Das ist ein wichtiges Thema."
+      "extra": "Pl. رَسَائِل",
+      "ex_ar": "أرسلت لك رسالة.",
+      "ex_de": "Ich habe dir eine Nachricht geschickt."
     },
     {
-      "ar": "دِرَاسَة",
-      "tr": "dirāsa",
-      "de": "das Studium",
-      "en": "the studies",
-      "type": "Nomen",
-      "extra": "Pl. دِرَاسَات",
-      "ex_ar": "أنهى دراسته هذا العام.",
-      "ex_de": "Er hat dieses Jahr sein Studium abgeschlossen."
+      "ar": "رُبَّمَا",
+      "tr": "rubbamā",
+      "de": "vielleicht",
+      "en": "maybe",
+      "type": "Adverb",
+      "extra": "",
+      "ex_ar": "ربما نسافر في الربيع.",
+      "ex_de": "Vielleicht verreisen wir im Frühling."
     }
   ],
   "days": {
-    "2026-10-18": {
-      "words": [
-        {
-          "ar": "اِعْتَذَرَ",
-          "tr": "iʿtaḏara",
-          "de": "sich entschuldigen",
-          "en": "to apologise",
-          "type": "Verb",
-          "extra": "Präsens: يَعْتَذِرُ",
-          "ex_ar": "أعتذر عن التأخير.",
-          "ex_de": "Ich entschuldige mich für die Verspätung."
-        },
-        {
-          "ar": "مُخْتَلِف",
-          "tr": "muḫtalif",
-          "de": "verschieden, anders",
-          "en": "different",
-          "type": "Adjektiv",
-          "extra": "f. مُخْتَلِفَة",
-          "ex_ar": "رأيي مختلف.",
-          "ex_de": "Meine Meinung ist anders."
-        },
-        {
-          "ar": "مَوْضُوع",
-          "tr": "mauḍūʿ",
-          "de": "das Thema",
-          "en": "the topic",
-          "type": "Nomen",
-          "extra": "Pl. مَوَاضِيع",
-          "ex_ar": "هذا موضوع مهم.",
-          "ex_de": "Das ist ein wichtiges Thema."
-        },
-        {
-          "ar": "دِرَاسَة",
-          "tr": "dirāsa",
-          "de": "das Studium",
-          "en": "the studies",
-          "type": "Nomen",
-          "extra": "Pl. دِرَاسَات",
-          "ex_ar": "أنهى دراسته هذا العام.",
-          "ex_de": "Er hat dieses Jahr sein Studium abgeschlossen."
-        }
-      ],
-      "gestern": [
-        "überfüllt, voll",
-        "bis, sogar",
-        "der Unfall",
-        "die Gewohnheit"
-      ]
-    },
     "2026-10-19": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "die Universität",
         "bestehen, Erfolg haben",
         "teuer"
+      ]
+    },
+    "2026-10-26": {
+      "words": [
+        {
+          "ar": "خَبَر",
+          "tr": "ḫabar",
+          "de": "die Neuigkeit",
+          "en": "the news",
+          "type": "Nomen",
+          "extra": "Pl. أَخْبَار",
+          "ex_ar": "هل سمعت الأخبار؟",
+          "ex_de": "Hast du die Nachrichten gehört?"
+        },
+        {
+          "ar": "خَاطِئ",
+          "tr": "ḫāṭiʾ",
+          "de": "falsch",
+          "en": "wrong",
+          "type": "Adjektiv",
+          "extra": "f. خَاطِئَة",
+          "ex_ar": "الجواب خاطئ.",
+          "ex_de": "Die Antwort ist falsch."
+        },
+        {
+          "ar": "رَخِيص",
+          "tr": "raḫīṣ",
+          "de": "billig",
+          "en": "cheap",
+          "type": "Adjektiv",
+          "extra": "f. رَخِيصَة",
+          "ex_ar": "الخضار رخيصة في السوق.",
+          "ex_de": "Das Gemüse ist auf dem Markt billig."
+        },
+        {
+          "ar": "شُعُور",
+          "tr": "šuʿūr",
+          "de": "das Gefühl",
+          "en": "the feeling",
+          "type": "Nomen",
+          "extra": "Pl. مَشَاعِر",
+          "ex_ar": "عندي شعور جميل اليوم.",
+          "ex_de": "Ich habe heute ein schönes Gefühl."
+        }
+      ],
+      "gestern": [
+        "das Interesse",
+        "der Erfolg",
+        "ruhig",
+        "es ist möglich"
       ]
     }
   }
