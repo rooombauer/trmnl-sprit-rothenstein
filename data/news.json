@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-10-20T06:03:16Z",
-  "date": "2026-10-20",
+  "updated_at": "2026-10-20T23:55:35Z",
+  "date": "2026-10-21",
   "local": [
     {
-      "title": "Von den Amselfällen bis Ziegenhain: Tierische Influencerin aus Jena gibt Ausflugstipps",
-      "teaser": "Vierköpfiges Rudel auf Tour: Die Hündin Minnie ist Wander-Influencerin.",
+      "title": "Jena am Dienstag: Die Nachrichten zum Abend",
+      "teaser": "Die Brass Band Blechklang feiert einen Erfolg.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Jena am Dienstag: Die Nachrichten zum Morgen",
-      "teaser": "Energieberatung, Festival-Highlights und preisgekrönter Film: Das sind die Nachrichten …",
+      "title": "Einst abgelehnt, heute unverzichtbar: Dieses Werk begeisterte in Jena",
+      "teaser": "Selten gespielte Marteau-Lieder mit Susanne Veeh, dazu Ravels Streichquartett: Das …",
       "source": "OTZ Jena"
     }
   ],
   "world": [
     {
-      "title": "New York plant Ende der Pferdekutschen im Central Park",
-      "teaser": "Die traditionellen Pferdekutschen im New Yorker Central Park könnten bald Geschichte sein.",
+      "title": "Neuer Therapieansatz gegen Lungeninfektionen",
+      "teaser": "Forschende arbeiten an einem neuen Therapieansatz gegen gefährliche Lungeninfektionen.",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Von den Amselfällen bis Ziegenhain: Tierische Influencerin aus Jena gibt Ausflugstipps",
-      "teaser": "Vierköpfiges Rudel auf Tour: Die Hündin Minnie ist Wander-Influencerin.",
+      "title": "Jena am Dienstag: Die Nachrichten zum Abend",
+      "teaser": "Die Brass Band Blechklang feiert einen Erfolg.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Jena am Dienstag: Die Nachrichten zum Morgen",
-      "teaser": "Energieberatung, Festival-Highlights und preisgekrönter Film: Das sind die Nachrichten …",
+      "title": "Einst abgelehnt, heute unverzichtbar: Dieses Werk begeisterte in Jena",
+      "teaser": "Selten gespielte Marteau-Lieder mit Susanne Veeh, dazu Ravels Streichquartett: Das …",
       "source": "OTZ Jena"
     },
     {
-      "title": "New York plant Ende der Pferdekutschen im Central Park",
-      "teaser": "Die traditionellen Pferdekutschen im New Yorker Central Park könnten bald Geschichte sein.",
+      "title": "Neuer Therapieansatz gegen Lungeninfektionen",
+      "teaser": "Forschende arbeiten an einem neuen Therapieansatz gegen gefährliche Lungeninfektionen.",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Ich liebe Schuhe. Egal wie viele Kekse ich esse, sie passen immer.",
+  "joke": "Was hüpft von Eisscholle zu Eisscholle und ist schwarz-weiß? – Ein Springuin.",
   "jokes_by_day": {
-    "2026-10-20": "Ich liebe Schuhe. Egal wie viele Kekse ich esse, sie passen immer.",
     "2026-10-21": "Was hüpft von Eisscholle zu Eisscholle und ist schwarz-weiß? – Ein Springuin.",
     "2026-10-22": "Kommt ein Frosch in den Laden. Fragt der Verkäufer: „Was kann ich Ihnen geben?“ Sagt der Frosch: „Quark.“",
     "2026-10-23": "Was ist schwarz-weiß und sitzt auf der Schaukel? – Ein Schwinguin.",
     "2026-10-24": "Wie nennt man einen Matrosen, der sich nicht wäscht?\nMeerschweinchen",
     "2026-10-25": "Lehrer: \"Wer kann mir sechs Tiere nennen, die in Afrika leben?\"\nSchüler: \"Ein Löwe und fünf Zebras.\"",
     "2026-10-26": "Hans kann nicht Lügen! Wieso?\nHans ist schwindelfrei!",
-    "2026-10-27": "Lehrer: \"Wo wurde der Friedensvertrag von 1918 unterschrieben?\"\nSchüler: \"Unten rechts?\""
+    "2026-10-27": "Lehrer: \"Wo wurde der Friedensvertrag von 1918 unterschrieben?\"\nSchüler: \"Unten rechts?\"",
+    "2026-10-28": "Warum ist ein Backofen wütend? Weil er auf 180 ist."
   },
   "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
 }

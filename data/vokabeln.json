@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-20T06:03:11Z",
-  "date": "2026-10-20",
+  "updated_at": "2026-10-20T23:55:31Z",
+  "date": "2026-10-21",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "dangerous",
-      "de": "gefährlich",
+      "en": "late",
+      "de": "spät",
       "type": "Adjektiv",
-      "example": "Sharks can be dangerous."
+      "example": "Sorry, I'm late!"
     },
     {
-      "en": "bike",
-      "de": "das Fahrrad",
-      "type": "Nomen",
-      "example": "I go to school by bike."
-    },
-    {
-      "en": "to climb",
-      "de": "klettern",
+      "en": "to lose",
+      "de": "verlieren",
       "type": "Verb",
-      "example": "The cat climbs the tree."
+      "example": "It's okay to lose sometimes."
     },
     {
-      "en": "cold",
-      "de": "kalt",
+      "en": "thirsty",
+      "de": "durstig",
       "type": "Adjektiv",
-      "example": "The water is too cold for swimming."
+      "example": "After football I'm always thirsty."
+    },
+    {
+      "en": "to explain",
+      "de": "erklären",
+      "type": "Verb",
+      "example": "Can you explain the task again?"
     }
   ],
   "days": {
-    "2026-10-20": {
-      "words": [
-        {
-          "en": "dangerous",
-          "de": "gefährlich",
-          "type": "Adjektiv",
-          "example": "Sharks can be dangerous."
-        },
-        {
-          "en": "bike",
-          "de": "das Fahrrad",
-          "type": "Nomen",
-          "example": "I go to school by bike."
-        },
-        {
-          "en": "to climb",
-          "de": "klettern",
-          "type": "Verb",
-          "example": "The cat climbs the tree."
-        },
-        {
-          "en": "cold",
-          "de": "kalt",
-          "type": "Adjektiv",
-          "example": "The water is too cold for swimming."
-        }
-      ],
-      "gestern": [
-        "der Stundenplan",
-        "die Mannschaft",
-        "die Antwort",
-        "müde"
-      ]
-    },
     "2026-10-21": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "oft",
         "das Wohnzimmer",
         "der Käse"
+      ]
+    },
+    "2026-10-28": {
+      "words": [
+        {
+          "en": "lunch",
+          "de": "das Mittagessen",
+          "type": "Nomen",
+          "example": "What's for lunch today?"
+        },
+        {
+          "en": "to ride",
+          "de": "reiten, fahren",
+          "type": "Verb",
+          "example": "I ride my bike to school."
+        },
+        {
+          "en": "to leave",
+          "de": "verlassen, losgehen",
+          "type": "Verb",
+          "example": "We leave the house at seven."
+        },
+        {
+          "en": "to tell",
+          "de": "erzählen",
+          "type": "Verb",
+          "example": "Tell me a story, please."
+        }
+      ],
+      "gestern": [
+        "lesen",
+        "die Ferien",
+        "hungrig",
+        "das Dorf"
       ]
     }
   }
