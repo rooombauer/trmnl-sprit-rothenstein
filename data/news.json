@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-10-19T06:14:43Z",
-  "date": "2026-10-19",
+  "updated_at": "2026-10-20T00:24:01Z",
+  "date": "2026-10-20",
   "local": [
     {
-      "title": "Discounter nennt Termin für Neustart – und ein Bäcker eröffnet seine erste Filiale in der Stadt",
-      "teaser": "Die Bauarbeiten in Lobeda-Ost sind weit vorangeschritten.",
+      "title": "Jena-Auktion: Diese Bilder werden für das Hospiz Jena versteigert",
+      "teaser": "In der Goethe Galerie Jena ist eine große Fotoausstellung mit Motiven aus Jena zu sehen.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Jena am Montag: Die Nachrichten zum Start in die Woche",
-      "teaser": "Ein Konzert, ein Weihnachtsmusical und ein Gottesdienst: Diese Neuigkeiten gibt es in …",
+      "title": "„Ich will zeigen, dass aus Thüringen geile Musik kommen kann“ – Rapper aus Jena im Bundesfinale",
+      "teaser": "Der Jenaer Rapper „kickpunchpow“ will im Bundesfinale von „local heroes“ beweisen, dass …",
       "source": "OTZ Jena"
     }
   ],
@@ -22,13 +22,13 @@
   ],
   "items": [
     {
-      "title": "Discounter nennt Termin für Neustart – und ein Bäcker eröffnet seine erste Filiale in der Stadt",
-      "teaser": "Die Bauarbeiten in Lobeda-Ost sind weit vorangeschritten.",
+      "title": "Jena-Auktion: Diese Bilder werden für das Hospiz Jena versteigert",
+      "teaser": "In der Goethe Galerie Jena ist eine große Fotoausstellung mit Motiven aus Jena zu sehen.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Jena am Montag: Die Nachrichten zum Start in die Woche",
-      "teaser": "Ein Konzert, ein Weihnachtsmusical und ein Gottesdienst: Diese Neuigkeiten gibt es in …",
+      "title": "„Ich will zeigen, dass aus Thüringen geile Musik kommen kann“ – Rapper aus Jena im Bundesfinale",
+      "teaser": "Der Jenaer Rapper „kickpunchpow“ will im Bundesfinale von „local heroes“ beweisen, dass …",
       "source": "OTZ Jena"
     },
     {
@@ -37,16 +37,16 @@
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Wie nennt man Kaninchen im Fitnessstudio? – Pumpernickel.",
+  "joke": "Ich liebe Schuhe. Egal wie viele Kekse ich esse, sie passen immer.",
   "jokes_by_day": {
-    "2026-10-19": "Wie nennt man Kaninchen im Fitnessstudio? – Pumpernickel.",
     "2026-10-20": "Ich liebe Schuhe. Egal wie viele Kekse ich esse, sie passen immer.",
     "2026-10-21": "Was hüpft von Eisscholle zu Eisscholle und ist schwarz-weiß? – Ein Springuin.",
     "2026-10-22": "Kommt ein Frosch in den Laden. Fragt der Verkäufer: „Was kann ich Ihnen geben?“ Sagt der Frosch: „Quark.“",
     "2026-10-23": "Was ist schwarz-weiß und sitzt auf der Schaukel? – Ein Schwinguin.",
     "2026-10-24": "Wie nennt man einen Matrosen, der sich nicht wäscht?\nMeerschweinchen",
     "2026-10-25": "Lehrer: \"Wer kann mir sechs Tiere nennen, die in Afrika leben?\"\nSchüler: \"Ein Löwe und fünf Zebras.\"",
-    "2026-10-26": "Hans kann nicht Lügen! Wieso?\nHans ist schwindelfrei!"
+    "2026-10-26": "Hans kann nicht Lügen! Wieso?\nHans ist schwindelfrei!",
+    "2026-10-27": "Lehrer: \"Wo wurde der Friedensvertrag von 1918 unterschrieben?\"\nSchüler: \"Unten rechts?\""
   },
   "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
 }

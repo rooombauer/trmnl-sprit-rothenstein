@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-19T06:14:37Z",
-  "date": "2026-10-19",
+  "updated_at": "2026-10-20T00:23:57Z",
+  "date": "2026-10-20",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "عَادَةً",
-      "tr": "ʿādatan",
-      "de": "normalerweise",
-      "en": "usually",
-      "type": "Adverb",
-      "extra": "",
-      "ex_ar": "أستيقظ عادة في السادسة.",
-      "ex_de": "Normalerweise stehe ich um sechs auf."
-    },
-    {
-      "ar": "الْحَمْدُ لِلّٰه",
-      "tr": "al-ḥamdu li-llāh",
-      "de": "Gott sei Dank",
-      "en": "thank God",
-      "type": "Redewendung",
-      "extra": "",
-      "ex_ar": "الحمد لله، كل شيء بخير.",
-      "ex_de": "Gott sei Dank, alles ist gut."
-    },
-    {
-      "ar": "رِسَالَة",
-      "tr": "risāla",
-      "de": "die Nachricht, der Brief",
-      "en": "the message, the letter",
+      "ar": "جَار",
+      "tr": "ǧār",
+      "de": "der Nachbar",
+      "en": "the neighbour",
       "type": "Nomen",
-      "extra": "Pl. رَسَائِل",
-      "ex_ar": "أرسلت لك رسالة.",
-      "ex_de": "Ich habe dir eine Nachricht geschickt."
+      "extra": "Pl. جِيرَان",
+      "ex_ar": "جيراننا لطفاء جدا.",
+      "ex_de": "Unsere Nachbarn sind sehr nett."
     },
     {
-      "ar": "رُبَّمَا",
-      "tr": "rubbamā",
-      "de": "vielleicht",
-      "en": "maybe",
-      "type": "Adverb",
-      "extra": "",
-      "ex_ar": "ربما نسافر في الربيع.",
-      "ex_de": "Vielleicht verreisen wir im Frühling."
+      "ar": "مِثَال",
+      "tr": "miṯāl",
+      "de": "das Beispiel",
+      "en": "the example",
+      "type": "Nomen",
+      "extra": "Pl. أَمْثِلَة",
+      "ex_ar": "أعطني مثالا من فضلك.",
+      "ex_de": "Gib mir bitte ein Beispiel."
+    },
+    {
+      "ar": "اِسْتَطَاعَ",
+      "tr": "istaṭāʿa",
+      "de": "können",
+      "en": "to be able to",
+      "type": "Verb",
+      "extra": "Präsens: يَسْتَطِيعُ",
+      "ex_ar": "لا أستطيع أن أحضر اليوم.",
+      "ex_de": "Ich kann heute nicht kommen."
+    },
+    {
+      "ar": "مُمْكِن",
+      "tr": "mumkin",
+      "de": "möglich",
+      "en": "possible",
+      "type": "Adjektiv",
+      "extra": "f. مُمْكِنَة",
+      "ex_ar": "هل من الممكن أن تساعدني؟",
+      "ex_de": "Kannst du mir vielleicht helfen?"
     }
   ],
   "days": {
-    "2026-10-19": {
-      "words": [
-        {
-          "ar": "عَادَةً",
-          "tr": "ʿādatan",
-          "de": "normalerweise",
-          "en": "usually",
-          "type": "Adverb",
-          "extra": "",
-          "ex_ar": "أستيقظ عادة في السادسة.",
-          "ex_de": "Normalerweise stehe ich um sechs auf."
-        },
-        {
-          "ar": "الْحَمْدُ لِلّٰه",
-          "tr": "al-ḥamdu li-llāh",
-          "de": "Gott sei Dank",
-          "en": "thank God",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "الحمد لله، كل شيء بخير.",
-          "ex_de": "Gott sei Dank, alles ist gut."
-        },
-        {
-          "ar": "رِسَالَة",
-          "tr": "risāla",
-          "de": "die Nachricht, der Brief",
-          "en": "the message, the letter",
-          "type": "Nomen",
-          "extra": "Pl. رَسَائِل",
-          "ex_ar": "أرسلت لك رسالة.",
-          "ex_de": "Ich habe dir eine Nachricht geschickt."
-        },
-        {
-          "ar": "رُبَّمَا",
-          "tr": "rubbamā",
-          "de": "vielleicht",
-          "en": "maybe",
-          "type": "Adverb",
-          "extra": "",
-          "ex_ar": "ربما نسافر في الربيع.",
-          "ex_de": "Vielleicht verreisen wir im Frühling."
-        }
-      ],
-      "gestern": [
-        "sich entschuldigen",
-        "verschieden, anders",
-        "das Thema",
-        "das Studium"
-      ]
-    },
     "2026-10-20": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "der Erfolg",
         "ruhig",
         "es ist möglich"
+      ]
+    },
+    "2026-10-27": {
+      "words": [
+        {
+          "ar": "مَوْعِد",
+          "tr": "mauʿid",
+          "de": "der Termin",
+          "en": "the appointment",
+          "type": "Nomen",
+          "extra": "Pl. مَوَاعِيد",
+          "ex_ar": "عندي موعد عند الطبيب غدا.",
+          "ex_de": "Ich habe morgen einen Arzttermin."
+        },
+        {
+          "ar": "مَشْهُور",
+          "tr": "mašhūr",
+          "de": "berühmt",
+          "en": "famous",
+          "type": "Adjektiv",
+          "extra": "f. مَشْهُورَة",
+          "ex_ar": "هذا مطعم مشهور.",
+          "ex_de": "Das ist ein berühmtes Restaurant."
+        },
+        {
+          "ar": "مُفِيد",
+          "tr": "mufīd",
+          "de": "nützlich",
+          "en": "useful",
+          "type": "Adjektiv",
+          "extra": "f. مُفِيدَة",
+          "ex_ar": "هذه نصيحة مفيدة.",
+          "ex_de": "Das ist ein nützlicher Rat."
+        },
+        {
+          "ar": "بَدَأَ",
+          "tr": "badaʾa",
+          "de": "anfangen",
+          "en": "to begin",
+          "type": "Verb",
+          "extra": "Präsens: يَبْدَأُ",
+          "ex_ar": "يبدأ الفيلم في الساعة الثامنة.",
+          "ex_de": "Der Film beginnt um acht Uhr."
+        }
+      ],
+      "gestern": [
+        "die Neuigkeit",
+        "falsch",
+        "billig",
+        "das Gefühl"
       ]
     }
   }
