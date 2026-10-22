@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-21T06:02:44Z",
-  "date": "2026-10-21",
+  "updated_at": "2026-10-22T00:01:16Z",
+  "date": "2026-10-22",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "مُمْتِع",
-      "tr": "mumtiʿ",
-      "de": "spannend, unterhaltsam",
-      "en": "enjoyable",
-      "type": "Adjektiv",
-      "extra": "f. مُمْتِعَة",
-      "ex_ar": "كان الكتاب ممتعا.",
-      "ex_de": "Das Buch war spannend."
-    },
-    {
-      "ar": "شَارَكَ",
-      "tr": "šāraka",
-      "de": "teilnehmen (في)",
-      "en": "to take part",
-      "type": "Verb",
-      "extra": "Präsens: يُشَارِكُ",
-      "ex_ar": "شاركت في المسابقة.",
-      "ex_de": "Ich habe am Wettbewerb teilgenommen."
-    },
-    {
-      "ar": "مُشْكِلَة",
-      "tr": "muškila",
-      "de": "das Problem",
-      "en": "the problem",
-      "type": "Nomen",
-      "extra": "Pl. مَشَاكِل",
-      "ex_ar": "لا توجد مشكلة.",
-      "ex_de": "Es gibt kein Problem."
-    },
-    {
-      "ar": "صِحَّة",
-      "tr": "ṣiḥḥa",
-      "de": "die Gesundheit",
-      "en": "the health",
+      "ar": "مَاضٍ",
+      "tr": "māḍin",
+      "de": "die Vergangenheit",
+      "en": "the past",
       "type": "Nomen",
       "extra": "",
-      "ex_ar": "الرياضة مفيدة للصحة.",
-      "ex_de": "Sport ist gut für die Gesundheit."
+      "ex_ar": "تعلمنا الكثير من الماضي.",
+      "ex_de": "Wir haben viel aus der Vergangenheit gelernt."
+    },
+    {
+      "ar": "اِتَّصَلَ",
+      "tr": "ittaṣala",
+      "de": "anrufen (بـ)",
+      "en": "to call",
+      "type": "Verb",
+      "extra": "Präsens: يَتَّصِلُ",
+      "ex_ar": "سأتصل بك مساء.",
+      "ex_de": "Ich rufe dich abends an."
+    },
+    {
+      "ar": "تَقْرِيبًا",
+      "tr": "taqrīban",
+      "de": "ungefähr",
+      "en": "about, almost",
+      "type": "Adverb",
+      "extra": "",
+      "ex_ar": "انتظرت ساعة تقريبا.",
+      "ex_de": "Ich habe ungefähr eine Stunde gewartet."
+    },
+    {
+      "ar": "تَحَسَّنَ",
+      "tr": "taḥassana",
+      "de": "sich verbessern",
+      "en": "to improve",
+      "type": "Verb",
+      "extra": "Präsens: يَتَحَسَّنُ",
+      "ex_ar": "تحسنت لغتي العربية.",
+      "ex_de": "Mein Arabisch hat sich verbessert."
     }
   ],
   "days": {
-    "2026-10-21": {
-      "words": [
-        {
-          "ar": "مُمْتِع",
-          "tr": "mumtiʿ",
-          "de": "spannend, unterhaltsam",
-          "en": "enjoyable",
-          "type": "Adjektiv",
-          "extra": "f. مُمْتِعَة",
-          "ex_ar": "كان الكتاب ممتعا.",
-          "ex_de": "Das Buch war spannend."
-        },
-        {
-          "ar": "شَارَكَ",
-          "tr": "šāraka",
-          "de": "teilnehmen (في)",
-          "en": "to take part",
-          "type": "Verb",
-          "extra": "Präsens: يُشَارِكُ",
-          "ex_ar": "شاركت في المسابقة.",
-          "ex_de": "Ich habe am Wettbewerb teilgenommen."
-        },
-        {
-          "ar": "مُشْكِلَة",
-          "tr": "muškila",
-          "de": "das Problem",
-          "en": "the problem",
-          "type": "Nomen",
-          "extra": "Pl. مَشَاكِل",
-          "ex_ar": "لا توجد مشكلة.",
-          "ex_de": "Es gibt kein Problem."
-        },
-        {
-          "ar": "صِحَّة",
-          "tr": "ṣiḥḥa",
-          "de": "die Gesundheit",
-          "en": "the health",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "الرياضة مفيدة للصحة.",
-          "ex_de": "Sport ist gut für die Gesundheit."
-        }
-      ],
-      "gestern": [
-        "der Nachbar",
-        "das Beispiel",
-        "können",
-        "möglich"
-      ]
-    },
     "2026-10-22": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "berühmt",
         "nützlich",
         "anfangen"
+      ]
+    },
+    "2026-10-29": {
+      "words": [
+        {
+          "ar": "أَمَل",
+          "tr": "amal",
+          "de": "die Hoffnung",
+          "en": "the hope",
+          "type": "Nomen",
+          "extra": "Pl. آمَال",
+          "ex_ar": "عندي أمل كبير.",
+          "ex_de": "Ich habe große Hoffnung."
+        },
+        {
+          "ar": "مَنَعَ",
+          "tr": "manaʿa",
+          "de": "verbieten, verhindern",
+          "en": "to forbid, to prevent",
+          "type": "Verb",
+          "extra": "Präsens: يَمْنَعُ",
+          "ex_ar": "يمنع التدخين هنا.",
+          "ex_de": "Rauchen ist hier verboten."
+        },
+        {
+          "ar": "وَافَقَ",
+          "tr": "wāfaqa",
+          "de": "zustimmen (على)",
+          "en": "to agree",
+          "type": "Verb",
+          "extra": "Präsens: يُوَافِقُ",
+          "ex_ar": "أوافق على رأيك.",
+          "ex_de": "Ich stimme deiner Meinung zu."
+        },
+        {
+          "ar": "شَعَرَ",
+          "tr": "šaʿara",
+          "de": "sich fühlen (بـ)",
+          "en": "to feel",
+          "type": "Verb",
+          "extra": "Präsens: يَشْعُرُ",
+          "ex_ar": "أشعر بالتعب اليوم.",
+          "ex_de": "Ich fühle mich heute müde."
+        }
+      ],
+      "gestern": [
+        "verspätet",
+        "die Kindheit",
+        "ähnlich",
+        "andauern"
       ]
     }
   }
