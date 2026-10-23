@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-22T06:07:57Z",
-  "date": "2026-10-22",
+  "updated_at": "2026-10-23T00:00:14Z",
+  "date": "2026-10-23",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "مَاضٍ",
-      "tr": "māḍin",
-      "de": "die Vergangenheit",
-      "en": "the past",
+      "ar": "اِسْتَرَاحَ",
+      "tr": "istarāḥa",
+      "de": "sich ausruhen",
+      "en": "to rest",
+      "type": "Verb",
+      "extra": "Präsens: يَسْتَرِيحُ",
+      "ex_ar": "استرحنا قليلا بعد الرحلة.",
+      "ex_de": "Nach der Reise haben wir uns etwas ausgeruht."
+    },
+    {
+      "ar": "خِبْرَة",
+      "tr": "ḫibra",
+      "de": "die Berufserfahrung",
+      "en": "the expertise",
       "type": "Nomen",
-      "extra": "",
-      "ex_ar": "تعلمنا الكثير من الماضي.",
-      "ex_de": "Wir haben viel aus der Vergangenheit gelernt."
+      "extra": "Pl. خِبْرَات",
+      "ex_ar": "عنده خبرة طويلة في العمل.",
+      "ex_de": "Er hat lange Berufserfahrung."
     },
     {
-      "ar": "اِتَّصَلَ",
-      "tr": "ittaṣala",
-      "de": "anrufen (بـ)",
-      "en": "to call",
+      "ar": "أَنْهَى",
+      "tr": "anhā",
+      "de": "beenden",
+      "en": "to finish",
       "type": "Verb",
-      "extra": "Präsens: يَتَّصِلُ",
-      "ex_ar": "سأتصل بك مساء.",
-      "ex_de": "Ich rufe dich abends an."
+      "extra": "Präsens: يُنْهِي",
+      "ex_ar": "أنهيت العمل مبكرا.",
+      "ex_de": "Ich habe die Arbeit früh beendet."
     },
     {
-      "ar": "تَقْرِيبًا",
-      "tr": "taqrīban",
-      "de": "ungefähr",
-      "en": "about, almost",
-      "type": "Adverb",
-      "extra": "",
-      "ex_ar": "انتظرت ساعة تقريبا.",
-      "ex_de": "Ich habe ungefähr eine Stunde gewartet."
-    },
-    {
-      "ar": "تَحَسَّنَ",
-      "tr": "taḥassana",
-      "de": "sich verbessern",
-      "en": "to improve",
-      "type": "Verb",
-      "extra": "Präsens: يَتَحَسَّنُ",
-      "ex_ar": "تحسنت لغتي العربية.",
-      "ex_de": "Mein Arabisch hat sich verbessert."
+      "ar": "مَعْلُومَة",
+      "tr": "maʿlūma",
+      "de": "die Information",
+      "en": "the information",
+      "type": "Nomen",
+      "extra": "Pl. مَعْلُومَات",
+      "ex_ar": "أحتاج إلى معلومات أكثر.",
+      "ex_de": "Ich brauche mehr Informationen."
     }
   ],
   "days": {
-    "2026-10-22": {
-      "words": [
-        {
-          "ar": "مَاضٍ",
-          "tr": "māḍin",
-          "de": "die Vergangenheit",
-          "en": "the past",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "تعلمنا الكثير من الماضي.",
-          "ex_de": "Wir haben viel aus der Vergangenheit gelernt."
-        },
-        {
-          "ar": "اِتَّصَلَ",
-          "tr": "ittaṣala",
-          "de": "anrufen (بـ)",
-          "en": "to call",
-          "type": "Verb",
-          "extra": "Präsens: يَتَّصِلُ",
-          "ex_ar": "سأتصل بك مساء.",
-          "ex_de": "Ich rufe dich abends an."
-        },
-        {
-          "ar": "تَقْرِيبًا",
-          "tr": "taqrīban",
-          "de": "ungefähr",
-          "en": "about, almost",
-          "type": "Adverb",
-          "extra": "",
-          "ex_ar": "انتظرت ساعة تقريبا.",
-          "ex_de": "Ich habe ungefähr eine Stunde gewartet."
-        },
-        {
-          "ar": "تَحَسَّنَ",
-          "tr": "taḥassana",
-          "de": "sich verbessern",
-          "en": "to improve",
-          "type": "Verb",
-          "extra": "Präsens: يَتَحَسَّنُ",
-          "ex_ar": "تحسنت لغتي العربية.",
-          "ex_de": "Mein Arabisch hat sich verbessert."
-        }
-      ],
-      "gestern": [
-        "spannend, unterhaltsam",
-        "teilnehmen (في)",
-        "das Problem",
-        "die Gesundheit"
-      ]
-    },
     "2026-10-23": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "die Kindheit",
         "ähnlich",
         "andauern"
+      ]
+    },
+    "2026-10-30": {
+      "words": [
+        {
+          "ar": "نَظَّمَ",
+          "tr": "naẓẓama",
+          "de": "organisieren",
+          "en": "to organise",
+          "type": "Verb",
+          "extra": "Präsens: يُنَظِّمُ",
+          "ex_ar": "نظمنا حفلة لجدتي.",
+          "ex_de": "Wir haben eine Feier für Oma organisiert."
+        },
+        {
+          "ar": "مُسْتَقْبَل",
+          "tr": "mustaqbal",
+          "de": "die Zukunft",
+          "en": "the future",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "أفكر كثيرا في المستقبل.",
+          "ex_de": "Ich denke oft an die Zukunft."
+        },
+        {
+          "ar": "حَصَلَ",
+          "tr": "ḥaṣala",
+          "de": "bekommen (على)",
+          "en": "to get",
+          "type": "Verb",
+          "extra": "Präsens: يَحْصُلُ",
+          "ex_ar": "حصلت على وظيفة جديدة.",
+          "ex_de": "Ich habe eine neue Stelle bekommen."
+        },
+        {
+          "ar": "حَلّ",
+          "tr": "ḥall",
+          "de": "die Lösung",
+          "en": "the solution",
+          "type": "Nomen",
+          "extra": "Pl. حُلُول",
+          "ex_ar": "وجدنا حلا سريعا.",
+          "ex_de": "Wir haben schnell eine Lösung gefunden."
+        }
+      ],
+      "gestern": [
+        "die Hoffnung",
+        "verbieten, verhindern",
+        "zustimmen (على)",
+        "sich fühlen (بـ)"
       ]
     }
   }

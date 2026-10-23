@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-22T06:07:57Z",
-  "date": "2026-10-22",
+  "updated_at": "2026-10-23T00:00:14Z",
+  "date": "2026-10-23",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "to catch",
-      "de": "fangen",
+      "en": "budgie",
+      "de": "der Wellensittich",
+      "type": "Nomen",
+      "example": "Our budgie can say hello."
+    },
+    {
+      "en": "uncle",
+      "de": "der Onkel",
+      "type": "Nomen",
+      "example": "My uncle has a big dog."
+    },
+    {
+      "en": "to hurry",
+      "de": "sich beeilen",
       "type": "Verb",
-      "example": "Catch the ball!"
+      "example": "Hurry up, the bus is here!"
     },
     {
-      "en": "sometimes",
-      "de": "manchmal",
-      "type": "Adverb",
-      "example": "Sometimes I help Dad in the garden."
-    },
-    {
-      "en": "to swim",
-      "de": "schwimmen",
-      "type": "Verb",
-      "example": "Can you swim?"
-    },
-    {
-      "en": "loud",
-      "de": "laut",
-      "type": "Adjektiv",
-      "example": "The music is too loud."
+      "en": "hobby",
+      "de": "das Hobby",
+      "type": "Nomen",
+      "example": "My hobby is drawing comics."
     }
   ],
   "days": {
-    "2026-10-22": {
-      "words": [
-        {
-          "en": "to catch",
-          "de": "fangen",
-          "type": "Verb",
-          "example": "Catch the ball!"
-        },
-        {
-          "en": "sometimes",
-          "de": "manchmal",
-          "type": "Adverb",
-          "example": "Sometimes I help Dad in the garden."
-        },
-        {
-          "en": "to swim",
-          "de": "schwimmen",
-          "type": "Verb",
-          "example": "Can you swim?"
-        },
-        {
-          "en": "loud",
-          "de": "laut",
-          "type": "Adjektiv",
-          "example": "The music is too loud."
-        }
-      ],
-      "gestern": [
-        "spät",
-        "verlieren",
-        "durstig",
-        "erklären"
-      ]
-    },
     "2026-10-23": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "reiten, fahren",
         "verlassen, losgehen",
         "erzählen"
+      ]
+    },
+    "2026-10-30": {
+      "words": [
+        {
+          "en": "bedroom",
+          "de": "das Schlafzimmer",
+          "type": "Nomen",
+          "example": "My bedroom is small but cosy."
+        },
+        {
+          "en": "tomorrow",
+          "de": "morgen",
+          "type": "Adverb",
+          "example": "We have a test tomorrow."
+        },
+        {
+          "en": "exciting",
+          "de": "spannend",
+          "type": "Adjektiv",
+          "example": "The book is very exciting."
+        },
+        {
+          "en": "season",
+          "de": "die Jahreszeit",
+          "type": "Nomen",
+          "example": "Autumn is my favourite season."
+        }
+      ],
+      "gestern": [
+        "weinen",
+        "zuhören",
+        "nass",
+        "der Löffel"
       ]
     }
   }
