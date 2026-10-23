@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-23T16:52:51Z",
-  "updated_local": "23.10. 18:52",
+  "updated_at": "2026-10-23T21:17:28Z",
+  "updated_local": "23.10. 23:17",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -10,10 +10,10 @@
       "street": "Stadtrodaer Straße 102",
       "place": "Jena",
       "dist": "3,4 km",
-      "price_main": "2,09",
+      "price_main": "2,08",
       "price_sup": "9",
       "open": true,
-      "cheapest": false
+      "cheapest": true
     },
     {
       "n": 2,
@@ -21,9 +21,9 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "2,08",
+      "price_main": "2,01",
       "price_sup": "9",
-      "open": true,
+      "open": false,
       "cheapest": false
     },
     {
@@ -32,9 +32,9 @@
       "street": "Am Heerweg 33",
       "place": "Kahla",
       "dist": "4,8 km",
-      "price_main": "2,09",
+      "price_main": "2,08",
       "price_sup": "9",
-      "open": true,
+      "open": false,
       "cheapest": false
     },
     {
@@ -43,10 +43,10 @@
       "street": "Goeschwitzer Str. 1",
       "place": "Jena",
       "dist": "5,4 km",
-      "price_main": "2,06",
+      "price_main": "2,02",
       "price_sup": "9",
-      "open": true,
-      "cheapest": true
+      "open": false,
+      "cheapest": false
     }
   ],
   "karte": {
@@ -62,8 +62,8 @@
       },
       {
         "n": 2,
-        "x": 156.4,
-        "y": 110.3
+        "x": 153.0,
+        "y": 112.6
       },
       {
         "n": 3,
@@ -72,8 +72,8 @@
       },
       {
         "n": 4,
-        "x": 171.0,
-        "y": 84.3
+        "x": 167.7,
+        "y": 91.1
       }
     ],
     "others": [
@@ -88,24 +88,14 @@
         "ly": 29.3
       },
       {
-        "x": 139.2,
-        "y": 26.1,
-        "brand": "TotalEnergies",
-        "price_main": "2,07",
-        "price_sup": "9",
-        "anchor": "middle",
-        "lx": 139.2,
-        "ly": 14.1
-      },
-      {
-        "x": 145.1,
-        "y": 86.6,
-        "brand": "Shell",
+        "x": 157.2,
+        "y": 67.3,
+        "brand": "ARAL",
         "price_main": "2,09",
         "price_sup": "9",
-        "anchor": "end",
-        "lx": 136.1,
-        "ly": 91.6
+        "anchor": "start",
+        "lx": 166.2,
+        "ly": 72.3
       }
     ]
   },
