@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-23T06:03:08Z",
-  "date": "2026-10-23",
+  "updated_at": "2026-10-23T23:52:20Z",
+  "date": "2026-10-24",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "budgie",
-      "de": "der Wellensittich",
+      "en": "parents",
+      "de": "die Eltern",
       "type": "Nomen",
-      "example": "Our budgie can say hello."
+      "example": "My parents work in Jena."
     },
     {
-      "en": "uncle",
-      "de": "der Onkel",
-      "type": "Nomen",
-      "example": "My uncle has a big dog."
+      "en": "angry",
+      "de": "wütend",
+      "type": "Adjektiv",
+      "example": "Don't be angry with me!"
     },
     {
-      "en": "to hurry",
-      "de": "sich beeilen",
+      "en": "guinea pig",
+      "de": "das Meerschweinchen",
+      "type": "Nomen",
+      "example": "My guinea pig eats carrots."
+    },
+    {
+      "en": "to remember",
+      "de": "sich erinnern",
       "type": "Verb",
-      "example": "Hurry up, the bus is here!"
-    },
-    {
-      "en": "hobby",
-      "de": "das Hobby",
-      "type": "Nomen",
-      "example": "My hobby is drawing comics."
+      "example": "I can't remember his name."
     }
   ],
   "days": {
-    "2026-10-23": {
-      "words": [
-        {
-          "en": "budgie",
-          "de": "der Wellensittich",
-          "type": "Nomen",
-          "example": "Our budgie can say hello."
-        },
-        {
-          "en": "uncle",
-          "de": "der Onkel",
-          "type": "Nomen",
-          "example": "My uncle has a big dog."
-        },
-        {
-          "en": "to hurry",
-          "de": "sich beeilen",
-          "type": "Verb",
-          "example": "Hurry up, the bus is here!"
-        },
-        {
-          "en": "hobby",
-          "de": "das Hobby",
-          "type": "Nomen",
-          "example": "My hobby is drawing comics."
-        }
-      ],
-      "gestern": [
-        "fangen",
-        "manchmal",
-        "schwimmen",
-        "laut"
-      ]
-    },
     "2026-10-24": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "zuhören",
         "nass",
         "der Löffel"
+      ]
+    },
+    "2026-10-31": {
+      "words": [
+        {
+          "en": "delicious",
+          "de": "lecker",
+          "type": "Adjektiv",
+          "example": "This soup is delicious!"
+        },
+        {
+          "en": "question",
+          "de": "die Frage",
+          "type": "Nomen",
+          "example": "Can I ask a question?"
+        },
+        {
+          "en": "garden",
+          "de": "der Garten",
+          "type": "Nomen",
+          "example": "We have an apple tree in our garden."
+        },
+        {
+          "en": "to throw",
+          "de": "werfen",
+          "type": "Verb",
+          "example": "Throw the ball to me!"
+        }
+      ],
+      "gestern": [
+        "das Schlafzimmer",
+        "morgen",
+        "spannend",
+        "die Jahreszeit"
       ]
     }
   }
