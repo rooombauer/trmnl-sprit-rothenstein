@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-24T05:56:08Z",
-  "date": "2026-10-24",
+  "updated_at": "2026-10-24T23:18:17Z",
+  "date": "2026-10-25",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "وَقْت",
-      "tr": "waqt",
-      "de": "die Zeit",
-      "en": "the time",
+      "ar": "اِهْتِمَام",
+      "tr": "ihtimām",
+      "de": "das Interesse",
+      "en": "the interest",
       "type": "Nomen",
-      "extra": "Pl. أَوْقَات",
-      "ex_ar": "ليس عندي وقت الآن.",
-      "ex_de": "Ich habe jetzt keine Zeit."
+      "extra": "Pl. اِهْتِمَامَات",
+      "ex_ar": "عندي اهتمام كبير بالتاريخ.",
+      "ex_de": "Ich habe großes Interesse an Geschichte."
     },
     {
-      "ar": "جَامِعَة",
-      "tr": "ǧāmiʿa",
-      "de": "die Universität",
-      "en": "the university",
+      "ar": "نَجَاح",
+      "tr": "naǧāḥ",
+      "de": "der Erfolg",
+      "en": "the success",
       "type": "Nomen",
-      "extra": "Pl. جَامِعَات",
-      "ex_ar": "تدرس في جامعة يينا.",
-      "ex_de": "Sie studiert an der Universität Jena."
+      "extra": "",
+      "ex_ar": "نتمنى لك النجاح.",
+      "ex_de": "Wir wünschen dir Erfolg."
     },
     {
-      "ar": "نَجَحَ",
-      "tr": "naǧaḥa",
-      "de": "bestehen, Erfolg haben",
-      "en": "to succeed",
-      "type": "Verb",
-      "extra": "Präsens: يَنْجَحُ",
-      "ex_ar": "نجح أخي في الامتحان.",
-      "ex_de": "Mein Bruder hat die Prüfung bestanden."
-    },
-    {
-      "ar": "غَالٍ",
-      "tr": "ġālin",
-      "de": "teuer",
-      "en": "expensive",
+      "ar": "هَادِئ",
+      "tr": "hādiʾ",
+      "de": "ruhig",
+      "en": "quiet, calm",
       "type": "Adjektiv",
-      "extra": "f. غَالِيَة",
-      "ex_ar": "هذا المعطف غال.",
-      "ex_de": "Dieser Mantel ist teuer."
+      "extra": "f. هَادِئَة",
+      "ex_ar": "نسكن في حي هادئ.",
+      "ex_de": "Wir wohnen in einem ruhigen Viertel."
+    },
+    {
+      "ar": "مِنَ الْمُمْكِن",
+      "tr": "mina l-mumkin",
+      "de": "es ist möglich",
+      "en": "it is possible",
+      "type": "Redewendung",
+      "extra": "",
+      "ex_ar": "من الممكن أن نلتقي غدا.",
+      "ex_de": "Es ist möglich, dass wir uns morgen treffen."
     }
   ],
   "days": {
-    "2026-10-24": {
-      "words": [
-        {
-          "ar": "وَقْت",
-          "tr": "waqt",
-          "de": "die Zeit",
-          "en": "the time",
-          "type": "Nomen",
-          "extra": "Pl. أَوْقَات",
-          "ex_ar": "ليس عندي وقت الآن.",
-          "ex_de": "Ich habe jetzt keine Zeit."
-        },
-        {
-          "ar": "جَامِعَة",
-          "tr": "ǧāmiʿa",
-          "de": "die Universität",
-          "en": "the university",
-          "type": "Nomen",
-          "extra": "Pl. جَامِعَات",
-          "ex_ar": "تدرس في جامعة يينا.",
-          "ex_de": "Sie studiert an der Universität Jena."
-        },
-        {
-          "ar": "نَجَحَ",
-          "tr": "naǧaḥa",
-          "de": "bestehen, Erfolg haben",
-          "en": "to succeed",
-          "type": "Verb",
-          "extra": "Präsens: يَنْجَحُ",
-          "ex_ar": "نجح أخي في الامتحان.",
-          "ex_de": "Mein Bruder hat die Prüfung bestanden."
-        },
-        {
-          "ar": "غَالٍ",
-          "tr": "ġālin",
-          "de": "teuer",
-          "en": "expensive",
-          "type": "Adjektiv",
-          "extra": "f. غَالِيَة",
-          "ex_ar": "هذا المعطف غال.",
-          "ex_de": "Dieser Mantel ist teuer."
-        }
-      ],
-      "gestern": [
-        "sich ausruhen",
-        "die Berufserfahrung",
-        "beenden",
-        "die Information"
-      ]
-    },
     "2026-10-25": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "die Zukunft",
         "bekommen (على)",
         "die Lösung"
+      ]
+    },
+    "2026-11-01": {
+      "words": [
+        {
+          "ar": "ذِكْرَى",
+          "tr": "ḏikrā",
+          "de": "die Erinnerung",
+          "en": "the memory",
+          "type": "Nomen",
+          "extra": "Pl. ذِكْرَيَات",
+          "ex_ar": "عندي ذكريات جميلة من طفولتي.",
+          "ex_de": "Ich habe schöne Erinnerungen an meine Kindheit."
+        },
+        {
+          "ar": "صَحِيح",
+          "tr": "ṣaḥīḥ",
+          "de": "richtig",
+          "en": "correct",
+          "type": "Adjektiv",
+          "extra": "f. صَحِيحَة",
+          "ex_ar": "هذا صحيح تماما.",
+          "ex_de": "Das ist völlig richtig."
+        },
+        {
+          "ar": "لَكِنْ",
+          "tr": "lākin",
+          "de": "aber",
+          "en": "but",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "أريد أن آتي، لكن ليس عندي وقت.",
+          "ex_de": "Ich möchte kommen, aber ich habe keine Zeit."
+        },
+        {
+          "ar": "شَرِكَة",
+          "tr": "šarika",
+          "de": "die Firma",
+          "en": "the company",
+          "type": "Nomen",
+          "extra": "Pl. شَرِكَات",
+          "ex_ar": "يعمل في شركة كبيرة.",
+          "ex_de": "Er arbeitet in einer großen Firma."
+        }
+      ],
+      "gestern": [
+        "die Wohnung",
+        "mach es dir bequem",
+        "empfangen",
+        "die Natur"
       ]
     }
   }

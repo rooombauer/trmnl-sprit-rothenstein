@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-24T05:56:08Z",
-  "date": "2026-10-24",
+  "updated_at": "2026-10-24T23:18:17Z",
+  "date": "2026-10-25",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "parents",
-      "de": "die Eltern",
+      "en": "jacket",
+      "de": "die Jacke",
       "type": "Nomen",
-      "example": "My parents work in Jena."
+      "example": "It's cold. Wear your jacket!"
     },
     {
-      "en": "angry",
-      "de": "wütend",
-      "type": "Adjektiv",
-      "example": "Don't be angry with me!"
+      "en": "It's my turn.",
+      "de": "Ich bin dran.",
+      "type": "Redewendung",
+      "example": "Give me the dice, it's my turn!"
     },
     {
-      "en": "guinea pig",
-      "de": "das Meerschweinchen",
-      "type": "Nomen",
-      "example": "My guinea pig eats carrots."
-    },
-    {
-      "en": "to remember",
-      "de": "sich erinnern",
+      "en": "to wait",
+      "de": "warten",
       "type": "Verb",
-      "example": "I can't remember his name."
+      "example": "Wait for me, please!"
+    },
+    {
+      "en": "easy",
+      "de": "leicht, einfach",
+      "type": "Adjektiv",
+      "example": "The test was easy."
     }
   ],
   "days": {
-    "2026-10-24": {
-      "words": [
-        {
-          "en": "parents",
-          "de": "die Eltern",
-          "type": "Nomen",
-          "example": "My parents work in Jena."
-        },
-        {
-          "en": "angry",
-          "de": "wütend",
-          "type": "Adjektiv",
-          "example": "Don't be angry with me!"
-        },
-        {
-          "en": "guinea pig",
-          "de": "das Meerschweinchen",
-          "type": "Nomen",
-          "example": "My guinea pig eats carrots."
-        },
-        {
-          "en": "to remember",
-          "de": "sich erinnern",
-          "type": "Verb",
-          "example": "I can't remember his name."
-        }
-      ],
-      "gestern": [
-        "der Wellensittich",
-        "der Onkel",
-        "sich beeilen",
-        "das Hobby"
-      ]
-    },
     "2026-10-25": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "morgen",
         "spannend",
         "die Jahreszeit"
+      ]
+    },
+    "2026-11-01": {
+      "words": [
+        {
+          "en": "to arrive",
+          "de": "ankommen",
+          "type": "Verb",
+          "example": "The train arrives at seven."
+        },
+        {
+          "en": "clothes",
+          "de": "die Kleidung",
+          "type": "Nomen",
+          "example": "Put your clothes in the cupboard."
+        },
+        {
+          "en": "homework",
+          "de": "die Hausaufgaben",
+          "type": "Nomen",
+          "example": "I always do my homework after lunch."
+        },
+        {
+          "en": "quiet",
+          "de": "leise, ruhig",
+          "type": "Adjektiv",
+          "example": "Please be quiet in the library."
+        }
+      ],
+      "gestern": [
+        "lecker",
+        "die Frage",
+        "der Garten",
+        "werfen"
       ]
     }
   }
