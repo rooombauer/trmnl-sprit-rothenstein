@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-10-25T15:56:57Z",
-  "updated_local": "25.10. 16:56",
+  "updated_at": "2026-10-25T18:51:39Z",
+  "updated_local": "25.10. 19:51",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -21,10 +21,10 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "2,23",
+      "price_main": "2,10",
       "price_sup": "9",
       "open": true,
-      "cheapest": false
+      "cheapest": true
     },
     {
       "n": 3,
@@ -35,7 +35,7 @@
       "price_main": "2,13",
       "price_sup": "9",
       "open": true,
-      "cheapest": true
+      "cheapest": false
     },
     {
       "n": 4,
@@ -43,7 +43,7 @@
       "street": "Goeschwitzer Str. 1",
       "place": "Jena",
       "dist": "5,4 km",
-      "price_main": "2,13",
+      "price_main": "2,11",
       "price_sup": "9",
       "open": true,
       "cheapest": false
@@ -78,6 +78,16 @@
     ],
     "others": [
       {
+        "x": 145.1,
+        "y": 86.6,
+        "brand": "Shell",
+        "price_main": "2,11",
+        "price_sup": "9",
+        "anchor": "end",
+        "lx": 136.1,
+        "ly": 91.6
+      },
+      {
         "x": 227.9,
         "y": 24.3,
         "brand": "LEO",
@@ -86,16 +96,6 @@
         "anchor": "start",
         "lx": 236.9,
         "ly": 29.3
-      },
-      {
-        "x": 145.1,
-        "y": 86.6,
-        "brand": "Shell",
-        "price_main": "2,13",
-        "price_sup": "9",
-        "anchor": "end",
-        "lx": 136.1,
-        "ly": 91.6
       },
       {
         "x": 139.2,
