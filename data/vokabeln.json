@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-25T06:09:52Z",
-  "date": "2026-10-25",
+  "updated_at": "2026-10-25T23:18:27Z",
+  "date": "2026-10-26",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "jacket",
-      "de": "die Jacke",
-      "type": "Nomen",
-      "example": "It's cold. Wear your jacket!"
-    },
-    {
-      "en": "It's my turn.",
-      "de": "Ich bin dran.",
+      "en": "What's the matter?",
+      "de": "Was ist los?",
       "type": "Redewendung",
-      "example": "Give me the dice, it's my turn!"
+      "example": "You look sad. What's the matter?"
     },
     {
-      "en": "to wait",
-      "de": "warten",
-      "type": "Verb",
-      "example": "Wait for me, please!"
+      "en": "often",
+      "de": "oft",
+      "type": "Adverb",
+      "example": "We often play board games."
     },
     {
-      "en": "easy",
-      "de": "leicht, einfach",
-      "type": "Adjektiv",
-      "example": "The test was easy."
+      "en": "living room",
+      "de": "das Wohnzimmer",
+      "type": "Nomen",
+      "example": "The TV is in the living room."
+    },
+    {
+      "en": "cheese",
+      "de": "der Käse",
+      "type": "Nomen",
+      "example": "I like cheese on my sandwich."
     }
   ],
   "days": {
-    "2026-10-25": {
-      "words": [
-        {
-          "en": "jacket",
-          "de": "die Jacke",
-          "type": "Nomen",
-          "example": "It's cold. Wear your jacket!"
-        },
-        {
-          "en": "It's my turn.",
-          "de": "Ich bin dran.",
-          "type": "Redewendung",
-          "example": "Give me the dice, it's my turn!"
-        },
-        {
-          "en": "to wait",
-          "de": "warten",
-          "type": "Verb",
-          "example": "Wait for me, please!"
-        },
-        {
-          "en": "easy",
-          "de": "leicht, einfach",
-          "type": "Adjektiv",
-          "example": "The test was easy."
-        }
-      ],
-      "gestern": [
-        "die Eltern",
-        "wütend",
-        "das Meerschweinchen",
-        "sich erinnern"
-      ]
-    },
     "2026-10-26": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "die Frage",
         "der Garten",
         "werfen"
+      ]
+    },
+    "2026-11-02": {
+      "words": [
+        {
+          "en": "to write",
+          "de": "schreiben",
+          "type": "Verb",
+          "example": "Please write your name on the paper."
+        },
+        {
+          "en": "grandma",
+          "de": "die Oma",
+          "type": "Nomen",
+          "example": "We visit my grandma on Sundays."
+        },
+        {
+          "en": "present",
+          "de": "das Geschenk",
+          "type": "Nomen",
+          "example": "Thank you for the present!"
+        },
+        {
+          "en": "to tidy up",
+          "de": "aufräumen",
+          "type": "Verb",
+          "example": "Please tidy up your room."
+        }
+      ],
+      "gestern": [
+        "ankommen",
+        "die Kleidung",
+        "die Hausaufgaben",
+        "leise, ruhig"
       ]
     }
   }

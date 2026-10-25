@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-25T06:09:52Z",
-  "date": "2026-10-25",
+  "updated_at": "2026-10-25T23:18:27Z",
+  "date": "2026-10-26",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "اِهْتِمَام",
-      "tr": "ihtimām",
-      "de": "das Interesse",
-      "en": "the interest",
+      "ar": "خَبَر",
+      "tr": "ḫabar",
+      "de": "die Neuigkeit",
+      "en": "the news",
       "type": "Nomen",
-      "extra": "Pl. اِهْتِمَامَات",
-      "ex_ar": "عندي اهتمام كبير بالتاريخ.",
-      "ex_de": "Ich habe großes Interesse an Geschichte."
+      "extra": "Pl. أَخْبَار",
+      "ex_ar": "هل سمعت الأخبار؟",
+      "ex_de": "Hast du die Nachrichten gehört?"
     },
     {
-      "ar": "نَجَاح",
-      "tr": "naǧāḥ",
-      "de": "der Erfolg",
-      "en": "the success",
-      "type": "Nomen",
-      "extra": "",
-      "ex_ar": "نتمنى لك النجاح.",
-      "ex_de": "Wir wünschen dir Erfolg."
-    },
-    {
-      "ar": "هَادِئ",
-      "tr": "hādiʾ",
-      "de": "ruhig",
-      "en": "quiet, calm",
+      "ar": "خَاطِئ",
+      "tr": "ḫāṭiʾ",
+      "de": "falsch",
+      "en": "wrong",
       "type": "Adjektiv",
-      "extra": "f. هَادِئَة",
-      "ex_ar": "نسكن في حي هادئ.",
-      "ex_de": "Wir wohnen in einem ruhigen Viertel."
+      "extra": "f. خَاطِئَة",
+      "ex_ar": "الجواب خاطئ.",
+      "ex_de": "Die Antwort ist falsch."
     },
     {
-      "ar": "مِنَ الْمُمْكِن",
-      "tr": "mina l-mumkin",
-      "de": "es ist möglich",
-      "en": "it is possible",
-      "type": "Redewendung",
-      "extra": "",
-      "ex_ar": "من الممكن أن نلتقي غدا.",
-      "ex_de": "Es ist möglich, dass wir uns morgen treffen."
+      "ar": "رَخِيص",
+      "tr": "raḫīṣ",
+      "de": "billig",
+      "en": "cheap",
+      "type": "Adjektiv",
+      "extra": "f. رَخِيصَة",
+      "ex_ar": "الخضار رخيصة في السوق.",
+      "ex_de": "Das Gemüse ist auf dem Markt billig."
+    },
+    {
+      "ar": "شُعُور",
+      "tr": "šuʿūr",
+      "de": "das Gefühl",
+      "en": "the feeling",
+      "type": "Nomen",
+      "extra": "Pl. مَشَاعِر",
+      "ex_ar": "عندي شعور جميل اليوم.",
+      "ex_de": "Ich habe heute ein schönes Gefühl."
     }
   ],
   "days": {
-    "2026-10-25": {
-      "words": [
-        {
-          "ar": "اِهْتِمَام",
-          "tr": "ihtimām",
-          "de": "das Interesse",
-          "en": "the interest",
-          "type": "Nomen",
-          "extra": "Pl. اِهْتِمَامَات",
-          "ex_ar": "عندي اهتمام كبير بالتاريخ.",
-          "ex_de": "Ich habe großes Interesse an Geschichte."
-        },
-        {
-          "ar": "نَجَاح",
-          "tr": "naǧāḥ",
-          "de": "der Erfolg",
-          "en": "the success",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "نتمنى لك النجاح.",
-          "ex_de": "Wir wünschen dir Erfolg."
-        },
-        {
-          "ar": "هَادِئ",
-          "tr": "hādiʾ",
-          "de": "ruhig",
-          "en": "quiet, calm",
-          "type": "Adjektiv",
-          "extra": "f. هَادِئَة",
-          "ex_ar": "نسكن في حي هادئ.",
-          "ex_de": "Wir wohnen in einem ruhigen Viertel."
-        },
-        {
-          "ar": "مِنَ الْمُمْكِن",
-          "tr": "mina l-mumkin",
-          "de": "es ist möglich",
-          "en": "it is possible",
-          "type": "Redewendung",
-          "extra": "",
-          "ex_ar": "من الممكن أن نلتقي غدا.",
-          "ex_de": "Es ist möglich, dass wir uns morgen treffen."
-        }
-      ],
-      "gestern": [
-        "die Zeit",
-        "die Universität",
-        "bestehen, Erfolg haben",
-        "teuer"
-      ]
-    },
     "2026-10-26": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "mach es dir bequem",
         "empfangen",
         "die Natur"
+      ]
+    },
+    "2026-11-02": {
+      "words": [
+        {
+          "ar": "رَفَضَ",
+          "tr": "rafaḍa",
+          "de": "ablehnen",
+          "en": "to refuse",
+          "type": "Verb",
+          "extra": "Präsens: يَرْفُضُ",
+          "ex_ar": "رفض العرض.",
+          "ex_de": "Er hat das Angebot abgelehnt."
+        },
+        {
+          "ar": "تَذَكَّرَ",
+          "tr": "taḏakkara",
+          "de": "sich erinnern",
+          "en": "to remember",
+          "type": "Verb",
+          "extra": "Präsens: يَتَذَكَّرُ",
+          "ex_ar": "هل تتذكر اسمه؟",
+          "ex_de": "Erinnerst du dich an seinen Namen?"
+        },
+        {
+          "ar": "مُجْتَمَع",
+          "tr": "muǧtamaʿ",
+          "de": "die Gesellschaft",
+          "en": "the society",
+          "type": "Nomen",
+          "extra": "Pl. مُجْتَمَعَات",
+          "ex_ar": "التعليم مهم للمجتمع.",
+          "ex_de": "Bildung ist wichtig für die Gesellschaft."
+        },
+        {
+          "ar": "تَوَقَّفَ",
+          "tr": "tawaqqafa",
+          "de": "anhalten, aufhören",
+          "en": "to stop",
+          "type": "Verb",
+          "extra": "Präsens: يَتَوَقَّفُ",
+          "ex_ar": "توقف القطار في المحطة.",
+          "ex_de": "Der Zug hielt am Bahnhof."
+        }
+      ],
+      "gestern": [
+        "die Erinnerung",
+        "richtig",
+        "aber",
+        "die Firma"
       ]
     }
   }
