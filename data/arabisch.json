@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-26T06:16:47Z",
-  "date": "2026-10-26",
+  "updated_at": "2026-10-27T00:29:07Z",
+  "date": "2026-10-27",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "خَبَر",
-      "tr": "ḫabar",
-      "de": "die Neuigkeit",
-      "en": "the news",
+      "ar": "مَوْعِد",
+      "tr": "mauʿid",
+      "de": "der Termin",
+      "en": "the appointment",
       "type": "Nomen",
-      "extra": "Pl. أَخْبَار",
-      "ex_ar": "هل سمعت الأخبار؟",
-      "ex_de": "Hast du die Nachrichten gehört?"
+      "extra": "Pl. مَوَاعِيد",
+      "ex_ar": "عندي موعد عند الطبيب غدا.",
+      "ex_de": "Ich habe morgen einen Arzttermin."
     },
     {
-      "ar": "خَاطِئ",
-      "tr": "ḫāṭiʾ",
-      "de": "falsch",
-      "en": "wrong",
+      "ar": "مَشْهُور",
+      "tr": "mašhūr",
+      "de": "berühmt",
+      "en": "famous",
       "type": "Adjektiv",
-      "extra": "f. خَاطِئَة",
-      "ex_ar": "الجواب خاطئ.",
-      "ex_de": "Die Antwort ist falsch."
+      "extra": "f. مَشْهُورَة",
+      "ex_ar": "هذا مطعم مشهور.",
+      "ex_de": "Das ist ein berühmtes Restaurant."
     },
     {
-      "ar": "رَخِيص",
-      "tr": "raḫīṣ",
-      "de": "billig",
-      "en": "cheap",
+      "ar": "مُفِيد",
+      "tr": "mufīd",
+      "de": "nützlich",
+      "en": "useful",
       "type": "Adjektiv",
-      "extra": "f. رَخِيصَة",
-      "ex_ar": "الخضار رخيصة في السوق.",
-      "ex_de": "Das Gemüse ist auf dem Markt billig."
+      "extra": "f. مُفِيدَة",
+      "ex_ar": "هذه نصيحة مفيدة.",
+      "ex_de": "Das ist ein nützlicher Rat."
     },
     {
-      "ar": "شُعُور",
-      "tr": "šuʿūr",
-      "de": "das Gefühl",
-      "en": "the feeling",
-      "type": "Nomen",
-      "extra": "Pl. مَشَاعِر",
-      "ex_ar": "عندي شعور جميل اليوم.",
-      "ex_de": "Ich habe heute ein schönes Gefühl."
+      "ar": "بَدَأَ",
+      "tr": "badaʾa",
+      "de": "anfangen",
+      "en": "to begin",
+      "type": "Verb",
+      "extra": "Präsens: يَبْدَأُ",
+      "ex_ar": "يبدأ الفيلم في الساعة الثامنة.",
+      "ex_de": "Der Film beginnt um acht Uhr."
     }
   ],
   "days": {
-    "2026-10-26": {
-      "words": [
-        {
-          "ar": "خَبَر",
-          "tr": "ḫabar",
-          "de": "die Neuigkeit",
-          "en": "the news",
-          "type": "Nomen",
-          "extra": "Pl. أَخْبَار",
-          "ex_ar": "هل سمعت الأخبار؟",
-          "ex_de": "Hast du die Nachrichten gehört?"
-        },
-        {
-          "ar": "خَاطِئ",
-          "tr": "ḫāṭiʾ",
-          "de": "falsch",
-          "en": "wrong",
-          "type": "Adjektiv",
-          "extra": "f. خَاطِئَة",
-          "ex_ar": "الجواب خاطئ.",
-          "ex_de": "Die Antwort ist falsch."
-        },
-        {
-          "ar": "رَخِيص",
-          "tr": "raḫīṣ",
-          "de": "billig",
-          "en": "cheap",
-          "type": "Adjektiv",
-          "extra": "f. رَخِيصَة",
-          "ex_ar": "الخضار رخيصة في السوق.",
-          "ex_de": "Das Gemüse ist auf dem Markt billig."
-        },
-        {
-          "ar": "شُعُور",
-          "tr": "šuʿūr",
-          "de": "das Gefühl",
-          "en": "the feeling",
-          "type": "Nomen",
-          "extra": "Pl. مَشَاعِر",
-          "ex_ar": "عندي شعور جميل اليوم.",
-          "ex_de": "Ich habe heute ein schönes Gefühl."
-        }
-      ],
-      "gestern": [
-        "das Interesse",
-        "der Erfolg",
-        "ruhig",
-        "es ist möglich"
-      ]
-    },
     "2026-10-27": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "richtig",
         "aber",
         "die Firma"
+      ]
+    },
+    "2026-11-03": {
+      "words": [
+        {
+          "ar": "اِقْتَرَحَ",
+          "tr": "iqtaraḥa",
+          "de": "vorschlagen",
+          "en": "to suggest",
+          "type": "Verb",
+          "extra": "Präsens: يَقْتَرِحُ",
+          "ex_ar": "أقترح أن نلتقي غدا.",
+          "ex_de": "Ich schlage vor, dass wir uns morgen treffen."
+        },
+        {
+          "ar": "حَفْلَة",
+          "tr": "ḥafla",
+          "de": "die Feier",
+          "en": "the party",
+          "type": "Nomen",
+          "extra": "Pl. حَفَلَات",
+          "ex_ar": "كانت الحفلة رائعة.",
+          "ex_de": "Die Feier war toll."
+        },
+        {
+          "ar": "مَسْؤُول",
+          "tr": "masʾūl",
+          "de": "verantwortlich",
+          "en": "responsible",
+          "type": "Adjektiv",
+          "extra": "f. مَسْؤُولَة",
+          "ex_ar": "من المسؤول عن هذا؟",
+          "ex_de": "Wer ist dafür verantwortlich?"
+        },
+        {
+          "ar": "طَرِيق",
+          "tr": "ṭarīq",
+          "de": "der Weg",
+          "en": "the way, the road",
+          "type": "Nomen",
+          "extra": "Pl. طُرُق",
+          "ex_ar": "الطريق إلى العمل طويل.",
+          "ex_de": "Der Weg zur Arbeit ist lang."
+        }
+      ],
+      "gestern": [
+        "ablehnen",
+        "sich erinnern",
+        "die Gesellschaft",
+        "anhalten, aufhören"
       ]
     }
   }

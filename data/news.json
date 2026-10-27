@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-10-26T06:16:51Z",
-  "date": "2026-10-26",
+  "updated_at": "2026-10-27T00:29:12Z",
+  "date": "2026-10-27",
   "local": [
     {
-      "title": "Schwimmen in Jena wird ab 2027 teurer",
-      "teaser": "Stadt erwartet durch die Tariferhöhung rund 55.000 Euro Mehrumsatz pro Jahr.",
+      "title": "„Ein langer Weg ist schon geschafft“: Jenaer Elterninitiative macht Familie aus Saale-Orla-Kreis Mut",
+      "teaser": "Wird nicht allein gelassen: Als Clemens aus Neustadt an der Orla nach dem …",
       "source": "OTZ Jena"
     },
     {
-      "title": "Täglich ehrenamtlich im Einsatz für Zwätzen: Waldemar Kühner feiert 75.",
-      "teaser": "Der Ortsteilbürgermeister feiert Geburtstag mit Polit-Prominenz und nutzt den Anlass, um …",
-      "source": "OTZ Jena"
+      "title": "Finanzen im Ruhestand: Orientierung für Seniorinnen, Senioren und ihre Angehörigen",
+      "teaser": "Veranstaltung in den Jenaer Erlenhöfen",
+      "source": "Stadt Jena"
     }
   ],
   "world": [
     {
-      "title": "Dänemark beendet die Nerzzucht: Letzte Farmen schließen bis 2029",
-      "teaser": "Dänemark verzichtet auf eine Ausnahme vom EU-Verbot.",
+      "title": "Das größte Batterieflugzeug ist abgehoben – was bedeutet das fürs Fliegen?",
+      "teaser": "Ein elf Tonnen schweres Elektroflugzeug ist erstmals geflogen.",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Schwimmen in Jena wird ab 2027 teurer",
-      "teaser": "Stadt erwartet durch die Tariferhöhung rund 55.000 Euro Mehrumsatz pro Jahr.",
+      "title": "„Ein langer Weg ist schon geschafft“: Jenaer Elterninitiative macht Familie aus Saale-Orla-Kreis Mut",
+      "teaser": "Wird nicht allein gelassen: Als Clemens aus Neustadt an der Orla nach dem …",
       "source": "OTZ Jena"
     },
     {
-      "title": "Täglich ehrenamtlich im Einsatz für Zwätzen: Waldemar Kühner feiert 75.",
-      "teaser": "Der Ortsteilbürgermeister feiert Geburtstag mit Polit-Prominenz und nutzt den Anlass, um …",
-      "source": "OTZ Jena"
+      "title": "Finanzen im Ruhestand: Orientierung für Seniorinnen, Senioren und ihre Angehörigen",
+      "teaser": "Veranstaltung in den Jenaer Erlenhöfen",
+      "source": "Stadt Jena"
     },
     {
-      "title": "Dänemark beendet die Nerzzucht: Letzte Farmen schließen bis 2029",
-      "teaser": "Dänemark verzichtet auf eine Ausnahme vom EU-Verbot.",
+      "title": "Das größte Batterieflugzeug ist abgehoben – was bedeutet das fürs Fliegen?",
+      "teaser": "Ein elf Tonnen schweres Elektroflugzeug ist erstmals geflogen.",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Hans kann nicht Lügen! Wieso?\nHans ist schwindelfrei!",
+  "joke": "Lehrer: \"Wo wurde der Friedensvertrag von 1918 unterschrieben?\"\nSchüler: \"Unten rechts?\"",
   "jokes_by_day": {
-    "2026-10-26": "Hans kann nicht Lügen! Wieso?\nHans ist schwindelfrei!",
     "2026-10-27": "Lehrer: \"Wo wurde der Friedensvertrag von 1918 unterschrieben?\"\nSchüler: \"Unten rechts?\"",
     "2026-10-28": "Warum ist ein Backofen wütend? Weil er auf 180 ist.",
     "2026-10-29": "Treffen sich zwei Deutschlehrer am Strand. „Genitiv ins Wasser!“ – „Wieso, ist es Dativ?“",
     "2026-10-30": "Alle schlafen, einer spricht, sowas nennt man Unterricht.",
     "2026-10-31": "Ich habe beim Metzger angerufen, aber da ging kein Schwein dran.",
     "2026-11-01": "Warum war der Fisch so nervig?\nEr ist ein Stör.",
-    "2026-11-02": "Ich esse nicht jede Sorte Chips. Ich bin da sehr pringelig."
+    "2026-11-02": "Ich esse nicht jede Sorte Chips. Ich bin da sehr pringelig.",
+    "2026-11-03": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\""
   },
-  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, OTZ Jena, Stadt Jena · Witze: witzapi.de"
 }
