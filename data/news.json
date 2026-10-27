@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-10-27T00:29:12Z",
+  "updated_at": "2026-10-27T06:18:37Z",
   "date": "2026-10-27",
   "local": [
+    {
+      "title": "Botanischer Garten Jena im zauberhaften Licht: Welche Motive es noch bei der Auktion gibt",
+      "teaser": "Bei der Charityaktion in der Goethe Galerie sind am Dienstag acht Bilder zu haben: Diese …",
+      "source": "OTZ Jena"
+    },
     {
       "title": "„Ein langer Weg ist schon geschafft“: Jenaer Elterninitiative macht Familie aus Saale-Orla-Kreis Mut",
       "teaser": "Wird nicht allein gelassen: Als Clemens aus Neustadt an der Orla nach dem …",
       "source": "OTZ Jena"
-    },
-    {
-      "title": "Finanzen im Ruhestand: Orientierung für Seniorinnen, Senioren und ihre Angehörigen",
-      "teaser": "Veranstaltung in den Jenaer Erlenhöfen",
-      "source": "Stadt Jena"
     }
   ],
   "world": [
@@ -22,14 +22,14 @@
   ],
   "items": [
     {
-      "title": "„Ein langer Weg ist schon geschafft“: Jenaer Elterninitiative macht Familie aus Saale-Orla-Kreis Mut",
-      "teaser": "Wird nicht allein gelassen: Als Clemens aus Neustadt an der Orla nach dem …",
+      "title": "Botanischer Garten Jena im zauberhaften Licht: Welche Motive es noch bei der Auktion gibt",
+      "teaser": "Bei der Charityaktion in der Goethe Galerie sind am Dienstag acht Bilder zu haben: Diese …",
       "source": "OTZ Jena"
     },
     {
-      "title": "Finanzen im Ruhestand: Orientierung für Seniorinnen, Senioren und ihre Angehörigen",
-      "teaser": "Veranstaltung in den Jenaer Erlenhöfen",
-      "source": "Stadt Jena"
+      "title": "„Ein langer Weg ist schon geschafft“: Jenaer Elterninitiative macht Familie aus Saale-Orla-Kreis Mut",
+      "teaser": "Wird nicht allein gelassen: Als Clemens aus Neustadt an der Orla nach dem …",
+      "source": "OTZ Jena"
     },
     {
       "title": "Das größte Batterieflugzeug ist abgehoben – was bedeutet das fürs Fliegen?",
@@ -48,5 +48,5 @@
     "2026-11-02": "Ich esse nicht jede Sorte Chips. Ich bin da sehr pringelig.",
     "2026-11-03": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\""
   },
-  "source": "Good News Magazin, OTZ Jena, Stadt Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
 }
