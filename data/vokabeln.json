@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-27T06:18:31Z",
-  "date": "2026-10-27",
+  "updated_at": "2026-10-28T00:32:17Z",
+  "date": "2026-10-28",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "to read",
-      "de": "lesen",
+      "en": "lunch",
+      "de": "das Mittagessen",
+      "type": "Nomen",
+      "example": "What's for lunch today?"
+    },
+    {
+      "en": "to ride",
+      "de": "reiten, fahren",
       "type": "Verb",
-      "example": "I read a book every evening."
+      "example": "I ride my bike to school."
     },
     {
-      "en": "holidays",
-      "de": "die Ferien",
-      "type": "Nomen",
-      "example": "We go to the sea in the holidays."
+      "en": "to leave",
+      "de": "verlassen, losgehen",
+      "type": "Verb",
+      "example": "We leave the house at seven."
     },
     {
-      "en": "hungry",
-      "de": "hungrig",
-      "type": "Adjektiv",
-      "example": "I'm hungry. What's for breakfast?"
-    },
-    {
-      "en": "village",
-      "de": "das Dorf",
-      "type": "Nomen",
-      "example": "We live in a village near Jena."
+      "en": "to tell",
+      "de": "erzählen",
+      "type": "Verb",
+      "example": "Tell me a story, please."
     }
   ],
   "days": {
-    "2026-10-27": {
-      "words": [
-        {
-          "en": "to read",
-          "de": "lesen",
-          "type": "Verb",
-          "example": "I read a book every evening."
-        },
-        {
-          "en": "holidays",
-          "de": "die Ferien",
-          "type": "Nomen",
-          "example": "We go to the sea in the holidays."
-        },
-        {
-          "en": "hungry",
-          "de": "hungrig",
-          "type": "Adjektiv",
-          "example": "I'm hungry. What's for breakfast?"
-        },
-        {
-          "en": "village",
-          "de": "das Dorf",
-          "type": "Nomen",
-          "example": "We live in a village near Jena."
-        }
-      ],
-      "gestern": [
-        "Was ist los?",
-        "oft",
-        "das Wohnzimmer",
-        "der Käse"
-      ]
-    },
     "2026-10-28": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "die Oma",
         "das Geschenk",
         "aufräumen"
+      ]
+    },
+    "2026-11-04": {
+      "words": [
+        {
+          "en": "subject",
+          "de": "das Schulfach",
+          "type": "Nomen",
+          "example": "My favourite subject is biology."
+        },
+        {
+          "en": "to look for",
+          "de": "suchen",
+          "type": "Verb",
+          "example": "I'm looking for my pencil."
+        },
+        {
+          "en": "mistake",
+          "de": "der Fehler",
+          "type": "Nomen",
+          "example": "Everybody makes mistakes."
+        },
+        {
+          "en": "behind",
+          "de": "hinter",
+          "type": "Präposition",
+          "example": "The ball is behind the door."
+        }
+      ],
+      "gestern": [
+        "das Gemüse",
+        "vor",
+        "hoffen",
+        "aufstehen"
       ]
     }
   }

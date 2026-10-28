@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-10-27T06:18:37Z",
-  "date": "2026-10-27",
+  "updated_at": "2026-10-28T00:32:22Z",
+  "date": "2026-10-28",
   "local": [
     {
-      "title": "Botanischer Garten Jena im zauberhaften Licht: Welche Motive es noch bei der Auktion gibt",
-      "teaser": "Bei der Charityaktion in der Goethe Galerie sind am Dienstag acht Bilder zu haben: Diese …",
-      "source": "OTZ Jena"
+      "title": "Einweihung der Saalfelder Saale-Promenade",
+      "teaser": "Saalfeld liegt an der Saale, aber man kam irgendwie schlecht ran.",
+      "source": "MDR Thüringen"
     },
     {
-      "title": "„Ein langer Weg ist schon geschafft“: Jenaer Elterninitiative macht Familie aus Saale-Orla-Kreis Mut",
-      "teaser": "Wird nicht allein gelassen: Als Clemens aus Neustadt an der Orla nach dem …",
-      "source": "OTZ Jena"
+      "title": "Hermsdorf: Logistiker Elflein investiert vier Millionen Euro",
+      "teaser": "Der Logistiker Elflein in Hermsdorf setzt auf Bio-Flüssiggas und grünen Strom.",
+      "source": "MDR Thüringen"
     }
   ],
   "world": [
     {
-      "title": "Das größte Batterieflugzeug ist abgehoben – was bedeutet das fürs Fliegen?",
-      "teaser": "Ein elf Tonnen schweres Elektroflugzeug ist erstmals geflogen.",
+      "title": "Auszeichnungen in Wien: Wie Menschen den interkulturellen Dialog stärken",
+      "teaser": "Sieben internationale Projekte bei den Intercultural Achievement Awards in Wien zeigen, …",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Botanischer Garten Jena im zauberhaften Licht: Welche Motive es noch bei der Auktion gibt",
-      "teaser": "Bei der Charityaktion in der Goethe Galerie sind am Dienstag acht Bilder zu haben: Diese …",
-      "source": "OTZ Jena"
+      "title": "Einweihung der Saalfelder Saale-Promenade",
+      "teaser": "Saalfeld liegt an der Saale, aber man kam irgendwie schlecht ran.",
+      "source": "MDR Thüringen"
     },
     {
-      "title": "„Ein langer Weg ist schon geschafft“: Jenaer Elterninitiative macht Familie aus Saale-Orla-Kreis Mut",
-      "teaser": "Wird nicht allein gelassen: Als Clemens aus Neustadt an der Orla nach dem …",
-      "source": "OTZ Jena"
+      "title": "Hermsdorf: Logistiker Elflein investiert vier Millionen Euro",
+      "teaser": "Der Logistiker Elflein in Hermsdorf setzt auf Bio-Flüssiggas und grünen Strom.",
+      "source": "MDR Thüringen"
     },
     {
-      "title": "Das größte Batterieflugzeug ist abgehoben – was bedeutet das fürs Fliegen?",
-      "teaser": "Ein elf Tonnen schweres Elektroflugzeug ist erstmals geflogen.",
+      "title": "Auszeichnungen in Wien: Wie Menschen den interkulturellen Dialog stärken",
+      "teaser": "Sieben internationale Projekte bei den Intercultural Achievement Awards in Wien zeigen, …",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Lehrer: \"Wo wurde der Friedensvertrag von 1918 unterschrieben?\"\nSchüler: \"Unten rechts?\"",
+  "joke": "Warum ist ein Backofen wütend? Weil er auf 180 ist.",
   "jokes_by_day": {
-    "2026-10-27": "Lehrer: \"Wo wurde der Friedensvertrag von 1918 unterschrieben?\"\nSchüler: \"Unten rechts?\"",
     "2026-10-28": "Warum ist ein Backofen wütend? Weil er auf 180 ist.",
     "2026-10-29": "Treffen sich zwei Deutschlehrer am Strand. „Genitiv ins Wasser!“ – „Wieso, ist es Dativ?“",
     "2026-10-30": "Alle schlafen, einer spricht, sowas nennt man Unterricht.",
     "2026-10-31": "Ich habe beim Metzger angerufen, aber da ging kein Schwein dran.",
     "2026-11-01": "Warum war der Fisch so nervig?\nEr ist ein Stör.",
     "2026-11-02": "Ich esse nicht jede Sorte Chips. Ich bin da sehr pringelig.",
-    "2026-11-03": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\""
+    "2026-11-03": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\"",
+    "2026-11-04": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\""
   },
-  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, MDR Thüringen · Witze: witzapi.de"
 }

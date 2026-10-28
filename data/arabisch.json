@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-27T06:18:31Z",
-  "date": "2026-10-27",
+  "updated_at": "2026-10-28T00:32:17Z",
+  "date": "2026-10-28",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "مَوْعِد",
-      "tr": "mauʿid",
-      "de": "der Termin",
-      "en": "the appointment",
+      "ar": "مُتَأَخِّر",
+      "tr": "mutaʾaḫḫir",
+      "de": "verspätet",
+      "en": "late",
+      "type": "Adjektiv",
+      "extra": "f. مُتَأَخِّرَة",
+      "ex_ar": "القطار متأخر عشر دقائق.",
+      "ex_de": "Der Zug hat zehn Minuten Verspätung."
+    },
+    {
+      "ar": "طُفُولَة",
+      "tr": "ṭufūla",
+      "de": "die Kindheit",
+      "en": "the childhood",
       "type": "Nomen",
-      "extra": "Pl. مَوَاعِيد",
-      "ex_ar": "عندي موعد عند الطبيب غدا.",
-      "ex_de": "Ich habe morgen einen Arzttermin."
+      "extra": "",
+      "ex_ar": "قضيت طفولتي في قرية صغيرة.",
+      "ex_de": "Ich habe meine Kindheit in einem kleinen Dorf verbracht."
     },
     {
-      "ar": "مَشْهُور",
-      "tr": "mašhūr",
-      "de": "berühmt",
-      "en": "famous",
+      "ar": "مُتَشَابِه",
+      "tr": "mutašābih",
+      "de": "ähnlich",
+      "en": "similar",
       "type": "Adjektiv",
-      "extra": "f. مَشْهُورَة",
-      "ex_ar": "هذا مطعم مشهور.",
-      "ex_de": "Das ist ein berühmtes Restaurant."
+      "extra": "f. مُتَشَابِهَة",
+      "ex_ar": "الكلمتان متشابهتان.",
+      "ex_de": "Die beiden Wörter sind ähnlich."
     },
     {
-      "ar": "مُفِيد",
-      "tr": "mufīd",
-      "de": "nützlich",
-      "en": "useful",
-      "type": "Adjektiv",
-      "extra": "f. مُفِيدَة",
-      "ex_ar": "هذه نصيحة مفيدة.",
-      "ex_de": "Das ist ein nützlicher Rat."
-    },
-    {
-      "ar": "بَدَأَ",
-      "tr": "badaʾa",
-      "de": "anfangen",
-      "en": "to begin",
+      "ar": "اِسْتَمَرَّ",
+      "tr": "istamarra",
+      "de": "andauern",
+      "en": "to continue",
       "type": "Verb",
-      "extra": "Präsens: يَبْدَأُ",
-      "ex_ar": "يبدأ الفيلم في الساعة الثامنة.",
-      "ex_de": "Der Film beginnt um acht Uhr."
+      "extra": "Präsens: يَسْتَمِرُّ",
+      "ex_ar": "استمر المطر طوال اليوم.",
+      "ex_de": "Der Regen hielt den ganzen Tag an."
     }
   ],
   "days": {
-    "2026-10-27": {
-      "words": [
-        {
-          "ar": "مَوْعِد",
-          "tr": "mauʿid",
-          "de": "der Termin",
-          "en": "the appointment",
-          "type": "Nomen",
-          "extra": "Pl. مَوَاعِيد",
-          "ex_ar": "عندي موعد عند الطبيب غدا.",
-          "ex_de": "Ich habe morgen einen Arzttermin."
-        },
-        {
-          "ar": "مَشْهُور",
-          "tr": "mašhūr",
-          "de": "berühmt",
-          "en": "famous",
-          "type": "Adjektiv",
-          "extra": "f. مَشْهُورَة",
-          "ex_ar": "هذا مطعم مشهور.",
-          "ex_de": "Das ist ein berühmtes Restaurant."
-        },
-        {
-          "ar": "مُفِيد",
-          "tr": "mufīd",
-          "de": "nützlich",
-          "en": "useful",
-          "type": "Adjektiv",
-          "extra": "f. مُفِيدَة",
-          "ex_ar": "هذه نصيحة مفيدة.",
-          "ex_de": "Das ist ein nützlicher Rat."
-        },
-        {
-          "ar": "بَدَأَ",
-          "tr": "badaʾa",
-          "de": "anfangen",
-          "en": "to begin",
-          "type": "Verb",
-          "extra": "Präsens: يَبْدَأُ",
-          "ex_ar": "يبدأ الفيلم في الساعة الثامنة.",
-          "ex_de": "Der Film beginnt um acht Uhr."
-        }
-      ],
-      "gestern": [
-        "die Neuigkeit",
-        "falsch",
-        "billig",
-        "das Gefühl"
-      ]
-    },
     "2026-10-28": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "sich erinnern",
         "die Gesellschaft",
         "anhalten, aufhören"
+      ]
+    },
+    "2026-11-04": {
+      "words": [
+        {
+          "ar": "اِعْتَقَدَ",
+          "tr": "iʿtaqada",
+          "de": "glauben, meinen",
+          "en": "to believe",
+          "type": "Verb",
+          "extra": "Präsens: يَعْتَقِدُ",
+          "ex_ar": "أعتقد أنك على حق.",
+          "ex_de": "Ich glaube, du hast recht."
+        },
+        {
+          "ar": "اِهْتَمَّ",
+          "tr": "ihtamma",
+          "de": "sich kümmern (بـ)",
+          "en": "to take care of",
+          "type": "Verb",
+          "extra": "Präsens: يَهْتَمُّ",
+          "ex_ar": "تهتم أمي بالحديقة.",
+          "ex_de": "Meine Mutter kümmert sich um den Garten."
+        },
+        {
+          "ar": "رَأْي",
+          "tr": "raʾy",
+          "de": "die Meinung",
+          "en": "the opinion",
+          "type": "Nomen",
+          "extra": "Pl. آرَاء",
+          "ex_ar": "ما رأيك في هذا الكتاب؟",
+          "ex_de": "Was hältst du von diesem Buch?"
+        },
+        {
+          "ar": "قَرَار",
+          "tr": "qarār",
+          "de": "die Entscheidung",
+          "en": "the decision",
+          "type": "Nomen",
+          "extra": "Pl. قَرَارَات",
+          "ex_ar": "اتخذت قرارا مهما.",
+          "ex_de": "Ich habe eine wichtige Entscheidung getroffen."
+        }
+      ],
+      "gestern": [
+        "vorschlagen",
+        "die Feier",
+        "verantwortlich",
+        "der Weg"
       ]
     }
   }
