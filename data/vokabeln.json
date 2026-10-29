@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-28T06:52:25Z",
-  "date": "2026-10-28",
+  "updated_at": "2026-10-29T01:00:18Z",
+  "date": "2026-10-29",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "lunch",
-      "de": "das Mittagessen",
+      "en": "to cry",
+      "de": "weinen",
+      "type": "Verb",
+      "example": "The baby cries at night."
+    },
+    {
+      "en": "to listen",
+      "de": "zuhören",
+      "type": "Verb",
+      "example": "Listen to the teacher, please."
+    },
+    {
+      "en": "wet",
+      "de": "nass",
+      "type": "Adjektiv",
+      "example": "My hair is still wet."
+    },
+    {
+      "en": "spoon",
+      "de": "der Löffel",
       "type": "Nomen",
-      "example": "What's for lunch today?"
-    },
-    {
-      "en": "to ride",
-      "de": "reiten, fahren",
-      "type": "Verb",
-      "example": "I ride my bike to school."
-    },
-    {
-      "en": "to leave",
-      "de": "verlassen, losgehen",
-      "type": "Verb",
-      "example": "We leave the house at seven."
-    },
-    {
-      "en": "to tell",
-      "de": "erzählen",
-      "type": "Verb",
-      "example": "Tell me a story, please."
+      "example": "I eat soup with a spoon."
     }
   ],
   "days": {
-    "2026-10-28": {
-      "words": [
-        {
-          "en": "lunch",
-          "de": "das Mittagessen",
-          "type": "Nomen",
-          "example": "What's for lunch today?"
-        },
-        {
-          "en": "to ride",
-          "de": "reiten, fahren",
-          "type": "Verb",
-          "example": "I ride my bike to school."
-        },
-        {
-          "en": "to leave",
-          "de": "verlassen, losgehen",
-          "type": "Verb",
-          "example": "We leave the house at seven."
-        },
-        {
-          "en": "to tell",
-          "de": "erzählen",
-          "type": "Verb",
-          "example": "Tell me a story, please."
-        }
-      ],
-      "gestern": [
-        "lesen",
-        "die Ferien",
-        "hungrig",
-        "das Dorf"
-      ]
-    },
     "2026-10-29": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "vor",
         "hoffen",
         "aufstehen"
+      ]
+    },
+    "2026-11-05": {
+      "words": [
+        {
+          "en": "to buy",
+          "de": "kaufen",
+          "type": "Verb",
+          "example": "Mum buys milk at the shop."
+        },
+        {
+          "en": "lazy",
+          "de": "faul",
+          "type": "Adjektiv",
+          "example": "My cat is very lazy."
+        },
+        {
+          "en": "to brush one's teeth",
+          "de": "sich die Zähne putzen",
+          "type": "Verb",
+          "example": "Don't forget to brush your teeth!"
+        },
+        {
+          "en": "stairs",
+          "de": "die Treppe",
+          "type": "Nomen",
+          "example": "Don't run on the stairs!"
+        }
+      ],
+      "gestern": [
+        "das Schulfach",
+        "suchen",
+        "der Fehler",
+        "hinter"
       ]
     }
   }

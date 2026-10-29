@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-28T06:52:25Z",
-  "date": "2026-10-28",
+  "updated_at": "2026-10-29T01:00:18Z",
+  "date": "2026-10-29",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "مُتَأَخِّر",
-      "tr": "mutaʾaḫḫir",
-      "de": "verspätet",
-      "en": "late",
-      "type": "Adjektiv",
-      "extra": "f. مُتَأَخِّرَة",
-      "ex_ar": "القطار متأخر عشر دقائق.",
-      "ex_de": "Der Zug hat zehn Minuten Verspätung."
-    },
-    {
-      "ar": "طُفُولَة",
-      "tr": "ṭufūla",
-      "de": "die Kindheit",
-      "en": "the childhood",
+      "ar": "أَمَل",
+      "tr": "amal",
+      "de": "die Hoffnung",
+      "en": "the hope",
       "type": "Nomen",
-      "extra": "",
-      "ex_ar": "قضيت طفولتي في قرية صغيرة.",
-      "ex_de": "Ich habe meine Kindheit in einem kleinen Dorf verbracht."
+      "extra": "Pl. آمَال",
+      "ex_ar": "عندي أمل كبير.",
+      "ex_de": "Ich habe große Hoffnung."
     },
     {
-      "ar": "مُتَشَابِه",
-      "tr": "mutašābih",
-      "de": "ähnlich",
-      "en": "similar",
-      "type": "Adjektiv",
-      "extra": "f. مُتَشَابِهَة",
-      "ex_ar": "الكلمتان متشابهتان.",
-      "ex_de": "Die beiden Wörter sind ähnlich."
-    },
-    {
-      "ar": "اِسْتَمَرَّ",
-      "tr": "istamarra",
-      "de": "andauern",
-      "en": "to continue",
+      "ar": "مَنَعَ",
+      "tr": "manaʿa",
+      "de": "verbieten, verhindern",
+      "en": "to forbid, to prevent",
       "type": "Verb",
-      "extra": "Präsens: يَسْتَمِرُّ",
-      "ex_ar": "استمر المطر طوال اليوم.",
-      "ex_de": "Der Regen hielt den ganzen Tag an."
+      "extra": "Präsens: يَمْنَعُ",
+      "ex_ar": "يمنع التدخين هنا.",
+      "ex_de": "Rauchen ist hier verboten."
+    },
+    {
+      "ar": "وَافَقَ",
+      "tr": "wāfaqa",
+      "de": "zustimmen (على)",
+      "en": "to agree",
+      "type": "Verb",
+      "extra": "Präsens: يُوَافِقُ",
+      "ex_ar": "أوافق على رأيك.",
+      "ex_de": "Ich stimme deiner Meinung zu."
+    },
+    {
+      "ar": "شَعَرَ",
+      "tr": "šaʿara",
+      "de": "sich fühlen (بـ)",
+      "en": "to feel",
+      "type": "Verb",
+      "extra": "Präsens: يَشْعُرُ",
+      "ex_ar": "أشعر بالتعب اليوم.",
+      "ex_de": "Ich fühle mich heute müde."
     }
   ],
   "days": {
-    "2026-10-28": {
-      "words": [
-        {
-          "ar": "مُتَأَخِّر",
-          "tr": "mutaʾaḫḫir",
-          "de": "verspätet",
-          "en": "late",
-          "type": "Adjektiv",
-          "extra": "f. مُتَأَخِّرَة",
-          "ex_ar": "القطار متأخر عشر دقائق.",
-          "ex_de": "Der Zug hat zehn Minuten Verspätung."
-        },
-        {
-          "ar": "طُفُولَة",
-          "tr": "ṭufūla",
-          "de": "die Kindheit",
-          "en": "the childhood",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "قضيت طفولتي في قرية صغيرة.",
-          "ex_de": "Ich habe meine Kindheit in einem kleinen Dorf verbracht."
-        },
-        {
-          "ar": "مُتَشَابِه",
-          "tr": "mutašābih",
-          "de": "ähnlich",
-          "en": "similar",
-          "type": "Adjektiv",
-          "extra": "f. مُتَشَابِهَة",
-          "ex_ar": "الكلمتان متشابهتان.",
-          "ex_de": "Die beiden Wörter sind ähnlich."
-        },
-        {
-          "ar": "اِسْتَمَرَّ",
-          "tr": "istamarra",
-          "de": "andauern",
-          "en": "to continue",
-          "type": "Verb",
-          "extra": "Präsens: يَسْتَمِرُّ",
-          "ex_ar": "استمر المطر طوال اليوم.",
-          "ex_de": "Der Regen hielt den ganzen Tag an."
-        }
-      ],
-      "gestern": [
-        "der Termin",
-        "berühmt",
-        "nützlich",
-        "anfangen"
-      ]
-    },
     "2026-10-29": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "die Feier",
         "verantwortlich",
         "der Weg"
+      ]
+    },
+    "2026-11-05": {
+      "words": [
+        {
+          "ar": "ضَيْف",
+          "tr": "ḍaif",
+          "de": "der Gast",
+          "en": "the guest",
+          "type": "Nomen",
+          "extra": "Pl. ضُيُوف",
+          "ex_ar": "عندنا ضيوف الليلة.",
+          "ex_de": "Wir haben heute Abend Gäste."
+        },
+        {
+          "ar": "سِعْر",
+          "tr": "siʿr",
+          "de": "der Preis",
+          "en": "the price",
+          "type": "Nomen",
+          "extra": "Pl. أَسْعَار",
+          "ex_ar": "الأسعار مرتفعة هذه الأيام.",
+          "ex_de": "Die Preise sind zurzeit hoch."
+        },
+        {
+          "ar": "فَشِلَ",
+          "tr": "fašila",
+          "de": "scheitern",
+          "en": "to fail",
+          "type": "Verb",
+          "extra": "Präsens: يَفْشَلُ",
+          "ex_ar": "لا تخف من أن تفشل.",
+          "ex_de": "Hab keine Angst zu scheitern."
+        },
+        {
+          "ar": "إِيجَار",
+          "tr": "īǧār",
+          "de": "die Miete",
+          "en": "the rent",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "الإيجار غال في المدينة.",
+          "ex_de": "Die Miete in der Stadt ist teuer."
+        }
+      ],
+      "gestern": [
+        "glauben, meinen",
+        "sich kümmern (بـ)",
+        "die Meinung",
+        "die Entscheidung"
       ]
     }
   }

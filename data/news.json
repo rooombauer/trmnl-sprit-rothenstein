@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-10-28T06:52:30Z",
-  "date": "2026-10-28",
+  "updated_at": "2026-10-29T01:00:23Z",
+  "date": "2026-10-29",
   "local": [
     {
-      "title": "Kahla-Porzellan warnt vor betrügerischem Onlineshop",
-      "teaser": "Kahla-Porzellan warnt vor einem betrügerischen Onlineshop.",
-      "source": "MDR Thüringen"
+      "title": "„Luise“ reißt die Laterne am Jenzig in Jena um",
+      "teaser": "Das Sturmtief verursachte einen hohen Schaden am Aussichtspunkt.",
+      "source": "OTZ Jena"
     },
     {
-      "title": "Einweihung der Saalfelder Saale-Promenade",
-      "teaser": "Saalfeld liegt an der Saale, aber man kam irgendwie schlecht ran.",
-      "source": "MDR Thüringen"
+      "title": "Schwimmhalle in Jena öffnet abends länger",
+      "teaser": "Schwimmer in Jena dürfen sich ab November über längere Öffnungszeiten freuen.",
+      "source": "OTZ Jena"
     }
   ],
   "world": [
     {
-      "title": "Auszeichnungen in Wien: Wie Menschen den interkulturellen Dialog stärken",
-      "teaser": "Sieben internationale Projekte bei den Intercultural Achievement Awards in Wien zeigen, …",
+      "title": "Australien schafft ersten Koala-Nationalpark, immer mehr Eltern lesen vor",
+      "teaser": "Australien schafft ersten Koala-Nationalpark",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Kahla-Porzellan warnt vor betrügerischem Onlineshop",
-      "teaser": "Kahla-Porzellan warnt vor einem betrügerischen Onlineshop.",
-      "source": "MDR Thüringen"
+      "title": "„Luise“ reißt die Laterne am Jenzig in Jena um",
+      "teaser": "Das Sturmtief verursachte einen hohen Schaden am Aussichtspunkt.",
+      "source": "OTZ Jena"
     },
     {
-      "title": "Einweihung der Saalfelder Saale-Promenade",
-      "teaser": "Saalfeld liegt an der Saale, aber man kam irgendwie schlecht ran.",
-      "source": "MDR Thüringen"
+      "title": "Schwimmhalle in Jena öffnet abends länger",
+      "teaser": "Schwimmer in Jena dürfen sich ab November über längere Öffnungszeiten freuen.",
+      "source": "OTZ Jena"
     },
     {
-      "title": "Auszeichnungen in Wien: Wie Menschen den interkulturellen Dialog stärken",
-      "teaser": "Sieben internationale Projekte bei den Intercultural Achievement Awards in Wien zeigen, …",
+      "title": "Australien schafft ersten Koala-Nationalpark, immer mehr Eltern lesen vor",
+      "teaser": "Australien schafft ersten Koala-Nationalpark",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Warum ist ein Backofen wütend? Weil er auf 180 ist.",
+  "joke": "Treffen sich zwei Deutschlehrer am Strand. „Genitiv ins Wasser!“ – „Wieso, ist es Dativ?“",
   "jokes_by_day": {
-    "2026-10-28": "Warum ist ein Backofen wütend? Weil er auf 180 ist.",
     "2026-10-29": "Treffen sich zwei Deutschlehrer am Strand. „Genitiv ins Wasser!“ – „Wieso, ist es Dativ?“",
     "2026-10-30": "Alle schlafen, einer spricht, sowas nennt man Unterricht.",
     "2026-10-31": "Ich habe beim Metzger angerufen, aber da ging kein Schwein dran.",
     "2026-11-01": "Warum war der Fisch so nervig?\nEr ist ein Stör.",
     "2026-11-02": "Ich esse nicht jede Sorte Chips. Ich bin da sehr pringelig.",
     "2026-11-03": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\"",
-    "2026-11-04": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\""
+    "2026-11-04": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\"",
+    "2026-11-05": "Was ist klein, grün und sieht aus wie ein Drei-Eck? Ein kleines grünes Drei-Eck."
   },
-  "source": "Good News Magazin, MDR Thüringen · Witze: witzapi.de"
+  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
 }
