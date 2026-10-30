@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-29T07:08:42Z",
-  "date": "2026-10-29",
+  "updated_at": "2026-10-30T01:04:48Z",
+  "date": "2026-10-30",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "to cry",
-      "de": "weinen",
-      "type": "Verb",
-      "example": "The baby cries at night."
-    },
-    {
-      "en": "to listen",
-      "de": "zuhören",
-      "type": "Verb",
-      "example": "Listen to the teacher, please."
-    },
-    {
-      "en": "wet",
-      "de": "nass",
-      "type": "Adjektiv",
-      "example": "My hair is still wet."
-    },
-    {
-      "en": "spoon",
-      "de": "der Löffel",
+      "en": "bedroom",
+      "de": "das Schlafzimmer",
       "type": "Nomen",
-      "example": "I eat soup with a spoon."
+      "example": "My bedroom is small but cosy."
+    },
+    {
+      "en": "tomorrow",
+      "de": "morgen",
+      "type": "Adverb",
+      "example": "We have a test tomorrow."
+    },
+    {
+      "en": "exciting",
+      "de": "spannend",
+      "type": "Adjektiv",
+      "example": "The book is very exciting."
+    },
+    {
+      "en": "season",
+      "de": "die Jahreszeit",
+      "type": "Nomen",
+      "example": "Autumn is my favourite season."
     }
   ],
   "days": {
-    "2026-10-29": {
-      "words": [
-        {
-          "en": "to cry",
-          "de": "weinen",
-          "type": "Verb",
-          "example": "The baby cries at night."
-        },
-        {
-          "en": "to listen",
-          "de": "zuhören",
-          "type": "Verb",
-          "example": "Listen to the teacher, please."
-        },
-        {
-          "en": "wet",
-          "de": "nass",
-          "type": "Adjektiv",
-          "example": "My hair is still wet."
-        },
-        {
-          "en": "spoon",
-          "de": "der Löffel",
-          "type": "Nomen",
-          "example": "I eat soup with a spoon."
-        }
-      ],
-      "gestern": [
-        "das Mittagessen",
-        "reiten, fahren",
-        "verlassen, losgehen",
-        "erzählen"
-      ]
-    },
     "2026-10-30": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "suchen",
         "der Fehler",
         "hinter"
+      ]
+    },
+    "2026-11-06": {
+      "words": [
+        {
+          "en": "warm",
+          "de": "warm",
+          "type": "Adjektiv",
+          "example": "It's warm and sunny today."
+        },
+        {
+          "en": "exercise book",
+          "de": "das Schulheft",
+          "type": "Nomen",
+          "example": "Write the words in your exercise book."
+        },
+        {
+          "en": "rubber",
+          "de": "der Radiergummi",
+          "type": "Nomen",
+          "example": "Oops, I need a rubber!"
+        },
+        {
+          "en": "kitchen",
+          "de": "die Küche",
+          "type": "Nomen",
+          "example": "We have breakfast in the kitchen."
+        }
+      ],
+      "gestern": [
+        "kaufen",
+        "faul",
+        "sich die Zähne putzen",
+        "die Treppe"
       ]
     }
   }
