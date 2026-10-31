@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-30T07:09:46Z",
-  "date": "2026-10-30",
+  "updated_at": "2026-10-31T00:49:37Z",
+  "date": "2026-10-31",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "bedroom",
-      "de": "das Schlafzimmer",
-      "type": "Nomen",
-      "example": "My bedroom is small but cosy."
-    },
-    {
-      "en": "tomorrow",
-      "de": "morgen",
-      "type": "Adverb",
-      "example": "We have a test tomorrow."
-    },
-    {
-      "en": "exciting",
-      "de": "spannend",
+      "en": "delicious",
+      "de": "lecker",
       "type": "Adjektiv",
-      "example": "The book is very exciting."
+      "example": "This soup is delicious!"
     },
     {
-      "en": "season",
-      "de": "die Jahreszeit",
+      "en": "question",
+      "de": "die Frage",
       "type": "Nomen",
-      "example": "Autumn is my favourite season."
+      "example": "Can I ask a question?"
+    },
+    {
+      "en": "garden",
+      "de": "der Garten",
+      "type": "Nomen",
+      "example": "We have an apple tree in our garden."
+    },
+    {
+      "en": "to throw",
+      "de": "werfen",
+      "type": "Verb",
+      "example": "Throw the ball to me!"
     }
   ],
   "days": {
-    "2026-10-30": {
-      "words": [
-        {
-          "en": "bedroom",
-          "de": "das Schlafzimmer",
-          "type": "Nomen",
-          "example": "My bedroom is small but cosy."
-        },
-        {
-          "en": "tomorrow",
-          "de": "morgen",
-          "type": "Adverb",
-          "example": "We have a test tomorrow."
-        },
-        {
-          "en": "exciting",
-          "de": "spannend",
-          "type": "Adjektiv",
-          "example": "The book is very exciting."
-        },
-        {
-          "en": "season",
-          "de": "die Jahreszeit",
-          "type": "Nomen",
-          "example": "Autumn is my favourite season."
-        }
-      ],
-      "gestern": [
-        "weinen",
-        "zuhören",
-        "nass",
-        "der Löffel"
-      ]
-    },
     "2026-10-31": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "faul",
         "sich die Zähne putzen",
         "die Treppe"
+      ]
+    },
+    "2026-11-07": {
+      "words": [
+        {
+          "en": "always",
+          "de": "immer",
+          "type": "Adverb",
+          "example": "I always walk the dog after school."
+        },
+        {
+          "en": "sister",
+          "de": "die Schwester",
+          "type": "Nomen",
+          "example": "My little sister likes horses."
+        },
+        {
+          "en": "next to",
+          "de": "neben",
+          "type": "Präposition",
+          "example": "I sit next to Paul."
+        },
+        {
+          "en": "between",
+          "de": "zwischen",
+          "type": "Präposition",
+          "example": "The shop is between the bank and the café."
+        }
+      ],
+      "gestern": [
+        "warm",
+        "das Schulheft",
+        "der Radiergummi",
+        "die Küche"
       ]
     }
   }

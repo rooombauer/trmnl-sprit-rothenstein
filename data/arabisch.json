@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-30T07:09:46Z",
-  "date": "2026-10-30",
+  "updated_at": "2026-10-31T00:49:37Z",
+  "date": "2026-10-31",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "نَظَّمَ",
-      "tr": "naẓẓama",
-      "de": "organisieren",
-      "en": "to organise",
-      "type": "Verb",
-      "extra": "Präsens: يُنَظِّمُ",
-      "ex_ar": "نظمنا حفلة لجدتي.",
-      "ex_de": "Wir haben eine Feier für Oma organisiert."
+      "ar": "شَقَّة",
+      "tr": "šaqqa",
+      "de": "die Wohnung",
+      "en": "the flat",
+      "type": "Nomen",
+      "extra": "Pl. شُقَق",
+      "ex_ar": "نبحث عن شقة أكبر.",
+      "ex_de": "Wir suchen eine größere Wohnung."
     },
     {
-      "ar": "مُسْتَقْبَل",
-      "tr": "mustaqbal",
-      "de": "die Zukunft",
-      "en": "the future",
+      "ar": "خُذْ رَاحَتَكَ",
+      "tr": "ḫuḏ rāḥataka",
+      "de": "mach es dir bequem",
+      "en": "make yourself at home",
+      "type": "Redewendung",
+      "extra": "zu einer Frau: خُذِي رَاحَتَكِ",
+      "ex_ar": "خذ راحتك، البيت بيتك.",
+      "ex_de": "Mach es dir bequem, fühl dich wie zu Hause."
+    },
+    {
+      "ar": "اِسْتَقْبَلَ",
+      "tr": "istaqbala",
+      "de": "empfangen",
+      "en": "to receive, to welcome",
+      "type": "Verb",
+      "extra": "Präsens: يَسْتَقْبِلُ",
+      "ex_ar": "استقبلنا الضيوف في البيت.",
+      "ex_de": "Wir haben die Gäste zu Hause empfangen."
+    },
+    {
+      "ar": "طَبِيعَة",
+      "tr": "ṭabīʿa",
+      "de": "die Natur",
+      "en": "nature",
       "type": "Nomen",
       "extra": "",
-      "ex_ar": "أفكر كثيرا في المستقبل.",
-      "ex_de": "Ich denke oft an die Zukunft."
-    },
-    {
-      "ar": "حَصَلَ",
-      "tr": "ḥaṣala",
-      "de": "bekommen (على)",
-      "en": "to get",
-      "type": "Verb",
-      "extra": "Präsens: يَحْصُلُ",
-      "ex_ar": "حصلت على وظيفة جديدة.",
-      "ex_de": "Ich habe eine neue Stelle bekommen."
-    },
-    {
-      "ar": "حَلّ",
-      "tr": "ḥall",
-      "de": "die Lösung",
-      "en": "the solution",
-      "type": "Nomen",
-      "extra": "Pl. حُلُول",
-      "ex_ar": "وجدنا حلا سريعا.",
-      "ex_de": "Wir haben schnell eine Lösung gefunden."
+      "ex_ar": "نحب المشي في الطبيعة.",
+      "ex_de": "Wir wandern gern in der Natur."
     }
   ],
   "days": {
-    "2026-10-30": {
-      "words": [
-        {
-          "ar": "نَظَّمَ",
-          "tr": "naẓẓama",
-          "de": "organisieren",
-          "en": "to organise",
-          "type": "Verb",
-          "extra": "Präsens: يُنَظِّمُ",
-          "ex_ar": "نظمنا حفلة لجدتي.",
-          "ex_de": "Wir haben eine Feier für Oma organisiert."
-        },
-        {
-          "ar": "مُسْتَقْبَل",
-          "tr": "mustaqbal",
-          "de": "die Zukunft",
-          "en": "the future",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "أفكر كثيرا في المستقبل.",
-          "ex_de": "Ich denke oft an die Zukunft."
-        },
-        {
-          "ar": "حَصَلَ",
-          "tr": "ḥaṣala",
-          "de": "bekommen (على)",
-          "en": "to get",
-          "type": "Verb",
-          "extra": "Präsens: يَحْصُلُ",
-          "ex_ar": "حصلت على وظيفة جديدة.",
-          "ex_de": "Ich habe eine neue Stelle bekommen."
-        },
-        {
-          "ar": "حَلّ",
-          "tr": "ḥall",
-          "de": "die Lösung",
-          "en": "the solution",
-          "type": "Nomen",
-          "extra": "Pl. حُلُول",
-          "ex_ar": "وجدنا حلا سريعا.",
-          "ex_de": "Wir haben schnell eine Lösung gefunden."
-        }
-      ],
-      "gestern": [
-        "die Hoffnung",
-        "verbieten, verhindern",
-        "zustimmen (على)",
-        "sich fühlen (بـ)"
-      ]
-    },
     "2026-10-31": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "der Preis",
         "scheitern",
         "die Miete"
+      ]
+    },
+    "2026-11-07": {
+      "words": [
+        {
+          "ar": "ثَقَافَة",
+          "tr": "ṯaqāfa",
+          "de": "die Kultur",
+          "en": "the culture",
+          "type": "Nomen",
+          "extra": "Pl. ثَقَافَات",
+          "ex_ar": "أحب أن أتعرف على ثقافات جديدة.",
+          "ex_de": "Ich lerne gern neue Kulturen kennen."
+        },
+        {
+          "ar": "رَاتِب",
+          "tr": "rātib",
+          "de": "das Gehalt",
+          "en": "the salary",
+          "type": "Nomen",
+          "extra": "Pl. رَوَاتِب",
+          "ex_ar": "الراتب جيد.",
+          "ex_de": "Das Gehalt ist gut."
+        },
+        {
+          "ar": "فَجْأَةً",
+          "tr": "faǧʾatan",
+          "de": "plötzlich",
+          "en": "suddenly",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "بدأ المطر فجأة.",
+          "ex_de": "Plötzlich fing es an zu regnen."
+        },
+        {
+          "ar": "خَاصّ",
+          "tr": "ḫāṣṣ",
+          "de": "besonders, privat",
+          "en": "special, private",
+          "type": "Adjektiv",
+          "extra": "f. خَاصَّة",
+          "ex_ar": "هذه هدية خاصة.",
+          "ex_de": "Das ist ein besonderes Geschenk."
+        }
+      ],
+      "gestern": [
+        "die Gelegenheit",
+        "sicher, natürlich",
+        "benutzen",
+        "profitieren (من)"
       ]
     }
   }
