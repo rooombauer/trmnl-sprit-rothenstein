@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-10-31T07:00:05Z",
-  "date": "2026-10-31",
+  "updated_at": "2026-11-01T00:09:35Z",
+  "date": "2026-11-01",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "شَقَّة",
-      "tr": "šaqqa",
-      "de": "die Wohnung",
-      "en": "the flat",
+      "ar": "ذِكْرَى",
+      "tr": "ḏikrā",
+      "de": "die Erinnerung",
+      "en": "the memory",
       "type": "Nomen",
-      "extra": "Pl. شُقَق",
-      "ex_ar": "نبحث عن شقة أكبر.",
-      "ex_de": "Wir suchen eine größere Wohnung."
+      "extra": "Pl. ذِكْرَيَات",
+      "ex_ar": "عندي ذكريات جميلة من طفولتي.",
+      "ex_de": "Ich habe schöne Erinnerungen an meine Kindheit."
     },
     {
-      "ar": "خُذْ رَاحَتَكَ",
-      "tr": "ḫuḏ rāḥataka",
-      "de": "mach es dir bequem",
-      "en": "make yourself at home",
-      "type": "Redewendung",
-      "extra": "zu einer Frau: خُذِي رَاحَتَكِ",
-      "ex_ar": "خذ راحتك، البيت بيتك.",
-      "ex_de": "Mach es dir bequem, fühl dich wie zu Hause."
+      "ar": "صَحِيح",
+      "tr": "ṣaḥīḥ",
+      "de": "richtig",
+      "en": "correct",
+      "type": "Adjektiv",
+      "extra": "f. صَحِيحَة",
+      "ex_ar": "هذا صحيح تماما.",
+      "ex_de": "Das ist völlig richtig."
     },
     {
-      "ar": "اِسْتَقْبَلَ",
-      "tr": "istaqbala",
-      "de": "empfangen",
-      "en": "to receive, to welcome",
-      "type": "Verb",
-      "extra": "Präsens: يَسْتَقْبِلُ",
-      "ex_ar": "استقبلنا الضيوف في البيت.",
-      "ex_de": "Wir haben die Gäste zu Hause empfangen."
-    },
-    {
-      "ar": "طَبِيعَة",
-      "tr": "ṭabīʿa",
-      "de": "die Natur",
-      "en": "nature",
-      "type": "Nomen",
+      "ar": "لَكِنْ",
+      "tr": "lākin",
+      "de": "aber",
+      "en": "but",
+      "type": "Bindewort",
       "extra": "",
-      "ex_ar": "نحب المشي في الطبيعة.",
-      "ex_de": "Wir wandern gern in der Natur."
+      "ex_ar": "أريد أن آتي، لكن ليس عندي وقت.",
+      "ex_de": "Ich möchte kommen, aber ich habe keine Zeit."
+    },
+    {
+      "ar": "شَرِكَة",
+      "tr": "šarika",
+      "de": "die Firma",
+      "en": "the company",
+      "type": "Nomen",
+      "extra": "Pl. شَرِكَات",
+      "ex_ar": "يعمل في شركة كبيرة.",
+      "ex_de": "Er arbeitet in einer großen Firma."
     }
   ],
   "days": {
-    "2026-10-31": {
-      "words": [
-        {
-          "ar": "شَقَّة",
-          "tr": "šaqqa",
-          "de": "die Wohnung",
-          "en": "the flat",
-          "type": "Nomen",
-          "extra": "Pl. شُقَق",
-          "ex_ar": "نبحث عن شقة أكبر.",
-          "ex_de": "Wir suchen eine größere Wohnung."
-        },
-        {
-          "ar": "خُذْ رَاحَتَكَ",
-          "tr": "ḫuḏ rāḥataka",
-          "de": "mach es dir bequem",
-          "en": "make yourself at home",
-          "type": "Redewendung",
-          "extra": "zu einer Frau: خُذِي رَاحَتَكِ",
-          "ex_ar": "خذ راحتك، البيت بيتك.",
-          "ex_de": "Mach es dir bequem, fühl dich wie zu Hause."
-        },
-        {
-          "ar": "اِسْتَقْبَلَ",
-          "tr": "istaqbala",
-          "de": "empfangen",
-          "en": "to receive, to welcome",
-          "type": "Verb",
-          "extra": "Präsens: يَسْتَقْبِلُ",
-          "ex_ar": "استقبلنا الضيوف في البيت.",
-          "ex_de": "Wir haben die Gäste zu Hause empfangen."
-        },
-        {
-          "ar": "طَبِيعَة",
-          "tr": "ṭabīʿa",
-          "de": "die Natur",
-          "en": "nature",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "نحب المشي في الطبيعة.",
-          "ex_de": "Wir wandern gern in der Natur."
-        }
-      ],
-      "gestern": [
-        "organisieren",
-        "die Zukunft",
-        "bekommen (على)",
-        "die Lösung"
-      ]
-    },
     "2026-11-01": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "sicher, natürlich",
         "benutzen",
         "profitieren (من)"
+      ]
+    },
+    "2026-11-08": {
+      "words": [
+        {
+          "ar": "مَا شَاءَ اللّٰهُ",
+          "tr": "mā šāʾa llāh",
+          "de": "wie schön (Bewunderung)",
+          "en": "how wonderful",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "ما شاء الله، بيتك جميل!",
+          "ex_de": "Wie schön, dein Haus ist wunderbar!"
+        },
+        {
+          "ar": "أَخِيرًا",
+          "tr": "aḫīran",
+          "de": "endlich",
+          "en": "finally",
+          "type": "Adverb",
+          "extra": "",
+          "ex_ar": "وصلنا أخيرا!",
+          "ex_de": "Endlich sind wir angekommen!"
+        },
+        {
+          "ar": "بَيْنَمَا",
+          "tr": "bainamā",
+          "de": "während",
+          "en": "while",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "قرأت كتابا بينما كان الأطفال نائمين.",
+          "ex_de": "Ich habe ein Buch gelesen, während die Kinder schliefen."
+        },
+        {
+          "ar": "بِيئَة",
+          "tr": "bīʾa",
+          "de": "die Umwelt",
+          "en": "the environment",
+          "type": "Nomen",
+          "extra": "",
+          "ex_ar": "يجب أن نحمي البيئة.",
+          "ex_de": "Wir müssen die Umwelt schützen."
+        }
+      ],
+      "gestern": [
+        "die Kultur",
+        "das Gehalt",
+        "plötzlich",
+        "besonders, privat"
       ]
     }
   }

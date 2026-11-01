@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-10-31T07:00:05Z",
-  "date": "2026-10-31",
+  "updated_at": "2026-11-01T00:09:35Z",
+  "date": "2026-11-01",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "delicious",
-      "de": "lecker",
-      "type": "Adjektiv",
-      "example": "This soup is delicious!"
-    },
-    {
-      "en": "question",
-      "de": "die Frage",
-      "type": "Nomen",
-      "example": "Can I ask a question?"
-    },
-    {
-      "en": "garden",
-      "de": "der Garten",
-      "type": "Nomen",
-      "example": "We have an apple tree in our garden."
-    },
-    {
-      "en": "to throw",
-      "de": "werfen",
+      "en": "to arrive",
+      "de": "ankommen",
       "type": "Verb",
-      "example": "Throw the ball to me!"
+      "example": "The train arrives at seven."
+    },
+    {
+      "en": "clothes",
+      "de": "die Kleidung",
+      "type": "Nomen",
+      "example": "Put your clothes in the cupboard."
+    },
+    {
+      "en": "homework",
+      "de": "die Hausaufgaben",
+      "type": "Nomen",
+      "example": "I always do my homework after lunch."
+    },
+    {
+      "en": "quiet",
+      "de": "leise, ruhig",
+      "type": "Adjektiv",
+      "example": "Please be quiet in the library."
     }
   ],
   "days": {
-    "2026-10-31": {
-      "words": [
-        {
-          "en": "delicious",
-          "de": "lecker",
-          "type": "Adjektiv",
-          "example": "This soup is delicious!"
-        },
-        {
-          "en": "question",
-          "de": "die Frage",
-          "type": "Nomen",
-          "example": "Can I ask a question?"
-        },
-        {
-          "en": "garden",
-          "de": "der Garten",
-          "type": "Nomen",
-          "example": "We have an apple tree in our garden."
-        },
-        {
-          "en": "to throw",
-          "de": "werfen",
-          "type": "Verb",
-          "example": "Throw the ball to me!"
-        }
-      ],
-      "gestern": [
-        "das Schlafzimmer",
-        "morgen",
-        "spannend",
-        "die Jahreszeit"
-      ]
-    },
     "2026-11-01": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "das Schulheft",
         "der Radiergummi",
         "die Küche"
+      ]
+    },
+    "2026-11-08": {
+      "words": [
+        {
+          "en": "to go to bed",
+          "de": "ins Bett gehen",
+          "type": "Verb",
+          "example": "I go to bed at nine."
+        },
+        {
+          "en": "to cook",
+          "de": "kochen",
+          "type": "Verb",
+          "example": "Dad cooks spaghetti on Fridays."
+        },
+        {
+          "en": "Hurry up!",
+          "de": "Beeil dich!",
+          "type": "Redewendung",
+          "example": "Hurry up, we're late!"
+        },
+        {
+          "en": "match",
+          "de": "das Spiel",
+          "type": "Nomen",
+          "example": "The match starts at three."
+        }
+      ],
+      "gestern": [
+        "immer",
+        "die Schwester",
+        "neben",
+        "zwischen"
       ]
     }
   }
