@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-01T07:35:05Z",
-  "date": "2026-11-01",
+  "updated_at": "2026-11-02T00:47:25Z",
+  "date": "2026-11-02",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "to arrive",
-      "de": "ankommen",
+      "en": "to write",
+      "de": "schreiben",
       "type": "Verb",
-      "example": "The train arrives at seven."
+      "example": "Please write your name on the paper."
     },
     {
-      "en": "clothes",
-      "de": "die Kleidung",
+      "en": "grandma",
+      "de": "die Oma",
       "type": "Nomen",
-      "example": "Put your clothes in the cupboard."
+      "example": "We visit my grandma on Sundays."
     },
     {
-      "en": "homework",
-      "de": "die Hausaufgaben",
+      "en": "present",
+      "de": "das Geschenk",
       "type": "Nomen",
-      "example": "I always do my homework after lunch."
+      "example": "Thank you for the present!"
     },
     {
-      "en": "quiet",
-      "de": "leise, ruhig",
-      "type": "Adjektiv",
-      "example": "Please be quiet in the library."
+      "en": "to tidy up",
+      "de": "aufräumen",
+      "type": "Verb",
+      "example": "Please tidy up your room."
     }
   ],
   "days": {
-    "2026-11-01": {
-      "words": [
-        {
-          "en": "to arrive",
-          "de": "ankommen",
-          "type": "Verb",
-          "example": "The train arrives at seven."
-        },
-        {
-          "en": "clothes",
-          "de": "die Kleidung",
-          "type": "Nomen",
-          "example": "Put your clothes in the cupboard."
-        },
-        {
-          "en": "homework",
-          "de": "die Hausaufgaben",
-          "type": "Nomen",
-          "example": "I always do my homework after lunch."
-        },
-        {
-          "en": "quiet",
-          "de": "leise, ruhig",
-          "type": "Adjektiv",
-          "example": "Please be quiet in the library."
-        }
-      ],
-      "gestern": [
-        "lecker",
-        "die Frage",
-        "der Garten",
-        "werfen"
-      ]
-    },
     "2026-11-02": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "die Schwester",
         "neben",
         "zwischen"
+      ]
+    },
+    "2026-11-09": {
+      "words": [
+        {
+          "en": "favourite",
+          "de": "Lieblings-",
+          "type": "Adjektiv",
+          "example": "What's your favourite colour?"
+        },
+        {
+          "en": "funny",
+          "de": "lustig",
+          "type": "Adjektiv",
+          "example": "The film was really funny."
+        },
+        {
+          "en": "boring",
+          "de": "langweilig",
+          "type": "Adjektiv",
+          "example": "Rainy Sundays are boring."
+        },
+        {
+          "en": "friendly",
+          "de": "freundlich",
+          "type": "Adjektiv",
+          "example": "Our neighbours are friendly."
+        }
+      ],
+      "gestern": [
+        "ins Bett gehen",
+        "kochen",
+        "Beeil dich!",
+        "das Spiel"
       ]
     }
   }

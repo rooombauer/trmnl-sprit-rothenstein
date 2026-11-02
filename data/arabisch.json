@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-11-01T07:35:05Z",
-  "date": "2026-11-01",
+  "updated_at": "2026-11-02T00:47:25Z",
+  "date": "2026-11-02",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "ذِكْرَى",
-      "tr": "ḏikrā",
-      "de": "die Erinnerung",
-      "en": "the memory",
+      "ar": "رَفَضَ",
+      "tr": "rafaḍa",
+      "de": "ablehnen",
+      "en": "to refuse",
+      "type": "Verb",
+      "extra": "Präsens: يَرْفُضُ",
+      "ex_ar": "رفض العرض.",
+      "ex_de": "Er hat das Angebot abgelehnt."
+    },
+    {
+      "ar": "تَذَكَّرَ",
+      "tr": "taḏakkara",
+      "de": "sich erinnern",
+      "en": "to remember",
+      "type": "Verb",
+      "extra": "Präsens: يَتَذَكَّرُ",
+      "ex_ar": "هل تتذكر اسمه؟",
+      "ex_de": "Erinnerst du dich an seinen Namen?"
+    },
+    {
+      "ar": "مُجْتَمَع",
+      "tr": "muǧtamaʿ",
+      "de": "die Gesellschaft",
+      "en": "the society",
       "type": "Nomen",
-      "extra": "Pl. ذِكْرَيَات",
-      "ex_ar": "عندي ذكريات جميلة من طفولتي.",
-      "ex_de": "Ich habe schöne Erinnerungen an meine Kindheit."
+      "extra": "Pl. مُجْتَمَعَات",
+      "ex_ar": "التعليم مهم للمجتمع.",
+      "ex_de": "Bildung ist wichtig für die Gesellschaft."
     },
     {
-      "ar": "صَحِيح",
-      "tr": "ṣaḥīḥ",
-      "de": "richtig",
-      "en": "correct",
-      "type": "Adjektiv",
-      "extra": "f. صَحِيحَة",
-      "ex_ar": "هذا صحيح تماما.",
-      "ex_de": "Das ist völlig richtig."
-    },
-    {
-      "ar": "لَكِنْ",
-      "tr": "lākin",
-      "de": "aber",
-      "en": "but",
-      "type": "Bindewort",
-      "extra": "",
-      "ex_ar": "أريد أن آتي، لكن ليس عندي وقت.",
-      "ex_de": "Ich möchte kommen, aber ich habe keine Zeit."
-    },
-    {
-      "ar": "شَرِكَة",
-      "tr": "šarika",
-      "de": "die Firma",
-      "en": "the company",
-      "type": "Nomen",
-      "extra": "Pl. شَرِكَات",
-      "ex_ar": "يعمل في شركة كبيرة.",
-      "ex_de": "Er arbeitet in einer großen Firma."
+      "ar": "تَوَقَّفَ",
+      "tr": "tawaqqafa",
+      "de": "anhalten, aufhören",
+      "en": "to stop",
+      "type": "Verb",
+      "extra": "Präsens: يَتَوَقَّفُ",
+      "ex_ar": "توقف القطار في المحطة.",
+      "ex_de": "Der Zug hielt am Bahnhof."
     }
   ],
   "days": {
-    "2026-11-01": {
-      "words": [
-        {
-          "ar": "ذِكْرَى",
-          "tr": "ḏikrā",
-          "de": "die Erinnerung",
-          "en": "the memory",
-          "type": "Nomen",
-          "extra": "Pl. ذِكْرَيَات",
-          "ex_ar": "عندي ذكريات جميلة من طفولتي.",
-          "ex_de": "Ich habe schöne Erinnerungen an meine Kindheit."
-        },
-        {
-          "ar": "صَحِيح",
-          "tr": "ṣaḥīḥ",
-          "de": "richtig",
-          "en": "correct",
-          "type": "Adjektiv",
-          "extra": "f. صَحِيحَة",
-          "ex_ar": "هذا صحيح تماما.",
-          "ex_de": "Das ist völlig richtig."
-        },
-        {
-          "ar": "لَكِنْ",
-          "tr": "lākin",
-          "de": "aber",
-          "en": "but",
-          "type": "Bindewort",
-          "extra": "",
-          "ex_ar": "أريد أن آتي، لكن ليس عندي وقت.",
-          "ex_de": "Ich möchte kommen, aber ich habe keine Zeit."
-        },
-        {
-          "ar": "شَرِكَة",
-          "tr": "šarika",
-          "de": "die Firma",
-          "en": "the company",
-          "type": "Nomen",
-          "extra": "Pl. شَرِكَات",
-          "ex_ar": "يعمل في شركة كبيرة.",
-          "ex_de": "Er arbeitet in einer großen Firma."
-        }
-      ],
-      "gestern": [
-        "die Wohnung",
-        "mach es dir bequem",
-        "empfangen",
-        "die Natur"
-      ]
-    },
     "2026-11-02": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "das Gehalt",
         "plötzlich",
         "besonders, privat"
+      ]
+    },
+    "2026-11-09": {
+      "words": [
+        {
+          "ar": "فَاتُورَة",
+          "tr": "fātūra",
+          "de": "die Rechnung",
+          "en": "the bill",
+          "type": "Nomen",
+          "extra": "Pl. فَوَاتِير",
+          "ex_ar": "وصلت فاتورة الكهرباء.",
+          "ex_de": "Die Stromrechnung ist angekommen."
+        },
+        {
+          "ar": "اِنْتَقَلَ",
+          "tr": "intaqala",
+          "de": "umziehen",
+          "en": "to move",
+          "type": "Verb",
+          "extra": "Präsens: يَنْتَقِلُ",
+          "ex_ar": "انتقلنا إلى شقة جديدة.",
+          "ex_de": "Wir sind in eine neue Wohnung umgezogen."
+        },
+        {
+          "ar": "فَرْق",
+          "tr": "farq",
+          "de": "der Unterschied",
+          "en": "the difference",
+          "type": "Nomen",
+          "extra": "Pl. فُرُوق",
+          "ex_ar": "ما الفرق بين الكلمتين؟",
+          "ex_de": "Was ist der Unterschied zwischen den beiden Wörtern?"
+        },
+        {
+          "ar": "بِسَبَبِ",
+          "tr": "bi-sababi",
+          "de": "wegen",
+          "en": "because of",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "تأخرت بسبب الزحام.",
+          "ex_de": "Ich habe mich wegen des Staus verspätet."
+        }
+      ],
+      "gestern": [
+        "wie schön (Bewunderung)",
+        "endlich",
+        "während",
+        "die Umwelt"
       ]
     }
   }
