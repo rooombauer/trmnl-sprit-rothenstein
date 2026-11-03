@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-02T07:42:11Z",
-  "date": "2026-11-02",
+  "updated_at": "2026-11-03T02:56:35Z",
+  "date": "2026-11-03",
   "local": [
     {
-      "title": "Jena am Montag: Das sind die Nachrichten zum Wochenstart",
-      "teaser": "Kita Himmelszelt erneut zertifiziert, Herz-Seminar zu Vorhofflimmern in der Aula, …",
-      "source": "OTZ Jena"
+      "title": "Royale Silberleuchter aus Villa Bergfried in Rudolstadt für Rekordpreis versteigert",
+      "teaser": "Royale Silberleuchter sind bei Wendl in Rudolstadt für 135.000 Euro versteigert worden.",
+      "source": "MDR Thüringen"
     },
     {
-      "title": "„Es geht gefühlt schon wieder in die heiße Phase“: Termin für nächsten CSD in Jena steht fest",
-      "teaser": "Der Termin für den nächsten Christopher Street Day in Jena steht fest.",
+      "title": "Ultrafans des FC Carl Zeiss Jena gehen mit Ausstellung in die Verlängerung",
+      "teaser": "Zum 25-Jährigen lädt die Horda Azzuro ein.",
       "source": "OTZ Jena"
     }
   ],
   "world": [
     {
-      "title": "Best of Oktober: Mehr Demokratie, gesündere Kinder",
-      "teaser": "Hier kommt unser Rückblick auf die wichtigsten und spannendsten konstruktiven …",
+      "title": "89-jährige Mexikanerin macht ihren Doktor",
+      "teaser": "Mit Freudentränen im Gesicht verfolgt Dr.",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Jena am Montag: Das sind die Nachrichten zum Wochenstart",
-      "teaser": "Kita Himmelszelt erneut zertifiziert, Herz-Seminar zu Vorhofflimmern in der Aula, …",
+      "title": "Royale Silberleuchter aus Villa Bergfried in Rudolstadt für Rekordpreis versteigert",
+      "teaser": "Royale Silberleuchter sind bei Wendl in Rudolstadt für 135.000 Euro versteigert worden.",
+      "source": "MDR Thüringen"
+    },
+    {
+      "title": "Ultrafans des FC Carl Zeiss Jena gehen mit Ausstellung in die Verlängerung",
+      "teaser": "Zum 25-Jährigen lädt die Horda Azzuro ein.",
       "source": "OTZ Jena"
     },
     {
-      "title": "„Es geht gefühlt schon wieder in die heiße Phase“: Termin für nächsten CSD in Jena steht fest",
-      "teaser": "Der Termin für den nächsten Christopher Street Day in Jena steht fest.",
-      "source": "OTZ Jena"
-    },
-    {
-      "title": "Best of Oktober: Mehr Demokratie, gesündere Kinder",
-      "teaser": "Hier kommt unser Rückblick auf die wichtigsten und spannendsten konstruktiven …",
+      "title": "89-jährige Mexikanerin macht ihren Doktor",
+      "teaser": "Mit Freudentränen im Gesicht verfolgt Dr.",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Ich esse nicht jede Sorte Chips. Ich bin da sehr pringelig.",
+  "joke": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\"",
   "jokes_by_day": {
-    "2026-11-02": "Ich esse nicht jede Sorte Chips. Ich bin da sehr pringelig.",
     "2026-11-03": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\"",
     "2026-11-04": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\"",
     "2026-11-05": "Was ist klein, grün und sieht aus wie ein Drei-Eck? Ein kleines grünes Drei-Eck.",
     "2026-11-06": "Was fragt ein Dalmatiner im Rewe?\nDarf ich die Punkte?",
     "2026-11-07": "Mathelehrer: \"Was ist die Hälfte von 637 Kilo?\"\nSchüler: \"637 Pfund.\"",
     "2026-11-08": "„Ich hab jetzt schon tagelang nicht mehr geschlafen“ – „Bist du da nicht total am Ende?“ – „Nein, nachts schlaf ich ja gut.“",
-    "2026-11-09": "Was ist braun und fährt einen verschneiten Hang hinunter? – Ein Snowbrot."
+    "2026-11-09": "Was ist braun und fährt einen verschneiten Hang hinunter? – Ein Snowbrot.",
+    "2026-11-10": "Was ist braun, knusprig und läuft mit dem Korb durch den Wald? – Brotkäppchen."
   },
-  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
 }
