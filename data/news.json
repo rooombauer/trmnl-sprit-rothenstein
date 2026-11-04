@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-03T07:56:40Z",
-  "date": "2026-11-03",
+  "updated_at": "2026-11-04T01:26:04Z",
+  "date": "2026-11-04",
   "local": [
     {
-      "title": "Jenas Ernst-Abbe-Bücherei wird zur Disco – und feiert bis 22 Uhr",
-      "teaser": "Silent Disco, Gaming und nächtliche Führungen: Zum 130. Geburtstag verwandelt sich die …",
-      "source": "OTZ Jena"
+      "title": "Handwerker-Häuser in Jena werden saniert",
+      "teaser": "Direkt neben dem Uni-Campus sollen 28 Wohnplätze für Studenten entstehen.",
+      "source": "MDR Thüringen"
     },
     {
-      "title": "Royale Silberleuchter aus Villa Bergfried in Rudolstadt für Rekordpreis versteigert",
-      "teaser": "Royale Silberleuchter sind bei Wendl in Rudolstadt für 135.000 Euro versteigert worden.",
-      "source": "MDR Thüringen"
+      "title": "Eine Ausstellung gegen das Vergessen: Schule in Jena bringt die Schicksale der Shoah nahe",
+      "teaser": "25 Porträts von Überlebenden, Begegnungen zwischen Generationen und eindringliche …",
+      "source": "OTZ Jena"
     }
   ],
   "world": [
     {
-      "title": "89-jährige Mexikanerin macht ihren Doktor",
-      "teaser": "Mit Freudentränen im Gesicht verfolgt Dr.",
+      "title": "Vom Dorfgarten bis zur Fahrradwerkstatt: Das sind die 20 Gewinnerideen von „Klimaschutz nebenan“",
+      "teaser": "Schüler:innen in München, die alte Computer vor dem Elektroschrott retten, eine …",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Jenas Ernst-Abbe-Bücherei wird zur Disco – und feiert bis 22 Uhr",
-      "teaser": "Silent Disco, Gaming und nächtliche Führungen: Zum 130. Geburtstag verwandelt sich die …",
-      "source": "OTZ Jena"
-    },
-    {
-      "title": "Royale Silberleuchter aus Villa Bergfried in Rudolstadt für Rekordpreis versteigert",
-      "teaser": "Royale Silberleuchter sind bei Wendl in Rudolstadt für 135.000 Euro versteigert worden.",
+      "title": "Handwerker-Häuser in Jena werden saniert",
+      "teaser": "Direkt neben dem Uni-Campus sollen 28 Wohnplätze für Studenten entstehen.",
       "source": "MDR Thüringen"
     },
     {
-      "title": "89-jährige Mexikanerin macht ihren Doktor",
-      "teaser": "Mit Freudentränen im Gesicht verfolgt Dr.",
+      "title": "Eine Ausstellung gegen das Vergessen: Schule in Jena bringt die Schicksale der Shoah nahe",
+      "teaser": "25 Porträts von Überlebenden, Begegnungen zwischen Generationen und eindringliche …",
+      "source": "OTZ Jena"
+    },
+    {
+      "title": "Vom Dorfgarten bis zur Fahrradwerkstatt: Das sind die 20 Gewinnerideen von „Klimaschutz nebenan“",
+      "teaser": "Schüler:innen in München, die alte Computer vor dem Elektroschrott retten, eine …",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\"",
+  "joke": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\"",
   "jokes_by_day": {
-    "2026-11-03": "Lehrer weckt schlafenden Schüler: \"Junger Mann, das ist wohl kaum der richtige Platz zum Schlafen!\"\nSchüler: \"Es geht schon, wenn Sie nur etwas leiser sprechen könnten?\"",
     "2026-11-04": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\"",
     "2026-11-05": "Was ist klein, grün und sieht aus wie ein Drei-Eck? Ein kleines grünes Drei-Eck.",
     "2026-11-06": "Was fragt ein Dalmatiner im Rewe?\nDarf ich die Punkte?",
     "2026-11-07": "Mathelehrer: \"Was ist die Hälfte von 637 Kilo?\"\nSchüler: \"637 Pfund.\"",
     "2026-11-08": "„Ich hab jetzt schon tagelang nicht mehr geschlafen“ – „Bist du da nicht total am Ende?“ – „Nein, nachts schlaf ich ja gut.“",
     "2026-11-09": "Was ist braun und fährt einen verschneiten Hang hinunter? – Ein Snowbrot.",
-    "2026-11-10": "Was ist braun, knusprig und läuft mit dem Korb durch den Wald? – Brotkäppchen."
+    "2026-11-10": "Was ist braun, knusprig und läuft mit dem Korb durch den Wald? – Brotkäppchen.",
+    "2026-11-11": "Wie nennt man einen studierten Bauern? Ackerdemiker."
   },
   "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
 }

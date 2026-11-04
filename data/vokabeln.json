@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-03T07:56:33Z",
-  "date": "2026-11-03",
+  "updated_at": "2026-11-04T01:25:58Z",
+  "date": "2026-11-04",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "vegetables",
-      "de": "das Gemüse",
+      "en": "subject",
+      "de": "das Schulfach",
       "type": "Nomen",
-      "example": "Vegetables are good for you."
+      "example": "My favourite subject is biology."
     },
     {
-      "en": "in front of",
-      "de": "vor",
+      "en": "to look for",
+      "de": "suchen",
+      "type": "Verb",
+      "example": "I'm looking for my pencil."
+    },
+    {
+      "en": "mistake",
+      "de": "der Fehler",
+      "type": "Nomen",
+      "example": "Everybody makes mistakes."
+    },
+    {
+      "en": "behind",
+      "de": "hinter",
       "type": "Präposition",
-      "example": "Meet me in front of the school."
-    },
-    {
-      "en": "to hope",
-      "de": "hoffen",
-      "type": "Verb",
-      "example": "I hope you feel better soon."
-    },
-    {
-      "en": "to get up",
-      "de": "aufstehen",
-      "type": "Verb",
-      "example": "I get up at half past five."
+      "example": "The ball is behind the door."
     }
   ],
   "days": {
-    "2026-11-03": {
-      "words": [
-        {
-          "en": "vegetables",
-          "de": "das Gemüse",
-          "type": "Nomen",
-          "example": "Vegetables are good for you."
-        },
-        {
-          "en": "in front of",
-          "de": "vor",
-          "type": "Präposition",
-          "example": "Meet me in front of the school."
-        },
-        {
-          "en": "to hope",
-          "de": "hoffen",
-          "type": "Verb",
-          "example": "I hope you feel better soon."
-        },
-        {
-          "en": "to get up",
-          "de": "aufstehen",
-          "type": "Verb",
-          "example": "I get up at half past five."
-        }
-      ],
-      "gestern": [
-        "schreiben",
-        "die Oma",
-        "das Geschenk",
-        "aufräumen"
-      ]
-    },
     "2026-11-04": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "lustig",
         "langweilig",
         "freundlich"
+      ]
+    },
+    "2026-11-11": {
+      "words": [
+        {
+          "en": "never",
+          "de": "nie",
+          "type": "Adverb",
+          "example": "My brother never tidies his room."
+        },
+        {
+          "en": "to shout",
+          "de": "rufen, schreien",
+          "type": "Verb",
+          "example": "Don't shout in the classroom!"
+        },
+        {
+          "en": "birthday",
+          "de": "der Geburtstag",
+          "type": "Nomen",
+          "example": "When is your birthday?"
+        },
+        {
+          "en": "to practise",
+          "de": "üben",
+          "type": "Verb",
+          "example": "I practise the piano every day."
+        }
+      ],
+      "gestern": [
+        "die Schuhe",
+        "wieder, noch einmal",
+        "zusammen",
+        "der Bruder"
       ]
     }
   }
