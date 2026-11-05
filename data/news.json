@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-04T07:30:18Z",
-  "date": "2026-11-04",
+  "updated_at": "2026-11-05T01:28:54Z",
+  "date": "2026-11-05",
   "local": [
     {
-      "title": "Handwerker-Häuser in Jena werden saniert",
-      "teaser": "Direkt neben dem Uni-Campus sollen 28 Wohnplätze für Studenten entstehen.",
+      "title": "Ja-Wort per Speed-Wedding in Jena",
+      "teaser": "Keine Festrede, keine Musik, keine Hochzeitsgäste: In Jena hat das Standesamt erstmals …",
       "source": "MDR Thüringen"
     },
     {
-      "title": "Eine Ausstellung gegen das Vergessen: Schule in Jena bringt die Schicksale der Shoah nahe",
-      "teaser": "25 Porträts von Überlebenden, Begegnungen zwischen Generationen und eindringliche …",
+      "title": "Saale-Holzland: 10 Jahre mussten diese Gemeinden auf ein Stück Radweg warten",
+      "teaser": "Im Zuge der Dorferneuerung vor mehr als zehn Jahren entstand ein Radwegekonzept.",
       "source": "OTZ Jena"
     }
   ],
   "world": [
     {
-      "title": "Vom Dorfgarten bis zur Fahrradwerkstatt: Das sind die 20 Gewinnerideen von „Klimaschutz nebenan“",
-      "teaser": "Schüler:innen in München, die alte Computer vor dem Elektroschrott retten, eine …",
+      "title": "Warum Teilzeit kein Lifestyle und weniger Arbeit im Zweifel die bessere Arbeit ist",
+      "teaser": "Wo liegt die Zukunft der Arbeit?",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Handwerker-Häuser in Jena werden saniert",
-      "teaser": "Direkt neben dem Uni-Campus sollen 28 Wohnplätze für Studenten entstehen.",
+      "title": "Ja-Wort per Speed-Wedding in Jena",
+      "teaser": "Keine Festrede, keine Musik, keine Hochzeitsgäste: In Jena hat das Standesamt erstmals …",
       "source": "MDR Thüringen"
     },
     {
-      "title": "Eine Ausstellung gegen das Vergessen: Schule in Jena bringt die Schicksale der Shoah nahe",
-      "teaser": "25 Porträts von Überlebenden, Begegnungen zwischen Generationen und eindringliche …",
+      "title": "Saale-Holzland: 10 Jahre mussten diese Gemeinden auf ein Stück Radweg warten",
+      "teaser": "Im Zuge der Dorferneuerung vor mehr als zehn Jahren entstand ein Radwegekonzept.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Vom Dorfgarten bis zur Fahrradwerkstatt: Das sind die 20 Gewinnerideen von „Klimaschutz nebenan“",
-      "teaser": "Schüler:innen in München, die alte Computer vor dem Elektroschrott retten, eine …",
+      "title": "Warum Teilzeit kein Lifestyle und weniger Arbeit im Zweifel die bessere Arbeit ist",
+      "teaser": "Wo liegt die Zukunft der Arbeit?",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\"",
+  "joke": "Was ist klein, grün und sieht aus wie ein Drei-Eck? Ein kleines grünes Drei-Eck.",
   "jokes_by_day": {
-    "2026-11-04": "Lehrer: \"Wörter, die mit un- anfangen, bedeuten immer etwas Schlechtes, wie z.B.: unzufrieden oder unangenehm. Fällt euch noch ein Beispiel ein?\nSchüler: \"Unterricht.\"",
     "2026-11-05": "Was ist klein, grün und sieht aus wie ein Drei-Eck? Ein kleines grünes Drei-Eck.",
     "2026-11-06": "Was fragt ein Dalmatiner im Rewe?\nDarf ich die Punkte?",
     "2026-11-07": "Mathelehrer: \"Was ist die Hälfte von 637 Kilo?\"\nSchüler: \"637 Pfund.\"",
     "2026-11-08": "„Ich hab jetzt schon tagelang nicht mehr geschlafen“ – „Bist du da nicht total am Ende?“ – „Nein, nachts schlaf ich ja gut.“",
     "2026-11-09": "Was ist braun und fährt einen verschneiten Hang hinunter? – Ein Snowbrot.",
     "2026-11-10": "Was ist braun, knusprig und läuft mit dem Korb durch den Wald? – Brotkäppchen.",
-    "2026-11-11": "Wie nennt man einen studierten Bauern? Ackerdemiker."
+    "2026-11-11": "Wie nennt man einen studierten Bauern? Ackerdemiker.",
+    "2026-11-12": "Was macht ein Drache im Fußballstadion? Die Leute anfeuern."
   },
   "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
 }

@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-04T07:30:13Z",
-  "date": "2026-11-04",
+  "updated_at": "2026-11-05T01:28:50Z",
+  "date": "2026-11-05",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "subject",
-      "de": "das Schulfach",
-      "type": "Nomen",
-      "example": "My favourite subject is biology."
-    },
-    {
-      "en": "to look for",
-      "de": "suchen",
+      "en": "to buy",
+      "de": "kaufen",
       "type": "Verb",
-      "example": "I'm looking for my pencil."
+      "example": "Mum buys milk at the shop."
     },
     {
-      "en": "mistake",
-      "de": "der Fehler",
+      "en": "lazy",
+      "de": "faul",
+      "type": "Adjektiv",
+      "example": "My cat is very lazy."
+    },
+    {
+      "en": "to brush one's teeth",
+      "de": "sich die Zähne putzen",
+      "type": "Verb",
+      "example": "Don't forget to brush your teeth!"
+    },
+    {
+      "en": "stairs",
+      "de": "die Treppe",
       "type": "Nomen",
-      "example": "Everybody makes mistakes."
-    },
-    {
-      "en": "behind",
-      "de": "hinter",
-      "type": "Präposition",
-      "example": "The ball is behind the door."
+      "example": "Don't run on the stairs!"
     }
   ],
   "days": {
-    "2026-11-04": {
-      "words": [
-        {
-          "en": "subject",
-          "de": "das Schulfach",
-          "type": "Nomen",
-          "example": "My favourite subject is biology."
-        },
-        {
-          "en": "to look for",
-          "de": "suchen",
-          "type": "Verb",
-          "example": "I'm looking for my pencil."
-        },
-        {
-          "en": "mistake",
-          "de": "der Fehler",
-          "type": "Nomen",
-          "example": "Everybody makes mistakes."
-        },
-        {
-          "en": "behind",
-          "de": "hinter",
-          "type": "Präposition",
-          "example": "The ball is behind the door."
-        }
-      ],
-      "gestern": [
-        "das Gemüse",
-        "vor",
-        "hoffen",
-        "aufstehen"
-      ]
-    },
     "2026-11-05": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "wieder, noch einmal",
         "zusammen",
         "der Bruder"
+      ]
+    },
+    "2026-11-12": {
+      "words": [
+        {
+          "en": "rain",
+          "de": "der Regen",
+          "type": "Nomen",
+          "example": "Take an umbrella, there's rain today."
+        },
+        {
+          "en": "difficult",
+          "de": "schwierig",
+          "type": "Adjektiv",
+          "example": "This task is difficult."
+        },
+        {
+          "en": "idea",
+          "de": "die Idee",
+          "type": "Nomen",
+          "example": "That's a great idea!"
+        },
+        {
+          "en": "aunt",
+          "de": "die Tante",
+          "type": "Nomen",
+          "example": "My aunt makes the best cake."
+        }
+      ],
+      "gestern": [
+        "nie",
+        "rufen, schreien",
+        "der Geburtstag",
+        "üben"
       ]
     }
   }

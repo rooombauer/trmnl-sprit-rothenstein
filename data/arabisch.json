@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-11-04T07:30:13Z",
-  "date": "2026-11-04",
+  "updated_at": "2026-11-05T01:28:50Z",
+  "date": "2026-11-05",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "اِعْتَقَدَ",
-      "tr": "iʿtaqada",
-      "de": "glauben, meinen",
-      "en": "to believe",
-      "type": "Verb",
-      "extra": "Präsens: يَعْتَقِدُ",
-      "ex_ar": "أعتقد أنك على حق.",
-      "ex_de": "Ich glaube, du hast recht."
-    },
-    {
-      "ar": "اِهْتَمَّ",
-      "tr": "ihtamma",
-      "de": "sich kümmern (بـ)",
-      "en": "to take care of",
-      "type": "Verb",
-      "extra": "Präsens: يَهْتَمُّ",
-      "ex_ar": "تهتم أمي بالحديقة.",
-      "ex_de": "Meine Mutter kümmert sich um den Garten."
-    },
-    {
-      "ar": "رَأْي",
-      "tr": "raʾy",
-      "de": "die Meinung",
-      "en": "the opinion",
+      "ar": "ضَيْف",
+      "tr": "ḍaif",
+      "de": "der Gast",
+      "en": "the guest",
       "type": "Nomen",
-      "extra": "Pl. آرَاء",
-      "ex_ar": "ما رأيك في هذا الكتاب؟",
-      "ex_de": "Was hältst du von diesem Buch?"
+      "extra": "Pl. ضُيُوف",
+      "ex_ar": "عندنا ضيوف الليلة.",
+      "ex_de": "Wir haben heute Abend Gäste."
     },
     {
-      "ar": "قَرَار",
-      "tr": "qarār",
-      "de": "die Entscheidung",
-      "en": "the decision",
+      "ar": "سِعْر",
+      "tr": "siʿr",
+      "de": "der Preis",
+      "en": "the price",
       "type": "Nomen",
-      "extra": "Pl. قَرَارَات",
-      "ex_ar": "اتخذت قرارا مهما.",
-      "ex_de": "Ich habe eine wichtige Entscheidung getroffen."
+      "extra": "Pl. أَسْعَار",
+      "ex_ar": "الأسعار مرتفعة هذه الأيام.",
+      "ex_de": "Die Preise sind zurzeit hoch."
+    },
+    {
+      "ar": "فَشِلَ",
+      "tr": "fašila",
+      "de": "scheitern",
+      "en": "to fail",
+      "type": "Verb",
+      "extra": "Präsens: يَفْشَلُ",
+      "ex_ar": "لا تخف من أن تفشل.",
+      "ex_de": "Hab keine Angst zu scheitern."
+    },
+    {
+      "ar": "إِيجَار",
+      "tr": "īǧār",
+      "de": "die Miete",
+      "en": "the rent",
+      "type": "Nomen",
+      "extra": "",
+      "ex_ar": "الإيجار غال في المدينة.",
+      "ex_de": "Die Miete in der Stadt ist teuer."
     }
   ],
   "days": {
-    "2026-11-04": {
-      "words": [
-        {
-          "ar": "اِعْتَقَدَ",
-          "tr": "iʿtaqada",
-          "de": "glauben, meinen",
-          "en": "to believe",
-          "type": "Verb",
-          "extra": "Präsens: يَعْتَقِدُ",
-          "ex_ar": "أعتقد أنك على حق.",
-          "ex_de": "Ich glaube, du hast recht."
-        },
-        {
-          "ar": "اِهْتَمَّ",
-          "tr": "ihtamma",
-          "de": "sich kümmern (بـ)",
-          "en": "to take care of",
-          "type": "Verb",
-          "extra": "Präsens: يَهْتَمُّ",
-          "ex_ar": "تهتم أمي بالحديقة.",
-          "ex_de": "Meine Mutter kümmert sich um den Garten."
-        },
-        {
-          "ar": "رَأْي",
-          "tr": "raʾy",
-          "de": "die Meinung",
-          "en": "the opinion",
-          "type": "Nomen",
-          "extra": "Pl. آرَاء",
-          "ex_ar": "ما رأيك في هذا الكتاب؟",
-          "ex_de": "Was hältst du von diesem Buch?"
-        },
-        {
-          "ar": "قَرَار",
-          "tr": "qarār",
-          "de": "die Entscheidung",
-          "en": "the decision",
-          "type": "Nomen",
-          "extra": "Pl. قَرَارَات",
-          "ex_ar": "اتخذت قرارا مهما.",
-          "ex_de": "Ich habe eine wichtige Entscheidung getroffen."
-        }
-      ],
-      "gestern": [
-        "vorschlagen",
-        "die Feier",
-        "verantwortlich",
-        "der Weg"
-      ]
-    },
     "2026-11-05": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "auch",
         "wenn, als",
         "passend"
+      ]
+    },
+    "2026-11-12": {
+      "words": [
+        {
+          "ar": "صُورَة",
+          "tr": "ṣūra",
+          "de": "das Bild, Foto",
+          "en": "the picture",
+          "type": "Nomen",
+          "extra": "Pl. صُوَر",
+          "ex_ar": "التقطت صورا كثيرة في الرحلة.",
+          "ex_de": "Ich habe auf der Reise viele Fotos gemacht."
+        },
+        {
+          "ar": "رَغْمَ",
+          "tr": "raġma",
+          "de": "trotz",
+          "en": "despite",
+          "type": "Bindewort",
+          "extra": "",
+          "ex_ar": "خرجنا رغم المطر.",
+          "ex_de": "Wir gingen trotz des Regens hinaus."
+        },
+        {
+          "ar": "هَدَف",
+          "tr": "hadaf",
+          "de": "das Ziel",
+          "en": "the goal",
+          "type": "Nomen",
+          "extra": "Pl. أَهْدَاف",
+          "ex_ar": "هدفي أن أتكلم العربية بطلاقة.",
+          "ex_de": "Mein Ziel ist, fließend Arabisch zu sprechen."
+        },
+        {
+          "ar": "عَلَى فِكْرَة",
+          "tr": "ʿalā fikra",
+          "de": "übrigens",
+          "en": "by the way",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "على فكرة، اتصلت أختك.",
+          "ex_de": "Übrigens, deine Schwester hat angerufen."
+        }
+      ],
+      "gestern": [
+        "gefallen",
+        "erklären",
+        "der Betrag",
+        "ich wünsche dir"
       ]
     }
   }
