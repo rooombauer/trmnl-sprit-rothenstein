@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-05T07:55:30Z",
-  "date": "2026-11-05",
+  "updated_at": "2026-11-06T01:35:01Z",
+  "date": "2026-11-06",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "to buy",
-      "de": "kaufen",
-      "type": "Verb",
-      "example": "Mum buys milk at the shop."
-    },
-    {
-      "en": "lazy",
-      "de": "faul",
+      "en": "warm",
+      "de": "warm",
       "type": "Adjektiv",
-      "example": "My cat is very lazy."
+      "example": "It's warm and sunny today."
     },
     {
-      "en": "to brush one's teeth",
-      "de": "sich die Zähne putzen",
-      "type": "Verb",
-      "example": "Don't forget to brush your teeth!"
-    },
-    {
-      "en": "stairs",
-      "de": "die Treppe",
+      "en": "exercise book",
+      "de": "das Schulheft",
       "type": "Nomen",
-      "example": "Don't run on the stairs!"
+      "example": "Write the words in your exercise book."
+    },
+    {
+      "en": "rubber",
+      "de": "der Radiergummi",
+      "type": "Nomen",
+      "example": "Oops, I need a rubber!"
+    },
+    {
+      "en": "kitchen",
+      "de": "die Küche",
+      "type": "Nomen",
+      "example": "We have breakfast in the kitchen."
     }
   ],
   "days": {
-    "2026-11-05": {
-      "words": [
-        {
-          "en": "to buy",
-          "de": "kaufen",
-          "type": "Verb",
-          "example": "Mum buys milk at the shop."
-        },
-        {
-          "en": "lazy",
-          "de": "faul",
-          "type": "Adjektiv",
-          "example": "My cat is very lazy."
-        },
-        {
-          "en": "to brush one's teeth",
-          "de": "sich die Zähne putzen",
-          "type": "Verb",
-          "example": "Don't forget to brush your teeth!"
-        },
-        {
-          "en": "stairs",
-          "de": "die Treppe",
-          "type": "Nomen",
-          "example": "Don't run on the stairs!"
-        }
-      ],
-      "gestern": [
-        "das Schulfach",
-        "suchen",
-        "der Fehler",
-        "hinter"
-      ]
-    },
     "2026-11-06": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "rufen, schreien",
         "der Geburtstag",
         "üben"
+      ]
+    },
+    "2026-11-13": {
+      "words": [
+        {
+          "en": "pet",
+          "de": "das Haustier",
+          "type": "Nomen",
+          "example": "Have you got a pet?"
+        },
+        {
+          "en": "dinner",
+          "de": "das Abendessen",
+          "type": "Nomen",
+          "example": "We have dinner at six o'clock."
+        },
+        {
+          "en": "clean",
+          "de": "sauber",
+          "type": "Adjektiv",
+          "example": "My room is clean now."
+        },
+        {
+          "en": "to wash",
+          "de": "waschen",
+          "type": "Verb",
+          "example": "Wash your hands before dinner."
+        }
+      ],
+      "gestern": [
+        "der Regen",
+        "schwierig",
+        "die Idee",
+        "die Tante"
       ]
     }
   }

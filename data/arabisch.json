@@ -1,100 +1,50 @@
 {
-  "updated_at": "2026-11-05T07:55:30Z",
-  "date": "2026-11-05",
+  "updated_at": "2026-11-06T01:35:01Z",
+  "date": "2026-11-06",
   "topic": "Hocharabisch · B1",
   "words": [
     {
-      "ar": "ضَيْف",
-      "tr": "ḍaif",
-      "de": "der Gast",
-      "en": "the guest",
+      "ar": "فُرْصَة",
+      "tr": "furṣa",
+      "de": "die Gelegenheit",
+      "en": "the opportunity",
       "type": "Nomen",
-      "extra": "Pl. ضُيُوف",
-      "ex_ar": "عندنا ضيوف الليلة.",
-      "ex_de": "Wir haben heute Abend Gäste."
+      "extra": "Pl. فُرَص",
+      "ex_ar": "هذه فرصة جيدة لنا.",
+      "ex_de": "Das ist eine gute Gelegenheit für uns."
     },
     {
-      "ar": "سِعْر",
-      "tr": "siʿr",
-      "de": "der Preis",
-      "en": "the price",
-      "type": "Nomen",
-      "extra": "Pl. أَسْعَار",
-      "ex_ar": "الأسعار مرتفعة هذه الأيام.",
-      "ex_de": "Die Preise sind zurzeit hoch."
-    },
-    {
-      "ar": "فَشِلَ",
-      "tr": "fašila",
-      "de": "scheitern",
-      "en": "to fail",
-      "type": "Verb",
-      "extra": "Präsens: يَفْشَلُ",
-      "ex_ar": "لا تخف من أن تفشل.",
-      "ex_de": "Hab keine Angst zu scheitern."
-    },
-    {
-      "ar": "إِيجَار",
-      "tr": "īǧār",
-      "de": "die Miete",
-      "en": "the rent",
-      "type": "Nomen",
+      "ar": "بِالتَّأْكِيد",
+      "tr": "bi-t-taʾkīd",
+      "de": "sicher, natürlich",
+      "en": "of course",
+      "type": "Redewendung",
       "extra": "",
-      "ex_ar": "الإيجار غال في المدينة.",
-      "ex_de": "Die Miete in der Stadt ist teuer."
+      "ex_ar": "هل ستأتي؟ بالتأكيد!",
+      "ex_de": "Kommst du? Natürlich!"
+    },
+    {
+      "ar": "اِسْتَعْمَلَ",
+      "tr": "istaʿmala",
+      "de": "benutzen",
+      "en": "to use",
+      "type": "Verb",
+      "extra": "Präsens: يَسْتَعْمِلُ",
+      "ex_ar": "أستعمل الحاسوب كل يوم.",
+      "ex_de": "Ich benutze jeden Tag den Computer."
+    },
+    {
+      "ar": "اِسْتَفَادَ",
+      "tr": "istafāda",
+      "de": "profitieren (من)",
+      "en": "to benefit",
+      "type": "Verb",
+      "extra": "Präsens: يَسْتَفِيدُ",
+      "ex_ar": "استفدت كثيرا من الدورة.",
+      "ex_de": "Ich habe viel vom Kurs profitiert."
     }
   ],
   "days": {
-    "2026-11-05": {
-      "words": [
-        {
-          "ar": "ضَيْف",
-          "tr": "ḍaif",
-          "de": "der Gast",
-          "en": "the guest",
-          "type": "Nomen",
-          "extra": "Pl. ضُيُوف",
-          "ex_ar": "عندنا ضيوف الليلة.",
-          "ex_de": "Wir haben heute Abend Gäste."
-        },
-        {
-          "ar": "سِعْر",
-          "tr": "siʿr",
-          "de": "der Preis",
-          "en": "the price",
-          "type": "Nomen",
-          "extra": "Pl. أَسْعَار",
-          "ex_ar": "الأسعار مرتفعة هذه الأيام.",
-          "ex_de": "Die Preise sind zurzeit hoch."
-        },
-        {
-          "ar": "فَشِلَ",
-          "tr": "fašila",
-          "de": "scheitern",
-          "en": "to fail",
-          "type": "Verb",
-          "extra": "Präsens: يَفْشَلُ",
-          "ex_ar": "لا تخف من أن تفشل.",
-          "ex_de": "Hab keine Angst zu scheitern."
-        },
-        {
-          "ar": "إِيجَار",
-          "tr": "īǧār",
-          "de": "die Miete",
-          "en": "the rent",
-          "type": "Nomen",
-          "extra": "",
-          "ex_ar": "الإيجار غال في المدينة.",
-          "ex_de": "Die Miete in der Stadt ist teuer."
-        }
-      ],
-      "gestern": [
-        "glauben, meinen",
-        "sich kümmern (بـ)",
-        "die Meinung",
-        "die Entscheidung"
-      ]
-    },
     "2026-11-06": {
       "words": [
         {
@@ -443,6 +393,56 @@
         "erklären",
         "der Betrag",
         "ich wünsche dir"
+      ]
+    },
+    "2026-11-13": {
+      "words": [
+        {
+          "ar": "نَتِيجَة",
+          "tr": "natīǧa",
+          "de": "das Ergebnis",
+          "en": "the result",
+          "type": "Nomen",
+          "extra": "Pl. نَتَائِج",
+          "ex_ar": "النتيجة ممتازة.",
+          "ex_de": "Das Ergebnis ist ausgezeichnet."
+        },
+        {
+          "ar": "تَجْرِبَة",
+          "tr": "taǧriba",
+          "de": "die Erfahrung",
+          "en": "the experience",
+          "type": "Nomen",
+          "extra": "Pl. تَجَارِب",
+          "ex_ar": "كانت تجربة جميلة.",
+          "ex_de": "Es war eine schöne Erfahrung."
+        },
+        {
+          "ar": "سَمَحَ",
+          "tr": "samaḥa",
+          "de": "erlauben (لـ)",
+          "en": "to allow",
+          "type": "Verb",
+          "extra": "Präsens: يَسْمَحُ",
+          "ex_ar": "هل تسمح لي بسؤال؟",
+          "ex_de": "Darf ich dir eine Frage stellen?"
+        },
+        {
+          "ar": "فِي رَأْيِي",
+          "tr": "fī raʾyī",
+          "de": "meiner Meinung nach",
+          "en": "in my opinion",
+          "type": "Redewendung",
+          "extra": "",
+          "ex_ar": "في رأيي هذه فكرة جيدة.",
+          "ex_de": "Meiner Meinung nach ist das eine gute Idee."
+        }
+      ],
+      "gestern": [
+        "das Bild, Foto",
+        "trotz",
+        "das Ziel",
+        "übrigens"
       ]
     }
   }
