@@ -850,5 +850,11 @@
     "e5_avg": 1.928,
     "e5_min": 1.879,
     "station_count": 8
+  },
+  {
+    "date": "2026-11-08",
+    "e5_avg": 1.92,
+    "e5_min": 1.879,
+    "station_count": 8
   }
 ]
