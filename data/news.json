@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-07T07:12:18Z",
-  "date": "2026-11-07",
+  "updated_at": "2026-11-08T00:40:55Z",
+  "date": "2026-11-08",
   "local": [
     {
-      "title": "Vom Flohmarkt zum eigenen Laden: Romy Staude erfüllt sich in Jena einen Traum",
-      "teaser": "Romy Staude bietet gebrauchte Kinderkleidung jetzt im eigenen Laden an.",
-      "source": "OTZ Jena"
+      "title": "Pößneck: Landestag der Jungen Union",
+      "teaser": "Beim Landestag der Jungen Union im Saale-Orla-Kreis diskutieren gut einhundert …",
+      "source": "MDR Thüringen"
     },
     {
-      "title": "Neue Umleitung in Jena-Zwätzen: Anwohner fürchten um die Sicherheit ihrer Kinder",
-      "teaser": "Bei der Bürgerversammlung äußern Anwohner Bedenken wegen des zusätzlichen Verkehrs, der …",
+      "title": "15.000 Euro für Inklusion in Thüringen – was passiert mit dem Geld? Und wer bekommt das Weihnachtsmenü?",
+      "teaser": "Musik, Kochen und sicheres Auftreten: Fünf Thüringer Initiativen setzen sich mit …",
       "source": "OTZ Jena"
     }
   ],
   "world": [
     {
-      "title": "ePaper #16 – Was ist geworden aus …",
-      "teaser": "Dieses Magazin blickt zurück auf zehn Jahre Good News Magazin – und zugleich nach vorn.",
+      "title": "Die große Wirkung von Ehrenamt",
+      "teaser": "Krisen, politische Spannungen und wirtschaftliche Unsicherheit scheinen derzeit die …",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "Vom Flohmarkt zum eigenen Laden: Romy Staude erfüllt sich in Jena einen Traum",
-      "teaser": "Romy Staude bietet gebrauchte Kinderkleidung jetzt im eigenen Laden an.",
+      "title": "Pößneck: Landestag der Jungen Union",
+      "teaser": "Beim Landestag der Jungen Union im Saale-Orla-Kreis diskutieren gut einhundert …",
+      "source": "MDR Thüringen"
+    },
+    {
+      "title": "15.000 Euro für Inklusion in Thüringen – was passiert mit dem Geld? Und wer bekommt das Weihnachtsmenü?",
+      "teaser": "Musik, Kochen und sicheres Auftreten: Fünf Thüringer Initiativen setzen sich mit …",
       "source": "OTZ Jena"
     },
     {
-      "title": "Neue Umleitung in Jena-Zwätzen: Anwohner fürchten um die Sicherheit ihrer Kinder",
-      "teaser": "Bei der Bürgerversammlung äußern Anwohner Bedenken wegen des zusätzlichen Verkehrs, der …",
-      "source": "OTZ Jena"
-    },
-    {
-      "title": "ePaper #16 – Was ist geworden aus …",
-      "teaser": "Dieses Magazin blickt zurück auf zehn Jahre Good News Magazin – und zugleich nach vorn.",
+      "title": "Die große Wirkung von Ehrenamt",
+      "teaser": "Krisen, politische Spannungen und wirtschaftliche Unsicherheit scheinen derzeit die …",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Mathelehrer: \"Was ist die Hälfte von 637 Kilo?\"\nSchüler: \"637 Pfund.\"",
+  "joke": "„Ich hab jetzt schon tagelang nicht mehr geschlafen“ – „Bist du da nicht total am Ende?“ – „Nein, nachts schlaf ich ja gut.“",
   "jokes_by_day": {
-    "2026-11-07": "Mathelehrer: \"Was ist die Hälfte von 637 Kilo?\"\nSchüler: \"637 Pfund.\"",
     "2026-11-08": "„Ich hab jetzt schon tagelang nicht mehr geschlafen“ – „Bist du da nicht total am Ende?“ – „Nein, nachts schlaf ich ja gut.“",
     "2026-11-09": "Was ist braun und fährt einen verschneiten Hang hinunter? – Ein Snowbrot.",
     "2026-11-10": "Was ist braun, knusprig und läuft mit dem Korb durch den Wald? – Brotkäppchen.",
     "2026-11-11": "Wie nennt man einen studierten Bauern? Ackerdemiker.",
     "2026-11-12": "Was macht ein Drache im Fußballstadion? Die Leute anfeuern.",
     "2026-11-13": "Treffen sich 2 Schafe, sagt das eine:\nMäh!\nSagt die andere: Mäh doch selber!",
-    "2026-11-14": "Ich habe ein Brötchen angerufen, aber es war belegt."
+    "2026-11-14": "Ich habe ein Brötchen angerufen, aber es war belegt.",
+    "2026-11-15": "Hab mich vorhin ausgesperrt. War ganz aus dem Häuschen."
   },
-  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
 }

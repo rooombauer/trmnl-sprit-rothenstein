@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-07T07:12:12Z",
-  "date": "2026-11-07",
+  "updated_at": "2026-11-08T00:40:51Z",
+  "date": "2026-11-08",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "always",
-      "de": "immer",
-      "type": "Adverb",
-      "example": "I always walk the dog after school."
+      "en": "to go to bed",
+      "de": "ins Bett gehen",
+      "type": "Verb",
+      "example": "I go to bed at nine."
     },
     {
-      "en": "sister",
-      "de": "die Schwester",
+      "en": "to cook",
+      "de": "kochen",
+      "type": "Verb",
+      "example": "Dad cooks spaghetti on Fridays."
+    },
+    {
+      "en": "Hurry up!",
+      "de": "Beeil dich!",
+      "type": "Redewendung",
+      "example": "Hurry up, we're late!"
+    },
+    {
+      "en": "match",
+      "de": "das Spiel",
       "type": "Nomen",
-      "example": "My little sister likes horses."
-    },
-    {
-      "en": "next to",
-      "de": "neben",
-      "type": "Präposition",
-      "example": "I sit next to Paul."
-    },
-    {
-      "en": "between",
-      "de": "zwischen",
-      "type": "Präposition",
-      "example": "The shop is between the bank and the café."
+      "example": "The match starts at three."
     }
   ],
   "days": {
-    "2026-11-07": {
-      "words": [
-        {
-          "en": "always",
-          "de": "immer",
-          "type": "Adverb",
-          "example": "I always walk the dog after school."
-        },
-        {
-          "en": "sister",
-          "de": "die Schwester",
-          "type": "Nomen",
-          "example": "My little sister likes horses."
-        },
-        {
-          "en": "next to",
-          "de": "neben",
-          "type": "Präposition",
-          "example": "I sit next to Paul."
-        },
-        {
-          "en": "between",
-          "de": "zwischen",
-          "type": "Präposition",
-          "example": "The shop is between the bank and the café."
-        }
-      ],
-      "gestern": [
-        "warm",
-        "das Schulheft",
-        "der Radiergummi",
-        "die Küche"
-      ]
-    },
     "2026-11-08": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "das Abendessen",
         "sauber",
         "waschen"
+      ]
+    },
+    "2026-11-15": {
+      "words": [
+        {
+          "en": "to share",
+          "de": "teilen",
+          "type": "Verb",
+          "example": "Let's share the pizza."
+        },
+        {
+          "en": "money",
+          "de": "das Geld",
+          "type": "Nomen",
+          "example": "I save my money for a new game."
+        },
+        {
+          "en": "to win",
+          "de": "gewinnen",
+          "type": "Verb",
+          "example": "I hope we win the game."
+        },
+        {
+          "en": "knife",
+          "de": "das Messer",
+          "type": "Nomen",
+          "example": "Be careful with the knife!"
+        }
+      ],
+      "gestern": [
+        "das Frühstück",
+        "die Bücherei",
+        "ausleihen",
+        "beschäftigt"
       ]
     }
   }
