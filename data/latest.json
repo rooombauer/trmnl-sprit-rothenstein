@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-08T23:35:06Z",
-  "updated_local": "09.11. 00:35",
+  "updated_at": "2026-11-09T11:21:50Z",
+  "updated_local": "09.11. 12:21",
   "location": "Rothenstein",
   "radius_km": 10,
   "stations": [
@@ -10,10 +10,10 @@
       "street": "Stadtrodaer Straße 102",
       "place": "Jena",
       "dist": "3,4 km",
-      "price_main": "1,94",
+      "price_main": "2,27",
       "price_sup": "9",
       "open": true,
-      "cheapest": true
+      "cheapest": false
     },
     {
       "n": 2,
@@ -21,9 +21,9 @@
       "street": "Rudolstädter Str. 89",
       "place": "Jena",
       "dist": "4,2 km",
-      "price_main": "1,87",
+      "price_main": "2,26",
       "price_sup": "9",
-      "open": false,
+      "open": true,
       "cheapest": false
     },
     {
@@ -32,9 +32,9 @@
       "street": "Am Heerweg 33",
       "place": "Kahla",
       "dist": "4,8 km",
-      "price_main": "1,94",
+      "price_main": "2,27",
       "price_sup": "9",
-      "open": false,
+      "open": true,
       "cheapest": false
     },
     {
@@ -43,10 +43,10 @@
       "street": "Goeschwitzer Str. 1",
       "place": "Jena",
       "dist": "5,4 km",
-      "price_main": "1,88",
+      "price_main": "2,25",
       "price_sup": "9",
-      "open": false,
-      "cheapest": false
+      "open": true,
+      "cheapest": true
     }
   ],
   "karte": {
@@ -78,24 +78,34 @@
     ],
     "others": [
       {
+        "x": 157.2,
+        "y": 67.3,
+        "brand": "ARAL",
+        "price_main": "2,27",
+        "price_sup": "9",
+        "anchor": "start",
+        "lx": 166.2,
+        "ly": 72.3
+      },
+      {
         "x": 227.9,
         "y": 24.3,
         "brand": "LEO",
-        "price_main": "1,92",
+        "price_main": "2,27",
         "price_sup": "9",
         "anchor": "start",
         "lx": 236.9,
         "ly": 29.3
       },
       {
-        "x": 157.2,
-        "y": 67.3,
-        "brand": "ARAL",
-        "price_main": "1,96",
+        "x": 139.2,
+        "y": 26.1,
+        "brand": "TotalEnergies",
+        "price_main": "2,28",
         "price_sup": "9",
-        "anchor": "start",
-        "lx": 166.2,
-        "ly": 72.3
+        "anchor": "middle",
+        "lx": 139.2,
+        "ly": 14.1
       }
     ]
   },
