@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-11-10T03:36:28Z",
+  "updated_at": "2026-11-10T08:26:52Z",
   "date": "2026-11-10",
   "local": [
+    {
+      "title": "RIAS-Bericht: Jena erstmals im Fokus bei Antisemitismus",
+      "teaser": "Mit 58 Prozent war israelbezogener Antisemitismus 2025 die häufigste Form in Thüringen.",
+      "source": "OTZ Jena"
+    },
     {
       "title": "Nach drei Jahren: Turm der Heidecksburg ist saniert",
       "teaser": "Der Turm auf Schloss Heidecksburg in Rudolstadt ist nun offiziell fertigsaniert.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Ehrenamtliches Engagement für Natur und Gesellschaft wird gestärkt",
-      "teaser": "Land fördert vier Jenaer Vereine mit insgesamt 45.995 Euro",
-      "source": "Stadt Jena"
     }
   ],
   "world": [
@@ -22,14 +22,14 @@
   ],
   "items": [
     {
+      "title": "RIAS-Bericht: Jena erstmals im Fokus bei Antisemitismus",
+      "teaser": "Mit 58 Prozent war israelbezogener Antisemitismus 2025 die häufigste Form in Thüringen.",
+      "source": "OTZ Jena"
+    },
+    {
       "title": "Nach drei Jahren: Turm der Heidecksburg ist saniert",
       "teaser": "Der Turm auf Schloss Heidecksburg in Rudolstadt ist nun offiziell fertigsaniert.",
       "source": "MDR Thüringen"
-    },
-    {
-      "title": "Ehrenamtliches Engagement für Natur und Gesellschaft wird gestärkt",
-      "teaser": "Land fördert vier Jenaer Vereine mit insgesamt 45.995 Euro",
-      "source": "Stadt Jena"
     },
     {
       "title": "Artenschutz wirkt: Der Living Planet Report 2026 macht Hoffnung",
@@ -48,5 +48,5 @@
     "2026-11-16": "Ich habe beim Bäcker angerufen, doch da ging nur die Mehlbox dran.",
     "2026-11-17": "Herr Ober, was sollen denn die vielen Menschen an meinem Tisch?\nSie haben doch einen  Auflauf bestellt."
   },
-  "source": "Good News Magazin, MDR Thüringen, Stadt Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
 }
