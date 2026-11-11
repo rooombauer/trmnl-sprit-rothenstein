@@ -1,52 +1,52 @@
 {
-  "updated_at": "2026-11-10T08:26:52Z",
-  "date": "2026-11-10",
+  "updated_at": "2026-11-11T01:15:55Z",
+  "date": "2026-11-11",
   "local": [
     {
-      "title": "RIAS-Bericht: Jena erstmals im Fokus bei Antisemitismus",
-      "teaser": "Mit 58 Prozent war israelbezogener Antisemitismus 2025 die häufigste Form in Thüringen.",
+      "title": "Weihnachtsmarkt in Jena startet – doch etwas Entscheidendes ist neu",
+      "teaser": "Am 25. November beginnt der Weihnachtsmarkt in der Jenaer Innenstadt.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Nach drei Jahren: Turm der Heidecksburg ist saniert",
-      "teaser": "Der Turm auf Schloss Heidecksburg in Rudolstadt ist nun offiziell fertigsaniert.",
-      "source": "MDR Thüringen"
+      "title": "Countdown für die Lange Nacht der Wissenschaften in Jena: Was man wissen muss",
+      "teaser": "Rund 500 Programmpunkte laden zum zehnten Jubiläum der Langen Nacht der Wissenschaften …",
+      "source": "OTZ Jena"
     }
   ],
   "world": [
     {
-      "title": "Artenschutz wirkt: Der Living Planet Report 2026 macht Hoffnung",
-      "teaser": "Tiger, Grüne Meeresschildkröten und Savannenelefanten sind Beispiele dafür, wie gezielte …",
+      "title": "Was Gesellschaften wirklich glücklich macht",
+      "teaser": "Eine internationale Studie mit Daten aus 66 Ländern zeigt: Wie zufrieden Menschen sind, …",
       "source": "Good News Magazin"
     }
   ],
   "items": [
     {
-      "title": "RIAS-Bericht: Jena erstmals im Fokus bei Antisemitismus",
-      "teaser": "Mit 58 Prozent war israelbezogener Antisemitismus 2025 die häufigste Form in Thüringen.",
+      "title": "Weihnachtsmarkt in Jena startet – doch etwas Entscheidendes ist neu",
+      "teaser": "Am 25. November beginnt der Weihnachtsmarkt in der Jenaer Innenstadt.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Nach drei Jahren: Turm der Heidecksburg ist saniert",
-      "teaser": "Der Turm auf Schloss Heidecksburg in Rudolstadt ist nun offiziell fertigsaniert.",
-      "source": "MDR Thüringen"
+      "title": "Countdown für die Lange Nacht der Wissenschaften in Jena: Was man wissen muss",
+      "teaser": "Rund 500 Programmpunkte laden zum zehnten Jubiläum der Langen Nacht der Wissenschaften …",
+      "source": "OTZ Jena"
     },
     {
-      "title": "Artenschutz wirkt: Der Living Planet Report 2026 macht Hoffnung",
-      "teaser": "Tiger, Grüne Meeresschildkröten und Savannenelefanten sind Beispiele dafür, wie gezielte …",
+      "title": "Was Gesellschaften wirklich glücklich macht",
+      "teaser": "Eine internationale Studie mit Daten aus 66 Ländern zeigt: Wie zufrieden Menschen sind, …",
       "source": "Good News Magazin"
     }
   ],
-  "joke": "Was ist braun, knusprig und läuft mit dem Korb durch den Wald? – Brotkäppchen.",
+  "joke": "Wie nennt man einen studierten Bauern? Ackerdemiker.",
   "jokes_by_day": {
-    "2026-11-10": "Was ist braun, knusprig und läuft mit dem Korb durch den Wald? – Brotkäppchen.",
     "2026-11-11": "Wie nennt man einen studierten Bauern? Ackerdemiker.",
     "2026-11-12": "Was macht ein Drache im Fußballstadion? Die Leute anfeuern.",
     "2026-11-13": "Treffen sich 2 Schafe, sagt das eine:\nMäh!\nSagt die andere: Mäh doch selber!",
     "2026-11-14": "Ich habe ein Brötchen angerufen, aber es war belegt.",
     "2026-11-15": "Hab mich vorhin ausgesperrt. War ganz aus dem Häuschen.",
     "2026-11-16": "Ich habe beim Bäcker angerufen, doch da ging nur die Mehlbox dran.",
-    "2026-11-17": "Herr Ober, was sollen denn die vielen Menschen an meinem Tisch?\nSie haben doch einen  Auflauf bestellt."
+    "2026-11-17": "Herr Ober, was sollen denn die vielen Menschen an meinem Tisch?\nSie haben doch einen  Auflauf bestellt.",
+    "2026-11-18": "Ich habe beim Hotel angerufen, doch da war kein Empfang."
   },
-  "source": "Good News Magazin, MDR Thüringen, OTZ Jena · Witze: witzapi.de"
+  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
 }
