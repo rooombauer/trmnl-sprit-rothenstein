@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-11T07:45:15Z",
-  "date": "2026-11-11",
+  "updated_at": "2026-11-12T02:17:31Z",
+  "date": "2026-11-12",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "never",
-      "de": "nie",
-      "type": "Adverb",
-      "example": "My brother never tidies his room."
-    },
-    {
-      "en": "to shout",
-      "de": "rufen, schreien",
-      "type": "Verb",
-      "example": "Don't shout in the classroom!"
-    },
-    {
-      "en": "birthday",
-      "de": "der Geburtstag",
+      "en": "rain",
+      "de": "der Regen",
       "type": "Nomen",
-      "example": "When is your birthday?"
+      "example": "Take an umbrella, there's rain today."
     },
     {
-      "en": "to practise",
-      "de": "üben",
-      "type": "Verb",
-      "example": "I practise the piano every day."
+      "en": "difficult",
+      "de": "schwierig",
+      "type": "Adjektiv",
+      "example": "This task is difficult."
+    },
+    {
+      "en": "idea",
+      "de": "die Idee",
+      "type": "Nomen",
+      "example": "That's a great idea!"
+    },
+    {
+      "en": "aunt",
+      "de": "die Tante",
+      "type": "Nomen",
+      "example": "My aunt makes the best cake."
     }
   ],
   "days": {
-    "2026-11-11": {
-      "words": [
-        {
-          "en": "never",
-          "de": "nie",
-          "type": "Adverb",
-          "example": "My brother never tidies his room."
-        },
-        {
-          "en": "to shout",
-          "de": "rufen, schreien",
-          "type": "Verb",
-          "example": "Don't shout in the classroom!"
-        },
-        {
-          "en": "birthday",
-          "de": "der Geburtstag",
-          "type": "Nomen",
-          "example": "When is your birthday?"
-        },
-        {
-          "en": "to practise",
-          "de": "üben",
-          "type": "Verb",
-          "example": "I practise the piano every day."
-        }
-      ],
-      "gestern": [
-        "die Schuhe",
-        "wieder, noch einmal",
-        "zusammen",
-        "der Bruder"
-      ]
-    },
     "2026-11-12": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "unter",
         "das Geschäft",
         "das Brot"
+      ]
+    },
+    "2026-11-19": {
+      "words": [
+        {
+          "en": "to understand",
+          "de": "verstehen",
+          "type": "Verb",
+          "example": "Sorry, I don't understand."
+        },
+        {
+          "en": "dirty",
+          "de": "schmutzig",
+          "type": "Adjektiv",
+          "example": "Your shoes are dirty."
+        },
+        {
+          "en": "to forget",
+          "de": "vergessen",
+          "type": "Verb",
+          "example": "Don't forget your lunch box!"
+        },
+        {
+          "en": "to find",
+          "de": "finden",
+          "type": "Verb",
+          "example": "I can't find my keys."
+        }
+      ],
+      "gestern": [
+        "füttern",
+        "normalerweise",
+        "die Erdbeere",
+        "der Schrank"
       ]
     }
   }
