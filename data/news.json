@@ -1,52 +1,41 @@
 {
-  "updated_at": "2026-11-12T08:22:09Z",
-  "date": "2026-11-12",
+  "updated_at": "2026-11-13T01:51:40Z",
+  "date": "2026-11-13",
   "local": [
     {
-      "title": "„Cello“ mit Schutzweste: Erinnerung an ein legendäres Konzert in Jena",
-      "teaser": "Nach dem Auffliegen des NSU 2011 setzen Musiker mit einem Konzert in Thüringen ein …",
+      "title": "Weder ein Beschluss noch eine Zusage: Die Zukunft dieses Gebäudes in Jena bleibt weiter offen",
+      "teaser": "Bei den Eltern der Kinder kommen Unsicherheiten und Fragen auf.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Trotz Regen: Lobeda-Altstadt feiert den Faschingsauftakt mit dreifachem „Lobde Hellau!“",
-      "teaser": "In Lobeda-Altstadt läutet am 11.11. der LCC die fünfte Jahreszeit ein.",
+      "title": "Auf Ostbesuch zu Kahla-Porzellan: „An der Grenze durfte das Geschirr nicht sichtbar sein“",
+      "teaser": "Zu DDR-Zeiten durfte kein Volkseigentum ausgeführt werden – eine Schweizer Familie …",
       "source": "OTZ Jena"
     }
   ],
-  "world": [
-    {
-      "title": "Ein Bildungsprojekt in Marokko zeigt, wie es geht",
-      "teaser": "In Marokko helfen Mentorinnen Mädchen, ihre Schulbildung fortzusetzen.",
-      "source": "Good News Magazin"
-    }
-  ],
+  "world": [],
   "items": [
     {
-      "title": "„Cello“ mit Schutzweste: Erinnerung an ein legendäres Konzert in Jena",
-      "teaser": "Nach dem Auffliegen des NSU 2011 setzen Musiker mit einem Konzert in Thüringen ein …",
+      "title": "Weder ein Beschluss noch eine Zusage: Die Zukunft dieses Gebäudes in Jena bleibt weiter offen",
+      "teaser": "Bei den Eltern der Kinder kommen Unsicherheiten und Fragen auf.",
       "source": "OTZ Jena"
     },
     {
-      "title": "Trotz Regen: Lobeda-Altstadt feiert den Faschingsauftakt mit dreifachem „Lobde Hellau!“",
-      "teaser": "In Lobeda-Altstadt läutet am 11.11. der LCC die fünfte Jahreszeit ein.",
+      "title": "Auf Ostbesuch zu Kahla-Porzellan: „An der Grenze durfte das Geschirr nicht sichtbar sein“",
+      "teaser": "Zu DDR-Zeiten durfte kein Volkseigentum ausgeführt werden – eine Schweizer Familie …",
       "source": "OTZ Jena"
-    },
-    {
-      "title": "Ein Bildungsprojekt in Marokko zeigt, wie es geht",
-      "teaser": "In Marokko helfen Mentorinnen Mädchen, ihre Schulbildung fortzusetzen.",
-      "source": "Good News Magazin"
     }
   ],
-  "joke": "Was macht ein Drache im Fußballstadion? Die Leute anfeuern.",
+  "joke": "Treffen sich 2 Schafe, sagt das eine:\nMäh!\nSagt die andere: Mäh doch selber!",
   "jokes_by_day": {
-    "2026-11-12": "Was macht ein Drache im Fußballstadion? Die Leute anfeuern.",
     "2026-11-13": "Treffen sich 2 Schafe, sagt das eine:\nMäh!\nSagt die andere: Mäh doch selber!",
     "2026-11-14": "Ich habe ein Brötchen angerufen, aber es war belegt.",
     "2026-11-15": "Hab mich vorhin ausgesperrt. War ganz aus dem Häuschen.",
     "2026-11-16": "Ich habe beim Bäcker angerufen, doch da ging nur die Mehlbox dran.",
     "2026-11-17": "Herr Ober, was sollen denn die vielen Menschen an meinem Tisch?\nSie haben doch einen  Auflauf bestellt.",
     "2026-11-18": "Ich habe beim Hotel angerufen, doch da war kein Empfang.",
-    "2026-11-19": "Wie nennt man ein helles Mammut? – Hellmut."
+    "2026-11-19": "Wie nennt man ein helles Mammut? – Hellmut.",
+    "2026-11-20": "Meine Oma ist jetzt Türsteher, wir nennen sie nun Hilde-Guard."
   },
-  "source": "Good News Magazin, OTZ Jena · Witze: witzapi.de"
+  "source": "OTZ Jena · Witze: witzapi.de"
 }
