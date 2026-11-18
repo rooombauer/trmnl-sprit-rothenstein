@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-17T09:14:06Z",
-  "date": "2026-11-17",
+  "updated_at": "2026-11-18T02:55:34Z",
+  "date": "2026-11-18",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "early",
-      "de": "früh",
-      "type": "Adjektiv",
-      "example": "We have an early start today."
+      "en": "to feed",
+      "de": "füttern",
+      "type": "Verb",
+      "example": "I feed the cat every morning."
     },
     {
-      "en": "under",
-      "de": "unter",
-      "type": "Präposition",
-      "example": "The cat is under the table."
+      "en": "usually",
+      "de": "normalerweise",
+      "type": "Adverb",
+      "example": "I usually have toast for breakfast."
     },
     {
-      "en": "shop",
-      "de": "das Geschäft",
+      "en": "strawberry",
+      "de": "die Erdbeere",
       "type": "Nomen",
-      "example": "The shop opens at eight."
+      "example": "Strawberries are my favourite fruit."
     },
     {
-      "en": "bread",
-      "de": "das Brot",
+      "en": "cupboard",
+      "de": "der Schrank",
       "type": "Nomen",
-      "example": "Can you pass me the bread, please?"
+      "example": "The cups are in the cupboard."
     }
   ],
   "days": {
-    "2026-11-17": {
-      "words": [
-        {
-          "en": "early",
-          "de": "früh",
-          "type": "Adjektiv",
-          "example": "We have an early start today."
-        },
-        {
-          "en": "under",
-          "de": "unter",
-          "type": "Präposition",
-          "example": "The cat is under the table."
-        },
-        {
-          "en": "shop",
-          "de": "das Geschäft",
-          "type": "Nomen",
-          "example": "The shop opens at eight."
-        },
-        {
-          "en": "bread",
-          "de": "das Brot",
-          "type": "Nomen",
-          "example": "Can you pass me the bread, please?"
-        }
-      ],
-      "gestern": [
-        "Gut gemacht!",
-        "lachen",
-        "das Federmäppchen",
-        "die Gabel"
-      ]
-    },
     "2026-11-18": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "die Stadt",
         "die Schultasche",
         "glücklich, froh"
+      ]
+    },
+    "2026-11-25": {
+      "words": [
+        {
+          "en": "team",
+          "de": "die Mannschaft",
+          "type": "Nomen",
+          "example": "Our team won the match."
+        },
+        {
+          "en": "answer",
+          "de": "die Antwort",
+          "type": "Nomen",
+          "example": "I know the answer!"
+        },
+        {
+          "en": "tired",
+          "de": "müde",
+          "type": "Adjektiv",
+          "example": "I'm tired in the morning."
+        },
+        {
+          "en": "dangerous",
+          "de": "gefährlich",
+          "type": "Adjektiv",
+          "example": "Sharks can be dangerous."
+        }
+      ],
+      "gestern": [
+        "gestern",
+        "das Klassenzimmer",
+        "mutig",
+        "der Stundenplan"
       ]
     }
   }
