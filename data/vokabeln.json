@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-19T08:49:47Z",
-  "date": "2026-11-19",
+  "updated_at": "2026-11-20T02:21:28Z",
+  "date": "2026-11-20",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "to understand",
-      "de": "verstehen",
+      "en": "to learn",
+      "de": "lernen",
       "type": "Verb",
-      "example": "Sorry, I don't understand."
+      "example": "We learn new words every day."
     },
     {
-      "en": "dirty",
-      "de": "schmutzig",
-      "type": "Adjektiv",
-      "example": "Your shoes are dirty."
+      "en": "cloud",
+      "de": "die Wolke",
+      "type": "Nomen",
+      "example": "There isn't a cloud in the sky."
     },
     {
-      "en": "to forget",
-      "de": "vergessen",
-      "type": "Verb",
-      "example": "Don't forget your lunch box!"
+      "en": "Excuse me.",
+      "de": "Entschuldigung.",
+      "type": "Redewendung",
+      "example": "Excuse me, where is the station?"
     },
     {
-      "en": "to find",
-      "de": "finden",
+      "en": "to think",
+      "de": "denken, glauben",
       "type": "Verb",
-      "example": "I can't find my keys."
+      "example": "I think it's going to rain."
     }
   ],
   "days": {
-    "2026-11-19": {
-      "words": [
-        {
-          "en": "to understand",
-          "de": "verstehen",
-          "type": "Verb",
-          "example": "Sorry, I don't understand."
-        },
-        {
-          "en": "dirty",
-          "de": "schmutzig",
-          "type": "Adjektiv",
-          "example": "Your shoes are dirty."
-        },
-        {
-          "en": "to forget",
-          "de": "vergessen",
-          "type": "Verb",
-          "example": "Don't forget your lunch box!"
-        },
-        {
-          "en": "to find",
-          "de": "finden",
-          "type": "Verb",
-          "example": "I can't find my keys."
-        }
-      ],
-      "gestern": [
-        "füttern",
-        "normalerweise",
-        "die Erdbeere",
-        "der Schrank"
-      ]
-    },
     "2026-11-20": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "die Antwort",
         "müde",
         "gefährlich"
+      ]
+    },
+    "2026-11-27": {
+      "words": [
+        {
+          "en": "to lose",
+          "de": "verlieren",
+          "type": "Verb",
+          "example": "It's okay to lose sometimes."
+        },
+        {
+          "en": "thirsty",
+          "de": "durstig",
+          "type": "Adjektiv",
+          "example": "After football I'm always thirsty."
+        },
+        {
+          "en": "to explain",
+          "de": "erklären",
+          "type": "Verb",
+          "example": "Can you explain the task again?"
+        },
+        {
+          "en": "to catch",
+          "de": "fangen",
+          "type": "Verb",
+          "example": "Catch the ball!"
+        }
+      ],
+      "gestern": [
+        "das Fahrrad",
+        "klettern",
+        "kalt",
+        "spät"
       ]
     }
   }
