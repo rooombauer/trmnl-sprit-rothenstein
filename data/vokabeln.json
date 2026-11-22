@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-21T08:17:56Z",
-  "date": "2026-11-21",
+  "updated_at": "2026-11-22T01:22:27Z",
+  "date": "2026-11-22",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "Never mind.",
-      "de": "Macht nichts.",
-      "type": "Redewendung",
-      "example": "Never mind, we can try again."
-    },
-    {
-      "en": "shelf",
-      "de": "das Regal",
+      "en": "friend",
+      "de": "der Freund / die Freundin",
       "type": "Nomen",
-      "example": "My books are on the shelf."
+      "example": "Max is my best friend."
     },
     {
-      "en": "sad",
-      "de": "traurig",
-      "type": "Adjektiv",
-      "example": "Why are you sad?"
+      "en": "to show",
+      "de": "zeigen",
+      "type": "Verb",
+      "example": "Can you show me your drawing?"
     },
     {
-      "en": "weather",
-      "de": "das Wetter",
+      "en": "to help",
+      "de": "helfen",
+      "type": "Verb",
+      "example": "Can you help me with my homework?"
+    },
+    {
+      "en": "bus stop",
+      "de": "die Bushaltestelle",
       "type": "Nomen",
-      "example": "The weather is sunny today."
+      "example": "Wait for me at the bus stop."
     }
   ],
   "days": {
-    "2026-11-21": {
-      "words": [
-        {
-          "en": "Never mind.",
-          "de": "Macht nichts.",
-          "type": "Redewendung",
-          "example": "Never mind, we can try again."
-        },
-        {
-          "en": "shelf",
-          "de": "das Regal",
-          "type": "Nomen",
-          "example": "My books are on the shelf."
-        },
-        {
-          "en": "sad",
-          "de": "traurig",
-          "type": "Adjektiv",
-          "example": "Why are you sad?"
-        },
-        {
-          "en": "weather",
-          "de": "das Wetter",
-          "type": "Nomen",
-          "example": "The weather is sunny today."
-        }
-      ],
-      "gestern": [
-        "lernen",
-        "die Wolke",
-        "Entschuldigung.",
-        "denken, glauben"
-      ]
-    },
     "2026-11-22": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "durstig",
         "erklären",
         "fangen"
+      ]
+    },
+    "2026-11-29": {
+      "words": [
+        {
+          "en": "uncle",
+          "de": "der Onkel",
+          "type": "Nomen",
+          "example": "My uncle has a big dog."
+        },
+        {
+          "en": "to hurry",
+          "de": "sich beeilen",
+          "type": "Verb",
+          "example": "Hurry up, the bus is here!"
+        },
+        {
+          "en": "hobby",
+          "de": "das Hobby",
+          "type": "Nomen",
+          "example": "My hobby is drawing comics."
+        },
+        {
+          "en": "parents",
+          "de": "die Eltern",
+          "type": "Nomen",
+          "example": "My parents work in Jena."
+        }
+      ],
+      "gestern": [
+        "manchmal",
+        "schwimmen",
+        "laut",
+        "der Wellensittich"
       ]
     }
   }
