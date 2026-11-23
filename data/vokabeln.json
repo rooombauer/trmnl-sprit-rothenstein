@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-22T08:00:16Z",
-  "date": "2026-11-22",
+  "updated_at": "2026-11-23T01:46:16Z",
+  "date": "2026-11-23",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "friend",
-      "de": "der Freund / die Freundin",
+      "en": "break",
+      "de": "die Pause",
       "type": "Nomen",
-      "example": "Max is my best friend."
+      "example": "We play football in the break."
     },
     {
-      "en": "to show",
-      "de": "zeigen",
-      "type": "Verb",
-      "example": "Can you show me your drawing?"
-    },
-    {
-      "en": "to help",
-      "de": "helfen",
-      "type": "Verb",
-      "example": "Can you help me with my homework?"
-    },
-    {
-      "en": "bus stop",
-      "de": "die Bushaltestelle",
+      "en": "town",
+      "de": "die Stadt",
       "type": "Nomen",
-      "example": "Wait for me at the bus stop."
+      "example": "Kahla is a small town."
+    },
+    {
+      "en": "school bag",
+      "de": "die Schultasche",
+      "type": "Nomen",
+      "example": "My school bag is very heavy today."
+    },
+    {
+      "en": "happy",
+      "de": "glücklich, froh",
+      "type": "Adjektiv",
+      "example": "I'm happy because it's Friday."
     }
   ],
   "days": {
-    "2026-11-22": {
-      "words": [
-        {
-          "en": "friend",
-          "de": "der Freund / die Freundin",
-          "type": "Nomen",
-          "example": "Max is my best friend."
-        },
-        {
-          "en": "to show",
-          "de": "zeigen",
-          "type": "Verb",
-          "example": "Can you show me your drawing?"
-        },
-        {
-          "en": "to help",
-          "de": "helfen",
-          "type": "Verb",
-          "example": "Can you help me with my homework?"
-        },
-        {
-          "en": "bus stop",
-          "de": "die Bushaltestelle",
-          "type": "Nomen",
-          "example": "Wait for me at the bus stop."
-        }
-      ],
-      "gestern": [
-        "Macht nichts.",
-        "das Regal",
-        "traurig",
-        "das Wetter"
-      ]
-    },
     "2026-11-23": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "schwimmen",
         "laut",
         "der Wellensittich"
+      ]
+    },
+    "2026-11-30": {
+      "words": [
+        {
+          "en": "angry",
+          "de": "wütend",
+          "type": "Adjektiv",
+          "example": "Don't be angry with me!"
+        },
+        {
+          "en": "guinea pig",
+          "de": "das Meerschweinchen",
+          "type": "Nomen",
+          "example": "My guinea pig eats carrots."
+        },
+        {
+          "en": "to remember",
+          "de": "sich erinnern",
+          "type": "Verb",
+          "example": "I can't remember his name."
+        },
+        {
+          "en": "jacket",
+          "de": "die Jacke",
+          "type": "Nomen",
+          "example": "It's cold. Wear your jacket!"
+        }
+      ],
+      "gestern": [
+        "der Onkel",
+        "sich beeilen",
+        "das Hobby",
+        "die Eltern"
       ]
     }
   }
