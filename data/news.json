@@ -1,28 +1,28 @@
 {
-  "updated_at": "2026-11-26T03:36:12Z",
+  "updated_at": "2026-11-26T09:32:47Z",
   "date": "2026-11-26",
   "local": [
     {
-      "title": "Kleiner Weihnachtsmarkt mit Charme in Rudolstadt",
-      "teaser": "Bei Weihnachtsmärkten fallen vielen ja vor allem die großen Märkte ein.",
-      "source": "MDR Thüringen"
+      "title": "Das weihnachtliche Herz Deutschlands ist und bleibt Thüringen",
+      "teaser": "Die Thüringer Weihnachtsmärkte bieten eine einmalige Mischung aus Tradition, Kultur und …",
+      "source": "OTZ Jena"
     },
     {
-      "title": "Von Lichterglanz bis Weihnachtstal: Hier öffnen die Weihnachtsmärkte im Saale-Holzland-Kreis",
-      "teaser": "Die Weihnachtszeit rückt näher und im Saale-Holzland-Kreis wird es wieder festlich.",
+      "title": "Kontrolle zum Auftakt: TÜV prüft die Fahrgeschäfte auf dem Weihnachtsmarkt in Jena",
+      "teaser": "Was alles unter die Lupe genommen wurde.",
       "source": "OTZ Jena"
     }
   ],
   "world": [],
   "items": [
     {
-      "title": "Kleiner Weihnachtsmarkt mit Charme in Rudolstadt",
-      "teaser": "Bei Weihnachtsmärkten fallen vielen ja vor allem die großen Märkte ein.",
-      "source": "MDR Thüringen"
+      "title": "Das weihnachtliche Herz Deutschlands ist und bleibt Thüringen",
+      "teaser": "Die Thüringer Weihnachtsmärkte bieten eine einmalige Mischung aus Tradition, Kultur und …",
+      "source": "OTZ Jena"
     },
     {
-      "title": "Von Lichterglanz bis Weihnachtstal: Hier öffnen die Weihnachtsmärkte im Saale-Holzland-Kreis",
-      "teaser": "Die Weihnachtszeit rückt näher und im Saale-Holzland-Kreis wird es wieder festlich.",
+      "title": "Kontrolle zum Auftakt: TÜV prüft die Fahrgeschäfte auf dem Weihnachtsmarkt in Jena",
+      "teaser": "Was alles unter die Lupe genommen wurde.",
       "source": "OTZ Jena"
     }
   ],
@@ -37,5 +37,5 @@
     "2026-12-02": "Was ist der Unterschied zwischen Schule und Lidl?\nLidl lohnt sich!",
     "2026-12-03": "Was sagt ein Bauer, der seinen Traktor sucht?\n\"Wo ist mein Traktor?\""
   },
-  "source": "MDR Thüringen, OTZ Jena · Witze: witzapi.de"
+  "source": "OTZ Jena · Witze: witzapi.de"
 }
