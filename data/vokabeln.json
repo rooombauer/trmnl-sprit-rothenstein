@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-25T09:52:17Z",
-  "date": "2026-11-25",
+  "updated_at": "2026-11-26T03:36:06Z",
+  "date": "2026-11-26",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "team",
-      "de": "die Mannschaft",
+      "en": "bike",
+      "de": "das Fahrrad",
       "type": "Nomen",
-      "example": "Our team won the match."
+      "example": "I go to school by bike."
     },
     {
-      "en": "answer",
-      "de": "die Antwort",
-      "type": "Nomen",
-      "example": "I know the answer!"
+      "en": "to climb",
+      "de": "klettern",
+      "type": "Verb",
+      "example": "The cat climbs the tree."
     },
     {
-      "en": "tired",
-      "de": "müde",
+      "en": "cold",
+      "de": "kalt",
       "type": "Adjektiv",
-      "example": "I'm tired in the morning."
+      "example": "The water is too cold for swimming."
     },
     {
-      "en": "dangerous",
-      "de": "gefährlich",
+      "en": "late",
+      "de": "spät",
       "type": "Adjektiv",
-      "example": "Sharks can be dangerous."
+      "example": "Sorry, I'm late!"
     }
   ],
   "days": {
-    "2026-11-25": {
-      "words": [
-        {
-          "en": "team",
-          "de": "die Mannschaft",
-          "type": "Nomen",
-          "example": "Our team won the match."
-        },
-        {
-          "en": "answer",
-          "de": "die Antwort",
-          "type": "Nomen",
-          "example": "I know the answer!"
-        },
-        {
-          "en": "tired",
-          "de": "müde",
-          "type": "Adjektiv",
-          "example": "I'm tired in the morning."
-        },
-        {
-          "en": "dangerous",
-          "de": "gefährlich",
-          "type": "Adjektiv",
-          "example": "Sharks can be dangerous."
-        }
-      ],
-      "gestern": [
-        "gestern",
-        "das Klassenzimmer",
-        "mutig",
-        "der Stundenplan"
-      ]
-    },
     "2026-11-26": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "warten",
         "leicht, einfach",
         "Was ist los?"
+      ]
+    },
+    "2026-12-03": {
+      "words": [
+        {
+          "en": "holidays",
+          "de": "die Ferien",
+          "type": "Nomen",
+          "example": "We go to the sea in the holidays."
+        },
+        {
+          "en": "hungry",
+          "de": "hungrig",
+          "type": "Adjektiv",
+          "example": "I'm hungry. What's for breakfast?"
+        },
+        {
+          "en": "village",
+          "de": "das Dorf",
+          "type": "Nomen",
+          "example": "We live in a village near Jena."
+        },
+        {
+          "en": "lunch",
+          "de": "das Mittagessen",
+          "type": "Nomen",
+          "example": "What's for lunch today?"
+        }
+      ],
+      "gestern": [
+        "oft",
+        "das Wohnzimmer",
+        "der Käse",
+        "lesen"
       ]
     }
   }
