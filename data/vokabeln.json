@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-26T09:32:43Z",
-  "date": "2026-11-26",
+  "updated_at": "2026-11-27T03:39:31Z",
+  "date": "2026-11-27",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "bike",
-      "de": "das Fahrrad",
-      "type": "Nomen",
-      "example": "I go to school by bike."
-    },
-    {
-      "en": "to climb",
-      "de": "klettern",
+      "en": "to lose",
+      "de": "verlieren",
       "type": "Verb",
-      "example": "The cat climbs the tree."
+      "example": "It's okay to lose sometimes."
     },
     {
-      "en": "cold",
-      "de": "kalt",
+      "en": "thirsty",
+      "de": "durstig",
       "type": "Adjektiv",
-      "example": "The water is too cold for swimming."
+      "example": "After football I'm always thirsty."
     },
     {
-      "en": "late",
-      "de": "spät",
-      "type": "Adjektiv",
-      "example": "Sorry, I'm late!"
+      "en": "to explain",
+      "de": "erklären",
+      "type": "Verb",
+      "example": "Can you explain the task again?"
+    },
+    {
+      "en": "to catch",
+      "de": "fangen",
+      "type": "Verb",
+      "example": "Catch the ball!"
     }
   ],
   "days": {
-    "2026-11-26": {
-      "words": [
-        {
-          "en": "bike",
-          "de": "das Fahrrad",
-          "type": "Nomen",
-          "example": "I go to school by bike."
-        },
-        {
-          "en": "to climb",
-          "de": "klettern",
-          "type": "Verb",
-          "example": "The cat climbs the tree."
-        },
-        {
-          "en": "cold",
-          "de": "kalt",
-          "type": "Adjektiv",
-          "example": "The water is too cold for swimming."
-        },
-        {
-          "en": "late",
-          "de": "spät",
-          "type": "Adjektiv",
-          "example": "Sorry, I'm late!"
-        }
-      ],
-      "gestern": [
-        "die Mannschaft",
-        "die Antwort",
-        "müde",
-        "gefährlich"
-      ]
-    },
     "2026-11-27": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "das Wohnzimmer",
         "der Käse",
         "lesen"
+      ]
+    },
+    "2026-12-04": {
+      "words": [
+        {
+          "en": "to ride",
+          "de": "reiten, fahren",
+          "type": "Verb",
+          "example": "I ride my bike to school."
+        },
+        {
+          "en": "to leave",
+          "de": "verlassen, losgehen",
+          "type": "Verb",
+          "example": "We leave the house at seven."
+        },
+        {
+          "en": "to tell",
+          "de": "erzählen",
+          "type": "Verb",
+          "example": "Tell me a story, please."
+        },
+        {
+          "en": "to cry",
+          "de": "weinen",
+          "type": "Verb",
+          "example": "The baby cries at night."
+        }
+      ],
+      "gestern": [
+        "die Ferien",
+        "hungrig",
+        "das Dorf",
+        "das Mittagessen"
       ]
     }
   }
