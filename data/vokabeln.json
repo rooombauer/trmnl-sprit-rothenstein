@@ -1,68 +1,34 @@
 {
-  "updated_at": "2026-11-27T09:41:48Z",
-  "date": "2026-11-27",
+  "updated_at": "2026-11-28T03:20:17Z",
+  "date": "2026-11-28",
   "topic": "Englisch · 5. Klasse",
   "words": [
     {
-      "en": "to lose",
-      "de": "verlieren",
-      "type": "Verb",
-      "example": "It's okay to lose sometimes."
+      "en": "sometimes",
+      "de": "manchmal",
+      "type": "Adverb",
+      "example": "Sometimes I help Dad in the garden."
     },
     {
-      "en": "thirsty",
-      "de": "durstig",
+      "en": "to swim",
+      "de": "schwimmen",
+      "type": "Verb",
+      "example": "Can you swim?"
+    },
+    {
+      "en": "loud",
+      "de": "laut",
       "type": "Adjektiv",
-      "example": "After football I'm always thirsty."
+      "example": "The music is too loud."
     },
     {
-      "en": "to explain",
-      "de": "erklären",
-      "type": "Verb",
-      "example": "Can you explain the task again?"
-    },
-    {
-      "en": "to catch",
-      "de": "fangen",
-      "type": "Verb",
-      "example": "Catch the ball!"
+      "en": "budgie",
+      "de": "der Wellensittich",
+      "type": "Nomen",
+      "example": "Our budgie can say hello."
     }
   ],
   "days": {
-    "2026-11-27": {
-      "words": [
-        {
-          "en": "to lose",
-          "de": "verlieren",
-          "type": "Verb",
-          "example": "It's okay to lose sometimes."
-        },
-        {
-          "en": "thirsty",
-          "de": "durstig",
-          "type": "Adjektiv",
-          "example": "After football I'm always thirsty."
-        },
-        {
-          "en": "to explain",
-          "de": "erklären",
-          "type": "Verb",
-          "example": "Can you explain the task again?"
-        },
-        {
-          "en": "to catch",
-          "de": "fangen",
-          "type": "Verb",
-          "example": "Catch the ball!"
-        }
-      ],
-      "gestern": [
-        "das Fahrrad",
-        "klettern",
-        "kalt",
-        "spät"
-      ]
-    },
     "2026-11-28": {
       "words": [
         {
@@ -299,6 +265,40 @@
         "hungrig",
         "das Dorf",
         "das Mittagessen"
+      ]
+    },
+    "2026-12-05": {
+      "words": [
+        {
+          "en": "to listen",
+          "de": "zuhören",
+          "type": "Verb",
+          "example": "Listen to the teacher, please."
+        },
+        {
+          "en": "wet",
+          "de": "nass",
+          "type": "Adjektiv",
+          "example": "My hair is still wet."
+        },
+        {
+          "en": "spoon",
+          "de": "der Löffel",
+          "type": "Nomen",
+          "example": "I eat soup with a spoon."
+        },
+        {
+          "en": "bedroom",
+          "de": "das Schlafzimmer",
+          "type": "Nomen",
+          "example": "My bedroom is small but cosy."
+        }
+      ],
+      "gestern": [
+        "reiten, fahren",
+        "verlassen, losgehen",
+        "erzählen",
+        "weinen"
       ]
     }
   }
